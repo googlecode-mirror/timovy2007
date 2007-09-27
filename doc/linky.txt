@@ -1,3 +1,37 @@
+Informaènı systém pre komunikáciu s absolventami
+
+Poèet tímov: 2
+Vedúci tímu: doc. Ing. Jana Minárová, PhD., prom. mat. ¼ubica Hanulová
+Uitoèné predmety: Pokroèilé databázové technológie, Manament v softvérovom ininierstve 
+
+Naša FIIT má záujem vhodnou formou prezentova verejnosti svojich absolventov. Zároveò by fakulta rada udriavala s absolventmi neformálny odbornı kontakt pomocou webu, a tie by rada poskytla svojim absolventom rámec na neformálnu odbornú a spoloèenskú komunikáciu medzi nimi navzájom. Zámerom projektu je vytvori informaènı systém, ktorı bude plni uvedené úlohy.
+
+Ciele systému: 
+Prezentova základné informácie o absolventoch verejnosti.
+Znamená to zabezpeèi vytvorenie a udriavanie databázy absolventov a vhodne prezentova základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme struènú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíri prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych h¾adísk, pokia¾ dokáeme od nich získa k tomu potrebné údaje.
+Sprostredkova fakulte získavanie aktuálnych informácií o absolventoch v praxi.
+Ide o aktualizáciu kontaktu, zamestnania, profesijného vıvoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblas je ve¾mi citlivá, vyaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovanım autorizovanım prístupom. Je to dôleitá, pre fakultu uitoèná úloha, treba ju uvaova.
+Umoni absolventom vzájomnú komunikáciu.
+Má to by jednoduchá a bezpeèná komunikácia v informatickej komunite chránená starostlivo navrhnutımi prístupovımi právami pre skupiny autorizovanıch úèastníkov. Má slúi na neformálnu vımenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám úèastník. Okrem sprostredkovania kontaktu môe by úlohou tejto èasti systému informova záujemcov o odbornıch aktivitách komunity, poskytnú pre ne priestor – fórum, prípadne ïalšie vhodné èinnosti.
+
+Dôleité poiadavky: 
+zachovanie bezpeèného prístupu k informáciám
+jednoduché rozhranie
+systém bez ïalších hardvérovıch nárokov
+jednoduchá a bezpeèná komunikácia medzi všetkımi pouívate¾mi systému
+modularita a rozšírite¾nos
+škálovate¾nos
+rozhranie pre získavanie štatistickıch dát pre fakultu
+import základnıch údajov z fakultnıch IS
+export do súboru, monos umiestni vybrané údaje ako prezentáciu o absolventoch na pamäové médiá
+nasadenie do skúšobnej prevádzky v marci 2008
+
+Projekt riešili vlaòajšie tímy è.15 a 18, kadému z nich sa podarilo vytvori vhodnı základ systému. Viac informácií o ich postupoch a dosiahnutıch vısledkoch riešenia nájdete na webovıch stránkach: 
+http://www2.dcs.elf.stuba.sk/TeamProject/2006/team18/ 
+http://www2.dcs.elf.stuba.sk/TeamProject/2006/team15/public_html/
+
+V tomto akademickom roku treba vytvorené systémy analyzova, zhodnoti stav, urobi vıber, rozšíri vybranı systém o novú poadovanú funkènos a dotvori ho tak, aby ho tohoroèní absolventi u mohli pouíva.
+
 Linky na dokumentácie projektov z minulıch rokov:
 http://www2.dcs.elf.stuba.sk/TeamProject/2006/team15/public_html/?page=download
 http://www2.dcs.elf.stuba.sk/TeamProject/2006/team18/document.php
