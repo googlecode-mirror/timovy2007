@@ -1,0 +1,3 @@
+Bc. ¼uboš Bartoš 
+
+Bakalárske štúdium absolvoval na FPV UKF v Nitre. Vyštudoval študijný odbor Aplikovaná informatika. Má skúsenosti v programovaní v jazykoch PHP, Delphi, C, JSA (8051, PIC), HTML. Venoval sa návrhom a implementáciám dynamických webových stránok s využitím technológií PHP, MySQL poèas èoho nadobudol  základné skúsenosti so šablónovacím systémom Smarty a ostatnými balíkmi repozitara PEAR. Má skúsenosti so systémom Moodle a Jomla.  Pracoval s technológiami UML, ER. V svojej bakalárskej práci sa zaoberal elektronickým obchodom a na PHP a MySQL technológiách prezentoval príklad internetového kníhkupectva. V súèasnosti sa podie¾a na tvorbe informaèného portálu.   
