@@ -1,0 +1,5 @@
+Úèelom tohto dokumentu, ktorı vznikol v rámci predmetov Tvorba informaèného systému v tíme (IS) a Tvorba softvérového systému v tíme (SI) na FIIT STU, je prezentovanie ponuky riešenia informaèného systému pre komunikáciu s absolventmi našej fakulty.
+Súèasou dokumentu je predstavenie jednotlivıch èlenov tímu è. 14 - ich znalostí a schopností, ktoré vyuijeme pri tvorbe spomínaného systému.
+Nemenej dôleitou èasou je aj naša motivácia, ktorá nás (po)vedie k naplneniu toho cie¾a.
+aisko dokumentu je tvorené hrubım návrhom samotného riešenia, ktoré ponúkame. Predstavíme v òom hardvérové a softvérové poiadavky na systém, ako aj návrh štruktúry a usporiadania jednotlivıch modulov systému.
+Tento projekt sa tıka aj nás – študentov. Je o nás a pre nás...
