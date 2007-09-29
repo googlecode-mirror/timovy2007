@@ -1,0 +1,8 @@
+Výhody tímu
+
+V rámci diskusie v tíme sme identifikovali naše podstatné prednosti nášho tímu:
+- absolútna väčšina členov tímu sa pozná už 3 roky, počas ktorých poniektorý spoločne pracovali aj na projektoch menšieho rozsahu
+- všetci majú spoločný jazyk PHP, ktorý ovládajú aspoň na začiatočníckej úrovni
+- nikomu z nás nechýba chuť učiť sa nové veci a prístupy, čoho dôkazom je aj zriadenie spoločného verziovaného úložiska, ktoré už natívne využívajú všetci členovia tímu na udržiavanie aktuálnosti projektu
+- zloženie tímu nie je jednostranné, nakoľko pôsobia v ňom aj študenti IS aj SI, ba dokonca máme aj študenta, ktorý doteraz nebol ovplyvnený našou fakultou, čo bude mať dopad na širší problémový rozhľad celého tímu 
+- počas terajšieho krátkeho pôsobenia tímu, bola zo strany všetkých členov preukázaná ochota aktívne sa podielať na projekte a na stretnutiach s využitím modernej VOIP a IM technológií
