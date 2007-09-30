@@ -5,7 +5,7 @@ TODO:
 (- prepracova všetky modely - pouvaova nad tım, èo systém robí a èo nerobí, èo je modul a èo modul nie je - toto by si iadalo ešte aspoò jedno stretnutie,)
 - vybra názov tímu a pod¾a toho spracova logo,
 - prispôsobi dizajn dokumentu logu a
-- HLAVNE: kadı nech si preèíta celı dokument, vyh¾adá chyby a opraví (mne osobne ten dokument ako celok prišiel trochu nekonzistentnı).
+- HLAVNE: kadı nech si preèíta celı dokument, vyh¾adá chyby a opraví (mne osobne ten dokument ako celok prišiel trochu nekonzistentnı). ... (prave si to citam, a prechadzam, opravujem slovosledy a pod. (peto))
 
 Plus niekto by ešte mohol urèi úlohy a termíny.
 
