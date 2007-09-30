@@ -9,6 +9,8 @@ TODO:
 - treba skontrolovat verziu PDF, resp. vygenerovat novu - upravovalo sa len ODT
 - zakomponovat zaver do dokumentu (vlozit a naformatovat)
 - regenerovat obsah (nove cislovanie)
+- update-tnut use-case obrazok (podla posledneho use-case.odt)
+- update-tnut prava adminov v popise use-casov (prava_adminov.txt)
 
 Plus niekto by ešte mohol urèi úlohy a termíny.
 
