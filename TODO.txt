@@ -5,7 +5,10 @@ TODO:
 (- prepracova všetky modely - pouvaova nad tım, èo systém robí a èo nerobí, èo je modul a èo modul nie je - toto by si iadalo ešte aspoò jedno stretnutie,)
 - vybra názov tímu a pod¾a toho spracova logo,
 - prispôsobi dizajn dokumentu logu a
-- HLAVNE: kadı nech si preèíta celı dokument, vyh¾adá chyby a opraví (mne osobne ten dokument ako celok prišiel trochu nekonzistentnı). ... (prave si to citam, a prechadzam, opravujem slovosledy a pod. (peto))
+- HLAVNE: kadı nech si preèíta celı dokument, vyh¾adá chyby a opraví (mne osobne ten dokument ako celok prišiel trochu nekonzistentnı). ... (uz som si to presiel a poopravoval. to vsak neznamena, ze tam je vsetko OK (peto))
+- treba skontrolovat verziu PDF, resp. vygenerovat novu - upravovalo sa len ODT
+- zakomponovat zaver do dokumentu (vlozit a naformatovat)
+- regenerovat obsah (nove cislovanie)
 
 Plus niekto by ešte mohol urèi úlohy a termíny.
 
