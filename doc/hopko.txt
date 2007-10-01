@@ -1,3 +1,0 @@
-Bc. Jozef Hopko
-Má dlhodobé skúsenosti s programovaním v jazyku C/C++. Dva roky samostatne pracoval na vytváraní softvéru pre slovenskú firmu kde získal mnoho praktických skúseností z oblasti tvorby softvéru a embedded systémov. Svoje týmove schopnosti si rozšíril na 2,5 mesaènej stáži v nemeckej firme. Výborne zvláda vývojovove prostredie Visual C++ a framework MFC. Poèas štúdia si ïalej osvojil programovacie jazyky PHP, SQL, Java. Ovláda jazyk symbolických inštrukcií pre procesory 8051, AVR a PIC. Témou jeho záverecného projektu bakalárskeho štúdia bol návrh a implementácia ovládaèa zvukovej karty pre Minix3. V suèasnosti externe pracuje na softverovych projektoch pre firmu EnOcean.
-

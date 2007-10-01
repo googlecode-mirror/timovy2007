@@ -1,4 +1,0 @@
-Bc. Ján Garaj
-prapovodne elektrotechnik, ktorý sa posledné 3 roky venoval usilovnému štúdiu informatiky. V súčastnosti popri dennom štúdiu pracuje na vývoji špeciálneho ekonomického softvéru v menšej softvérovej spoločnosti. K jeho obľubeným jazykom patrí (X-)HTML, SQL a PHP. Okrem týchto jazykov ešte dobre vychádza s javascriptom (AJAXOM), CSS, XML a bash(tcsh) skriptovaním. Budúcnosť vidí ružovo pre webovo poskytované služby, takže oblasť, v ktorej sa bude zdokonalovať sa bude orientovať na skratky XML-RPC, SOAP, REST.
- 
-http://garaj.positive.sk

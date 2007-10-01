@@ -1,8 +1,0 @@
-Sotvérové nároky
-
-Za predpokladu použitia architektúry server - tenký klient, ku ktorej sme dospeli pri priebežnej analýze problémovej oblasti sú predpokladané požiadavky na server:
-- webový server s podporou PHP
-- databáza podporovaná našou databázovou vrstvou (typicky MySql, PostgeSql, ...)
-- svn klient, nie je nutný, avšak je odporúčaný z dovôdu jednoduchého a rýchleho updatu portálu na novšie verzie
-
-Funkciu tenkého klienta bude spľňať ľubovolný webový prehliadač s podporou CSS a javascriptu

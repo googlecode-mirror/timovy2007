@@ -1,6 +1,0 @@
-Bc. Peter Cích
-
-Mal by ovláda programovacie jazyky C/C++ a Java. Má skúsenosti s HTML, XHTML, CSS a JavaScript, ktoré vyuil napríklad aj pri tvorbe svojej osobnej web stránky (www.cisek.tk).
-Medzi jeho záujmy patrí okrem iného aj práca s grafikou, take pri tvorbe grafického dizajnu urèite vyuije svoje nemalé skúsenosti s grafickımi prostrediami Adobe Photoshop a Jasc Paint Shop Pro.
-Medzi jeho silné stránky patrí MS Office (zruènosti na úrovni expert), take napr. vytvorenie pútavej prezentácie nebude pre neho iaden problém.
-Témou jeho bakalárskeho projektu bolo vytvorenie systému na Podporu ma¾ovanıch hlavolamov, pod vedením prom. mat. ¼ubice Hanulovej. Pri tvorbe tohto projektu získal cenné praktické skúsenosti s vytváraním jednoduchého, priate¾ského pouívate¾ského rozhrania.

@@ -1,18 +1,3 @@
 TODO:
-- doplni analızu predošlıch riešení (na tom makám),
-- doplni záver,
-- aktualizova model prípadov pouitia pod¾a opisu problému,
-(- prepracova všetky modely - pouvaova nad tım, èo systém robí a èo nerobí, èo je modul a èo modul nie je - toto by si iadalo ešte aspoò jedno stretnutie,)
-- vybra názov tímu a pod¾a toho spracova logo,
-- prispôsobi dizajn dokumentu logu a
-- HLAVNE: kadı nech si preèíta celı dokument, vyh¾adá chyby a opraví (mne osobne ten dokument ako celok prišiel trochu nekonzistentnı). ... (uz som si to presiel a poopravoval. to vsak neznamena, ze tam je vsetko OK (peto))
-- treba skontrolovat verziu PDF, resp. vygenerovat novu - upravovalo sa len ODT
-- zakomponovat zaver do dokumentu (vlozit a naformatovat)
-- regenerovat obsah (nove cislovanie)
-- update-tnut use-case obrazok (podla posledneho use-case.odt)
-- update-tnut prava adminov v popise use-casov (prava_adminov.txt)
-
-Plus niekto by ešte mohol urèi úlohy a termíny.
-
-// Ak niekto spraví niektoré TODO, tak treba v tomto súbore príslušné TODO zmaza.
-// Ospravedlòujem sa, e mono robím nieèo, èo nie je v mojej kompetencii, ale som poslednı, ktorı robil s dokumentom a je tam ešte dos vecí èo spravi a treba na to upozorni.
+- èaka, èi nás vyberú ;-)
+- poster

@@ -1,8 +1,0 @@
-/* strana 10
-text:
-Verejnosť, typicky firmy, budú využívať systém na získanie informácií o vhodných kandidátoch na voľné posty a posielanie pracovných ponúk.
-Úlohou administrátorov bude zabezpečiť bezproblémový chod systému. Ďalej budú taktiež moderovať fóra.
-nahradit nasledovnym
-*/
-Verejnosť, typicky firmy, budú využívať systém na získanie informácií o vhodných kandidátoch na voľné pozície a taktiež na cieľené posielanie pracovných ponúk absolventom.
-Úlohou administrátorov bude zabezpečiť bezproblémový chod systému. Budú mať všetky práva bežného užívateľa bez obmedzenia a naviac budú mať prístup k špeciálnym funckcionalitám systému ako import/export databázových dát, moderovanie diskusných fór, detailné nastavenia systému.
