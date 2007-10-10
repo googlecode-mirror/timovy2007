@@ -1,6 +1,32 @@
 TODO:
-- poster
-  - pridany navrh na zaklade loga, treba vytlacit, format A4
-  - ibaže pod¾a Bielkovej mailu treba "plagat rozmeru A3, kde bude vas tim -- meno, cislo, tema a pripadne aj zoznam clenov s nejakym peknym obrazkom", takže na tom posteri treba ešte asi zamaka
-- každý by si mal zavies vlastný projektový denník
-- niekto by mal kontaktova Minárovú a dohodnú sa na náhradnom termíne stretnutia, lebo konzultácie oh¾adom projektu zaèínajú až od utorka
+-> poster  (=> palo)
+   - navrh na zaklade loga, treba vytlacit, format A3
+   - meno, cislo, tema a pripadne aj zoznam clenov s nejakym peknym obrazkom
+  
+-> kazdy by si mal zaviest vlastny projektovy dennik (hned si mozete zaznacit dnesnu poradu - cca. 1h)
+   - struktura dennika (http://www2.fiit.stuba.sk/~bielik/courses/tp-slov/dennik.html)
+
+-> nastuduvat si dokumenty:
+   - Analyza a specifikacia (http://garaj.positive.sk/timovy/aluminic/dokumenty/analyza_specifikacia.pdf)
+   - Posudok na to (http://garaj.positive.sk/timovy/aluminic/dokumenty/posudok.pdf)
+
+-> spytat sa minarovej co od nas caka - aku analyzu - ci ist od nuly abo pokracovat na minulom time (mohol by => joe - ty si prisiel s tou otazkou, takze ju budes vediet najlepsie formulovat)
+
+-> vytvorit plan prace do prveho terminu odovzdavania (15.11.) (=> peto)
+
+-> ucesanie zapisnice zapisnice_01, a potom ju aj poslat - caka sa na logo  (=> peto)
+
+-> ukoncit rebranding = my chceme nove logo :)) (=> palo)
+
+-> rozdelenie nastudovania modulov:
+   - joe - import, export
+   - palo - prezentacia absolventov - prezentacna cast
+   - peto - nastenka
+   - vlk - bezpecnost, forum (resp. komunikacia a system sprav)
+   - jozef, lubos - kod
+
+   - ide o to prejst si veci okolo danej temy, ako je to analyzovane, navrhnute, realne funkcne, pocity, dojmy, navrhy zlepsenia, ... (co este?)
+   - ocakavany vystup - nejaky pokec, aby sme ich v nedelu mohli zliat dokopy a ohurit minarovu (podobne ako s tym templatom zapisnice ;) )
+
+
+-> ak ste hovorili nieco a ja som to nezachytil / je vam malo / nemate co robit - doplnte si to sem ;)
