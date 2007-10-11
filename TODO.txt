@@ -9,6 +9,7 @@ TODO:
 -> nastuduvat si dokumenty:
    - Analyza a specifikacia (http://garaj.positive.sk/timovy/aluminic/dokumenty/analyza_specifikacia.pdf)
    - Posudok na to (http://garaj.positive.sk/timovy/aluminic/dokumenty/posudok.pdf)
+   - nasa Ponuka (kedze kazdy robil nieco ine - usudzujem podla seba)
 
 -> spytat sa minarovej co od nas caka - aku analyzu - ci ist od nuly abo pokracovat na minulom time (mohol by => joe - ty si prisiel s tou otazkou, takze ju budes vediet najlepsie formulovat)
 
