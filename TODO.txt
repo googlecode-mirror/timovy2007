@@ -31,3 +31,9 @@ TODO:
 
 
 -> ak ste hovorili nieco a ja som to nezachytil / je vam malo / nemate co robit - doplnte si to sem ;)
+
+- Joeho prídavky:
+
+-> navrhujem doplni do zápisnice termíny ukonèenia èinností (úlohy by mali ma stanovenı presnı èas vykonania) a upravi niektoré termíny zaèiatku èinností (napr. èinnos s ID 1.3 nadväzuje na predošlé 2 úlohy, take predpokladám, e nebude zaèína vtedy, keï ony)
+
+-> zamyslel by som sa nad èíslovaním ID-èiek :-)
