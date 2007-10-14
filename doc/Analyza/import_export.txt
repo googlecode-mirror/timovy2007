@@ -17,9 +17,15 @@ Na prediskutovanie nechávam otázku, èi by nebolo vıhodnejšie, ak by systém praco
 
 EPORT DÁT
 Modul na export dát nie je implementovanı.
-Zadanie vyaduje zabezpeèi export dát na CD. Forma tohto exportu nie je spresnená. Èisto technicky sa dá export vyrieši tak, e modul exportu by umoòoval napálenie kópie databázy na CD. Osobne však preferujem, aby sa na CD exportovali dáta v podobe pútavej interaktívnej prezentácie (napr. roèenka vo forme animovanej nástenky fotiek absolventov; po zvolení absolventa by sa zobrazili detaily o absolventovi).
+Zadanie vyaduje zabezpeèi export dát do súboru. Forma tohto exportu nie je spresnená. Preto by som navrhoval export vyrieši univerzálnym rozhraním. Nad ním by mohli pracova moduly, ktoré by exportované dáta upravili do elanej formy (napr. xls, pdf). Jeden z tıchto modulov by mohol ponúka vıstup v podobe pútavej interaktívnej prezentácie (napr. roèenka vo forme animovanej nástenky fotiek absolventov; po zvolení absolventa by sa zobrazili detaily o absolventovi).
 
 /* coment vlk:
  * export dat na CD - zavadzajuci nazov exportu uz v dokumentacii minulorocneho timu:)
+
+ * odpoved joe:
+ * toto nie je len zavadzajuci nazov - oni to minuly rok fakt mali v zadani
+ * len som si nevsimol, ze mi to tento rok mame vseobecnejsie :oops:
+ * ale uz som to upravil podla tvojho comentu, DIK!
+
  * vseobecne by som to nazyval iba export, vystup exportu by som nechal otvoreny (keby na mne zalezalo tak necham xls, pdf), v zasade by mal export zabezpecovat jeden modul, do ktoreho nebude problem pridat ziaden bezny format vystupu, ked sa niekto pohra tak to bude generovat aj flashovu prezentaciu   
  */
