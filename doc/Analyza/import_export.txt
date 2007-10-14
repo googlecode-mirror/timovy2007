@@ -13,8 +13,13 @@ Otvorenou otázkou je, z ktorého akademického systému by mal náš systém èerpa in
 Osobne by som preferoval vıstup z AIS z dôvodu, e tento systém je centrálnym fakultnım informaènım systémom a nepredpokladá sa, e by sa v doh¾adnej dobe menil. Ïalším dôvodom je, e AIS oproti YonBanu eviduje viacej informácií.
 Otázka, ktoré informácie importova, je tie otvorená. Jej zodpovedanie závisí od toho, ku ktorému systému získame prístup na import dát.
 
-Na prediskutovanie nechávam otázku, èi by nebolo vıhodnejšie, ak by systém pracoval priamo nad databázou AIS, ktorı si informácie o študentoch uchováva aj po ukonšení štúdia. Takto by nevznikala (mono) zbytoèná duplicita dát.
+Na prediskutovanie nechávam otázku, èi by nebolo vıhodnejšie, ak by systém pracoval priamo nad databázou AIS, ktorı si informácie o študentoch uchováva aj po ukonèení štúdia. Takto by nevznikala (mono) zbytoèná duplicita dát.
 
 EPORT DÁT
 Modul na export dát nie je implementovanı.
 Zadanie vyaduje zabezpeèi export dát na CD. Forma tohto exportu nie je spresnená. Èisto technicky sa dá export vyrieši tak, e modul exportu by umoòoval napálenie kópie databázy na CD. Osobne však preferujem, aby sa na CD exportovali dáta v podobe pútavej interaktívnej prezentácie (napr. roèenka vo forme animovanej nástenky fotiek absolventov; po zvolení absolventa by sa zobrazili detaily o absolventovi).
+
+/* coment vlk:
+ * export dat na CD - zavadzajuci nazov exportu uz v dokumentacii minulorocneho timu:)
+ * vseobecne by som to nazyval iba export, vystup exportu by som nechal otvoreny (keby na mne zalezalo tak necham xls, pdf), v zasade by mal export zabezpecovat jeden modul, do ktoreho nebude problem pridat ziaden bezny format vystupu, ked sa niekto pohra tak to bude generovat aj flashovu prezentaciu   
+ */
