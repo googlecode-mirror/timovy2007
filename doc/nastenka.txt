@@ -1,0 +1,50 @@
+Z dokumentácie:
+nástenka slúi na zobrazenie oznamu, ktorı tam vloí nejaká osoba – ako odovzdanie informácie niekomu inému.
+Osoba musí ma prístup k nástenke, a povolenie umiestòova oznamy.
+Môe by uzamknutá za sklom alebo neuzamknutá => obmedzenı alebo neobmedzenı prístup k nej – obmedzenı prístup – len urèité osoby môu zverejòova.
+Má ¾udí spravujúcich ju alebo len jedného správcu – neobmedzenı prístup – zverejòuje hocikto
+tematicky zamerané nástenky (ako bıvajú nástenky).
+Vıhoda, e oznamy môu by hocijako dlho, nedochádza k strate preh¾adnosti – jednoduchá èasová následnos.
+Môe by dopyt po nejakom lístoèku, pouívate¾ovi
+
+štruktúra oznamu na nástenke: 
+	-> názov oznamu (title)
+	-> kto, kedy vytvoril oznam
+	-> text oznamu 
+
+hráèi nástenky:
+anonym – 1, 2, 3
+alumnus (absolventi) – 1, 2, 3, 4(+ PS), 5(+PS), 6(+PS – potvrdenie správcu)
+správca – všetko
+prípady pouitia:
+1.?zobraz oznamy? – zobrazi zoznam oznamov nástenky. Zobrazi zoznam h¾adanıch alebo filtrovanıch oznamov
+2.?filtruj oznamy? – zobrazi skupinu oznamov o ktoré má záujem. Po zadaní filtra zobrazi oznamy vyhovujúce filtru
+3.?vyh¾ada oznamy? – zobrazi skupinu oznamov, ktoré vyhovujú kritériám – aj v posudku je napísané, e nevedia akı je rozdiel medzi 1 a 2
+4.vytvor oznam – po potvrdení správcom ho vytvorí
+5.zmeni oznam – alumnus môe opravi oznam a po potvrdení správcom sa zobrazí
+6.zruši oznam -  alumnus môe zruši svoj oznam, po potvrdení správcom bude zrušenı
+7.prezera èakajúce zmeny – prezera a ?potvrdzova? nové / zmenené / zrušené oznamy
+8.potvrdi zmenu oznamu – potvrdi vytvorené / zmenené / zrušené oznamy
+
+moc èasté potvrdzovanie správcom (pripomienka z posudku, aj moja)
+
+Manuál:
+Neprihlásenı pouívate¾ má monos preèíta si príspevky uverejnené na nástenke. 
+Prihlásenı pouívate¾ má monos pridáva oznamy na nástenku.
+Administrátor má monos moderova nástenku.
+
+
+Naša ponuka:
+Modul na správu a zobrazenie oznamov zabezpeèuje Nástenka. 
+Vytvorenı oznam èaká na schválenie administrátorom nástenky. Môe ho zamietnu a napísa odôvodnenie.
+Zobrazuje termíny aktuálnych podujatí.
+
+
+Testovanie:
+poloka – valid_from_date a valid_until_date 
+hodil by sa tam takı kalendár na vyberanie dátumu, resp. nejaká taká dátumová podpora
+forma dátumu je „10.10.2007“, a nezoralo mi to „10. 10. 2007“ - mono preto by aj pomohla tá dátumová podpora, nevznikali by takéto konflikty
+ako je vyriešenı formát dátumu –  keïe sme na SR, tak ako prvı by som zadával a zobrazoval deò, ale zobrazovanı dátum je aj tak vo formáte yyyy.mm.dd
+
+Bolo to trošku nepreh¾adné, kım som nezistil, ako to funguje, ale po èase som sa zorientoval. A bolo to urèite aj tım, e je to pracovná verzia, take tomu zodpovedá aj prostredie (vo vıvoji, pomocné pracovné oznaèenia – aspoò dúfam, e je to pracovná verzia, a nie ostrá, pouívate¾ská, alebo to mám pokazené :-) )
+- zoznam Alumnusov by mohol by pod¾a abecedy priezviska. A dole nie èíslované strany, ale písmená: a-b, b-c,...
