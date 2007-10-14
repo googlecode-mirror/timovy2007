@@ -36,4 +36,4 @@ TODO:
 
 -> navrhujem doplni do zápisnice termíny ukonèenia èinností (úlohy by mali ma stanovenı presnı èas vykonania) a upravi niektoré termíny zaèiatku èinností (napr. èinnos s ID 1.3 nadväzuje na predošlé 2 úlohy, take predpokladám, e nebude zaèína vtedy, keï ony)
 
--> zamyslel by som sa nad èíslovaním ID-èiek :-)
+-> treba vèas urèi èas (virtuálneho) stretnutia a informova o òom (ak sa chcete veèer stretnú na Skype, je dos moné, e tu v tom èase nebudem)
