@@ -1,50 +1,50 @@
-Z dokumentácie:
-nástenka slúi na zobrazenie oznamu, ktorı tam vloí nejaká osoba – ako odovzdanie informácie niekomu inému.
-Osoba musí ma prístup k nástenke, a povolenie umiestòova oznamy.
-Môe by uzamknutá za sklom alebo neuzamknutá => obmedzenı alebo neobmedzenı prístup k nej – obmedzenı prístup – len urèité osoby môu zverejòova.
-Má ¾udí spravujúcich ju alebo len jedného správcu – neobmedzenı prístup – zverejòuje hocikto
-tematicky zamerané nástenky (ako bıvajú nástenky).
-Vıhoda, e oznamy môu by hocijako dlho, nedochádza k strate preh¾adnosti – jednoduchá èasová následnos.
-Môe by dopyt po nejakom lístoèku, pouívate¾ovi
+ï»¿Z dokumentÃ¡cie:
+nÃ¡stenka slÃºÅ¾i na zobrazenie oznamu, ktorÃ½ tam vloÅ¾Ã­ nejakÃ¡ osoba â€“ ako odovzdanie informÃ¡cie niekomu inÃ©mu.
+Osoba musÃ­ maÅ¥ prÃ­stup k nÃ¡stenke, a povolenie umiestÅˆovaÅ¥ oznamy.
+MÃ´Å¾e byÅ¥ uzamknutÃ¡ za sklom alebo neuzamknutÃ¡ => obmedzenÃ½ alebo neobmedzenÃ½ prÃ­stup k nej â€“ obmedzenÃ½ prÃ­stup â€“ len urÄitÃ© osoby mÃ´Å¾u zverejÅˆovaÅ¥.
+MÃ¡ Ä¾udÃ­ spravujÃºcich ju alebo len jednÃ©ho sprÃ¡vcu â€“ neobmedzenÃ½ prÃ­stup â€“ zverejÅˆuje hocikto
+tematicky zameranÃ© nÃ¡stenky (ako bÃ½vajÃº nÃ¡stenky).
+VÃ½hoda, Å¾e oznamy mÃ´Å¾u byÅ¥ hocijako dlho, nedochÃ¡dza k strate prehÄ¾adnosti â€“ jednoduchÃ¡ ÄasovÃ¡ nÃ¡slednosÅ¥.
+MÃ´Å¾e byÅ¥ dopyt po nejakom lÃ­stoÄku, pouÅ¾Ã­vateÄ¾ovi
 
-štruktúra oznamu na nástenke: 
-	-> názov oznamu (title)
+Å¡truktÃºra oznamu na nÃ¡stenke: 
+	-> nÃ¡zov oznamu (title)
 	-> kto, kedy vytvoril oznam
 	-> text oznamu 
 
-hráèi nástenky:
-anonym – 1, 2, 3
-alumnus (absolventi) – 1, 2, 3, 4(+ PS), 5(+PS), 6(+PS – potvrdenie správcu)
-správca – všetko
-prípady pouitia:
-1.?zobraz oznamy? – zobrazi zoznam oznamov nástenky. Zobrazi zoznam h¾adanıch alebo filtrovanıch oznamov
-2.?filtruj oznamy? – zobrazi skupinu oznamov o ktoré má záujem. Po zadaní filtra zobrazi oznamy vyhovujúce filtru
-3.?vyh¾ada oznamy? – zobrazi skupinu oznamov, ktoré vyhovujú kritériám – aj v posudku je napísané, e nevedia akı je rozdiel medzi 1 a 2
-4.vytvor oznam – po potvrdení správcom ho vytvorí
-5.zmeni oznam – alumnus môe opravi oznam a po potvrdení správcom sa zobrazí
-6.zruši oznam -  alumnus môe zruši svoj oznam, po potvrdení správcom bude zrušenı
-7.prezera èakajúce zmeny – prezera a ?potvrdzova? nové / zmenené / zrušené oznamy
-8.potvrdi zmenu oznamu – potvrdi vytvorené / zmenené / zrušené oznamy
+hrÃ¡Äi nÃ¡stenky:
+anonym â€“ 1, 2, 3
+alumnus (absolventi) â€“ 1, 2, 3, 4(+ PS), 5(+PS), 6(+PS â€“ potvrdenie sprÃ¡vcu)
+sprÃ¡vca â€“ vÅ¡etko
+prÃ­pady pouÅ¾itia:
+1.?zobraz oznamy? â€“ zobraziÅ¥ zoznam oznamov nÃ¡stenky. ZobraziÅ¥ zoznam hÄ¾adanÃ½ch alebo filtrovanÃ½ch oznamov
+2.?filtruj oznamy? â€“ zobraziÅ¥ skupinu oznamov o ktorÃ© mÃ¡ zÃ¡ujem. Po zadanÃ­ filtra zobraziÅ¥ oznamy vyhovujÃºce filtru
+3.?vyhÄ¾adaÅ¥ oznamy? â€“ zobraziÅ¥ skupinu oznamov, ktorÃ© vyhovujÃº kritÃ©riÃ¡m â€“ aj v posudku je napÃ­sanÃ©, Å¾e nevedia akÃ½ je rozdiel medzi 1 a 2
+4.vytvor oznam â€“ po potvrdenÃ­ sprÃ¡vcom ho vytvorÃ­
+5.zmeniÅ¥ oznam â€“ alumnus mÃ´Å¾e opraviÅ¥ oznam a po potvrdenÃ­ sprÃ¡vcom sa zobrazÃ­
+6.zruÅ¡iÅ¥ oznam -  alumnus mÃ´Å¾e zruÅ¡iÅ¥ svoj oznam, po potvrdenÃ­ sprÃ¡vcom bude zruÅ¡enÃ½
+7.prezeraÅ¥ ÄakajÃºce zmeny â€“ prezeraÅ¥ a ?potvrdzovaÅ¥? novÃ© / zmenenÃ© / zruÅ¡enÃ© oznamy
+8.potvrdiÅ¥ zmenu oznamu â€“ potvrdiÅ¥ vytvorenÃ© / zmenenÃ© / zruÅ¡enÃ© oznamy
 
-moc èasté potvrdzovanie správcom (pripomienka z posudku, aj moja)
+moc ÄastÃ© potvrdzovanie sprÃ¡vcom (pripomienka z posudku, aj moja)
 
-Manuál:
-Neprihlásenı pouívate¾ má monos preèíta si príspevky uverejnené na nástenke. 
-Prihlásenı pouívate¾ má monos pridáva oznamy na nástenku.
-Administrátor má monos moderova nástenku.
+ManuÃ¡l:
+NeprihlÃ¡senÃ½ pouÅ¾Ã­vateÄ¾ mÃ¡ moÅ¾nosÅ¥ preÄÃ­taÅ¥ si prÃ­spevky uverejnenÃ© na nÃ¡stenke. 
+PrihlÃ¡senÃ½ pouÅ¾Ã­vateÄ¾ mÃ¡ moÅ¾nosÅ¥ pridÃ¡vaÅ¥ oznamy na nÃ¡stenku.
+AdministrÃ¡tor mÃ¡ moÅ¾nosÅ¥ moderovaÅ¥ nÃ¡stenku.
 
 
-Naša ponuka:
-Modul na správu a zobrazenie oznamov zabezpeèuje Nástenka. 
-Vytvorenı oznam èaká na schválenie administrátorom nástenky. Môe ho zamietnu a napísa odôvodnenie.
-Zobrazuje termíny aktuálnych podujatí.
+NaÅ¡a ponuka:
+Modul na sprÃ¡vu a zobrazenie oznamov zabezpeÄuje NÃ¡stenka. 
+VytvorenÃ½ oznam ÄakÃ¡ na schvÃ¡lenie administrÃ¡torom nÃ¡stenky. MÃ´Å¾e ho zamietnuÅ¥ a napÃ­saÅ¥ odÃ´vodnenie.
+Zobrazuje termÃ­ny aktuÃ¡lnych podujatÃ­.
 
 
 Testovanie:
-poloka – valid_from_date a valid_until_date 
-hodil by sa tam takı kalendár na vyberanie dátumu, resp. nejaká taká dátumová podpora
-forma dátumu je „10.10.2007“, a nezoralo mi to „10. 10. 2007“ - mono preto by aj pomohla tá dátumová podpora, nevznikali by takéto konflikty
-ako je vyriešenı formát dátumu –  keïe sme na SR, tak ako prvı by som zadával a zobrazoval deò, ale zobrazovanı dátum je aj tak vo formáte yyyy.mm.dd
+poloÅ¾ka â€“ valid_from_date a valid_until_date 
+hodil by sa tam takÃ½ kalendÃ¡r na vyberanie dÃ¡tumu, resp. nejakÃ¡ takÃ¡ dÃ¡tumovÃ¡ podpora
+forma dÃ¡tumu je â€10.10.2007â€œ, a nezoÅ¾ralo mi to â€10. 10. 2007â€œ - moÅ¾no preto by aj pomohla tÃ¡ dÃ¡tumovÃ¡ podpora, nevznikali by takÃ©to konflikty
+ako je vyrieÅ¡enÃ½ formÃ¡t dÃ¡tumu â€“  keÄÅ¾e sme na SR, tak ako prvÃ½ by som zadÃ¡val a zobrazoval deÅˆ, ale zobrazovanÃ½ dÃ¡tum je aj tak vo formÃ¡te yyyy.mm.dd
 
-Bolo to trošku nepreh¾adné, kım som nezistil, ako to funguje, ale po èase som sa zorientoval. A bolo to urèite aj tım, e je to pracovná verzia, take tomu zodpovedá aj prostredie (vo vıvoji, pomocné pracovné oznaèenia – aspoò dúfam, e je to pracovná verzia, a nie ostrá, pouívate¾ská, alebo to mám pokazené :-) )
-- zoznam Alumnusov by mohol by pod¾a abecedy priezviska. A dole nie èíslované strany, ale písmená: a-b, b-c,...
+Bolo to troÅ¡ku neprehÄ¾adnÃ©, kÃ½m som nezistil, ako to funguje, ale po Äase som sa zorientoval. A bolo to urÄite aj tÃ½m, Å¾e je to pracovnÃ¡ verzia, takÅ¾e tomu zodpovedÃ¡ aj prostredie (vo vÃ½voji, pomocnÃ© pracovnÃ© oznaÄenia â€“ aspoÅˆ dÃºfam, Å¾e je to pracovnÃ¡ verzia, a nie ostrÃ¡, pouÅ¾Ã­vateÄ¾skÃ¡, alebo to mÃ¡m pokazenÃ© :-) )
+- zoznam Alumnusov by mohol byÅ¥ podÄ¾a abecedy priezviska. A dole nie ÄÃ­slovanÃ© strany, ale pÃ­smenÃ¡: a-b, b-c,...
