@@ -12,6 +12,10 @@ TODO:
    - nasa Ponuka (kedze kazdy robil nieco ine - usudzujem podla seba)
 
 -> spytat sa minarovej co od nas caka - aku analyzu - ci ist od nuly abo pokracovat na minulom time (mohol by => joe - ty si prisiel s tou otazkou, takze ju budes vediet najlepsie formulovat)
+taktiez sa jej spytat:
+-ako ziska login absolvent do systemu
+- mozne riesenie: da sa urobit uz pocas studia - prepojenia na LDAP s is.stuba.sk -> 
+ako student nech moze vyuzivat aspon fora aj ked nebude medzi absolventami -: potom mu automaticky ostane login a heslo si bude musiet vygenerovat este pocas studia
 
 -> vytvorit plan prace do prveho terminu odovzdavania (15.11.) (=> peto)
 
