@@ -1,43 +1,11 @@
 TODO:
--> poster  (=> palo)
-   - navrh na zaklade loga, treba vytlacit, format A3
-   - meno, cislo, tema a pripadne aj zoznam clenov s nejakym peknym obrazkom
-  
--> kazdy by si mal zaviest vlastny projektovy dennik (hned si mozete zaznacit dnesnu poradu - cca. 1h)
-   - struktura dennika (http://www2.fiit.stuba.sk/~bielik/courses/tp-slov/dennik.html)
+- pripravit si otazky na bielikovu ohladom systemu
 
--> nastuduvat si dokumenty:
-   - Analyza a specifikacia (http://garaj.positive.sk/timovy/aluminic/dokumenty/analyza_specifikacia.pdf)
-   - Posudok na to (http://garaj.positive.sk/timovy/aluminic/dokumenty/posudok.pdf)
-   - nasa Ponuka (kedze kazdy robil nieco ine - usudzujem podla seba)
-
--> spytat sa minarovej co od nas caka - aku analyzu - ci ist od nuly abo pokracovat na minulom time (mohol by => joe - ty si prisiel s tou otazkou, takze ju budes vediet najlepsie formulovat)
-taktiez sa jej spytat:
--ako ziska login absolvent do systemu
-- mozne riesenie: da sa urobit uz pocas studia - prepojenia na LDAP s is.stuba.sk -> 
-ako student nech moze vyuzivat aspon fora aj ked nebude medzi absolventami -: potom mu automaticky ostane login a heslo si bude musiet vygenerovat este pocas studia
-
--> vytvorit plan prace do prveho terminu odovzdavania (15.11.) (=> peto)
-
--> ucesanie zapisnice zapisnice_01, a potom ju aj poslat - caka sa na logo  (=> peto)
-
--> ukoncit rebranding = my chceme nove logo :)) (=> palo)
-
--> rozdelenie nastudovania modulov:
-   - joe - import, export
+-> rozdelenie nastudovania modulov:   
    - palo - prezentacia absolventov - prezentacna cast
-   - peto - nastenka
-   - vlk - bezpecnost, forum (resp. komunikacia a system sprav)
-   - jozef, lubos - kod
-
+   
    - ide o to prejst si veci okolo danej temy, ako je to analyzovane, navrhnute, realne funkcne, pocity, dojmy, navrhy zlepsenia, ... (co este?)
    - ocakavany vystup - nejaky pokec, aby sme ich v nedelu mohli zliat dokopy a ohurit minarovu (podobne ako s tym templatom zapisnice ;) )
 
-
--> ak ste hovorili nieco a ja som to nezachytil / je vam malo / nemate co robit - doplnte si to sem ;)
-
 - Joeho prídavky:
-
 -> navrhujem doplni do zápisnice termíny ukonèenia èinností (úlohy by mali ma stanovenı presnı èas vykonania) a upravi niektoré termíny zaèiatku èinností (napr. èinnos s ID 1.3 nadväzuje na predošlé 2 úlohy, take predpokladám, e nebude zaèína vtedy, keï ony)
-
--> treba vèas urèi èas (virtuálneho) stretnutia a informova o òom (ak sa chcete veèer stretnú na Skype, je dos moné, e tu v tom èase nebudem)
