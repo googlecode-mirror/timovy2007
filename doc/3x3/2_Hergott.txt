@@ -1,0 +1,16 @@
+2. tıdeò Jozef Hergott
+
+3 vyriešené úlohy za minulı tıden:
+- analıza importu a exportu existujúceho systému
+- urèenie nejasností v zadaní a spísanie otázok pre Minárovú
+- ?
+
+3 problémy za minulı tıdeò, ktoré bránili väèšej produktivite práce:
+- obsadzujúce èakanie (tzv. deadlock) - kadı èaká, èo spravia ostatní
+- nejasnosti v definícii úloh a termínov
+- nesprávna funkcia systému, ktorı sme mali analyzova
+
+3 naplanované èinnosti na další tıdeò:
+- štúdium a vyskúšanie Cake PHP
+- sklepanie kompletného dokumentu analızy
+- urèenie otázok pre Bielikovú
