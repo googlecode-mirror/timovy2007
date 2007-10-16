@@ -1,11 +1,13 @@
 TODO:
-- pripravit si otazky na bielikovu ohladom systemu
+all -> pripravit si otazky na bielikovu ohladom systemu
 
--> rozdelenie nastudovania modulov:   
-   - palo - prezentacia absolventov - prezentacna cast
+palo -> ziskat db na labs2
+   
+palo -> prezentacia absolventov - prezentacna cast
    
    - ide o to prejst si veci okolo danej temy, ako je to analyzovane, navrhnute, realne funkcne, pocity, dojmy, navrhy zlepsenia, ... (co este?)
    - ocakavany vystup - nejaky pokec, aby sme ich v nedelu mohli zliat dokopy a ohurit minarovu (podobne ako s tym templatom zapisnice ;) )
 
-- Joeho prídavky:
--> navrhujem doplni do zápisnice termíny ukonèenia èinností (úlohy by mali ma stanovený presný èas vykonania) a upravi niektoré termíny zaèiatku èinností (napr. èinnos s ID 1.3 nadväzuje na predošlé 2 úlohy, takže predpokladám, že nebude zaèína vtedy, keï ony)
+peto -> navrhujem doplni do zápisnice termíny ukonèenia èinností (úlohy by mali ma stanovený presný èas vykonania) a upravi niektoré termíny zaèiatku èinností (napr. èinnos s ID 1.3 nadväzuje na predošlé 2 úlohy, takže predpokladám, že nebude zaèína vtedy, keï ony)
+ 
+zefo -> rozbehat svn repozitar na labs2 (utfg a lacko)
