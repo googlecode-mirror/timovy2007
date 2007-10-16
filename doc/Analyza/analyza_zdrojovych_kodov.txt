@@ -1,0 +1,71 @@
+Analyza implementacnej casti
+
+V tejto casti sme sa zamerali na analyzu technickej/implementacnej casti projektu - zdrojovych kodov. Pouzity framework CakePHP tvori vyborny zaklad a znizuje celkovy cas potrebny na implementaciu. Cely framework je zalozeny na navrhovom vzore Model view controller. Jeho nastudovanie by nemalo byt narocne. Avsak je nutne aby si clenovia timu urceny na implementaciu dokladne nastudovali tento framework. Taktiez je nutne prestudovat si zdrojove kody. Pri implementacii sa musia dodrzat zavedene konvencie:
+* pisania komentarov
+* pamenuvania premennych a procedur
+* strukturovania kodu 
+
+Komentare
+
+Tried
+/**
+ * @package AATeam
+ * @subpackage app.models
+ */
+class MailAddressGroup extends AppModel 
+{
+
+Funckii
+
+/**
+ * Upravi vlastny profil
+ *
+ */
+public function myprofile()
+{
+
+Kodu
+//
+// ak bol zadany aj odbor, tak ho zakomponuj do podmienky
+if (@$_POST['specialization_id'] != '') {
+	
+
+Pomenovanie
+
+Pri definovnie nazvov funckii a premennych sa prechadzuci tym pravdepodobne nedrzal striktnych pravidiel nakolko v kode mozme nast rozne pomenovia. Vacsinou su vsak prototypy a premenne pisane malymi pismenami a v pripade dlhsich pomenovani sa medzi jednotlive slova vklada podciarkovnik.
+
+Strukturovanie kodu
+
+Pri definovani funckie stoja zatvorky '{','}' v samostatnych riadoch. 
+
+	public function myimage()
+	{
+	}
+	
+Definicia podmienok a prepinacov vyzera nasledovne
+
+	if (isset($_POST['delete_image'])) {
+	}
+	
+switch ($size[2])
+	{
+		case 1:
+			$old_image = imagecreatefromgif($_FILES['userimage']['tmp_name']);
+			break;
+		case 2:
+			$old_image = imagecreatefromjpeg($_FILES['userimage']['tmp_name']);
+			break;
+		case 3:
+			$old_image = imagecreatefrompng($_FILES['userimage']['tmp_name']);
+			break;
+		default:
+			$old_image = -1;
+	}
+
+Celkovo je dostupny kod jasne strukuturovany a citatelny. Na niektorych miestach by vsak moholi byt komentare obsiahlejsie. Zvolena adresarova struktura je taktiez prehladna. 
+
+Multilanguage support
+Kod bol pisany s ohladom na podporu viacerych jazykov. Tento fakt treba tiez pri implementacii zohladnit.
+
+----
+Zefo
