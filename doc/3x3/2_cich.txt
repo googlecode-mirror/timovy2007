@@ -1,0 +1,16 @@
+2 tıdeò Peter Cích
+
+3 vyriešené úlohy za minulı tıden:
+- analıza a testovanie nástenky
+- spísanie zápisnice, úprava minulej zápisnice a templatu 
+- vytvorenie hrubého planu
+
+3 problémy za minulı tıdeò, ktoré bránili väèšej produktivite práce:
+- neefektívny èasovı harmonogram
+- icq
+- prílišná ochota pomáha druhım na úkor svojich povinností (forma vyhıbania sa vlastnım povinnostiam) - robím milión inıch vecí (aj uitoènıch), len nie to èo by som mal (mohol)
+
+3 naplanované èinnosti na další tıdeò:
+- štúdium manuálu cakePHP
+- dopracovanie analızy nástenky a plánu
+- napísa/vymyslie otázky na bielikovú
