@@ -1,0 +1,4 @@
+JHO
+
+1, Co ocakava fakulta od tohto systemu, ake su 'biznis' ciele s pohladu fakulty?
+2, Ake su moznosti integracie ALUMNI s existujucimi systemami - napr. z hladiska autentifikacie, s nasho pohladu bolo by lahsie mat rovnake mena a hesla ako zakladat nove ucty. Je mozne dostat sa k tymto udajom z databazy IS? 
