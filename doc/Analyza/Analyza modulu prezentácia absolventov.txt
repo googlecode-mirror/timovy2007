@@ -1,0 +1,17 @@
+Analıza modulu prezentácia absolventov - prezentaèná èas 
+
+Ciele predchádzajúceho tímu pri vytváraní modulu na prezentáciu absolventov boli nasledujúce:
+
+- import údajov o absolventoch - realizované, ale dá sa ešte doplni
+- administratívne rozhranie pre manuálne dopåòanie informácií - realizované, ale dá sa ešte doplni
+- rozhranie pre jednoduché prezeranie informácií o absolventoch - realizované, ale dá sa ešte doplni
+- export na CD - nerealizované
+
+Fakulta vyprodukuje roène okolo 200 absolventov bakalárskeho, ininierskeho, doktoranského štúdia, preto ve¾mi dôleitou operáciou v systéme je vyh¾adávanie.
+
+Predchádzajúci tím implementoval Vyh¾adávanie pod¾a mena, pod¾a študijného odboru, tu by sme doplnili  ešte ïalší atribút rok absolvovania. Vısledok vyh¾adavania zobrazuje zoznam študentov, ktorí vyhovujú podmienkam. Zobrazuje meno a prezvisko študenta, stupeò štúdia a absolvovaní odbor. Pre zvıšenie jednoznaènosti by bolo vhodné doplni zoznam o rok absolvovania, v prípade e sa vyskytnú osoby s rovnakım menom.
+
+Profil absolventa je rozdelenı do troch kategórií základné informácie, profil odbornej práce a kontaktné informácie. Základné informácie obsahujú meno, prezvisko, špecializáciu a fotku absolventa.Túto kategóriu by sme ešte rozšírli o spomínanı rok absolvovania. Kategória odborné práce obsahuje bakalársky / diplomovı projekt, prièom je uvedená téma projektu, abstrakt a vedúci projektu. Túto kategóriu by sme radi rozšírili aj o monos vzhliadnutia celého projektu. 
+
+Rozšírenie, by tu bolo moné o doplnenie kategórie profesijnı rast, kde by absolvent mohol uvies svoje pracovné úspechy po absolvovaní. Oèakávame, e stránku si budú prezera aj rôzne spoloènosti, preto ak si otvoria profil niektorého absolventa, môu vzhliadnu jeho ivotopis. 
+
