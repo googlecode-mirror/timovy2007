@@ -19,6 +19,11 @@ JHe
 9 Ake statistiky by mal system poskytovat? Pozaduje sa anketovy modul pre ziskavanie udajov?
 10 Aku formu exportu pozaduje fakulta?
 
+PF
+
+11 Dizajn stranky ma byt kompatibilny s dizajnom fakultnej stranky?
+12 Ake mate skusenosti vy alebo vasi zahranicny kolegovia so systemom alumni? Ci sa na inych univerzitach system osvedcil alebo nie?
+
 
 x, Aky Ste mali dneska den?
 y, Chutil Vam nedelny obed aj ked bola vonku zima, a pritom viete, ze sa buduci tyzden (zo soboty na nedelu) posuva cas, takze budete moct o hodinu dlhsie spat? // o hodinu dlhsie pracovat :-(
