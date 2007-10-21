@@ -9,7 +9,10 @@ PC
 4, Budu moct na nastenku zadavat oznamy (o konanych akciach, prednaskach, ...) aj firmy z vonku (nezname, kt so skolou nikdy predtym nespolupracovali), alebo len studenti pracujuci v danej firme? => Budu sa firmy registrovat na prve prihlasenie (napr do zoznamu spolupracujucich firiem)?
 5, Kto vsetko bude system pouzivat - len absolventi, alebo aj aktualny studenti?
 
+LB
 
+6 Ake udaje chce fakulat o absolventovi zverejnit a ake udaje nam budu poskytnute z db doterajsieho systemu?
+7 Nebude problemom pre fakultu ked system skontaktuje vsetkych absolventov prostrednictvom emailu a upovedomi o vzniku ALUMNI?
 
 
 x, Aky Ste mali dneska den?
