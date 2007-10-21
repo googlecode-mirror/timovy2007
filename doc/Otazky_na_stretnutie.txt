@@ -24,6 +24,9 @@ PF
 11 Dizajn stranky ma byt kompatibilny s dizajnom fakultnej stranky?
 12 Ake mate skusenosti vy alebo vasi zahranicny kolegovia so systemom alumni? Ci sa na inych univerzitach system osvedcil alebo nie?
 
+13 Nema fakulta problem s tym, ze je to cele vyvijane/postavene na openSource...?
+
+
 
 x, Aky Ste mali dneska den?
 y, Chutil Vam nedelny obed aj ked bola vonku zima, a pritom viete, ze sa buduci tyzden (zo soboty na nedelu) posuva cas, takze budete moct o hodinu dlhsie spat? // o hodinu dlhsie pracovat :-(
