@@ -5,7 +5,7 @@ JHO
 
 PC
 
-3, Ako motivovat studentov, aby navstevovali nas system? Co si myslite, co by mal mat, aby to na studentov zabralo? (lebo jeho vytazenost nebude sai taka ako pri registrovani cviceni v AIS)
+3, Ako motivovat studentov, aby navstevovali nas system? Co si myslite, co by mal mat, aby to na studentov zabralo? (lebo jeho vytazenost nebude asi taka ako pri registrovani cviceni v AIS)
 4, Budu moct na nastenku zadavat oznamy (o konanych akciach, prednaskach, ...) aj firmy z vonku (nezname, kt so skolou nikdy predtym nespolupracovali), alebo len studenti pracujuci v danej firme? => Budu sa firmy registrovat na prve prihlasenie (napr do zoznamu spolupracujucich firiem)?
 5, Kto vsetko bude system pouzivat - len absolventi, alebo aj aktualny studenti?
 
@@ -14,6 +14,11 @@ LB
 6 Ake udaje chce fakulat o absolventovi zverejnit a ake udaje nam budu poskytnute z db doterajsieho systemu?
 7 Nebude problemom pre fakultu ked system skontaktuje vsetkych absolventov prostrednictvom emailu a upovedomi o vzniku ALUMNI?
 
+JHe
+8 Ake udaje by chcela fakulta ziskat od absolventov?
+9 Ake statistiky by mal system poskytovat? Pozaduje sa anketovy modul pre ziskavanie udajov?
+10 Aku formu exportu pozaduje fakulta?
+
 
 x, Aky Ste mali dneska den?
-y, Chutil Vam nedelny obed aj ked bola vonku zima, a pritom viete, ze sa buduci tyzden (zo soboty na nedelu) posuva cas, takze budete moct o hodinu dlhsie spat?
+y, Chutil Vam nedelny obed aj ked bola vonku zima, a pritom viete, ze sa buduci tyzden (zo soboty na nedelu) posuva cas, takze budete moct o hodinu dlhsie spat? // o hodinu dlhsie pracovat :-(
