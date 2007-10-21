@@ -1,0 +1,20 @@
+LB
+
+3 vyriešené úlohy za minulı tıden:
+
+- Doplnit obsah stranky o potrebne veci vyplivajuce zo zadania bielikovej.
+- ? 
+- ?
+
+3 problémy za minulı tıdeò, ktoré bránili väèšej produktivite práce:
+
+- Nenastudovanie Cake Php manualu
+
+
+
+3 naplanované èinnosti na další tıdeò:
+
+- zmenit ten biely text za logo timu
+  modul, ktorı bude zobrazova fotografie z akcií (stretnutí)
+-Naštudova si manuál CakePHP
+-Otázky na Bielikovú oh¾adom ALUMNI
