@@ -1,50 +1,35 @@
-﻿Z dokumentácie:
-nástenka slúži na zobrazenie oznamu, ktorý tam vloží nejaká osoba – ako odovzdanie informácie niekomu inému.
-Osoba musí mať prístup k nástenke, a povolenie umiestňovať oznamy.
-Môže byť uzamknutá za sklom alebo neuzamknutá => obmedzený alebo neobmedzený prístup k nej – obmedzený prístup – len určité osoby môžu zverejňovať.
-Má ľudí spravujúcich ju alebo len jedného správcu – neobmedzený prístup – zverejňuje hocikto
-tematicky zamerané nástenky (ako bývajú nástenky).
-Výhoda, že oznamy môžu byť hocijako dlho, nedochádza k strate prehľadnosti – jednoduchá časová následnosť.
-Môže byť dopyt po nejakom lístočku, používateľovi
+﻿NÁSTENKA
+Nástenka slúži na zobrazenie oznamu, ktorý tam vloží nejaká osoba – ako odovzdanie informácie niekomu inému. Osoba musí mať príslušné práva na prístup k nástenke, aby mohla oznamy vytvárať, resp. aby ich mohla na nástenku umiestňovať (schváliť).
+Systéme rozlišuje takýchto hráčov:
+- anonym
+- alumnus (absolventi)
+- správca
+Každý hráč má pridelené práva, podľa ktorých je im umožnené vykonávať nasledujúce akcie (prípady použitia) v systéme:
 
-štruktúra oznamu na nástenke: 
-	-> názov oznamu (title)
-	-> kto, kedy vytvoril oznam
-	-> text oznamu 
-
-hráči nástenky:
-anonym – 1, 2, 3
-alumnus (absolventi) – 1, 2, 3, 4(+ PS), 5(+PS), 6(+PS – potvrdenie správcu)
-správca – všetko
-prípady použitia:
-1.?zobraz oznamy? – zobraziť zoznam oznamov nástenky. Zobraziť zoznam hľadaných alebo filtrovaných oznamov
-2.?filtruj oznamy? – zobraziť skupinu oznamov o ktoré má záujem. Po zadaní filtra zobraziť oznamy vyhovujúce filtru
-3.?vyhľadať oznamy? – zobraziť skupinu oznamov, ktoré vyhovujú kritériám – aj v posudku je napísané, že nevedia aký je rozdiel medzi 1 a 2
-4.vytvor oznam – po potvrdení správcom ho vytvorí
-5.zmeniť oznam – alumnus môže opraviť oznam a po potvrdení správcom sa zobrazí
-6.zrušiť oznam -  alumnus môže zrušiť svoj oznam, po potvrdení správcom bude zrušený
-7.prezerať čakajúce zmeny – prezerať a ?potvrdzovať? nové / zmenené / zrušené oznamy
+1.zobraziť oznam – zobraziť zoznam oznamov nástenky. Zobraziť zoznam hľadaných alebo filtrovaných oznamov.
+2.filtrovať oznam – zobraziť skupinu oznamov o ktoré má hráč záujem. Po zadaní filtra sa zobrazia oznamy vyhovujúce filtru.
+3.vyhľadať oznam – zobraziť skupinu oznamov, ktoré vyhovujú kritériám
+4.vytvoriť oznam – po potvrdení správcom bude oznam vytvorený
+5.zmeniť oznam – zmena existujúceho oznamu
+6.zrušiť oznam -  zrušenie existujúceho oznamu
+7.prezerať čakajúce zmeny – prezerať a potvrdzovať nové / zmenené / zrušené oznamy
 8.potvrdiť zmenu oznamu – potvrdiť vytvorené / zmenené / zrušené oznamy
 
-moc časté potvrdzovanie správcom (pripomienka z posudku, aj moja)
+Hráčovi typu Anonym prislúchajú tieto prípady použitia - 1, 2 a 3. Pri týchto troch prípadoch použitia nám nie je celkom zrejmý a jasný rozdiel, podobne ako bolo popísané aj v posudku od druhého tímu.
+Hráčovi typu Alumnus (absolvent) prislúchajú tieto prípady použitia - 1, 2 a 3. Navyše má pridané prípady použitia 4, 5 a 6, pričom na korektné dokončenie akcie je potrebné potvrdenie správcom. V niektorých prípadoch nie je veľmi vhodné a žiaduce neustále potvrdzovanie vykonaných akcii správcom, napr. by bola potrebné neustále sledovať či nepribudli nejaké nové úlohy súvisiace s oznamami. V prípade ak by bola frekvencia kontrolovania nižšia môže vzniknúť situácia, kedy by už neskôr schválený oznam nemusel byť aktuálny.
+Hráčovi typu Správca sú dostupné všetky vyššie spomenuté prípady použitia systému - moderuje celú nástenku a všetky procesy, ktoré v tomto module prebiehajú. Pri tomto type jráča je potrebné lepšie navrhnúť jeho "povinnosti" voči spravovaniu oznamov, t.j. frekventované potvrdzovanie zmien v oznamoch
 
-Manuál:
-Neprihlásený používateľ má možnosť prečítať si príspevky uverejnené na nástenke. 
-Prihlásený používateľ má možnosť pridávať oznamy na nástenku.
-Administrátor má možnosť moderovať nástenku.
+Samotná štruktúra oznamu na nástenke je nasledovná:
+- názov oznamu (title)
+- kto, kedy vytvoril oznam
+- text oznamu
+
+Počas testovania sme narazili na niekoľko menších nedostatkov. Z pohľadu používateľa by bolo prijateľnejšie, ak by zadávanie dátumu platnosti oznamu bolo realizované napríklad pomocou kalendára (t.j. vybratia konkrétneho dátumu z ponuky) alebo aspon nejakej podobnej podpory.
+Bolo by taktiež vhodné, keby bol používateľ upovedomený na formát zadávaného dátumu (vhodná by bola slovenská dátumová konvencia dd.mm.yyyy), pretože napr. výstupný (zobrazovaný) formát dátumu je yyyy.mm.dd, a ten je rozdielny od používateľom zadávaného.
 
 
-Naša ponuka:
-Modul na správu a zobrazenie oznamov zabezpečuje Nástenka. 
-Vytvorený oznam čaká na schválenie administrátorom nástenky. Môže ho zamietnuť a napísať odôvodnenie.
-Zobrazuje termíny aktuálnych podujatí.
 
 
-Testovanie:
-položka – valid_from_date a valid_until_date 
-hodil by sa tam taký kalendár na vyberanie dátumu, resp. nejaká taká dátumová podpora
-forma dátumu je „10.10.2007“, a nezožralo mi to „10. 10. 2007“ - možno preto by aj pomohla tá dátumová podpora, nevznikali by takéto konflikty
-ako je vyriešený formát dátumu –  keďže sme na SR, tak ako prvý by som zadával a zobrazoval deň, ale zobrazovaný dátum je aj tak vo formáte yyyy.mm.dd
-
-Bolo to trošku neprehľadné, kým som nezistil, ako to funguje, ale po čase som sa zorientoval. A bolo to určite aj tým, že je to pracovná verzia, takže tomu zodpovedá aj prostredie (vo vývoji, pomocné pracovné označenia – aspoň dúfam, že je to pracovná verzia, a nie ostrá, používateľská, alebo to mám pokazené :-) )
-- zoznam Alumnusov by mohol byť podľa abecedy priezviska. A dole nie číslované strany, ale písmená: a-b, b-c,...
+/**
+ *- zoznam Alumnusov by mohol byť podľa abecedy priezviska. A dole nie číslované strany, ale písmená: a-b, b-c,...
+ */
