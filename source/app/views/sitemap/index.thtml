@@ -1,0 +1,11 @@
+﻿<h1>Mapa stránok</h1>
+<ul style="margin-left: 15px;">
+	<li><a href="/">Úvodná stránka</a></li>
+	<ul style="margin-left: 15px;">
+		<li><a href="/help">Pomocník</a></li>
+		<li><a href="/about">O systéme</a></li>
+		<li><a href="/alumni">Absolventi</a></li>
+		<li><a href="/forum">Fórum</a></li>
+		<li><a href="/events">Akcie</a></li>
+	</ul>
+</ul>

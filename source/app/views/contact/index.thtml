@@ -1,0 +1,49 @@
+<?php $my->addCrumb(__("MENU_KONTAKT", true)); ?>
+<h1>Kontaktné informácie</h1>
+<h2>Hlavný kontakt:</h2>
+<p>
+	<label class="contact">E-mail:</label> <a class="link ico_email" href="mailto:aateam@websity.sk">aateam@websity.sk</a><br />
+	<label class="contact">Projektový vedúci:</label> <a class="link ico_email" href="mailto:minarova@fiit.stuba.sk">minarova@fiit.stuba.sk</a>
+</p>
+<h2>Kontakty na jednotlivých členov tímu:</h2>
+<table class="plan std_table">
+
+<thead>
+	<tr>
+		<th>Meno</th>
+		<th>Funkcia</th>
+		<th>E-mail</th>
+		<th>ICQ</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td class="ico_user">František Ďurajka</td>
+		<td>vedúci tímu</td>
+		<td class="ico_email"><a class="link" href="mailto:franto@franto.sk">franto@franto.sk</a></td>
+		<td class="ico_icq">327-002-748</td>
+	</tr>
+
+	<tr>
+		<td class="ico_user">Juraj Eliáš</td>
+		<td>developer</td>
+		<td class="ico_email"><a class="link" href="mailto:juraj.elias@post.sk">juraj.elias@post.sk</a></td>
+		<td class="ico_icq">247-548-732</td>
+	</tr>
+	
+	<tr>
+
+		<td class="ico_user">Ján Perďoch</td>
+		<td>designer</td>
+		<td class="ico_email"><a class="link" href="mailto:jumper@websity.sk">jumper@websity.sk</a></td>
+		<td class="ico_icq">250-978-882</td>
+	</tr>
+	<tr>
+		<td class="ico_user">Ladislav Rendek</td>
+
+		<td>developer</td>
+		<td class="ico_email"><a class="link" href="mailto:rendolaco@gmail.com">rendolaco@gmail.com</a></td>
+		<td class="ico_icq">325-490-488</td>
+	</tr>
+</tbody>
+</table>

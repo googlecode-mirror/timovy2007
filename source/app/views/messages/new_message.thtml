@@ -1,0 +1,18 @@
+﻿<h1>Nová správa!</h1>
+
+<?php echo $html->tagErrorMsg('Message/body', 'Prosím vyplnte telo správy.') ?>
+<?php echo $html->tagErrorMsg('Message/subject', 'Prosím vyplnte predmet správy.') ?>
+<?php echo $html->tagErrorMsg('Message/to', 'Prosím vyplnte adresáta.') ?>
+
+<form action="<?php echo $html->url('/messages/new_message')?>" method="post">
+	<p>
+		<label>Predmet správy: </label> <?php echo $html->input('Message/subject', array('size' => 60)); ?><br />
+		<label>Adresát správy: </label> <?php echo $html->input('Message/to', array('size'=>60))?>
+	</p>
+	<p>
+		<?php echo $html->textarea('Message/body', array('rows'=>15, 'cols'=>80))?>
+	</p>
+	<p>
+		<?php echo $html->submit('Odoslať')?>
+	</p>
+</form>

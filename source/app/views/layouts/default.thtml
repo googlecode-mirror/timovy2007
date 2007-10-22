@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>AA TEAM PROJECT : <?php echo $title_for_layout;?></title>          
+	<link rel="icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
+	<?php echo $html->css('style');?>
+	<?php echo $html->css('window');?>
+	<?php echo $html->css('window_theme');?>
+	<?php print $javascript->link('prototype') ?>
+	<?php print $javascript->link('scriptaculous.js?load=effects') ?>
+	<?php print $javascript->link('window') ?>
+</head>
+<body>
+	
+	<!-- HEADER // QUICK MENU + LOGIN/LOGOUT -->
+	<div id="top">
+		<div class="containter">
+			<div id="topin">
+				<div id="quickmenu">
+					<a href="<?=$html->url('/')?>"><?php echo __("MENU_HOME")?></a>
+						<img src="<?=$html->url('/css/images/separator.gif')?>" alt="separator" />
+					<a href="<?=$html->url('/help')?>"><?php echo __("MENU_HELP")?></a>
+						<img src="<?=$html->url('/css/images/separator.gif')?>" alt="separator" />
+					<a href="<?=$html->url('/sitemap')?>"><?php echo __("MENU_SITEMAP")?></a>
+				</div>
+				<div id="flags">
+					<a href="<?php echo $html->url('/'.$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="Slovenská verzia" /></a>
+					<a href="<?php echo $html->url('/'.$post_redirect.'?language=en')?>"><img src="<?=$html->url('/css/images/flagen.gif')?>" alt="English version" /></a>
+				</div>
+				<div id="loginbar">
+					<?php if (!$session->check('User')) { ?>
+					<form action="<?=$html->url('/login/login')?>" method="post">
+						<input type="hidden" name="post_redirect" value="<?php echo $post_redirect;?>" />
+						<div class="formelement">
+							<?php echo __("Login")?> <?=$html->input('User/username')?>
+						</div>
+						<div class="formelement">
+							<?php echo __('Heslo')?> <?=$html->password('User/password')?>
+						</div>
+						<div class="formelement">
+							<input type="image" value="Prihlásiť" class="logimg" src="<?=$html->url('/css/images/login.gif')?>" />
+						</div>
+					</form>
+					<?php } else { ?>
+						<?php echo __("LOGGED_AS")?>: <strong><?php echo $LoggedAs;?></strong> [<a href="<?=$html->url('/login/logout')?>"><?php echo __("LOGIN_OUT");?></a>]
+					<?php } ?>
+				</div>
+				<div class="clear"></div>
+				<div id="logoalumni"><a href="<?=$html->url('/')?>"><img src="<?=$html->url('/css/images/logoalumni.gif')?>" alt="Alumni logo" /></a></div>
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- MAIN -->
+	<div id="main">
+		<div class="containter">
+			<div id="mainin">
+
+				<!-- LEFT COLUMN // MENU + BOXES -->
+				<div id="leftcol">
+
+					<!-- MENU -->
+					<div class="boxblank">
+						<div class="boxbottomblank">
+							<ul class="menu">
+								<li class="menuitem"><a href="<?=$html->url('/about')?>" class="menuitema"><?php echo __("MENU_ABOUT");?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/alumni')?>" class="menuitema"><?php echo __("MENU_ABSOLVENTI")?></a></li>
+<!--								<li class="menuitem"><a href="<?=$html->url('/forum')?>" class="menuitema"><?php echo __("MENU_FORUM")?></a></li>-->
+<!--								<li class="menuitem"><a href="<?=$html->url('/events')?>" class="menuitema"><?php echo __("MENU_AKCIE")?></a></li>-->
+								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>" class="menuitema"><?php echo __("MENU_NASTENKA")?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/contact')?>" class="menuitema"><?php echo __("MENU_KONTAKT")?></a></li>
+							</ul>
+						</div>	
+					</div>
+
+					<!-- OTHER BOXES -->
+					<?php if ($Login->check('MANAGE_USERS') or $Login->check('IMPORT')) { ?>
+					<div class="box">
+						<div class="boxtop">
+							<div class="boxbottom">
+								<div class="boxtitle"><?php echo __("ADMIN_MENU")?></div>
+								<ul class="menu">
+									<?php if ($Login->check('MANAGE_USERS')) { ?>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/users/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_POUZIVATELOF")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/roles/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PRAV")?></a></li>
+									<?php } ?>
+									<?php if ($Login->check('IMPORT')) { ?>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/import/')?>" class="menuitema"><?php echo __("MENU_IMPORT")?></a></li>
+									<?php } ?>
+								</ul>
+							</div>	
+						</div>	
+					</div>
+					<?php } ?>
+					
+					<?php if ($Login->isLogged()) { ?>
+					<div class="box">
+						<div class="boxtop">
+							<div class="boxbottom">
+								<div class="boxtitle"><?php echo __("USER_PROFILE_MENU")?></div>
+								<ul class="menu">
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>" class="menuitema"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
+								</ul>
+							</div>	
+						</div>	
+					</div>
+					<?php } ?>
+					
+					
+					<!-- MAIL MENU -->
+					<?php if ($Login->isLogged()) { ?>
+					<div class="box">
+						<div class="boxtop">
+							<div class="boxbottom">
+								<div class="boxtitle"><?php echo __("MAIL_MENU")?></div>
+								<ul class="menu">
+									
+									<li class="adminmenuitem">
+										<a href="<?php echo $html->url('/mails/')?>" class="menuitema">
+											<?php if ($mail_new_count > 0) { ?><strong><?php } ?>
+												<?php echo __("MENU_MAIL")?> (<?php echo $mail_new_count;?>)
+											<?php if ($mail_new_count > 0) { ?></strong><?php } ?>
+										</a>
+									</li>
+									<?php if ($Login->check('MAIL_WRITE')) { ?>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/compose')?>" class="menuitema"><?php echo __("MENU_MAIL_COMPOSE")?></a></li>
+									<?php } ?>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/settings')?>" class="menuitema"><?php echo __("MENU_MAIL_SETTINGS")?></a></li>
+								</ul>
+							</div>	
+						</div>	
+					</div>
+					<?php } ?>
+					
+					<!-- 
+					<div class="box">
+						<div class="boxtop">
+							<div class="boxbottom">
+								<div class="boxtitle"><?php echo __("MENU_NOVINKY")?></div>
+								<div class="boxcontent">
+									<p class="just">Zostávajú dva mesiace.</p>
+								</div>
+							</div>	
+						</div>	
+					</div>
+					-->
+				</div>
+				
+				
+				<!-- RIGHT COLUMN // MAIN CONTENT -->
+				<div id="rightcol">
+					<div id="bar">
+						<div id="path">
+							<!-- crumbs -->
+							<?php $my->addCrumb(__("CRUMB_MENU", true), '/', true)?>
+							<?php echo $my->getCrumbs(); ?>
+						</div>
+						<div id="sizer">
+							Veľkosť písma:
+								<a href="#"><img src="<?=$html->url('/css/images/normal.gif')?>" alt="Normálne písmo" /></a>
+								<a href="#"><img src="<?=$html->url('/css/images/large.gif')?>" alt="Zväčšené písmo" /></a>
+						</div>
+						<div class="clear">&nbsp;</div>
+					</div>
+				<div id="rightcol_inner">
+				
+				<?php $my->flashAll(); ?>
+				
+				<?php if ($session->check('Message.flash'))
+						{
+							$session->flash();
+						}
+						echo $content_for_layout;
+				?>
+				
+				</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER // COPYRIGHT + CREATED BY -->	
+	<div id="bottom">
+		<div class="containter">
+			<div id="bottomin">
+				<div id="footertext">
+					© Copyright <a href="http://www.fiit.stuba.sk">FIIT</a> <a href="http://www.stuba.sk">STU</a> v Bratislave :: Created by ALUMiNIc Team 2006
+						<?php echo $cakeDebug?>
+				</div>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>

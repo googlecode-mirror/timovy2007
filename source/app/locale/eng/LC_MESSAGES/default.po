@@ -1,0 +1,985 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Team Project 0.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-05-15 10:52+0100\n"
+"Last-Translator: Frantisek Durajka <franto@franto.sk>\n"
+"Language-Team: AAteam <aateam@websity.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\Inetpub\\htdocs\\tp\\src\\app\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: C:\\Inetpub\\htdocs\\tp\\src\\app\n"
+
+# C:\Inetpub\htdocs\tp\src\app/app_controller.php:101
+msgid "ERROR_ACCESS_DENIED"
+msgstr "Permission denied."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
+msgid "ALUMNI_NONEXISTING_USER"
+msgstr "Non-Existing user."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
+msgid "Your profile has been changed."
+msgstr "Your profile has been changed."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
+msgid "There was a error saving profile data."
+msgstr "There was a error saving profile data."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
+msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
+msgstr "Your profile image has been removed."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
+msgstr "Deleting image file failed."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
+msgstr "Your image has been successfully changed."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
+msgstr "Error uploading your image. Error creating new PNG file."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
+msgstr "Error uploading your image. Unsupported image type."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
+msgstr "Error uploading your image. Error creating image."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
+msgstr "Error uploading your image. "
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
+msgstr "Error uploading your image."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
+msgstr "Password has been changed"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_ERROR_SAVE_FAILED"
+msgstr "Error saving data"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
+msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
+msgstr "Bad new password"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:212
+msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
+msgstr "Passwords are different."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:215
+msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
+msgstr "Bad old password."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:15
+msgid "LOGIN_FAILED"
+msgstr "Bad username or password! Please try again."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
+msgid "LOGIN_SUCCESSFULL"
+msgstr "You have been successfully logged in!"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
+msgid "LOGOUT_SUCCESSFULL"
+msgstr "You have been successfully logged out"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+msgid "MAIL_PERFORM_SAVE_ERROR"
+msgstr "Error by saving a new message! "
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
+msgid "MAIL_PERFORM_NONEXISTING_MAIL"
+msgstr "Nonexisting mail."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
+msgid "MAIL_COMPOSE_BAD_ADDRESS"
+msgstr "Bad address, please check it and try again."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
+msgid "MAIL_COMPOSE_EMPTY_SUBJECT"
+msgstr "Please fill subject of your message."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
+msgid "MAIL_COMPOSE_EMPTY_BODY"
+msgstr "Please fill body of your message."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+msgid "MAIL_COMPOSE_SAVE_ERROR"
+msgstr "Error by saving a new message!"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:108
+msgid "MAIL_COMPOSE_SAVE_USRADDR_ERROR"
+msgstr "Error by saving a new message - user address association!"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:119
+msgid "MAIL_COMPOSE_SAVE_GRPADDR_ERROR"
+msgstr "Error by saving a new message - group address association."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+msgid "MAIL_COMPOSE_SAVE_USRASSOC_ERROR"
+msgstr "Error saving a new message - user mail association."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+msgid "MAIL_COMPOSE_SAVE_SUCCESSFULL"
+msgstr "Your message has been sent."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:65
+msgid "MAIL_SETTINGS_EDIT_SUCCESS"
+msgstr "Your settings have been successfully saved."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:73
+msgid "MAIL_SETTINGS_EDIT_ERROR"
+msgstr "Saving settings failed. Please check if your e-mail address is correct."
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:348
+msgid "MAIL_READ_NOT_FOUND"
+msgstr "There is no mail with this ID."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+msgid "MAIL_READ_GROUP"
+msgstr "Group"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:112
+msgid "Nonexisting role"
+msgstr "Nonexisting role"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:123
+msgid "Permission role has been successfully updated!"
+msgstr "Permission role has been successfully updated!"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:126
+msgid "There was a error by updating permission role"
+msgstr "There was a error by updating permission role"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
+msgid "ERROR_NO_USER"
+msgstr "Non existing user"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:87
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:51
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:138
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:85
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:86
+msgid "Anonymn"
+msgstr "Anonym"
+
+# C:\Inetpub\htdocs\tp\src\app/webroot/index.php:78
+msgid "Can't find CakePHP core.  Check the value of CAKE_CORE_INCLUDE_PATH in app/webroot/index.php.  It should point to the directory containing your "
+msgstr "Can't find CakePHP core.  Check the value of CAKE_CORE_INCLUDE_PATH in app/webroot/index.php.  It should point to the directory containing your "
+
+# C:\Inetpub\htdocs\tp\src\app/webroot/index.php:78
+msgid "cake core directory and your "
+msgstr "cake core directory and your "
+
+# C:\Inetpub\htdocs\tp\src\app/webroot/index.php:78
+msgid "vendors root directory."
+msgstr "vendors root directory."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "MENU_ALUMNI_MYIMAGE"
+msgstr " My profile image"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
+msgstr "Here you can change you image, please upload only jpeg, bmb, gif or png images with size less than 1MB."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
+msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
+msgstr "Change image"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
+msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
+msgstr " Delete image"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "MENU_ALUMNI_MYPROFILE"
+msgstr "My Profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/myprofile.ctp:6
+msgid "View my profile"
+msgstr "View my profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
+msgid "ALUMNI_PROFILE_CHANGEINFO_TITLE"
+msgstr "Change my personal informations:"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
+msgid "ALUMNI_MY_PROFILE_EMAIL"
+msgstr " E-Mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
+msgid "ALUMNI_MY_PROFILI_PUBLISH_EMAIL"
+msgstr "Make my e-mail address public."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
+msgid "ALUMNI_MY_PROFILE_ADDRESS"
+msgstr " Address"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
+msgid "ALUMNI_MY_PROFILE_PHONE"
+msgstr " Phone"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "ALUMNI_MY_PROFILE_ICQ"
+msgstr " ICQ Number"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_MY_PROFILE_OCCUPATION"
+msgstr " Occupation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:42
+msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
+msgstr "Change informations"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "MENU_ALUMNI_PASSWORD"
+msgstr "Change password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_PASSWORD_INFO"
+msgstr "Your password have to be at least 4 characters long."
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "ALUMNI_PASS_OLD"
+msgstr "Old password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_PASS_NEW_1"
+msgstr "New password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_PASS_NEW_2"
+msgstr "New password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
+msgid "ALUMNI_PASSWORD_SUBMIT"
+msgstr "Change password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "MENU_ALUMNI_PROFILE"
+msgstr "Profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:3
+msgid "ALUMNI_PROFILE_ZAKL_INFORMACIE"
+msgstr "Basic informations"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:8
+msgid "ALUMNI_PROFILE_MISSING_PICTURE"
+msgstr "Missing picture"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "ALUMNI_PROFILE_MENO"
+msgstr "Name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:14
+msgid "ALUMNI_PROFILE_PRIEZVISKO"
+msgstr "Last name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
+msgid "ALUMNI_PROFILE_TITUL"
+msgstr "Title"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
+msgid "ALUMNI_PROFILE_ADDRESS"
+msgstr "Address "
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:26
+msgid "ALUMNI_PROFILE_SPECIALIZATION"
+msgstr "Specialization"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:31
+msgid "ALUMNI_PROFILE_SEND_MESSAGE"
+msgstr "Send private message"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
+msgid "Edit my profile"
+msgstr "Edit my profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
+msgid "ALUMNI_PROFILE_ODBORNE_PRACE"
+msgstr "Projects"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:39
+msgid "DB_PROJECT_TYPE_NAME"
+msgstr "name_en"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "ALUMNI_PROFILE_TEMA"
+msgstr "Subject"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
+msgid "DB_PROJECT_NAME"
+msgstr "name_en"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:42
+msgid "ALUMNI_PROFILE_ACADEMIC"
+msgstr "Supervisor"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
+msgid "ALUMNI_PROFILE_DESCRIPTION"
+msgstr "Anotation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:45
+msgid "DB_PROJECT_DESCRIPTION"
+msgstr "description_en"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:58
+msgid "ALUMNI_PROFILE_KONTAKT_OSTATNE"
+msgstr "Contact - more informations"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
+msgid "ALUMNI_PROFILE_PHONE"
+msgstr "Phone"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
+msgid "ALUMNI_PROFILE_EMAIL"
+msgstr "E-Mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+msgid "ALUMNI_PROFILE_ICQ"
+msgstr "ICQ number"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
+msgid "ALUMNI_PROFILE_OCCUPATION"
+msgstr "Occupation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:71
+msgid "ALUMNI_PROFILE_BACK"
+msgstr "Back"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
+msgid "MENU_IMPORT"
+msgstr "Import"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "MENU_LOGIN"
+msgstr "Logging in"
+
+# C:\Inetpub\htdocs\tp\src\app/views/login/allready_logged.ctp:4
+msgid "LOGIN_YOU_ARE_ALLREADY_LOGGED_IN"
+msgstr "You are allready logged in."
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
+msgid "Login"
+msgstr "Login"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:36
+msgid "Heslo"
+msgstr "Password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/ajax_search_groups.ctp:13
+msgid "MAIL_COMPOSE_SEARCH_GROUPS_NO_RESULTS"
+msgstr "There are no group, where are you participating."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/ajax_search_users.ctp:16
+msgid "MAIL_COMPOSE_SEARCH_NO_RESULTS"
+msgstr "There are no such users ..."
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
+msgid "MENU_MAIL_COMPOSE"
+msgstr "Compose mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
+msgid "MAIL_COMPOSE_ADDRESS"
+msgstr "Address"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+msgid "MAIL_COMPOSE_SEARCH_USERS"
+msgstr "Search for a user"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:11
+msgid "MAIL_COMPOSE_SEARCH_GROUPS"
+msgstr "Choose a group"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
+msgid "MAIL_COMPOSE_ADDRESS_INFO"
+msgstr "Usernames separated by comma."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:15
+msgid "MAIL_COMPOSE_NAME"
+msgstr "Subject"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
+msgid "MAIL_COMPOSE_SUBMIT"
+msgstr "Send mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:45
+msgid "MAIL_COMPOSE_SEARCH_USERS_TITLE"
+msgstr "Search users ..."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:57
+msgid "MAIL_COMPOSE_SEARCH_GROUPS_TITLE"
+msgstr "Select groups ..."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:97
+msgid "MAIL_COMPOSE_SEARCH_USERS_LABEL"
+msgstr "Name of a user"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:98
+msgid "MAIL_COMPOSE_SEARCH_LOADING"
+msgstr "Searching ..."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
+msgid "MAIL_COMPOSE_SEARCH_USER_SUBMIT"
+msgstr "Search users"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:108
+msgid "MAIL_COMPOSE_SEARCH_USER_ADD"
+msgstr "Add selected users"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:116
+msgid "MAIL_COMPOSE_SEARCH_GROUPS_LABEL"
+msgstr "Please choose group / groups."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:119
+msgid "MAIL_COMPOSE_SEARCH_GROUP_ADD"
+msgstr "Add selected groups"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:122
+msgid "MAIL_COMPOSE_SEARCH_GROUPS_INFO"
+msgstr "* Rows marked with bold font are global system groups."
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
+msgid "MENU_MAIL"
+msgstr "Local mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
+msgid "MAIL_BOX_TITLE"
+msgstr "Local mails"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+msgid "MAIL_BOX_FROM"
+msgstr "From"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
+msgid "MAIL_BOX_SUBJECT"
+msgstr "Subject"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "MAIL_BOX_TIME"
+msgstr "Date"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+msgid "MAIL_BOX_NO_MESSAGES"
+msgstr "Your have no messages."
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "MAIL_BOX_LISTING_PREV"
+msgstr "<< Newer"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "MAIL_BOX_LISTING_OF"
+msgstr "of"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "MAIL_BOX_LISTING_NEXT"
+msgstr "Older >>"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:28
+msgid "MAIL_BOX_BOTTOM_SELECTED"
+msgstr "Selected messages"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:30
+msgid "MAIL_BOX_ACTION_SET_READED"
+msgstr "Mark as readed"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:31
+msgid "MAIL_BOX_ACTION_SET_DELETED"
+msgstr "Delete"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
+msgid "MAIL_BOX_BOTTOM_SUBMIT"
+msgstr "Confirm"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:10
+msgid "MAIL_READ_BACK_TO_INDEX"
+msgstr "<< Naspäť na index"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+msgid "MAIL_READ_REPLY"
+msgstr "Reply"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+msgid "MAIL_READ_FROM"
+msgstr "From"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:10
+msgid "MAIL_READ_TO"
+msgstr "To"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
+msgid "MENU_MAIL_SETTINGS"
+msgstr "Local mail settings"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
+msgid "MAIL_SETTINGS_TITLE"
+msgstr "Mail settings"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:4
+msgid "MAIL_SETTINGS_FORWARD_MAIL"
+msgstr "Forwarding messages"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:6
+msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
+msgstr "For forwarding your local mails to your global e-mail, please fill your e-mail address here."
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
+msgid "MAIL_SETTINGS_LISTING"
+msgstr "Count of displayed mail rows"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:10
+msgid "MAIL_SETTINGS_SUBMIT"
+msgstr "Save settings"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+msgid "NEWS_TITLE"
+msgstr "News"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:17
+msgid "Published"
+msgstr "Published by"
+
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+msgid "Edit role"
+msgstr "Edit role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
+msgid "MENU_SPRAVA_PRAV"
+msgstr "Permission Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
+msgid "MENU_UPRAVA_POUZIVATELOV"
+msgstr "Account Management "
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
+msgid "MENU_SPRAVA_POUZIVATELOF"
+msgstr "Account Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
+msgid "MENU_ABOUT"
+msgstr "About system"
+
+# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:5
+msgid "UVOD_INFO"
+msgstr "Please welcome to our information portal. Here you can find informations about our alumni. Currently there are %s alumnis in our database."
+
+# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
+msgid "ABOUT_LAST_NASTENKA_TITLE"
+msgstr "Last 5 records of notice board"
+
+# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:14
+msgid "ABOUT_NASTE_MORE_DETAIL"
+msgstr "more info >>>"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+msgid "DB_NEWS_TITLE_COLUMNT"
+msgstr "title_en"
+
+# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
+msgid "DB_NEWS_BODY_COLUMN"
+msgstr "body_en"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
+msgid "MENU_ABSOLVENTI"
+msgstr "Alumni"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
+msgid "ALUMNI_ZOZNAM_SEARCH_TITLE"
+msgstr "Search by name or study type "
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SEARCH_NAME"
+msgstr "Name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SEARCH_ZAMERANIE"
+msgstr "Specialization"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
+msgid "ALUMNI_SEARCH_SUBMIT"
+msgstr "Search"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SEARCH_INFO_TOTAL"
+msgstr "Currently there are %s users in database"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SEARCH_VYSLEDOK_TITLE"
+msgstr "Search results"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "ALUMNI_LIST_MENO"
+msgstr " Name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:38
+msgid "ALUMNI_LIST_STUDYTYPE"
+msgstr "Study type"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:26
+msgid "ALUMNI_LIST_SPECIALIZATION"
+msgstr " Specialization"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
+msgid "ALUMNI_SEARCH_NO_ROWS"
+msgstr "No users found."
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
+msgid "MENU_KONTAKT"
+msgstr "Contact"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
+msgid "MENU_HOME"
+msgstr "Home"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:27
+msgid "MENU_HELP"
+msgstr "Help"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
+msgid "MENU_SITEMAP"
+msgstr "Sitemap"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+msgid "LOGGED_AS"
+msgstr "Logged as"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+msgid "LOGIN_OUT"
+msgstr "Log out"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
+msgid "MENU_FORUM"
+msgstr "Forum"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
+msgid "MENU_AKCIE"
+msgstr "Events"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:76
+msgid "MENU_NASTENKA"
+msgstr "Notice Board"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "ADMIN_MENU"
+msgstr "Menu"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "USER_PROFILE_MENU"
+msgstr "My Profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
+msgid "MAIL_MENU"
+msgstr "Local Mail"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+msgid "MENU_NOVINKY"
+msgstr "News"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
+msgid "CRUMB_MENU"
+msgstr "Home"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:5
+msgid "WALL_POSTERS_HEADING_ADD_POSTER"
+msgstr "Adding poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:23
+msgid "WALL_POSTERS_POSTER_NADPIS"
+msgstr "Title"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:25
+msgid "WALL_POSTERS_ERR_SET_NADPIS"
+msgstr "Please fill in field title"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
+msgid "WALL_POSTERS_POSTER_CONTENT_MSG"
+msgstr "Text"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:16
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:30
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:100
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:136
+msgid "WALL_POSTERS_ERR_SET_CONTENT_MSG"
+msgstr "Please fill in field text"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:19
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:33
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:103
+msgid "WALL_POSTERS_POSTER_VALID_FROM_DATE"
+msgstr "Valid from (RRRR-MM-DD)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:21
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:35
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:105
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:141
+msgid "WALL_POSTERS_ERR_SET_VALID_FROM"
+msgstr "Please fill in fiel valid from"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:24
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:38
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:108
+msgid "WALL_POSTERS_POSTER_VALID_UNTIL_DATE"
+msgstr "Valid until (RRRR-MM-DD)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:26
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:40
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:110
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:146
+msgid "WALL_POSTERS_ERR_SET_VALID_UNTIL"
+msgstr "Please fill in fiel valid until."
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:29
+msgid "WALL_POSTERS_ADD_SAVE_CHANGES"
+msgstr "Add poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:30
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:47
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:155
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:192
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:67
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:69
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:79
+msgid "WALL_POSTERS_LINK_BACK"
+msgstr "Back"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:4
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:63
+msgid "WALL_POSTERS_HEADING_POSTER_EDITATION"
+msgstr "Poster editation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:68
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:67
+msgid "WALL_POSTERS_POSTER_IS_NOT_SHOWN"
+msgstr "Poster is not displayed"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:12
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:71
+msgid "WALL_POSTERS_REFUSED_TIMESTAMP"
+msgstr "Refusal time"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:13
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:72
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:174
+msgid "WALL_POSTERS_POSTER_REFUSED_REASON"
+msgstr "Refusal reason"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:19
+msgid "WALL_POSTERS_POSTER_REQUEST_DATA"
+msgstr "Request data"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:85
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:84
+msgid "WALL_POSTERS_POSTER_CREATED_BY"
+msgstr "Created by"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:43
+msgid "WALL_POSTERS_EDIT_SAVE_CHANGES"
+msgstr "Save changes"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:45
+msgid "WALL_POSTERS_EDIT_SAVE_CHANGES_AND_REQUEST"
+msgstr "Save changes and request acceptaion"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:54
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:201
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:162
+msgid "WALL_POSTERS_TEXT_REQUESTED_POST_NOT_EXISTS"
+msgstr "Requested poster doesn't exist."
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:90
+msgid "WALL_POSTERS_POSTER_CURRENT_DATA"
+msgstr "Current poster data"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:126
+msgid "WALL_POSTERS_POSTER_NEW_POSTER"
+msgstr "New poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:126
+msgid "WALL_POSTERS_POSTER_POSTER_DATA_CHANGES"
+msgstr "Poster data changes"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:129
+msgid "WALL_POSTERS_POSTER_NEW_NADPIS"
+msgstr "New title"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:134
+msgid "WALL_POSTERS_POSTER_NEW_CONTENT_MSG"
+msgstr "New text"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:139
+msgid "WALL_POSTERS_POSTER_NEW_VALID_FROM_DATE"
+msgstr "New valid from (RRRR-MM-DD)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:144
+msgid "WALL_POSTERS_POSTER_NEW_VALID_UNTIL_DATE"
+msgstr "New valid until (RRRR-MM-DD)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:152
+msgid "WALL_POSTERS_EDIT_ACCEPT_CHANGES"
+msgstr "Accept changes"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:154
+msgid "WALL_POSTERS_EDIT_SAVE"
+msgstr "Save"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:176
+msgid "WALL_POSTERS_ERR_SET_REFUSED_REASON"
+msgstr "Please input refusal text"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:181
+msgid "WALL_POSTERS_EDIT_CHANGE_REFUSED_REASON"
+msgstr "Change refusal reason"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:184
+msgid "WALL_POSTERS_EDIT_REFUSE_CHANGES"
+msgstr "Deny changes"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:186
+msgid "WALL_POSTERS_EDIT_DENY_SHOWING"
+msgstr "Deny displaying"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:190
+msgid "WALL_POSTERS_EDIT_DISABLE_DENIAL"
+msgstr "Disable denial"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:6
+msgid "WALL_POSTERS_HEADING_LIST_ACTUAL_POSTERS"
+msgstr "List of actual posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
+msgid "WALL_POSTERS_LINK_ADD_POSTER"
+msgstr "Add poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:8
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:7
+msgid "WALL_POSTERS_LINK_MANAGE_POTERS_AWAITING_CONFIRMATION"
+msgstr "Show posters awaiting confirmation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:9
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:8
+msgid "WALL_POSTERS_LINK_OLD_POSTERS"
+msgstr "Show old posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
+msgid "WALL_POSTERS_LINK_SEARCH"
+msgstr "Search"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:25
+msgid "WALL_POSTERS_HEADING3_NO_ACTUAL_POSTERS"
+msgstr "There are no actual posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
+msgid "WALL_POSTERS_POSTER_IS_NEW_POSTER"
+msgstr "New poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:44
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:43
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:43
+msgid "WALL_POSTERS_POSTER_IS_CONFIRMATION_REQUEST"
+msgstr "Request for confirmation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:55
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:54
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:54
+msgid "WALL_POSTERS_POSTER_IS_REFUSED"
+msgstr "Confirmation is refused"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:59
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:5
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:58
+msgid "WALL_POSTERS_HEADING_POSTERS_AWAITING_CONFIRMATION"
+msgstr "List of posters awaiting confirmation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
+msgid "WALL_POSTERS_POSTER_REFUSED_DATE"
+msgstr "Refusal date"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
+msgid "WALL_POSTERS_POSTER_VALID_FROM"
+msgstr "Valid from"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
+msgid "WALL_POSTERS_POSTER_VALID_UNTIL"
+msgstr "Valid until"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:81
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:74
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:80
+msgid "WALL_POSTERS_LINK_SHOW_POSTER_DETAIL"
+msgstr "Show details"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:63
+msgid "WALL_POSTERS_LINK_EDIT"
+msgstr "Edit"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
+msgid "WALL_POSTERS_LINK_DELETE"
+msgstr "Delete"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
+msgid "WALL_POSTERS_REMOVE_THIS_POSTER"
+msgstr "Delete this poster?"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:75
+msgid "WALL_POSTERS_TEXT_REQUIRED_POSTER_NOT_EXISTS"
+msgstr "Requested poster doesn't exist"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:75
+msgid "WALL_POSTERS_TEXT_OR_CANNOT_BE_DISPLAYED"
+msgstr "or can't be shown to You."
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:45
+msgid "WALL_POSTERS_POSTER_IS_DELETE_REQUEST"
+msgstr "Owner deleted this poster"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:63
+msgid "WALL_POSTERS_LINK_ADMINISTRATE"
+msgstr "Administruj"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
+msgid "WALL_POSTERS_REMOVE_THIS_POSTER?"
+msgstr "Delete this poster?"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:7
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:8
+msgid "WALL_POSTERS_LINK_ACTUAL_POSTERS"
+msgstr "Show actual posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:24
+msgid "WALL_POSTERS_HEADING3_NO_POSTERS_AWAITING_CONFIRMATION"
+msgstr "There are no poters awaiting confirmation"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:5
+msgid "WALL_POSTERS_HEADING_LIST_OLD_POSTERS"
+msgstr "List of old posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:23
+msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
+msgstr "There are no old posters"
+

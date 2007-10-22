@@ -1,0 +1,197 @@
+<?php
+// 	if(($clearance_show) && (!$clearance_admin)) {
+ 	if(!$clearance_admin) {
+      //echo "zobrazenie cez user (nie admin)";
+      $viewold = ((isset($_SESSION["options"]["wallPoster_viewold"])) && ($_SESSION["options"]["wallPoster_viewold"]))?"viewold/":"";
+
+		if(!empty($post)) {
+            $operacia = ''; $zamietnutie = '';
+				if(($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'a')) {
+					$operacia = __('WALL_POSTERS_POSTER_IS_NEW_POSTER', true);
+					$title = htmlentities($post['WallPoster']['new_title']);
+					$valid_from = $post['WallPoster']['new_valid_from'];
+	     			$valid_until = $post['WallPoster']['new_valid_until'];
+	     			$text = htmlentities($post['WallPoster']['new_text']);
+				}
+				else{
+				   if(($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'e'))
+						$operacia = __("WALL_POSTERS_POSTER_IS_CONFIRMATION_REQUEST", true);
+// 						elseif (($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'd'))
+// 							$operacia = __("WALL_POSTERS_POSTER_IS_DELETE_REQUEST", true);
+
+					$title = htmlentities($post['WallPoster']['title']);
+					$valid_from = $post['WallPoster']['valid_from'];
+	     			$valid_until = $post['WallPoster']['valid_until'];
+	     			$text = htmlentities($post['WallPoster']['text']);
+				}
+				
+				if($post['WallPoster']['is_refused'] == 't')
+				   $zamietnutie = __("WALL_POSTERS_POSTER_IS_REFUSED", true);
+			?>
+			<div class="wallposter">
+				<h1>
+					<?php echo htmlentities($title);?>
+				</h1><br />
+				<div><?php if($operacia != '') echo '<span style="color: green;" >'.$operacia.'</span>'; ?></div>
+				<div><?php if($zamietnutie != '') echo '<span style="color: green;" >'.$zamietnutie.'</span>'; ?></div>
+				<div><?php if(($zamietnutie != '') || ($operacia != '')) echo '<span style="color: green;" >'.__("WALL_POSTERS_POSTER_IS_NOT_SHOWN", true).'</span>'; ?></div>
+				<?php if($zamietnutie != ''){
+				   $temp_date = explode(' ', $post['WallPoster']['refused']); $refused_timestamp = $temp_date[0];
+					echo '<div class="wallpostersmalldate_" style="color: green;" >'.__("WALL_POSTERS_POSTER_REFUSED_DATE", true).': '.htmlentities($refused_timestamp).'</div>';
+				} ?>
+				<?php if(($zamietnutie != '') || ($operacia != '')) echo '<br />'; ?>
+				<div class="wallpostersmalldate"><?php echo __("WALL_POSTERS_POSTER_VALID_FROM", true).': '.htmlentities($valid_from);?></div>
+				<div class="wallpostersmalldate"><?php echo __("WALL_POSTERS_POSTER_VALID_UNTIL", true).': '.htmlentities($valid_until);?></div>
+				<br />
+				<div><span style="text-decoration: underline;"><?php __("WALL_POSTERS_POSTER_CONTENT_MSG"); ?>:</span><br />
+					<?php echo htmlentities($text); ?>
+		  		</div><br />
+				<div><?php
+					echo __("WALL_POSTERS_POSTER_CREATED_BY", true).': ';
+				   if($post['User']['username'] == 'anonymous')
+				      __("Anonymn");
+					else {
+						if(!empty($post['User']['title'])) echo $post['User']['title']." ";
+						echo $post['User']['first_name']." ";
+						if(!empty($post['User']['middle_name'])) echo $post['User']['middle_name']." ";
+						echo $post['User']['last_name'];
+					}
+				?></div>
+
+		<?php
+			if(($logged_user_id > 0) && ($post['WallPoster']['user_id'] == $logged_user_id) && ($clearance_write)){
+				echo "<br />";
+				echo $html->link(__("WALL_POSTERS_LINK_EDIT", true), '/wall_posters/edit/'.$post['WallPoster']['id']);
+				echo " | ";
+				echo $html->link(__("WALL_POSTERS_LINK_DELETE", true),"/wall_posters/delete/{$post['WallPoster']['id']}",null,__("WALL_POSTERS_REMOVE_THIS_POSTER", true));
+				echo " | ";
+				echo $html->link(__("WALL_POSTERS_LINK_BACK", true), "/wall_posters/$viewold");
+			}
+			else echo "<br />".$html->link(__("WALL_POSTERS_LINK_BACK", true), "/wall_posters/$viewold");
+		?>
+			</div>
+		<?php } else { ?>
+			<div class="wallposter">
+				<h2>
+					<?php __("WALL_POSTERS_TEXT_REQUIRED_POSTER_NOT_EXISTS"); echo "<br />"; __("WALL_POSTERS_TEXT_OR_CANNOT_BE_DISPLAYED"); ?>
+				</h2>
+			</div>
+			<div>
+			   <?php echo "<br /><br />".$html->link(__("WALL_POSTERS_LINK_BACK", true), "/wall_posters/$viewold"); ?>
+			</div>
+		<?php }
+	}
+
+   elseif($clearance_admin) {
+      //echo "zobrazenie cez admin";
+		if((isset($_SESSION["options"]["wallPoster_view_admin"])) && ($_SESSION["options"]["wallPoster_view_admin"]))
+			// kvoli admin view alebo admin view_old
+			$viewold = ((isset($_SESSION["options"]["wallPoster_viewold_admin"])) && ($_SESSION["options"]["wallPoster_viewold_admin"]))?"viewoldlist_admin/":"viewlist_admin/";
+		else
+			// kvoli tomu, ci sa maju operacie vratit do zoznamu alebo do zoznamu administracie
+         $viewold = ((isset($_SESSION["options"]["wallPoster_viewold"])) && ($_SESSION["options"]["wallPoster_viewold"]))?"viewold/":"";
+
+		if(!empty($post)) {
+         $operacia = ''; $zamietnutie = '';
+			if(($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'a')) {
+				$operacia = __('WALL_POSTERS_POSTER_IS_NEW_POSTER', true);
+				$title = htmlentities($post['WallPoster']['new_title']);
+				$valid_from = $post['WallPoster']['new_valid_from'];
+     			$valid_until = $post['WallPoster']['new_valid_until'];
+     			$text = htmlentities($post['WallPoster']['new_text']);
+			}
+			else{
+				$odkaz_bol_zmazany_vlastnikom = 0;
+
+			   if(($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'e'))
+					$operacia = __("WALL_POSTERS_POSTER_IS_CONFIRMATION_REQUEST", true);
+				elseif (($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] == 'd')){
+					$operacia = __("WALL_POSTERS_POSTER_IS_DELETE_REQUEST", true);
+					$odkaz_bol_zmazany_vlastnikom = 1;
+				}
+
+				$title = htmlentities($post['WallPoster']['title']);
+				$valid_from = $post['WallPoster']['valid_from'];
+     			$valid_until = $post['WallPoster']['valid_until'];
+     			$text = htmlentities($post['WallPoster']['text']);
+
+				if(
+					($odkaz_bol_zmazany_vlastnikom) &&
+					(empty($title)) &&
+					(empty($valid_from)) &&
+					(empty($valid_until)) &&
+					(empty($text))
+				){
+				   // cize ak este nema ziadne udaje (nebol potvrdeny ani raz), nacitaju sa "new_" udaje
+				   // takyto oznam uz uzivatel nevidi, lebo si ho zmazal ...
+				   // vidi ho len admin ako cakajuci prispevok na potvrdenie zmeny
+				   // admin ho moze uz len zmazat (teda oznacit za zmazany, prispevky sa nevymazavaju)
+					$title = htmlentities($post['WallPoster']['new_title']);
+					$valid_from = $post['WallPoster']['new_valid_from'];
+	     			$valid_until = $post['WallPoster']['new_valid_until'];
+	     			$text = htmlentities($post['WallPoster']['new_text']);
+				}
+			}
+
+			if($post['WallPoster']['is_refused'] == 't')
+		      $zamietnutie = __("WALL_POSTERS_POSTER_IS_REFUSED", true);
+		?>
+		<div class="wallposter">
+			<h1>
+				<?php echo htmlentities($title); ?>
+			</h1><br />
+			<div><?php if($operacia != '') echo '<span style="color: green;" >'.$operacia.'</span>'; ?></div>
+			<div><?php if($zamietnutie != '') echo '<span style="color: green;" >'.$zamietnutie.'</span>'; ?></div>
+			<div><?php if(($zamietnutie != '') || ($operacia != '')) echo '<span style="color: green;" >'.__("WALL_POSTERS_POSTER_IS_NOT_SHOWN", true).'</span>'; ?></div>
+			<?php if($zamietnutie != ''){
+			   $temp_date = explode(' ', $post['WallPoster']['refused']); $refused_timestamp = $temp_date[0];
+				echo '<div class="wallpostersmalldate_" style="color: green;" >'.__("WALL_POSTERS_POSTER_REFUSED_DATE", true).': '.htmlentities($refused_timestamp).'</div>';
+			} ?>
+			<?php if(($zamietnutie != '') || ($operacia != '')) echo '<br />'; ?>
+			<div class="wallpostersmalldate"><?php echo __("WALL_POSTERS_POSTER_VALID_FROM", true).': '.htmlentities($valid_from);?></div>
+			<div class="wallpostersmalldate"><?php echo __("WALL_POSTERS_POSTER_VALID_UNTIL", true).': '.htmlentities($valid_until);?></div>
+			<br />
+			<div><span style="text-decoration: underline;"><?php __("WALL_POSTERS_POSTER_CONTENT_MSG"); ?>:</span><br />
+				<?php echo htmlentities($text); ?>
+  			</div><br />
+			<div><?php
+				echo __("WALL_POSTERS_POSTER_CREATED_BY", true).': ';
+			   if($post['User']['username'] == 'anonymous')
+			      __("Anonymn");
+				else {
+					if(!empty($post['User']['title'])) echo $post['User']['title']." ";
+					echo $post['User']['first_name']." ";
+					if(!empty($post['User']['middle_name'])) echo $post['User']['middle_name']." ";
+					echo $post['User']['last_name'];
+				}
+			?></div>
+
+		<?php
+		 	echo "<br />";
+			if(($post['WallPoster']['is_changed'] == 'f') || (($post['WallPoster']['is_changed'] == 't') && ($post['WallPoster']['operation'] != 'd')))
+			{
+				echo $html->link(__("WALL_POSTERS_LINK_ADMINISTRATE", true), "/wall_posters/edit/{$post['WallPoster']['id']}");
+				echo " | ";
+			}
+			echo $html->link(__('WALL_POSTERS_LINK_DELETE', true),"/wall_posters/delete/{$post['WallPoster']['id']}",null,__("WALL_POSTERS_REMOVE_THIS_POSTER?", true));
+			echo " | ";
+			echo $html->link(__('WALL_POSTERS_LINK_BACK', true), "/wall_posters/$viewold");
+		?>
+		</div>
+	<?php } else { ?>
+		<div class="wallposter">
+			<h2>
+				<?php __("WALL_POSTERS_TEXT_REQUESTED_POST_NOT_EXISTS");?>
+			</h2>
+		</div>
+		<div>
+		   <?php echo $html->link('WALL_POSTERS_LINK_BACK', "/wall_posters/$viewold"); ?>
+		</div>
+	<?php }
+	}
+	else {
+		/* Clearance show */
+		echo "<h1>".__("ERROR_ACCESS_DENIED", true)."</h1>";
+	}
+?>
+

@@ -1,0 +1,57 @@
+<?php $my->addCrumb(__("MENU_ABSOLVENTI", true)); ?>
+<h1>Alumnus</h1>
+<br />
+<form id="alumni_search_form" action="<?=$html->url('/alumni/index')?>" method="post">
+
+	<h2><?php __('ALUMNI_ZOZNAM_SEARCH_TITLE')?>:</h2>
+	<br />
+	<label><?php __('ALUMNI_SEARCH_NAME')?>:</label>
+	<input type="text" name="name" value="<?php echo @$_SESSION['search_name'];?>" style="width: 300px" />
+	<br />
+	<br />
+	
+	<label><?php __('ALUMNI_SEARCH_ZAMERANIE')?>:</label>
+	<select name="specialization_id">
+		<option value="" />
+		<?php foreach ($study_types as $study_type) { ?>
+			<optgroup label="<?php echo $study_type['StudyType']['name']?>">
+				<?php foreach ($study_type['Specialization'] as $s) { ?>
+					<option <?php if (@$_SESSION['search_specialization_id'] == $s['id']) echo 'selected'?> value="<?php echo $s['id']?>"><?php echo $s['name']?></option>
+				<?php } ?>
+			</optgroup>
+		<?php } ?>
+	</select><br /><br />
+	<input type="submit" value="<?php __('ALUMNI_SEARCH_SUBMIT')?>" />
+</form>
+<p><small>* <?php echo sprintf(__('ALUMNI_SEARCH_INFO_TOTAL', true), $total_graduate_count)?></small></p>
+
+<?php if (isset($graduates)) {?>
+
+	<h2 style="border: 0; text-align: right">
+		<span style="float: left"><?php __('ALUMNI_SEARCH_VYSLEDOK_TITLE')?></span>
+		<small>(<?echo $paginator->counter(array('format'=>'%count%')); ?>)</small>
+	</h2>
+	<?php if (count($graduates) > 0) { ?>
+	<table style="clear: both;" id="alumni_result">
+	<thead>
+		<th><?php __('ALUMNI_LIST_MENO')?></th>
+		<th><?php __('ALUMNI_LIST_STUDYTYPE')?></th>
+		<th><?php __('ALUMNI_LIST_SPECIALIZATION')?></th>
+		
+	</thead>
+	<tbody>
+		<?php foreach ($graduates as $g) { ?>
+		<tr>
+			<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
+			<td><?php echo @$g['StudyType']['name']?></td>
+			<td><?php echo @$g['Specialization']['name']?></td>
+		</tr>
+		<?php } ?>
+	</tbody>
+	</table>
+	<?php echo $paginator->numbers();?>
+	
+	<?php } else { ?>
+		<p><?php __('ALUMNI_SEARCH_NO_ROWS')?>.</p>
+	<?php } ?>
+<?php } ?>

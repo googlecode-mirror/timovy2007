@@ -1,0 +1,25 @@
+<?php $my->addCrumb(__("MENU_ABOUT", true)); ?>
+<h1>Úvod</h1>		
+<p class="just">
+
+	<?php $x = __('UVOD_INFO', true);  echo sprintf($x, $pocet_absolventov);?>
+</p>
+
+<div style="border-bottom: padding-bottom: 5px;">
+<h3><?php __('ABOUT_LAST_NASTENKA_TITLE')?>:</h3>
+<?php foreach ($odkazy as $o) { ?>
+<p style="margin: 0; padding: 0; padding-top: 5px">
+	<a style="float: right;" href="<?php echo $html->url('/wall_posters/view/'.$o['WallPoster']['id'])?>"><?php __('ABOUT_NASTE_MORE_DETAIL')?></a>
+	<span style="float: left; width: 70px;"><?php echo $myTime->nice_date($o['WallPoster']['created'])?></span> <?php echo htmlspecialchars($o['WallPoster']['title']);?><br />
+</p>
+<?php } ?>
+</div>
+
+<br />
+<?php foreach ($news as $n) { ?>
+<h1><?php echo $n['News'][__('DB_NEWS_TITLE_COLUMNT', true)]?></h1>
+<div>
+	<?php echo $n['News'][__('DB_NEWS_BODY_COLUMN', true)]?>
+</div>
+<p style="border-top: 1px dotted silver; text-align: right;"><small><?php __('Published')?>: <?php echo $n['User']['title'].' '.$n['User']['first_name'].' '.$n['User']['middle_name'].' '.$n['User']['last_name'];?>, <?php echo $myTime->nice($n['News']['created'])?></small></p>
+<?php } ?>

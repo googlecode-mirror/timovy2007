@@ -1,0 +1,5 @@
+<h1>Database connection error !</h1>
+
+<p>
+	There was a problem connecting to database host: <?=$host?> with login name: <?=$user?>.
+</p>

@@ -1,0 +1,25 @@
+﻿<h1>Správy</h1>
+<h2>Zoznam prijatých správ: </h2>
+<p>
+	<?php echo $html->link('Nová správa', '/messages/new_message')?>
+</p>
+<table>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Od koho</th>
+		<th>Názov správy</th>
+		<th>Dátum</th>
+	</tr>
+</thead>
+<tbody>
+<?php foreach ($messages as $m) { ?>
+	<tr>
+		<td><?php echo $m['UserMessage']['id']?></td>
+		<td><?php echo $m['Message']['from']?></td>
+		<td><?php echo $html->link($m['Message']['subject'], '/messages/message/'.$m['UserMessage']['id'])?></td>
+		<td><?php echo $m['Message']['date']?></td>
+	</tr>
+<?php } ?>
+</tbody>
+</table>

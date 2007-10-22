@@ -1,0 +1,9 @@
+﻿<h1><?php echo $message['Message']['subject']?></h1>
+<p><small>Prijatá dňa: <?php echo $message['Message']['date']?></small></p>
+<p>
+	<?php echo $message['Message']['body']?>
+</p>
+
+<p>
+	<?php echo $html->link('Naspäť', '/messages')?>
+</p>
