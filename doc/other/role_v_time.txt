@@ -1,0 +1,7 @@
+JG  - vedúci tímu, tímový manažment, zade¾ovanie úloh
+PC  - plánovanie, dokumentarista, zade¾ovanie a kontrola úloh
+JHO - manažment kvality, programátor, tester
+PF  - manažment rizík, grafik, programátor
+JHE - dokumentarista
+LB  - správa web stránky, programátor
+
