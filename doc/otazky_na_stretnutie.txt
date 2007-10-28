@@ -24,4 +24,9 @@ PF
 11 Dizajn stranky ma byt kompatibilny s dizajnom fakultnej stranky?
 12 Ake mate skusenosti vy alebo vasi zahranicny kolegovia so systemom alumni? Ci sa na inych univerzitach system osvedcil alebo nie?
 
-13 Nema fakulta problem s tym, ze je to cele vyvijane/postavene na openSource...?
+13 Nema fakulta problem s tym, ze je to cele vyvijane/postavene na openSource...
+
+JG
+14 Ma (bude mat) fakulta cloveka, ktory by potvrzdzoval ("cenzuroval") oznamy na nastenke, atd.
+15. Studenti tam budu isto, ale co profesori? Je ziaduce zverejnit aj ich a infomacie o nich?
+16. Suhlasite aby system obsahoval moznost "vyradit zo systemu"?
