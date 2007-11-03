@@ -1,0 +1,55 @@
+Prvy pokus, alebo ako to vidim ja:
+
+Povodne menu
+~~~~~~~~~~~~
+
+O SystÈme
+Absolventi
+N·stenka
+Kontakt
+
+Admin Menu
+	Spr·va pouûÌvateæov
+	Spr·va pr·v
+	Importovanie
+
+MÙj Profil
+	Upraviù mÙj profil
+	Upraviù moj obr·zok
+	Zmeniù heslo
+
+Lok·lne spr·vy
+	Lok·lne spr·vy (0) 
+	Vytvoriù nov˙ spr·vu
+	Nastavenie spr·v
+
+--------
+System je velmi pouzivatelsky prijemny, jednoducho sa s nim pracuje a menu je prehladne. V tomto smere by som vela nemenil.
+Otazkou ostava aku ulohu ma zohravat 'Nastenka'. Skor by som uvital sekciu 'Aktuality' kde bude spravy pridavat vyhradne fakulta.
+
+ToDo:
+- Specifikovat ake udaje treba evidovat o absolventovi
+- Pridat sekciu Aktuality a mozno zrusit nastenku 
+- Zamerat sa na import dat
+- V kode by som extremne zmeny a prevraty nerobil, skor by som sa zameral na doplnenie chybajucej funkcionality pripadne update funckionality
+- Zvazit moznost rozosielania formularov/dotaznikov zo strany fakulty
+  (definovany zaciatok, koniec trvania dotazniku, pricom vysledok je statistika) 
+- Chyba modul statistika
+
+Nasu hlavnu ulohu by som videl v dotiahnuti systemu pricom hlavne body su:
+	* Import dat
+	* Testovanie systemu, odladenie a korekcia chyb	
+	* Pouzivatelska (uz existuje) a instalacna prirucka (layout by mal byt podobny s layoutom systemu)	
+	* Statistiky pre fakultu  
+
+Bugs:
+(v mojej instalacii)
+Nefunguje zmena velkosti pisma
+System vyhadzuje chyby a warning (mozno chyba mojho nastenia)
+Problem s kodovanim testovacej databazy, lokalne znaky su zobrazovane nekorektne
+Nefunguje spravne prepnutie na anglicky jazyk (v zavislosti od vybrateneho menu je stranka anglicka alebo slovenska)
+
+Instalacia nebola moc dobre zdokumentovana 
+
+
+
