@@ -1,7 +1,7 @@
 na diskusiu:
 - dohodnú sa na layoute dokumentu
 - dohodnú sa na obsahu dokumentu
-- urèi pouívate¾ov systému (role) a èasti systému)
+- urèi pouívate¾ov systému (role) a èasti systému
 
 úlohy na rozdelenie:
 - doplni ÚVOD
@@ -11,4 +11,3 @@ na diskusiu:
 - vypracova NÁVRH ARCHITEKTÚRY - vypracova peknı model a doplni struènı popis
 - vypracova NÁVRH ŠTRUKTÚRY ÚDAJOV - logickı model pre kadú èas systému
 - vypracova NÁVRH POUÍVATE¼SKÉHO ROZHRANIA - návrh obrazovky preberáme z minulého roku, take bude staèi spravi návrh štruktúry obrazoviek
-
