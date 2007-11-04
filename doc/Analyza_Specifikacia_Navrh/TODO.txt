@@ -1,0 +1,14 @@
+na diskusiu:
+- dohodnú sa na layoute dokumentu
+- dohodnú sa na obsahu dokumentu
+- urèi pouívate¾ov systému (role) a èasti systému)
+
+úlohy na rozdelenie:
+- doplni ÚVOD
+- vypracova OPIS PROBLÉMU - rozobra ciele, na základe tohto rozboru urèi èasti systému, struène popísa funkcionalitu kadej èasti
+- vypracova POIADAVKY NA INFORMAÈNİ SYSTÉM - pre kadú èas systému vypracova model prípadov pouitia a popísa kadı prípad pouitia buï slovne (pr. dokumentácia tímu 15), alebo aktivity diagramom a scenárom pouitia (pr. dokumentácia tímu 18); ïalej vypracova nefunkcionálne poiadavky
+- prepracova ANALİZU SÚÈASNÉHO STAVU - prezrie a zjednoti popis všetkıch modulov, doplni zhrnutie, ktoré bude popisova, èo ideme v existujúcich moduloch rozširova
+- vypracova NÁVRH ARCHITEKTÚRY - vypracova peknı model a doplni struènı popis
+- vypracova NÁVRH ŠTRUKTÚRY ÚDAJOV - logickı model pre kadú èas systému
+- vypracova NÁVRH POUÍVATE¼SKÉHO ROZHRANIA - návrh obrazovky preberáme z minulého roku, take bude staèi spravi návrh štruktúry obrazoviek
+
