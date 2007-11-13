@@ -1,0 +1,4 @@
+Tieto casti uz nedoplnajte z dovodu, ze su obsiahnute v suhrnnom dokumente analyzy. Ak idete robit obsahove zmeny, spravte ich priamo v celkovej dokumentacii, aby sme nemuseli zistovat zmeny a nahadzovat znova ciastkove dokumenty do celku.
+
+Vdaka za pochopenie
+JHe
