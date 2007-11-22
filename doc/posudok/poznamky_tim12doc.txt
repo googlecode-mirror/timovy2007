@@ -1,0 +1,35 @@
+Strucne postrehy, do hlbky som velmi nesiel
+
+*Formalna stranka:
+
+strana 8.	- nekonzistentne oznacovanie URL odkazov/cudzich slov 
+			- niekde su url bold+italic, inde zas len italic
+
+strana 48.	- uvodzovkovanie nazvov tabuliek - text je "preuvodzovkovany" - znizena citatelnost, skor by som uvital courier
+
+strana 37.,38.,40.,42.,44.,  - v stavovych diagramoch sa nachadza viac ako jeden koncovy stav, podla mojho nazoru by mal byt v danych pripadoch koncovy stav len jeden. v pripade ze su dva alebo viac koncovych stavov, treba ich okomentovat (priamo v diagrame) v com su rozdielne. 
+
+*Specifikacia:
+
+Scenare pouzitia tabuliek su sice prehladne a vhodne aj pre akceptacne testy, no na tomto mieste by som radsej uvital suvisle bloky textu. Slovny popis jednotlivych modulov je lepsie citatelny ako velke tabulky ktore zaberaju vela miesta. Scenare (tabulky) by som skor zaradil do technickej dokumetacie. Na tomto mieste skor zneprehladnuju, natahuju dokument.
+
+Vsetky vkladane obrazky su bitmapove. Aby to nestacilo tak na ukladanie diagramov do bitmapy pouzili stratovy (pravdepodobne jpg) format, co je uz absolutne nevhodne pre dany typ obrazkov. Cele to znizuje tlacovy vystup.
+
+*Subjektivne minusy:
+	- stvor-urovnove menu
+	- str. 49 chybne odsadenie odstavca za nadpisom
+	- "stvorbodkove" odrazky pouzivane na prilis vela miestach 
+	- katalog pouzivatelskych poziadaviek by som daval bez odraziek 
+	- navrh mohol byt aj rozsiahlejsie - trosku sa povenovat aj technologiam, nie len log. modelu
+	
+Tip: ked uz ukladat diagramy ako bitmapu, tak prosim pouzit PNG.
+
+
+*Pozitivne:
+ - pekna analyza, cast Trendove studie sa mi pacila
+ - analyza sucastneho stavu tiez ok
+
+------------
+POZN: zabezpecit kompatibilitu na urovni databazy by bolo pre obidva tymi neunosne vzhladom na existujuce modely.  
+ 
+ 
