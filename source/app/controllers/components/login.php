@@ -127,6 +127,37 @@ class LoginComponent extends Object
  		}
 	}
 	
+	/**
+	 * Enter description here...
+	 *
+	 * @param string $username
+	 * @param string $password
+	 * @return true | false
+	 */
+	public function ldap_login($username, $password)
+	{
+		// nepripusti prazdne
+		if ($username == '' || $password == '') {
+			return false;
+		}
+		
+		// pripoj sa na server
+		$ldapconn = ldap_connect('ldap.stuba.sk');
+		if (!$ldapconn) {
+			return false; 
+		}
+		
+		// over udaje
+		ldap_set_option($ldapconn, LDAP_OPT_PROTOCOL_VERSION, 3);
+	    ldap_set_option($ldapconn, LDAP_OPT_REFERRALS, 0); 
+		$ldapbind = @ldap_bind($ldapconn, "uid=".$username.",ou=People,dc=stuba,dc=sk", $password);
+		if (!$ldapbind) {
+			return false;
+		}
+		
+		// overovanie prebehlo uspesne
+		return true;
+	}
 	
 	/**
 	 * Prihlasi pouzivatela do systemu na zaklade mena a hesla
@@ -140,22 +171,23 @@ class LoginComponent extends Object
 	 */
 	public function login($username, $password) 
 	{
-
 		$User = new User();
-		$someone = $User->findByUsername($username);
 		
-		// uzivatel neexistuje
+		// zisti ci existuje
+		$someone = $User->findByUsername($username);
 		if (empty($someone['User']['username'])) {
 			sleep(1);
 			return false;
 		}
-
-		// zle heslo
-		if ($someone['User']['password'] != md5($password)) {
-			sleep(1);
-			return false;
+		
+		// ak ma ldapaname, skus ho prihlasit cez ldap najskor
+		if (!$this->ldap_login($someone['User']['ldapname'], $password)) {
+			if ($someone['User']['password'] != md5($password)) {
+				sleep(1);
+				return false;
+			}
 		}
-
+		
 		// ziskaj prava
 		$permissions = array('permissions' => $this->clearances($someone['User']['username']));
 		
@@ -187,7 +219,7 @@ class LoginComponent extends Object
 		);
 		$UsersOnline->delete(session_id());
 		$UsersOnline->save($UsersOnlineData);
-			
+
 		return true;
 	}
 	

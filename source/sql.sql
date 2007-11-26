@@ -27,6 +27,7 @@ CREATE TABLE users
   id serial NOT NULL,
   personal_number varchar(32),
   username character varying(255) NOT NULL,
+  ldapname character varying(255) NULL,
   "password" character varying(32) NOT NULL,
   first_name character varying(255) NOT NULL,
   middle_name character varying(255),
