@@ -69,6 +69,7 @@
 							<ul class="menu">
 								<li class="menuitem"><a href="<?=$html->url('/about')?>" class="menuitema"><?php echo __("MENU_ABOUT");?></a></li>
 								<li class="menuitem"><a href="<?=$html->url('/alumni')?>" class="menuitema"><?php echo __("MENU_ABSOLVENTI")?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/posts')?>" class="menuitema"><?php echo __("MENU_AKTUALITY")?></a></li>
 <!--								<li class="menuitem"><a href="<?=$html->url('/forum')?>" class="menuitema"><?php echo __("MENU_FORUM")?></a></li>-->
 <!--								<li class="menuitem"><a href="<?=$html->url('/events')?>" class="menuitema"><?php echo __("MENU_AKCIE")?></a></li>-->
 								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>" class="menuitema"><?php echo __("MENU_NASTENKA")?></a></li>
@@ -84,6 +85,7 @@
 							<div class="boxbottom">
 								<div class="boxtitle"><?php echo __("ADMIN_MENU")?></div>
 								<ul class="menu">
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/posts/admin')?>" class="menuitema"><?php echo __("MENU_SPRAVA_AKTUALIT")?></a></li>
 									<?php if ($Login->check('MANAGE_USERS')) { ?>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/users/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_POUZIVATELOF")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/roles/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PRAV")?></a></li>

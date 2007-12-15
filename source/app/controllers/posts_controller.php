@@ -17,13 +17,20 @@ class PostsController extends AppController
 
     }
 
+    function admin()
+    {
+		$this->set('posts', $this->Post->findAll());
+    }
+
     function add()
     {
         if (!empty($this->data))
         {
             if ($this->Post->save($this->data))
             {
-                $this->flash('Your post has been saved.','/posts');
+                //$this->flash('Your post has been saved.','/posts');
+				$this->My->setInfo("Aktualita bola úspešne uložená!");
+				$this->redirect('/posts/admin');
             }
         }
     }
@@ -31,7 +38,9 @@ class PostsController extends AppController
 	function delete($id)
 	{
 	    $this->Post->del($id);
-	    $this->flash('The post with id: '.$id.' has been deleted.', '/posts');
+	    //$this->flash('The post with id: '.$id.' has been deleted.', '/posts');
+		$this->My->setInfo("Aktualita číslo ".$id." bola vymazaná!");
+		$this->redirect('/posts/admin');
 	}
 
 	function edit($id = null)
@@ -45,7 +54,9 @@ class PostsController extends AppController
 		{
 		    if ($this->Post->save($this->data['Post']))
 		    {
-		        $this->flash('Your post has been updated.','/posts');
+		  		//$this->flash('Your post has been updated.','/posts');
+				$this->My->setInfo("Aktualita bola úspešne uložená!");
+				$this->redirect('/posts/admin');
 		    }
 		}
 	}
