@@ -11,6 +11,7 @@
 	<?php print $javascript->link('prototype') ?>
 	<?php print $javascript->link('scriptaculous.js?load=effects') ?>
 	<?php print $javascript->link('window') ?>
+	<?php print $javascript->link('system') ?>
 </head>
 <body>
 	
@@ -162,8 +163,8 @@
 						</div>
 						<div id="sizer">
 							Veľkosť písma:
-								<a href="#"><img src="<?=$html->url('/css/images/normal.gif')?>" alt="Normálne písmo" /></a>
-								<a href="#"><img src="<?=$html->url('/css/images/large.gif')?>" alt="Zväčšené písmo" /></a>
+								<a onclick="changeFontSize(1);return false;" title="Increase size" href="#"><img src="<?=$html->url('/css/images/large.gif')?>" alt="Zväčšiť písmo" /></a>
+								<a onclick="changeFontSize(-1);return false;" title="Decrease size" href="#"><img src="<?=$html->url('/css/images/normal.gif')?>" alt="Zmenšiť písmo" /></a>
 						</div>
 						<div class="clear">&nbsp;</div>
 					</div>
