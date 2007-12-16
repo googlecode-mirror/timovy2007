@@ -2,12 +2,12 @@
 CREATE TABLE stats (
     id serial NOT NULL,
     title VARCHAR(50),
-    body TEXT
+    body TEXT,
     created timestamp without time zone NOT NULL
 );
 
 /* Then insert some posts for testing: */
-INSERT INTO stats (title,body,)
+INSERT INTO stats (title,body,created)
     VALUES ('Stats', 'statistics', NOW());
-INSERT INTO posts (title,body,created)
+INSERT INTO stats (title,body,created)
     VALUES ('Stats - second', 'results', NOW());
