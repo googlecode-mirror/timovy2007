@@ -4,7 +4,7 @@
 
 	<?php $x = __('UVOD_INFO', true);  echo sprintf($x, $pocet_absolventov);?>
 </p>
-
+<!--
 <div style="border-bottom: padding-bottom: 5px;">
 <h3><?php __('ABOUT_LAST_NASTENKA_TITLE')?>:</h3>
 <?php foreach ($odkazy as $o) { ?>
@@ -14,6 +14,7 @@
 </p>
 <?php } ?>
 </div>
+-->
 
 <br />
 <?php foreach ($news as $n) { ?>

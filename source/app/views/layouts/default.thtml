@@ -72,7 +72,7 @@
 								<li class="menuitem"><a href="<?=$html->url('/posts')?>" class="menuitema"><?php echo __("MENU_AKTUALITY")?></a></li>
 <!--								<li class="menuitem"><a href="<?=$html->url('/forum')?>" class="menuitema"><?php echo __("MENU_FORUM")?></a></li>-->
 <!--								<li class="menuitem"><a href="<?=$html->url('/events')?>" class="menuitema"><?php echo __("MENU_AKCIE")?></a></li>-->
-								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>" class="menuitema"><?php echo __("MENU_NASTENKA")?></a></li>
+<!--								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>" class="menuitema"><?php echo __("MENU_NASTENKA")?></a></li>-->
 								<li class="menuitem"><a href="<?=$html->url('/contact')?>" class="menuitema"><?php echo __("MENU_KONTAKT")?></a></li>
 							</ul>
 						</div>	
@@ -108,6 +108,8 @@
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>" class="menuitema"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
+                                       									
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/statistic/index')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
 								</ul>
 							</div>	
 						</div>	
