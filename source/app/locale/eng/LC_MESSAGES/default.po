@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-05-15 10:52+0100\n"
-"Last-Translator: Frantisek Durajka <franto@franto.sk>\n"
+"PO-Revision-Date: 2007-12-16 20:42+0100\n"
+"Last-Translator: Bc. Jozef Hergott <joe.hergott@gmail.com>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -982,4 +982,16 @@ msgstr "List of old posters"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:23
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "There are no old posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
+msgid "MENU_AKTUALITY"
+msgstr "Actualities"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
+msgid "MENU_SPRAVA_AKTUALIT"
+msgstr "Actualities Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:112
+msgid "MENU_STATISTIC_INDEX"
+msgstr "Statistics Index"
 
