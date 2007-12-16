@@ -193,7 +193,7 @@
 		<div class="containter">
 			<div id="bottomin">
 				<div id="footertext">
-					© Copyright <a href="http://www.fiit.stuba.sk">FIIT</a> <a href="http://www.stuba.sk">STU</a> v Bratislave :: Created by ALUMiNIc Team 2006
+					© Copyright <a href="http://www.fiit.stuba.sk">FIIT</a> <a href="http://www.stuba.sk">STU</a> v Bratislave :: Created by ALUMiNIc Team 2006 :: Completed by ALUMINIUM Team 2007
 						<?php echo $cakeDebug?>
 				</div>
 			</div>	
