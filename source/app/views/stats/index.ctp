@@ -1,4 +1,4 @@
-﻿<h1>Štatistika</h1>
+<h1>Zoznam štatistík</h1>
 
 <h2>Štatistika prístupov</h2>
 <small>Generated: 16.12.2007</small>
