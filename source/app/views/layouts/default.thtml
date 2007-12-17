@@ -93,6 +93,7 @@
 									<?php if ($Login->check('IMPORT')) { ?>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/import/')?>" class="menuitema"><?php echo __("MENU_IMPORT")?></a></li>
 									<?php } ?>
+																	<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
 								</ul>
 							</div>	
 						</div>	
@@ -108,7 +109,7 @@
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>" class="menuitema"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
-								<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>                                       									
+                                       									
 
 								</ul>
 							</div>	
