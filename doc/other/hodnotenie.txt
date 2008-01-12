@@ -1,0 +1,17 @@
+Hodnotenie analýzy:
+--------------------------------
+¼uboš Bartoš - 14
+Peter Cích - 18
+Pavol Fábik - 16
+Ján Garaj - 17
+Jozef Hergott - 18
+Jozef Hopko - 17
+
+Hodnotenie prototypu:
+--------------------------------
+¼uboš Bartoš - 0
+Peter Cích - 17
+Pavol Fábik - 19
+Ján Garaj - 20
+Jozef Hergott - 22
+Jozef Hopko - 22
