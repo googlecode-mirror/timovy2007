@@ -1,1 +1,15 @@
-Informacny system pre komunikaciu s absolventmi predstavuje jeden z moznych sposobov, akym moze fakulta (univerzita) komunikovat so svojimi absolventmi aj po ukonceni ich studia.  Okrem komunikacie fakulta-absolvent si informacny system kladie za ciel aj umoznenie komunikacie absolventov navzajom, prezentaciu absolventov sirokej verejnosti a v neposlednom rade aj moznost ziskavania od absolventov aktualnych informacii z praxe, vyuzitelnych pri zlepsovani procesov a zvysovani urovne samotnej fakulty. Vsetky tieto ciele zahrna prezentovany informacny system s dodrzanim vseobecnych poziadaviek ako bezpecnost, pouzitelnost, pouzivatelska pritulnost, ...
+https://osa.dcs.elf.stuba.sk/iitsrc/cgi-bin/iitsrcabstract 
+
+Paper Title   : Information system Alumni
+Author(s)     : Peter Cích, Pavol Fábik, Ján Garaj, Jozef Hergott, Jozef Hopko
+E-Mail        : fiit@civ.sk
+Paper category: Master (Ing.) project
+Password      : ?
+Paper Topics  : information systems
+
+Abstract:
+Supervisor: doc. Ing. Jana Minárová, PhD.
+Information system for communication with graduates represents only one of many ways how can university stay in touch with its graduates. In addition to communication between university and graduate the information system allows communication between graduates, their personal presentation for public. System also collects actual information about working experiences of graduates, which can be used to improve faculty credits and teaching processes. Presented information system includes all this points with focus on security, usability and comfortable user interface.
+
+SK:
+Informacny system pre komunikaciu s absolventmi predstavuje jeden z moznych sposobov, akym moze fakulta (univerzita) komunikovat so svojimi absolventmi aj po ukonceni ich studia.  Okrem komunikacie fakulta-absolvent si informacny system kladie za ciel aj umoznenie komunikacie absolventov navzajom, prezentaciu absolventov sirokej verejnosti a v neposlednom rade aj moznost ziskavania od absolventov aktualnych informacii z praxe, vyuzitelnych pri zlepsovani procesov a zvysovani urovne samotnej fakulty. Vsetky tieto ciele zahrna prezentovany informacny system s dodrzanim vseobecnych poziadaviek ako bezpecnost, pouzitelnost, pouzivatelska pritulnost.
