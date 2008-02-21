@@ -1,0 +1,6 @@
+- introduction (motivation, why do we do this?)
+- (business) goals
+  - graduates view (graduates expectations and requirements)
+  - faculty view (faculty expectations and requirements)
+- solution
+- summary
