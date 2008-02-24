@@ -4,3 +4,48 @@
   - faculty view (faculty expectations and requirements)
 - solution
 - summary
+
+
+*Introduction
+
+Tento dokument poskytuje prehlad o projekte ALUMNI....
+
+Naša FIIT má záujem vhodnou formou prezentovať verejnosti svojich absolventov. Zároveň by fakulta rada udržiavala s absolventmi neformálny odborný kontakt pomocou webu, a tiež by rada poskytla svojim absolventom rámec na neformálnu odbornú a spoločenskú komunikáciu medzi nimi navzájom. Zámerom projektu je vytvoriť informačný systém, ktorý bude plniť uvedené úlohy.
+
+- dalsia motivacia, vyhody pre fakultu
+
+Absolvent FIIT STU je osoba, ktorá minimálne tri roky, prípadne viac, navštevovala túto fakultu. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
+
+*Bussines Goals
+
+Ciele systému:
+Prezentovať základné informácie o absolventoch verejnosti.
+Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
+Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi.
+Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom. Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.
+Umožniť absolventom vzájomnú komunikáciu.
+Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
+
+obrazok. vztah fakulta alumnus, naznacenie komunikacie
+
+- graduates view (graduates expectations and requirements)
+- faculty view (faculty expectations and requirements)
+
+
+*System ALUMNI | Solution
+
+- najdolezitesie poskytovane funkcie, zaujime problemy ktore sme museli vyriesit, co sme zmenili, co pripravilo problemy atd.
+Autentifikacia
+Komunikacia
+Prezentacia
+
+Architecture
+
+- trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
+
+Summary
+
+pokec o tom co sme tu popisali a preco je ALUMNI prinosny pre fakultu aj studenta 
+
+
+
