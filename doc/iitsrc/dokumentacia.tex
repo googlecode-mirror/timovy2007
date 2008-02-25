@@ -1,0 +1,111 @@
+% $Id: demo.tex,v 1.4 2007-02-21 15:30:08 kosik Exp $
+
+\documentclass{iitsrc}[2006/14/02]
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+
+% Begin --ADDED PACKAGES-- %
+\usepackage{listings} % source code listing 
+\usepackage{url} 
+% End --ADDED PACKAGES-- %
+
+% Please do not remove the following command:
+\editpages{1}{8}
+
+\title{Device Drivers in Minix3}
+\author{Peter}{C\'ich}
+\author{Pavol}{F\'abik}
+\author{J\'an}{Garaj}
+\author{Jozef}{Hergott}
+\author{Jozef}{Hopko}
+\supervision{doc. Ing. Jana Min\'arov\'a, PhD.}
+            {\fiit.}
+% Within the `affiliation' parameter you can use the `\fiit' macro to
+% generate the full name of our faculty.
+\mail{jozef.hopko@gmail.com}
+
+%
+\newcommand\fig[4]{%
+	\begin{figure}
+	\begin{center}
+	\includegraphics[scale=#1]{#2}
+	~\\%
+	\caption{#4}
+	\label{#3}
+	\end{center}
+	\end{figure}
+
+\begin{document}
+
+\begin{abstract}
+Information system for communication with graduates represents only one of many ways how can university stay in touch with its graduates. In addition to communication between university and graduate the information system allows communication between graduates, their personal presentation for public. System also collects actual information about working experiences of graduates, which can be used to improve faculty credits and teaching processes. Presented information system includes all this points with focus on security, usability and comfortable user interface.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introducing}
+
+Tento dokument poskytuje prehlad o projekte ALUMNI....
+
+Naša FIIT má záujem vhodnou formou prezentovať verejnosti svojich absolventov. Zároveň by fakulta rada udržiavala s absolventmi neformálny odborný kontakt pomocou webu, a tiež by rada poskytla svojim absolventom rámec na neformálnu odbornú a spoločenskú komunikáciu medzi nimi navzájom. Zámerom projektu je vytvoriť informačný systém, ktorý bude plniť uvedené úlohy.
+
+- dalsia motivacia, vyhody pre fakultu
+
+Absolvent FIIT STU je osoba, ktorá minimálne tri roky, prípadne viac, navštevovala túto fakultu. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
+
+\section{Bussines goals}
+Ciele systému:
+Prezentovať základné informácie o absolventoch verejnosti.
+Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
+Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi.
+Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom. Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.
+Umožniť absolventom vzájomnú komunikáciu.
+Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
+
+obrazok. vztah fakulta alumnus, naznacenie komunikacie
+
+- graduates view (graduates expectations and requirements)
+- faculty view (faculty expectations and requirements)
+
+\section{System ALUMNI}
+
+- najdolezitesie poskytovane funkcie, zaujime problemy ktore sme museli vyriesit, co sme zmenili, co pripravilo problemy atd.
+Autentifikacia
+Komunikacia
+Prezentacia
+
+\section{Architecture}
+
+- trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
+
+% ukazkovy text ako citovat a odkazovat sa na literaturu
+As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
+It is composed from multiple processes. Each of these processes belongs to one of the four layers, see Figure~\ref{fig:minixstruct}. Processes in the first layer run in the privileged mode. They have unrestricted access to everything. This layer contains only three processes: {\em kernel task}, {\em system task} and the {\em clock task}.
+
+% vlozenie obrazku
+\fig{1}{images/fourlayers}{fig:minixstruct}{Internal structure of Minix3.}
+%
+\subsection{Podsekcia}
+
+      
+\section{Summary}
+
+pokec o tom co sme tu popisali a preco je ALUMNI prinosny pre fakultu aj studenta 
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\acknowledgement{This work was partially supported by the Institute of Informatics and Software Engineering, Faculty of Informatics and Information Technologies, Slovak University of Technology in Bratislava.}
+
+\nocite{pcispec}
+\nocite{ac97spec}
+\nocite{ich4spec}
+\nocite{crytalspec}
+\nocite{osdesign}
+\nocite{wdmdriver}
+\nocite{alsadriver}
+\nocite{pciwiki}
+
+\bibliography{literature_article}
+\bibliographystyle{iitsrc}
+
+\end{document}
+
