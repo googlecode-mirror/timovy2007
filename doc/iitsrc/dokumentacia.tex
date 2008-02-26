@@ -81,8 +81,20 @@ Komunikacia
 Prezentacia
 
 \section{Architecture}
-
-- trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
+%  TODO trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
+Cely navrh architektury vychadza z poziadavky co najvacsej dostupnosti pre verejnost a aj absolventov. Tuto poziadavku relativne dobre splna architektura klient-server postavena na webovych technologiach. Cela interakcia so systemom prebieha vo webovom prehliadaci, ktory je beznou sucastou operacnych systemov a nijak nezavisi na aplikacnej casti na serveri. Cela biznis logika a funcionalita je implementovana priamo na serveri, pricom je zavisla od konkretnej implementacie. 
+Logicky je system na strane servera rozdeleny do viacerych modulov, ktore spolocne poskytuju kompletnu funkcnost systemu. Vsetky moduly su vytvorene nas PHP frameworkom CakePHP, ktory je navrhnuty na rapid develepment. Tento  framework nam ulahcuje pracu s celym systemom, nakolko riesi standardne problemy vo vyvoji webovych aplikacii ako napr. autentifikaciu, pristup k databaze,  prezentaciu a pod.
+CakePHP plne podporuje MVC (Model-View-Controller) model. Tento model 
+predstavuje rozdelenie systemu do troch funkcnych casti. Model, View a Controller. Vztahy medzi jednotlivymi castami su zobrazene na obrazku c. 1.
+% TODO cislovanie obrazka
+% TODO vlozit obrazok MVC-CakePHP
+% TODO ako zvyraznit subnadpis?
+Model
+Prestavuje cast, ktora sa stara o ziskavanie a ukladanie informacii. Mysli sa tym samotna databaza, pripadne obsluzne skripty, ktore vykonavaju akcie nad touto databazou. Udaje ziskane z casti Model su nasledne poskytovane casti View.
+View
+Tato cast systemu sa stara o prezentaciu dat pouzivatelovi. Ide o pouzivatelske rozhranie (user interface). V pripade webovych systemov predstavuje View konkretny HTML vystup, ktory sa pouzivatelovi zobrazi v internetovom prehliadaci ako internetova stranka. Cast View predstavuje prezentacnu cast systemu, ktora moze obsahovat aj prezentacnu logiku.
+Controller
+Controller je cast, ktora sa stara o spravu akcii vykonanych pouzivatelom alebo systemom. Tieto akcie su nasledne prenesene ako zmeny v casti View alebo v casti Model. Pod zmenou v casti View sa mysli napriklad zmena stranky, pod zmenou v casti Model napriklad ulozenie novych informacii do databazy. Controller moze obsahovat aj takzvanu biznis logiku. 
 
 % ukazkovy text ako citovat a odkazovat sa na literaturu
 As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
