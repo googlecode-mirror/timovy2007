@@ -12,7 +12,7 @@
 % Please do not remove the following command:
 \editpages{1}{8}
 
-\title{Device Drivers in Minix3}
+\title{Information system Alumni}
 \author{Peter}{C\'ich}
 \author{Pavol}{F\'abik}
 \author{J\'an}{Garaj}
@@ -22,18 +22,19 @@
             {\fiit.}
 % Within the `affiliation' parameter you can use the `\fiit' macro to
 % generate the full name of our faculty.
-\mail{jozef.hopko@gmail.com}
+\mail{fiit@civ.sk}
 
 %
 \newcommand\fig[4]{%
-	\begin{figure}
+	\begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=#1]{#2}
+	\includegraphics[#1]{#2}
 	~\\%
 	\caption{#4}
 	\label{#3}
 	\end{center}
 	\end{figure}
+}
 
 \begin{document}
 
@@ -43,38 +44,48 @@ Information system for communication with graduates represents only one of many 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Introducing}
+\section{Introduction}
 
-Communication between graduates and university can be an advantage for boht sides. In this article we would shortly introduce web based software system called ALUMNI developed on Team project. 
+Communication between graduates and university can be an advantage for both sides. In this article we would shortly introduce web based software system called ALUMNI developed on Team project. Our faculty has ambitions to present graduates to public society. The faculty also wants to stay in touch with graduates using web application, providing a channel for profesional and social communication between graduates each other and faculty. The focus of ALUMNI project is to design and implement a system that would accomplish this needs. 
 
-Our faculty has ambitions to present graduates to public society. The faculty also wants to stay in touch with graduates using web application, providing a channel for profesional and social communication between graduates each other and faculty. 
-
-The focus of ALUMNI project is to design and implement a system that would accomplish this needs. 
-
-Graduate FIIT STU is person, which has been studying for minimal three years or eventually more at this faculty. During this period the graduaed tied up a lot of social contact with classmates as well as with teachers. These contacts are typically cut off after graduating or the only rarely continue.
-
-Generally speaking, after the student leaves the university, he lost most of the contacts. This trend of breaking all contacts is not wanted by the faculty. The faculty sees the graduates as potential bussines partners with possibility to cooperated after study. Graduates are very good source of information and critics that could help inproove the quality of faculty. The best way to gain required information are feedback forms.
+Graduate FIIT STU is person, which has been studying for minimal three years or eventually more at this faculty. During this period the graduaed tied up a lot of social contact with classmates as well as with teachers. These contacts are typically cut off after graduating or the only rarely continue. Generally speaking, after the student leaves the university, he lost most of the contacts. This trend of breaking all contacts is not wanted by the faculty. The faculty sees the graduates as potential bussines partners with possibility to cooperated after study. Graduates are very good source of information and critics that could help inproove the quality of faculty. The best way to gain required information are feedback forms.
 
 %* dalsia motivacia, vyhody pre fakultu
 
 %Absolvent FIIT STU je osoba, ktorá minimálne tri roky, prípadne viac, navštevovala túto fakultu. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
 
 \section{Bussines goals}
-Ciele systému:
-Prezentovať základné informácie o absolventoch verejnosti.
-Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
-Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi.
-Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom. Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.
-Umožniť absolventom vzájomnú komunikáciu.
-Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
 
-obrazok. vztah fakulta alumnus, naznacenie komunikacie
+{\em Present basic information about graduates to the public.}
+It means providing the creation and maintainance  of the graduates database a presenting basic information about individuals to the public on the web without access restrictions. We suppose brief information about a graduate, whed he studied and graduated, his specialization, topic of his bachelor and diploma project, possibly the abstracts. The presentation could also involve graphical expresion of employment and skills of the graduaetes from different views, if we could get nessesery informations.
 
-- graduates view (graduates expectations and requirements)
-- faculty view (faculty expectations and requirements)
+{\em Provide gathering of actual informations about graduates in practice to the faculty.} 
+It means to get actual informations about contact, job, career development, application/proffesional focus, areas of a graduate activity and personal interests, etc. This informations are provided by graduates. This informations have personal character, it means getting them require interest in contact on the both sides and this data should be under protection whith well-organized authorized access.
+???It is important and useful task for facutlty, so it should be considered.???
+
+{\em Enable communication to graduates.}
+It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal information exchange in community of colleagues, coevals (???), experts from practice, wich are provided to the community. Except for providing contact the system can inform graduates about professional activities of the community, provide a place for them - a forum, eventualy some other activities.
+
+%Ciele systému:
+%Prezentovať základné informácie o absolventoch verejnosti.
+%Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
+%Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi.
+%Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom. Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.
+%Umožniť absolventom vzájomnú komunikáciu.
+%Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
+
+%obrazok. vztah fakulta alumnus, naznacenie komunikacie
+
+%- graduates view (graduates expectations and requirements)
+%- faculty view (faculty expectations and requirements)
 
 \section{System ALUMNI}
 
+Alumni is web based application that can be accessed using common web browser. The basic user interface is shown on Figure~\ref{fig:scr1}. 
+
+\fig{width=12cm, bb = 0 0 831 683}{images/screen1.png}{fig:scr1}{Basic user interface.}
+
+The most important functions are:
 - najdolezitesie poskytovane funkcie, zaujime problemy ktore sme museli vyriesit, co sme zmenili, co pripravilo problemy atd.
 Autentifikacia
 Komunikacia
@@ -82,26 +93,38 @@ Prezentacia
 
 \section{Architecture}
 %  TODO trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
-Cely navrh architektury vychadza z poziadavky co najvacsej dostupnosti pre verejnost a aj absolventov. Tuto poziadavku relativne dobre splna architektura klient-server postavena na webovych technologiach. Cela interakcia so systemom prebieha vo webovom prehliadaci, ktory je beznou sucastou operacnych systemov a nijak nezavisi na aplikacnej casti na serveri. Cela biznis logika a funcionalita je implementovana priamo na serveri, pricom je zavisla od konkretnej implementacie. 
-Logicky je system na strane servera rozdeleny do viacerych modulov, ktore spolocne poskytuju kompletnu funkcnost systemu. Vsetky moduly su vytvorene nas PHP frameworkom CakePHP, ktory je navrhnuty na rapid develepment. Tento  framework nam ulahcuje pracu s celym systemom, nakolko riesi standardne problemy vo vyvoji webovych aplikacii ako napr. autentifikaciu, pristup k databaze,  prezentaciu a pod.
-CakePHP plne podporuje MVC (Model-View-Controller) model. Tento model 
-predstavuje rozdelenie systemu do troch funkcnych casti. Model, View a Controller. Vztahy medzi jednotlivymi castami su zobrazene na obrazku c. 1.
+
+%Cely navrh architektury vychadza z poziadavky co najvacsej dostupnosti pre verejnost a aj absolventov. Tuto poziadavku relativne dobre splna architektura klient-server postavena na webovych technologiach. Cela interakcia so systemom prebieha vo webovom prehliadaci, ktory je beznou sucastou operacnych systemov a nijak nezavisi na aplikacnej casti na serveri. Cela biznis logika a funcionalita je implementovana priamo na serveri, pricom je zavisla od konkretnej implementacie. 
+%Logicky je system na strane servera rozdeleny do viacerych modulov, ktore spolocne poskytuju kompletnu funkcnost systemu. Vsetky moduly su vytvorene nas PHP frameworkom CakePHP, ktory je navrhnuty na rapid develepment. Tento  framework nam ulahcuje pracu s celym systemom, nakolko riesi standardne problemy vo vyvoji webovych aplikacii ako napr. autentifikaciu, pristup k databaze,  prezentaciu a pod.
+%CakePHP plne podporuje MVC (Model-View-Controller) model. Tento model predstavuje rozdelenie systemu do troch funkcnych casti. Model, View a Controller. Vztahy medzi jednotlivymi castami su zobrazene na obrazku c. 1.
 % TODO cislovanie obrazka
 % TODO vlozit obrazok MVC-CakePHP
 % TODO ako zvyraznit subnadpis?
-Model
-Prestavuje cast, ktora sa stara o ziskavanie a ukladanie informacii. Mysli sa tym samotna databaza, pripadne obsluzne skripty, ktore vykonavaju akcie nad touto databazou. Udaje ziskane z casti Model su nasledne poskytovane casti View.
-View
-Tato cast systemu sa stara o prezentaciu dat pouzivatelovi. Ide o pouzivatelske rozhranie (user interface). V pripade webovych systemov predstavuje View konkretny HTML vystup, ktory sa pouzivatelovi zobrazi v internetovom prehliadaci ako internetova stranka. Cast View predstavuje prezentacnu cast systemu, ktora moze obsahovat aj prezentacnu logiku.
-Controller
-Controller je cast, ktora sa stara o spravu akcii vykonanych pouzivatelom alebo systemom. Tieto akcie su nasledne prenesene ako zmeny v casti View alebo v casti Model. Pod zmenou v casti View sa mysli napriklad zmena stranky, pod zmenou v casti Model napriklad ulozenie novych informacii do databazy. Controller moze obsahovat aj takzvanu biznis logiku. 
+%Model
+%Prestavuje cast, ktora sa stara o ziskavanie a ukladanie informacii. Mysli sa tym samotna databaza, pripadne obsluzne skripty, ktore vykonavaju akcie nad touto databazou. Udaje ziskane z casti Model su nasledne poskytovane casti View.
+%View
+%Tato cast systemu sa stara o prezentaciu dat pouzivatelovi. Ide o pouzivatelske rozhranie (user interface). V pripade webovych systemov predstavuje View konkretny HTML vystup, ktory sa pouzivatelovi zobrazi v internetovom prehliadaci ako internetova stranka. Cast View predstavuje prezentacnu cast systemu, ktora moze obsahovat aj prezentacnu logiku.
+%Controller
+%Controller je cast, ktora sa stara o spravu akcii vykonanych pouzivatelom alebo systemom. Tieto akcie su nasledne prenesene ako zmeny v casti View alebo v casti Model. Pod zmenou v casti View sa mysli napriklad zmena stranky, pod zmenou v casti Model napriklad ulozenie novych informacii do databazy. Controller moze obsahovat aj takzvanu biznis logiku. 
 
+The best accessibility for graduates and public viewers is the main requirement for design architecture. Architecture type klient-server based on web technologies fulfills this requirement. Whole interaction between system runs on internet browser, which is common part of operating system and doesnt depend of application part of server. Business logic and functionality is implemented right on server and it depends on actual implementation.
+
+Logic system on the side of server is devided into serval modules, which provide whole funcionality of system. All modules are created on PHP  framework CakePHP, which is rapid development kit. This framework makes our job with system much more easier, because it has already included solutions for basic problems in web aplication development as autentification, database access, presentation and more other.
+
+CakePHP fully supurts MVC (Model-View-Controller) model. This model devided system into three functional parts Model, View, Controller. Relations between this parts can you see in image number XX.
+
+Model
+Represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which executes actions on this database. Data gather in the part Model are provided to the part View.
+
+View
+This part...
+ 
 % ukazkovy text ako citovat a odkazovat sa na literaturu
 As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
 It is composed from multiple processes. Each of these processes belongs to one of the four layers, see Figure~\ref{fig:minixstruct}. Processes in the first layer run in the privileged mode. They have unrestricted access to everything. This layer contains only three processes: {\em kernel task}, {\em system task} and the {\em clock task}.
 
 % vlozenie obrazku
-\fig{1}{images/fourlayers}{fig:minixstruct}{Internal structure of Minix3.}
+%\fig{1}{images/fourlayers}{fig:minixstruct}{Internal structure of Minix3.}
 %
 \subsection{Podsekcia}
 
