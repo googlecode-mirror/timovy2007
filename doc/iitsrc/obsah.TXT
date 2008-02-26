@@ -1,4 +1,4 @@
-- introduction (motivation, why do we do this?)
+﻿- introduction (motivation, why do we do this?)
 - (business) goals
   - graduates view (graduates expectations and requirements)
   - faculty view (faculty expectations and requirements)
@@ -17,23 +17,38 @@ Naša FIIT má záujem vhodnou formou prezentovať verejnosti svojich absolvento
 
 - dalsia motivacia, vyhody pre fakultu
 
-Absolvent FIIT STU je osoba, ktorá minimálne tri roky, prípadne viac, navštevovala túto fakultu. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
+Každý absolvent FIIT STU navštevoval túto fakultu minimálne tri roky, prípadne viac. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
 
 *Bussines Goals
-
-Ciele systému:
-Prezentovať základné informácie o absolventoch verejnosti.
-Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
-Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi.
-Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom. Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.
-Umožniť absolventom vzájomnú komunikáciu.
-Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
-
-obrazok. vztah fakulta alumnus, naznacenie komunikacie
-
 - graduates view (graduates expectations and requirements)
 - faculty view (faculty expectations and requirements)
 
+Ciele systému:
+PREZENTOVAŤ ZÁKLADNÉ INFORMÁCIE O ABSOLVENTOCH VEREJNOSTI.
+Znamená to zabezpečiť vytvorenie a udržiavanie databázy absolventov a vhodne prezentovať základné informácie o jednotlivcovi verejnosti na webe bez obmedzenia prístupu. Predpokladáme stručnú informáciu o absolventovi, kedy študoval, absolvoval, jeho špecializácia, o téme jeho bakalárskej, prípadne diplomovej práce, prípadne abstrakt práce. Tu by bolo vítané rozšíriť prezentáciu o grafické vyjadrenie zamestnanosti a odbornosti absolventov z rôznych hľadísk, pokiaľ dokážeme od nich získať k tomu potrebné údaje.
+
+SPROSTREDKOVAŤ FAKULTE ZÍSKAVANIE AKTUÁLNYCH INFORMÁCIÍ O ABSOLVENTOCH V PRAXI.
+Ide o aktualizáciu kontaktu, zamestnania, profesijného vývoja, odborného zamerania, oblasti, v ktorej je aktívny, sfér odborného záujmu a pod., tie, ktoré poskytne sám absolvent. Táto oblasť je veľmi citlivá, vyžaduje záujem o kontakt z oboch strán a je podmienená prísnou ochranou údajov s vhodne zorganizovaným autorizovaným prístupom.ň
+
+???Je to dôležitá, pre fakultu užitočná úloha, treba ju uvažovať.???
+
+UMOŽNIŤ ABSOLVENTOM VZÁJOMNÚ KOMUNIKÁCIU.
+Má to byť jednoduchá a bezpečná komunikácia v informatickej komunite chránená starostlivo navrhnutými prístupovými právami pre skupiny autorizovaných účastníkov. Má slúžiť na neformálnu výmenu informácií v komunite kolegov, rovesníkov, odborníkov z praxe, ktoré komunite poskytne sám účastník. Okrem sprostredkovania kontaktu môže byť úlohou tejto časti systému informovať záujemcov o odborných aktivitách komunity, poskytnúť pre ne priestor – fórum, prípadne ďalšie vhodné činnosti.
+
+-----------------------------------------------------------------------------------------
+ENG:
+Goals of the system:
+TO PRESENT BASIC INFORMATION ABOUT GRADUATES TO THE PUBLIC.
+It means providing the creation and maintainance  of the graduates database a presenting basic information about individuals to the public on the web without access restrictions. We suppose brief information about a graduate, whed he studied and graduated, his specialization, topic of his bachelor and diploma project, possibly the abstracts. The presentation could also involve graphical expresion of employment and skills of the graduaetes from different views, if we could get nessesery informations.
+
+TO PROVIDE GATHERING OF ACTUAL INFORMATIONS ABOUT GRADUATES IN PRACTICE TO THE FACULTY.
+It means to get actual informations about contact, job, career development, application/proffesional focus, areas of a graduate activity and personal interests, etc. This informations are provided by graduates. This informations have personal character, it means getting them require interest in contact on the both sides and this data should be under protection whith well-organized authorized access.
+???It is important and useful task for facutlty, so it should be considered.???
+
+TO ENABLE COMMUNICATION TO GRADUATES
+It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal information exchange in community of colleagues, coevals (???), experts from practice, wich are provided to the community. Except for providing contact the system can inform graduates about proffessional activities of the community, provide a place for them - a forum, eventualy some other activities (???).
+-----------------------------------------------------------------------------------------
+obrazok. vztah fakulta alumnus, naznacenie komunikacie
 
 *System ALUMNI | Solution
 
