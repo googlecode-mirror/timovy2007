@@ -107,17 +107,21 @@ Prezentacia
 %Controller
 %Controller je cast, ktora sa stara o spravu akcii vykonanych pouzivatelom alebo systemom. Tieto akcie su nasledne prenesene ako zmeny v casti View alebo v casti Model. Pod zmenou v casti View sa mysli napriklad zmena stranky, pod zmenou v casti Model napriklad ulozenie novych informacii do databazy. Controller moze obsahovat aj takzvanu biznis logiku. 
 
-The best accessibility for graduates and public viewers is the main requirement for design architecture. Architecture type klient-server based on web technologies fulfills this requirement. Whole interaction between system runs on internet browser, which is common part of operating system and doesnt depend of application part of server. Business logic and functionality is implemented right on server and it depends on actual implementation.
+The best accessibility for graduates and public viewers is the main requirement for design architecture. Architecture type client-server based on web technologies fulfills this requirement. Whole interaction between system runs on internet browser, which is common part of operating system and doesn’t depend of application part of server. Business logic and functionality is implemented right on server and it depends on actual implementation.
 
-Logic system on the side of server is devided into serval modules, which provide whole funcionality of system. All modules are created on PHP  framework CakePHP, which is rapid development kit. This framework makes our job with system much more easier, because it has already included solutions for basic problems in web aplication development as autentification, database access, presentation and more other.
+Logic system on the side of server is divided into several modules, which provide whole functionality of system. All modules are created on PHP framework CakePHP,  which is rapid development kit. This framework makes our job with system much more easier, because it has already included solutions for basic problems in web application development as authentication, database access, presentation and more other.
 
-CakePHP fully supurts MVC (Model-View-Controller) model. This model devided system into three functional parts Model, View, Controller. Relations between this parts can you see in image number XX.
+CakePHP fully supports MVC (Model-View-Controller) model. This model divided system into three functional parts Model, View, Controller. Relations between these parts are shown in image number XX.
 
 Model
 Represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which executes actions on this database. Data gather in the part Model are provided to the part View.
 
 View
-This part...
+This part takes care of data presentation to user. This mean user interface.  View part in web systems represents HTML output, which will display in internet browser as an internet web page. View part represents presentation part of the system, which can include also presentation logic.
+
+Controller
+Part controller takes care of administration executed actions by user of by system. These actions are transmitted as changes in View part or in Model part. Under change in View part we mean for example page changes. Under change in Model part it’s for example saving new information to the database. Controller can include also business logic.
+
  
 % ukazkovy text ako citovat a odkazovat sa na literaturu
 As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
