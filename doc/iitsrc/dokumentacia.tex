@@ -48,11 +48,11 @@ Information system for communication with graduates represents only one of many 
 
 Communication between graduates and university can be an advantage for both sides. In this article we would shortly introduce web based software system called ALUMNI developed on Team project. Our faculty has ambitions to present graduates to public society. The faculty also wants to stay in touch with graduates using web application, providing a channel for profesional and social communication between graduates each other and faculty. The focus of ALUMNI project is to design and implement a system that would accomplish this needs. 
 
-Graduate FIIT STU is person, which has been studying for minimal three years or eventually more at this faculty. During this period the graduaed tied up a lot of social contact with classmates as well as with teachers. These contacts are typically cut off after graduating or the only rarely continue. Generally speaking, after the student leaves the university, he lost most of the contacts. This trend of breaking all contacts is not wanted by the faculty. The faculty sees the graduates as potential bussines partners with possibility to cooperated after study. Graduates are very good source of information and critics that could help inproove the quality of faculty. The best way to gain required information are feedback forms.
+Every graduate of FIIT STU studied at this faculty for at least three years or eventually more. During this period graduates tied up a lot of social contact with classmates as well as with teachers. These contacts are typically cut off after graduating or the only rarely continue. Generally speaking, after the student leaves the university, he lost most of the contacts. This trend of breaking all contacts is not wanted by the faculty. The faculty sees the graduates as potential bussines partners with possibility to cooperated after study. Graduates are very good source of information and critics that could help inproove the quality of faculty. The best way to gain required information are feedback forms.
 
 %* dalsia motivacia, vyhody pre fakultu
 
-%Absolvent FIIT STU je osoba, ktorá minimálne tri roky, prípadne viac, navštevovala túto fakultu. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
+%Kazdy absolvent FIIT STU navstevoval tuto fakultu minimalne tri roky, pripadne viac. Počas tohto obdobia nadviazal absolvent množstvo sociálnych kontaktov so svojimi spolužiakmi a tiež so vyučujúcimi. Po ukončení sa tieto kontakty zvyčajne pretrhnú a len málokedy pokračujú ďalej. Predovšetkým tie s vyučujúcimi, všeobecne povedané absolvent stratí akékoľvek kontakty s fakultou. Táto skutočnosť však nie je v záujme fakulty a s veľkou pravdepodobnosťou k tomuto zisteniu dospeje aj absolvent vo svojom ďalšom živote. Tento trend, pretrhnutie kontaktov, je považovaný na fakulte za nežiadúci. Fakulta totiž vidí vo svojich absolventoch ľudí, s ktorými chce spolupracovať aj po ukončení štúdia, chce od nich získavať podnety a pripomienky, ktoré by premietla do svojho budúceho smerovania a do svojho zlepšovania. Ako najprijateľnejšiu formu kooperácie absolventov so fakultou sa z pohľadu fakulty javí spätná väzba a získavanie priamych informácii a názorov od absolventov. K naplneniu tejto vízie zo strany fakulty by mal prispieť aj navrhovaný systém na prezentáciu absolventov ALUMNI,
 
 \section{Bussines goals}
 
@@ -61,10 +61,9 @@ It means providing the creation and maintainance  of the graduates database a pr
 
 {\em Provide gathering of actual informations about graduates in practice to the faculty.} 
 It means to get actual informations about contact, job, career development, application/proffesional focus, areas of a graduate activity and personal interests, etc. This informations are provided by graduates. This informations have personal character, it means getting them require interest in contact on the both sides and this data should be under protection whith well-organized authorized access.
-???It is important and useful task for facutlty, so it should be considered.???
 
 {\em Enable communication to graduates.}
-It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal information exchange in community of colleagues, coevals (???), experts from practice, wich are provided to the community. Except for providing contact the system can inform graduates about professional activities of the community, provide a place for them - a forum, eventualy some other activities.
+It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal information exchange in community of colleagues, coevals, experts from practice, wich are provided to the community. Except for providing contact the system can inform graduates about professional activities of the community, provide a place for them - a forum, eventualy some other activities.
 
 %Ciele systému:
 %Prezentovať základné informácie o absolventoch verejnosti.
@@ -86,10 +85,10 @@ Alumni is web based application that can be accessed using common web browser. T
 \fig{width=12cm, bb = 0 0 831 683}{images/screen1.png}{fig:scr1}{Basic user interface.}
 
 The most important functions are:
-- najdolezitesie poskytovane funkcie, zaujime problemy ktore sme museli vyriesit, co sme zmenili, co pripravilo problemy atd.
-Autentifikacia
-Komunikacia
-Prezentacia
+%- najdolezitesie poskytovane funkcie, zaujime problemy ktore sme museli vyriesit, co sme zmenili, co pripravilo problemy atd.
+Authentification
+Comunication
+Presentation
 
 \section{Architecture}
 
@@ -105,7 +104,20 @@ CakePHP fully supports MVC (Model-View-Controller) model \cite{cakephp}. This mo
 
 {\em View.} This part takes care of data presentation to user. This mean user interface.  View part in web systems represents HTML output, which will display in internet browser as an internet web page. View part represents presentation part of the system, which can include also presentation logic.
 
+<<<<<<< .mine
+ 
+% ukazkovy text ako citovat a odkazovat sa na literaturu
+As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
+It is composed from multiple processes. Each of these processes belongs to one of the four layers, see Figure~\ref{fig:minixstruct}. Processes in the first layer run in the privileged mode. They have unrestricted access to everything. This layer contains only three processes: {\em kernel task}, {\em system task} and the {\em clock task}.
+
+% vlozenie obrazku
+%\fig{1}{images/fourlayers}{fig:minixstruct}{Internal structure of Minix3.}
+%
+%\subsection{Podsekcia}
+
+=======
 {\em Controller.} Part controller takes care of administration executed actions by user of by system. These actions are transmitted as changes in View part or in Model part. Under change in View part we mean for example page changes. Under change in Model part it’s for example saving new information to the database. Controller can include also business logic.
+>>>>>>> .r287
       
 \section{Conclusion}
 
