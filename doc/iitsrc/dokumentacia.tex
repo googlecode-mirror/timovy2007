@@ -92,71 +92,34 @@ Komunikacia
 Prezentacia
 
 \section{Architecture}
-%  TODO trosku popisat architekturu systemu, na com je zalozeny, MVC-CakePHP, databaza
-
-%Cely navrh architektury vychadza z poziadavky co najvacsej dostupnosti pre verejnost a aj absolventov. Tuto poziadavku relativne dobre splna architektura klient-server postavena na webovych technologiach. Cela interakcia so systemom prebieha vo webovom prehliadaci, ktory je beznou sucastou operacnych systemov a nijak nezavisi na aplikacnej casti na serveri. Cela biznis logika a funcionalita je implementovana priamo na serveri, pricom je zavisla od konkretnej implementacie. 
-%Logicky je system na strane servera rozdeleny do viacerych modulov, ktore spolocne poskytuju kompletnu funkcnost systemu. Vsetky moduly su vytvorene nas PHP frameworkom CakePHP, ktory je navrhnuty na rapid develepment. Tento  framework nam ulahcuje pracu s celym systemom, nakolko riesi standardne problemy vo vyvoji webovych aplikacii ako napr. autentifikaciu, pristup k databaze,  prezentaciu a pod.
-%CakePHP plne podporuje MVC (Model-View-Controller) model. Tento model predstavuje rozdelenie systemu do troch funkcnych casti. Model, View a Controller. Vztahy medzi jednotlivymi castami su zobrazene na obrazku c. 1.
-% TODO cislovanie obrazka
-% TODO vlozit obrazok MVC-CakePHP
-% TODO ako zvyraznit subnadpis?
-%Model
-%Prestavuje cast, ktora sa stara o ziskavanie a ukladanie informacii. Mysli sa tym samotna databaza, pripadne obsluzne skripty, ktore vykonavaju akcie nad touto databazou. Udaje ziskane z casti Model su nasledne poskytovane casti View.
-%View
-%Tato cast systemu sa stara o prezentaciu dat pouzivatelovi. Ide o pouzivatelske rozhranie (user interface). V pripade webovych systemov predstavuje View konkretny HTML vystup, ktory sa pouzivatelovi zobrazi v internetovom prehliadaci ako internetova stranka. Cast View predstavuje prezentacnu cast systemu, ktora moze obsahovat aj prezentacnu logiku.
-%Controller
-%Controller je cast, ktora sa stara o spravu akcii vykonanych pouzivatelom alebo systemom. Tieto akcie su nasledne prenesene ako zmeny v casti View alebo v casti Model. Pod zmenou v casti View sa mysli napriklad zmena stranky, pod zmenou v casti Model napriklad ulozenie novych informacii do databazy. Controller moze obsahovat aj takzvanu biznis logiku. 
 
 The best accessibility for graduates and public viewers is the main requirement for design architecture. Architecture type client-server based on web technologies fulfills this requirement. Whole interaction between system runs on internet browser, which is common part of operating system and doesn’t depend of application part of server. Business logic and functionality is implemented right on server and it depends on actual implementation.
 
 Logic system on the side of server is divided into several modules, which provide whole functionality of system. All modules are created on PHP framework CakePHP,  which is rapid development kit. This framework makes our job with system much more easier, because it has already included solutions for basic problems in web application development as authentication, database access, presentation and more other.
 
-CakePHP fully supports MVC (Model-View-Controller) model. This model divided system into three functional parts Model, View, Controller. Relations between these parts are shown in image number XX.
+CakePHP fully supports MVC (Model-View-Controller) model \cite{cakephp}. This model divided system into three functional parts Model, View, Controller. Relations between these parts are shown on Figure ~\ref{fig:mvc}. 
 
-Model
-Represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which executes actions on this database. Data gather in the part Model are provided to the part View.
+\fig{width=7cm}{images/mvc}{fig:mvc}{Model-View-Controller.}
 
-View
-This part takes care of data presentation to user. This mean user interface.  View part in web systems represents HTML output, which will display in internet browser as an internet web page. View part represents presentation part of the system, which can include also presentation logic.
+{\em Model.} Represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which executes actions on this database. Data gather in the part Model are provided to the part View.
 
-Controller
-Part controller takes care of administration executed actions by user of by system. These actions are transmitted as changes in View part or in Model part. Under change in View part we mean for example page changes. Under change in Model part it’s for example saving new information to the database. Controller can include also business logic.
+{\em View.} This part takes care of data presentation to user. This mean user interface.  View part in web systems represents HTML output, which will display in internet browser as an internet web page. View part represents presentation part of the system, which can include also presentation logic.
 
- 
-% ukazkovy text ako citovat a odkazovat sa na literaturu
-As mentioned before, Minix3 is microkernel based system. The authors intention was to keep the system "Small is Beautiful" \cite[page 17]{osdesign}.
-It is composed from multiple processes. Each of these processes belongs to one of the four layers, see Figure~\ref{fig:minixstruct}. Processes in the first layer run in the privileged mode. They have unrestricted access to everything. This layer contains only three processes: {\em kernel task}, {\em system task} and the {\em clock task}.
-
-% vlozenie obrazku
-%\fig{1}{images/fourlayers}{fig:minixstruct}{Internal structure of Minix3.}
-%
-\subsection{Podsekcia}
-
+{\em Controller.} Part controller takes care of administration executed actions by user of by system. These actions are transmitted as changes in View part or in Model part. Under change in View part we mean for example page changes. Under change in Model part it’s for example saving new information to the database. Controller can include also business logic.
       
-\section{Summary}
-
-% hlavny pokec o naplnani biznis ciela prezentacia absolventov
-%Samotny informacny system je dostupny sirokej verejnosti cez webove rozhranie. Standardny neprihlaseny navstevnik oznacovany ako verejnost ma moznost vylistovat si zoznam absolventov podla jednotlivych rokov ukoncenia a podla studijnych odborov. Na kazdeho absolventa je mozne kliknut a tym vyvolat podrobnejsie informacie o konkretnom absolventovi.  Uroven podrobnosti je obmedzena zakonom o oosbnych informaciach a tak defaultne ma absolvent zobrazene iba meno, priezvisko, rok ukoncenia a ukonceny studijny odbor. Snahou fakulty je vsak aj spropagovat svojich absolventov. Preto maju moznost zadat uz aj ako studenti do systemu svoje dalsie udaje ako pracovne skusenosti a znalosti, pricom ak suhlasia mozu nechat tieto udaje zobrazit aj verejnosti vo svojoch podrobnych informaciach o sebe. Zadane udaje sluzia aj ako vstupne pre zivotopis, ktory je mozne automaticky vygenerovat vo formate pdf suboru. Ako bolo spomenute, zverejenenie dalsich informacii je plne v kompetencii absolventa. Takto zverjnene udaje su dostupne sirokej verejnosti. Verejnost zahrnuje aj webove vyhladavace a ich crawlers pomocou ktorych si moza absolvent budovat svoju virtualnu webovu identitu na internete.
-% hlavny pokec o naplnani biznis ciela ziskavania informacii od absolventov z praxe
-%Problem spatnej vazby od absolventa smerom k skole riesi Alumni pomoco u anketoveho modulu. V tomto module ma skola moznost nadefinovat si otazky a aj moznosyi odpovedi, ktore nasledne aktivny absolventi vyplnia. Je iba na skole aky druh a sposob navoli. Vyuzitie tohto modulu sa predpoklada predovsetkym na ziskavanie osobitnych informacii, ktore za normalnych okolnosti nepatria do profilu absolventa, avsak maju velku informacnu hodnotu pre skolu. 
+\section{Conclusion}
 
 Information system is available for general public through web interface. Not registered visitor can look over the list of graduates according to year of ending or field of study. He can also look through graduates profiles. Level of profile details show to public is limited. By default public visitor can only see name, surname of graduate, year of end and field of study. The faculty effort is to propagate their graduates. Therefore graduates can also add some information about themselves into the system during the study such as working experiences, knowledge. Graduates can allow displaying this information in their profiles for public visitors. Inserted information can be used as an input for generating graduate`s curriculum vitae in pdf format, which is provided automatically. It is graduates competence, which information will be displayed in their profiles and will be shown to general public. Public also includes searching pages with their crawlers. This can graduate use for building his virtual web identity on internet. 
 
 Problem with graduate’s feedback towards to faculty our system Alumni solved with inquiry module. In this module faculty can define questions with answers, which will active graduates respond. Its faculty choice, which way they will choose. This module should be used for collecting data about graduates, which are not included in graduates profiles and they have high information value for faculty.
 
-%pokec o tom co sme tu popisali a preco je ALUMNI prinosny pre fakultu aj studenta 
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \acknowledgement{This work was partially supported by the Institute of Informatics and Software Engineering, Faculty of Informatics and Information Technologies, Slovak University of Technology in Bratislava.}
 
-\nocite{pcispec}
-\nocite{ac97spec}
-\nocite{ich4spec}
-\nocite{crytalspec}
-\nocite{osdesign}
-\nocite{wdmdriver}
-\nocite{alsadriver}
-\nocite{pciwiki}
+\nocite{team14}
+\nocite{team15}
+\nocite{cakephp}
 
 \bibliography{literature_article}
 \bibliographystyle{iitsrc}
