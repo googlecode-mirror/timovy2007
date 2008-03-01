@@ -39,16 +39,17 @@
 \begin{document}
 
 \begin{abstract}
-Information system for communication with graduates represents only one of many ways how can university stay in touch with its graduates. In addition to communication between university and graduate the information system allows communication between graduates, their personal presentation for public. System also collects actual information about working experiences of graduates, which can be used to improve faculty credits and teaching processes. Presented information system includes all this points with focus on security, usability and comfortable user interface.
+The information system for communication with graduates represents only one of many ways how university can keep in touch with its graduates. Ecxept for communication between university and its graduates, the information system allows communication between graduates themselves and their personal presentation in public. The system also collects actual information about working experience of graduates, which can improve faculty credits and teaching process. The presented information system includes all these points, focused on security, usability and comfortable user interface.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
 
-Communication between graduates and university can be an advantage for both sides. In this article we would shortly introduce web based software system called ALUMNI developed on Team project. Our faculty has ambitions to present graduates to public society. The faculty also wants to stay in touch with graduates using web application, providing a channel for professional and social communication between graduates each other and faculty. The focus of ALUMNI project is to design and implement a system that would accomplish these needs. 
+Communication between graduates and university can be suitable for both sides. In this article we would like to introduce web based software system called ALUMNI developed at Team Project. Our faculty has ambitions to present its graduates to public. The faculty also wants to keep in touch with its graduates using web application, providing a channel for professional and social communication between graduates themselves and the faculty. Focus of the ALUMNI project is on design and implementation of the system that would accomplish these needs. 
 
-Every graduate of FIIT STU studied at this faculty for at least three years or eventually more. During this period graduates establish a lot of social contacts with classmates as well as with teachers. These contacts are typically broken after graduating, only rarely they continue. Generally after student leaves the university, he losts most of his contacts. This trend of loosing contacts is not wanted by the faculty. The faculty sees the graduates as potential business partners with possibility to cooperate after study. Graduates are very good source of information and critics that could help to improve the quality of faculty. The best way to gain required information is feedback form.
+A FIIT STU graduate is a person who has been studying at this faculty for minimum three years or more. During this period, the graduate tied up a lot of social contacts with his classmates and his teachers as well. After graduating, these contacts usually cut off and only rarely continue. In general, each student, after he leaves the university, losts most of the contacts. However, the faculty does not want to continue in this trend. The faculty looks at its graduates as at potential bussines partners with possible cooperation with them after study. Graduates are very good source of information and critics that could help inproove the quality of faculty. The best way how to gain required information are feedback forms.
+
 
 %* dalsia motivacia, vyhody pre fakultu
 
@@ -57,13 +58,13 @@ Every graduate of FIIT STU studied at this faculty for at least three years or e
 \section{Business goals}
 
 {\em Present basic information about graduates to the public.}
-It means providing the creation and maintenance of the graduates’ database presenting basic information about individuals to the public on the web without access restrictions. We suppose brief information about a graduate, when he studied and graduated, his specialization, topic of his bachelor and diploma project, possibly the abstracts. The presentation could also involve graphical expression of employment and skills of the graduates from different views, if we could get necessary information.
+It means creation and maintainance of the graduate database and presentation of basic information about individuals to public on the web without access restrictions. We bring some brief information about a graduate, when he studied and graduated, his specialization, topic of his bachelor and diploma project or abstracts. If we are able to get necessary information, the presentation could also involve a graphical expression of employment and skills of graduates from different points of view.
 
 {\em Provide gathering of actual informations about graduates in practice to the faculty.} 
-It means to get actual informations about contact, job, career development, application/professional focus, areas of a graduate activity and personal interests, etc. These informations are provided by graduates. These informations have personal character, it means getting them requires interest in contact on the both sides and this data should be under protection with well-organized authorized access.
+It means to get actual information about contacts, jobs, career development, application/professional focus, areas of graduate activity and personal interests, etc. This information is provided by a graduate. It has a personal character, it means getting them require interest in contact on the both sides and this data should be under protection whith well-organized authorized access.
 
 {\em Enable communication to graduates.}
-It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal information exchange in community of colleagues, coevals, experts from practice, which are provided to the community. Except for providing contact the system can inform graduates about professional activities of the community, provide a place for them - a forum, eventually some other activities.
+It should be easy and safe way to communicate in informatics community protected by well-designed access rights for groups of authorized participants. It should be used for informal communication within community of colleagues and experts from practice. Except providing contacts, the system can also inform graduates about professional activities of the community, provide some space for them - a forum, eventually some other activities.
 
 %Ciele systému:
 %Prezentovať základné informácie o absolventoch verejnosti.
@@ -95,25 +96,26 @@ The most important functions are:
 
 \section{Architecture}
 
-The best accessibility for graduates and public viewers is the main requirement for design architecture. Architecture type client-server based on web technologies fulfils this requirement. Whole interaction between systems runs on internet browser, which is common part of operating system and doesn’t depend of application part of server. Business logic and functionality is implemented right on the server and it depends on actual implementation.
+The best accessibility for graduates and public is the main requirement for design architecture. The architecture type client-server based on web technologies fulfills this requirement. The whole interaction with the system runs on the internet browser, which is common part of operating system and doesn’t depend on application part of the server. Business logic and functionality are implemented right on the server and it depends on actual implementation.
 
-Logic system on the side of server is divided into several modules, which provide whole functionality of system. All modules are created on PHP framework CakePHP, which is rapid development kit. This framework makes our job with system much more easier, because it has already included solutions for basic problems in web application development as authentication, database access, presentation and more other.
+System logic on the side of the server is divided into several modules, which provide whole functionality of the system. All modules are created on the PHP framework CakePHP, which is rapid development kit. This framework makes our job with the system much easier, because it has already included solutions for basic problems in web application development as authentication, database access, presentation, etc.
 
-CakePHP fully supports MVC (Model-View-Controller) model \cite{cakephp}. This model divided system into three functional parts Model, View, Controller. Relations between these parts are shown on Figure ~\ref{fig:mvc}. 
+The CakePHP fully supports the MVC (Model-View-Controller) model\cite{cakephp}. This model divides the system into three functional parts Model, View, Controller. Relations between these parts are shown on Figure ~\ref{fig:mvc}.
+
 
 \fig{width=7cm}{images/mvc}{fig:mvc}{Model-View-Controller.}
 
-{\em Model.} Represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which executes actions on this database. Data gathered in the part Model are provided to the part View.
+{\em Model.} It represents the part, which takes care of collecting and storing data. This means database or controlling scripts, which execute actions over this database. The data gained in the part Model are provided to the part View.
 
-{\em View.} This part takes care of data presentation to user. This means user interface. View part in web systems represents HTML output, which will display in internet browser as an internet web page. View part represents presentation part of the system, which can include also presentation logic.
+{\em View.} This part takes care of the data presentation to a user. This means user interface.  The part View in the web systems represents HTML output, which will be displayed in the internet browser as an internet web page. The part View represents presentation part of the system, which can also include presentation logic.
 
-{\em Controller.} Part controller takes care of administration executed actions by user of by system. These actions are transmitted as changes in View part or in Model part. Under change in View part we mean for example page changes. Under change in Model part it’s for example saving new information to the database. Controller can include also business logic.
+{\em Controller.} The part Controller takes care of administration of the actions executed by a user or the system. These actions are then transmitted as some changes in the part View or in the part Model. In the part View we mean for example page changes. In the part Model it is for example saving new information to the database. Controller can include also business logic.
       
 \section{Conclusion}
 
-Information system is available for general public through web interface. Not registered visitor can look over the list of graduates according to year of ending or field of study. He can also look through graduates profiles. Level of profile details shown to public is limited. By default public visitor can only see name, surname of graduate, year of end and field of study. The faculty effort is to propagate their graduates. Therefore graduates can also add some information about themselves into the system during the study such as working experiences or knowledge. Graduates can allow displaying this information in their profiles for public visitors. Inserted information can be used as an input for generating graduate’s curriculum vitae in pdf format, which is provided automatically. It is graduate’s competence, which information will be displayed in their profiles and will be shown to general public. Public also includes searching pages with their crawlers. This can graduate use for building his virtual web identity on internet. 
+The information system is available for general public through the web interface. A non-registered visitor can look at the list of graduates according to year of graduation or a field of study. He can also look at graduates profiles. The level of profile details shown to public is limited. By default, a public visitor can only see name and surname of a graduate, year of graduation and a field of study. The faculty endevaours  to propagate its graduates. Therefore graduates can also add some information about themselves into the system during the study such as working experience, knowledge. Graduates can enable to display this information in their profiles for public visitors. Inserted information can be used as an input for generating graduate`s curriculum vitae in pdf format, which is provided automatically. It is in a graduate´s competence, which information will be displayed in their profiles and will be shown to general public. Public also includes searching pages with their crawlers. A graduate can use it for the building of his virtual web identity on the internet. 
 
-Problem with graduate’s feedback towards to faculty our system Alumni solved with inquiry module. In this module faculty can define questions with answers, which will active graduates respond. It is choice of faculty, which way they will choose. This module should be used for collecting data about graduates which are not included in graduates’ profiles and they have high information value for faculty.
+Our Alumni system solves the problem concerning graduate’s feedback towards to the faculty with an inquiry module. In this module the faculty can define questions with answers which active graduates can respond. It depends on the faculty which way it will choose. This module should be used for collecting data which are not included in graduate profiles and have high information value for the faculty.
 
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
