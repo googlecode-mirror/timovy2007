@@ -60,9 +60,9 @@ class DATABASE_CONFIG
 		'driver' 	=> 'postgres',
 		'connect' 	=> 'pg_connect',
 		'host' 		=> 'localhost',
-		'login' 	=> 'team15',
-		'password' 	=> 'team15',
-		'database' 	=> '2006team15proj',
+		'login' 	=> 'team14',    //team15
+		'password' 	=> 'team14',  //team15
+		'database' 	=> 'alumni',  //2006team15proj
 		'prefix' 	=> ''
 	);
 	var $yonban = array
