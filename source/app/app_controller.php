@@ -13,7 +13,15 @@ class AppController extends Controller
 	var $helpers = array('Html','My', 'Javascript');
 	var $required_clearances = array();
 	var $uses = array('UserMail');
-		
+
+	/**
+	 * Login controller
+	 *
+	 * @var LoginComponent
+	 */
+	var $Login;
+	
+	
 	function beforeRender()
 	{
 		/**
