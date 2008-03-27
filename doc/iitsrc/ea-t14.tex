@@ -1,0 +1,74 @@
+\documentclass{iitsrc}
+\usepackage[utf8x]{inputenc}
+
+% Please do not remove the following command:
+\editpages{1}{8}
+
+\title{Information system Alumni}
+\author{Peter}{C\'ich}
+\author{Pavol}{F\'abik}
+\author{J\'an}{Garaj}
+\author{Jozef}{Hergott}
+\author{Jozef}{Hopko}
+
+\supervision{doc. Ing. Jana Min\'arov\'a, PhD.}
+            {\iai~/~\iise~/~\icsn, \fiit.}
+% Within the `affiliation' parameter you can use the `\fiit' macro to
+% generate the full name of our faculty.
+\mail{fiit@ciiv.sk}
+
+\begin{document}
+
+\section*{Extended Abstract}
+
+Communication between graduates and university can be suitable for both sides.The information system for communication with graduates represents one of many ways how university can keep in touch with its graduates. Except for communication between university and its graduates, the information system should allow communication between graduates themselves and their personal presentation in public. The system also should collect actual information about working experience of graduates, which can improve faculty credits and teaching process. The presented information system includes all these points and focuses on security, usability and comfortable user interface.
+
+
+
+
+A FIIT STU graduate is a person who has been studying at this faculty for at least three years or more. During this period graduates establish a lot of social contacts with their classmates and their teachers as well. After graduating, these contacts are usually broken and only rarely continue. Generally, after a student leaves the university, he losts most of his contacts. However, the faculty does not want this trend to continue. The faculty can see its graduates as potential business partners with possibility of cooperation after the studies. Graduates are very good source of information and critics that could help to improve the quality of the faculty. The best way how to gain required information are feedback forms.
+
+The main business goals of the system are:
+
+\begin{itemize}
+\item {\em Present basic information about graduates to the public.}
+It means creation and maintenance of the graduate database and presentation of basic information about individuals to the public on the web without access restrictions.
+
+\item {\em Provide gathering of actual information about graduates in practice to the faculty.} 
+It means to get actual information about contacts, jobs, career development, application/professional focus, areas of graduate activity and personal interests, etc.
+
+\item {\em Enable communication to graduates.}
+The system should provide easy and safe way of communication in informatics community protected by well-designed access rights for groups of authorized participants.
+\end{itemize}
+
+Alumni is web based application that can be accessed using common web browser.  
+
+The most important functions are:
+
+\begin{itemize}
+\item {\em Actualities} 
+represent a tool for the faculty, which allows to inform graduates and public about news and events on the faculty.
+
+\item {\em Inquiry module}
+serves for collecting information from graduates. The faculty can generate various statistics based on the inquiry results. An inquiry is created by a person authorized by the faculty. Every inquiry can be targeted on a selected graduates group depending on the year of graduate. Inquiries are accessible to graduates after logging in Alumni system.
+
+\item {\em Mail communication} ensures the communication between faculty and graduates and graduates themselves using message exchange.
+
+\item {\em Personal presentation.}
+Every student that graduates is automatically added to Alumni database and a personal account is created for him. Personal profile of graduate includes information such as name, surname, study program, year of graduate, academical degree and information about thesis or diploma work. Optionally other personal information can be added to personal profile, for example e-mail, phone or ICQ number, link to personal web page or information about current employment. 
+
+\item {\em Module of statistics}
+collects various statistical information. It operates on data from inquiries, graduates personal data and allows generating reports. This module also counts system visit rate. Outputs from various statistics can help the faculty to improve the quality and adapt to new requirements.
+\end{itemize}
+
+We designed and implemented the ALUMNI information system. This system will be available for general public use through the web interface. A non-registered visitor can look at the list of graduates according to year of graduation or a field of study. He can also look at graduates profiles. The level of profile details shown to the public is limited. By default, a public visitor can only see name and surname of a graduate, year of graduation and a field of study. The faculty endeavours to propagate its graduates. Therefore graduates can also add some information about themselves into the system during the study such as working experience, knowledge. Graduates can enable to display this information in their profiles for public visitors. Inserted information can be used as an input for generating graduate's curriculum vitae in pdf format, which is provided automatically. It is in a graduate's competence, which information will be displayed in their profiles and will be shown to general public. Public also includes searching pages with their crawlers. A graduate can use it for the building of his virtual web identity on the internet. 
+
+\acknowledgement{This work was partially supported by the Institute of Informatics and Software Engineering, Faculty of Informatics and Information Technologies, Slovak University of Technology in Bratislava.}
+
+\nocite{team14}
+\nocite{team15}
+\nocite{cakephp}
+
+\bibliography{common}
+\bibliographystyle{iitsrc}
+\end{document}
