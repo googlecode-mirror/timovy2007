@@ -27,18 +27,18 @@
 					<a href="<?=$html->url('/sitemap')?>"><?php echo __("MENU_SITEMAP")?></a>
 				</div>
 				<div id="flags">
-					<a href="<?php echo $html->url('/'.$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="Slovenská verzia" /></a>
-					<a href="<?php echo $html->url('/'.$post_redirect.'?language=en')?>"><img src="<?=$html->url('/css/images/flagen.gif')?>" alt="English version" /></a>
+					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="Slovenská verzia" /></a>
+					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=en')?>"><img src="<?=$html->url('/css/images/flagen.gif')?>" alt="English version" /></a>
 				</div>
 				<div id="loginbar">
 					<?php if (!$session->check('User')) { ?>
 					<form action="<?=$html->url('/login/login')?>" method="post">
 						<input type="hidden" name="post_redirect" value="<?php echo $post_redirect;?>" />
 						<div class="formelement">
-							<?php echo __("Login")?> <?=$html->input('User/username')?>
+							<?php echo __("Login")?> <?=$form->text('User/username')?>
 						</div>
 						<div class="formelement">
-							<?php echo __('Heslo')?> <?=$html->password('User/password')?>
+							<?php echo __('Heslo')?> <?=$form->password('User/password')?>
 						</div>
 						<div class="formelement">
 							<input type="image" value="Prihlásiť" class="logimg" src="<?=$html->url('/css/images/login.gif')?>" />

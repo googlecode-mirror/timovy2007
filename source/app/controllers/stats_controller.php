@@ -5,7 +5,7 @@ class StatsController extends AppController
 
   function index()
     {
-         $this->set('stats');
+         // $this->set('stats');
     }
 /*
     function view($id)

@@ -10,7 +10,7 @@ require_once MODELS.'user_mail.php';
 class AppController extends Controller
 {
 	var $components = array('Session', 'My', 'Login');
-	var $helpers = array('Html','My', 'Javascript');
+	var $helpers = array('Html','My', 'Javascript', 'Form');
 	var $required_clearances = array();
 	var $uses = array('UserMail');
 
@@ -34,7 +34,7 @@ class AppController extends Controller
 		//
 		// prenesiem login do helpera ? :)
 		$this->set('Login', $this->Login);
-		$this->set('post_redirect', @$this->params['url']['url']);
+		$this->set('post_redirect', isset($this->params['url']['url']) ? $this->params['url']['url'] : 'about');
 		
 		//
 		// mail settings - pocet novych sprav
@@ -62,10 +62,10 @@ class AppController extends Controller
 			switch ($_GET['language']) 
 			{
 				case 'sk':
-					$_SESSION['Config']['language'] = 'sk';
+					$this->Session->write('Config.language', 'sk');					
 					break;
 				case 'en':
-					$_SESSION['Config']['language'] = 'en';
+					$this->Session->write('Config.language', 'en');
 					break;
 			}
 		}

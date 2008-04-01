@@ -31,10 +31,10 @@ class AlumniController extends AppController
 			(
 				'or' => array
 				(
-					'User.username'		=> 'ILIKE %'.$sanit->sql($_POST['name']).'%', 
-					'User.first_name'	=> 'ILIKE %'.$sanit->sql($_POST['name']).'%',
-					'User.middle_name'	=> 'ILIKE %'.$sanit->sql($_POST['name']).'%',
-					'User.last_name'	=> 'ILIKE %'.$sanit->sql($_POST['name']).'%'
+					'User.username'		=> 'ILIKE %'.$sanit->escape($_POST['name']).'%', 
+					'User.first_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%',
+					'User.middle_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%',
+					'User.last_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%'
 				)
 			);
 			

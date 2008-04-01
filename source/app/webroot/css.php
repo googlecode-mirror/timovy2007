@@ -1,5 +1,5 @@
 <?php
-/* SVN FILE: $Id: css.php 4845 2007-04-12 00:10:47Z phpnut $ */
+/* SVN FILE: $Id: css.php 6296 2008-01-01 22:18:17Z phpnut $ */
 /**
  * Short description for file.
  *
@@ -8,7 +8,7 @@
  * PHP versions 4 and 5
  *
  * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
- * Copyright 2005-2007, Cake Software Foundation, Inc.
+ * Copyright 2005-2008, Cake Software Foundation, Inc.
  *								1785 E. Sahara Avenue, Suite 490-204
  *								Las Vegas, Nevada 89104
  *
@@ -16,14 +16,14 @@
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
- * @copyright		Copyright 2005-2007, Cake Software Foundation, Inc.
+ * @copyright		Copyright 2005-2008, Cake Software Foundation, Inc.
  * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
  * @package			cake
  * @subpackage		cake.app.webroot
  * @since			CakePHP(tm) v 0.2.9
- * @version			$Revision: 4845 $
+ * @version			$Revision: 6296 $
  * @modifiedby		$LastChangedBy: phpnut $
- * @lastmodified	$Date: 2007-04-11 19:10:47 -0500 (Wed, 11 Apr 2007) $
+ * @lastmodified	$Date: 2008-01-01 16:18:17 -0600 (Tue, 01 Jan 2008) $
  * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 if (!defined('CAKE_CORE_INCLUDE_PATH')) {

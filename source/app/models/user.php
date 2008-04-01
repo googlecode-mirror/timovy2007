@@ -10,7 +10,7 @@ class User extends AppModel
 	(
 		'username'		=> array('rule'=>array('custom', '/^[\d\w\_\.\-]{1,255}$/i')),
 		'password'		=> VALID_NOT_EMPTY,
-		'forward_mail' 	=> array('rule'=>array('email')),
+		'forward_mail' 	=> array('rule'=>array('email'), 'allowEmpty' => true),
 		'email'			=> array('rule'=>array('email')),
 		'icq'			=> array('rule'=>array('custom', '/^[\d\-]{0,255}$/i')),
 	);
