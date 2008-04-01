@@ -1847,6 +1847,7 @@ INSERT INTO clearances("key", name, description, parent_id) VALUES ('MAIL_WRITE'
 INSERT INTO clearances("key", name, description, parent_id) VALUES ('WALL_POSTER_WRITE', 'Wall Poster Write', 'Prispievanie na nastenku', NULL);
 INSERT INTO clearances("key", name, description, parent_id) VALUES ('WALL_POSTER_ADMIN', 'Wall Poster Admin', 'Manazovanie nastenky', NULL);
 INSERT INTO clearances("key", name, description, parent_id) VALUES ('MANAGE_USERS', 'User & Permission management', 'Manazovanie pouzivatelov a ich prav', 1);
+INSERT INTO clearances("key", name, description, parent_id) VALUES ('MANAGE_NEWS', 'Actualities management', 'Manazovanie aktualít', NULL);
 
 -- administrator
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,1);
@@ -1854,6 +1855,7 @@ INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,2);
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,3);
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,4);
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,5);
+INSERT INTO roles_clearances(role_id, clearance_id) VALUES (1,6);
 -- academic
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (2,2);
 INSERT INTO roles_clearances(role_id, clearance_id) VALUES (2,3);
