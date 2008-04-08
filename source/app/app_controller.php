@@ -69,7 +69,10 @@ class AppController extends Controller
 					break;
 			}
 		}
-		
+		// default language
+		if (!$this->Session->read('Config.language')) {
+			$this->Session->write('Config.language', 'sk');
+		}
 		
 		//
 		// overi ci je pripojena databaza !!!

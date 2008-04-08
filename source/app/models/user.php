@@ -28,6 +28,16 @@ class User extends AppModel
 			'foreignKey'	=> 'id'
 		)
 	);
+	
+	var $hasMany = array
+	(
+		'UserProfession' => array
+		(
+			'className'		=> 'UserProfession',
+			'foreignKey'	=> 'user_id'
+		)
+	); 
+	
 	var $hasAndBelongsToMany = array
 	(
 		'Role' => array

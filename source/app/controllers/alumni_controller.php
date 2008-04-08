@@ -6,7 +6,7 @@
 class AlumniController extends AppController 
 {
 	// TODO vymaz UserOnline
-	var $uses = array('User', 'Graduate', 'StudyType', 'Specialization', 'UsersOnline', 'Project');
+	var $uses = array('User', 'Graduate', 'StudyType', 'Specialization', 'UsersOnline', 'Project', 'UserProfession', 'Profession');
 	var $components = array('Login', 'Email');
 	var $auth = 'toto je nove';
 	var $helpers = array('form');
@@ -168,8 +168,12 @@ class AlumniController extends AppController
 			}
 		}
 		
+		$userProfessions = $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id));
+		pr($userProfessions);
+		pr($this->User->id);
 		
-		
+		$this->Profession->displayField = 'name_'. $this->Session->read('Config.language');
+		$this->set('professions', $this->Profession->find("list"));
 		$this->set('user', $user);
 		$this->data = $user;
 	}

@@ -23,7 +23,49 @@
 </p><br /><p class="myprofile">
 	<label><?php __('ALUMNI_MY_PROFILE_OCCUPATION')?>:</label> <?php echo $form->textarea('User/occupation', array('style'=>'width: 350px;'))?><br />
 	
-</p>
+</p><br />
+<div class="myprofile">
+	<h3><?php __('ALUMNI_MY_PROFILE_PROFESSION')?>:</h3> 
+	
+	<!-- Profesie v databaze -->
+	<?php foreach ($user_professions as $p): ?>
+		<div class="profession">
+			<select name="profession_id[]">
+				<?php foreach ($professions as $key => $value): ?>
+				<option value="<?=$key?>"><?=$value?></option>
+				<?php endforeach; ?>
+			</select>
+			<input name="year_from[]" type="text" value=""/>
+			<input name="year_to[]" type="text" value=""/>
+			<textarea name="description_en[]" rows="3"></textarea>
+			<textarea name="description_sk[]" rows="3"></textarea>
+			<input type="button" value="Zmaza" onclick="this.parent.remove()"/>
+		</div>
+	<?php endforeach; ?>
+	<div id="dalsie">
+	</div>
+	
+	<!-- Profesie generovane javascriptiom -->
+	<input type="button" value="pridat" onclick="" />
+	
+	<!--  V javascripte ktory nastane po kliknuti na pridat tlacidlo sa do divu "dalsie" prida novy element  -->
+
+	<?php 
+/*	
+	
+	<select name="profession_id[]">
+		<?php foreach ($professions as $key => $value): ?>
+		<option value="<?=$key?>"><?=$value?></option>
+		<?php endforeach; ?>
+	</select>
+	<input name="year_from[]" type="text" value=""/>
+	<input name="year_to[]" type="text" value=""/>
+	<textarea name="description_en[]" rows="3"></textarea>
+	<textarea name="description_sk[]" rows="3"></textarea>
+	*/ ?>
+</div>
+
+
 <p>
 	<input type="submit" value="<?php __('ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT')?>" />
 	
