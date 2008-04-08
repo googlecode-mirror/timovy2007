@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-03-20 00:21+0100\n"
+"PO-Revision-Date: 2008-04-08 11:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -203,6 +203,19 @@ msgstr "Skupina"
 msgid "NEWS_PERMISSION_DENIED"
 msgstr "Neoprávnený prístup"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:44
+msgid "NEWS_ITEM_ADDED"
+msgstr "Aktualita bola úspešne uložená!"
+
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:55
+msgid "NEWS_ITEM_REMOVED"
+msgstr "Aktualita bola vymazaná!"
+
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:72
+msgid "NEWS_ITEM_UPDATED"
+msgstr "Aktualita bola úspešne uložená!"
+
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:112
 #: c:\Timovy2007\source\app/controllers/roles_controller.php:112
 msgid "Nonexisting role"
@@ -237,9 +250,8 @@ msgstr "Neexistujúci používateľ"
 msgid "Anonymn"
 msgstr "Anonym"
 
-# C:\Inetpub\htdocs\tp\src\app/webroot/index.php:78
-#: c:\Timovy2007\source\app/webroot/index.php:78
-msgid "Can't find CakePHP core.  Check the value of CAKE_CORE_INCLUDE_PATH in app/webroot/index.php.  It should point to the directory containing your "
+#: c:\Timovy2007\source\app/webroot/test.php:75
+msgid "Debug setting does not allow access to this url."
 msgstr ""
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
@@ -712,8 +724,9 @@ msgstr "Uložiť nastavenia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: c:\Timovy2007\source\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/index.ctp:1
 msgid "NEWS_TITLE"
-msgstr "Novinky"
+msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:17
 #: c:\Timovy2007\source\app/views/news/index.ctp:17
@@ -726,6 +739,11 @@ msgstr "Published"
 #: c:\Timovy2007\source\app/views/layouts/default.thtml:71
 msgid "MENU_AKTUALITY"
 msgstr "Aktuality"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/index.ctp:5
+msgid "NEWS_ADDED"
+msgstr "Pridané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2

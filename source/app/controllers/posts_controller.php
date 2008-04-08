@@ -41,7 +41,7 @@ class PostsController extends AppController
             if ($this->Post->save($this->data))
             {
                 //$this->flash('Your post has been saved.','/posts');
-				$this->My->setInfo("Aktualita bola úspešne uložená!");
+				$this->My->setInfo(__("NEWS_ITEM_ADDED"));
 				$this->redirect('/posts/admin');
             }
         }
@@ -52,7 +52,7 @@ class PostsController extends AppController
 		$this->check_permission();
 	    $this->Post->del($id);
 	    //$this->flash('The post with id: '.$id.' has been deleted.', '/posts');
-		$this->My->setInfo("Aktualita číslo ".$id." bola vymazaná!");
+		$this->My->setInfo(__("NEWS_ITEM_REMOVED"));
 		$this->redirect('/posts/admin');
 	}
 
@@ -69,7 +69,7 @@ class PostsController extends AppController
 		    if ($this->Post->save($this->data['Post']))
 		    {
 		  		//$this->flash('Your post has been updated.','/posts');
-				$this->My->setInfo("Aktualita bola úspešne uložená!");
+				$this->My->setInfo(__("NEWS_ITEM_UPDATED"));
 				$this->redirect('/posts/admin');
 		    }
 		}
