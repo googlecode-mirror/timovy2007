@@ -169,11 +169,13 @@ class AlumniController extends AppController
 		}
 		
 		$userProfessions = $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id));
-		pr($userProfessions);
-		pr($this->User->id);
+		//pr($userProfessions);
+		//pr($this->User->id);
 		
 		$this->Profession->displayField = 'name_'. $this->Session->read('Config.language');
 		$this->set('professions', $this->Profession->find("list"));
+		
+		$this->set('user_professions', $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id)));
 		$this->set('user', $user);
 		$this->data = $user;
 	}

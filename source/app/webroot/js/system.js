@@ -56,3 +56,9 @@ function saveSettings()
 {
   createCookie("fontSize", currentFontSize, 365);
 }
+
+function cloneAppend(source, target) {
+  var copy = document.getElementById(source).cloneNode(true);
+  copy.style.display = 'block';
+  document.getElementById(target).appendChild(copy);
+}

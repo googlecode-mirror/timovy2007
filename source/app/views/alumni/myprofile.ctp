@@ -8,61 +8,70 @@
 
 
 </h2>
-<form class="alumni_myprofile" action="<?php echo $html->url('/alumni/myprofile')?>" method="POST">
+<form class="alumni_myprofile" action="<?php echo $html->url('/alumni/myprofile')?>" method="post">
 <p class="myprofile">
 	<label><?php __('ALUMNI_MY_PROFILE_EMAIL')?>:</label><input type="checkbox" name="publish_email" value="1" <?php echo ($user['User']['publish_email']==1) ? 'checked' : '';?> />
 		<?php __("ALUMNI_MY_PROFILI_PUBLISH_EMAIL")?>
 		<br />	
 	<label>&nbsp;</label> <?php echo $form->text('User/email')?><br />
 </p><br /><p class="myprofile">
-	<label><?php __('ALUMNI_MY_PROFILE_ADDRESS')?>:</label> <?php echo $form->textarea('User/address', array('style'=>'width: 350px;'))?><br />
+	<label><?php __('ALUMNI_MY_PROFILE_ADDRESS')?>:</label> <?php echo $form->textarea('User/address', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
 </p><br /><p class="myprofile">
 	<label><?php __('ALUMNI_MY_PROFILE_PHONE')?>:</label> <?php echo $form->text('User/phone')?><br />
 </p><br /><p class="myprofile">
 	<label><?php __('ALUMNI_MY_PROFILE_ICQ')?>:</label> <?php echo $form->text('User/icq')?><br />
 </p><br /><p class="myprofile">
-	<label><?php __('ALUMNI_MY_PROFILE_OCCUPATION')?>:</label> <?php echo $form->textarea('User/occupation', array('style'=>'width: 350px;'))?><br />
+	<label><?php __('ALUMNI_MY_PROFILE_OCCUPATION')?>:</label> <?php echo $form->textarea('User/occupation', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
 	
 </p><br />
 <div class="myprofile">
 	<h3><?php __('ALUMNI_MY_PROFILE_PROFESSION')?>:</h3> 
-	
+
+
+		<?php //print_r($p); ?>	
 	<!-- Profesie v databaze -->
-	<?php foreach ($user_professions as $p): ?>
+	<?php foreach ($user_professions as $k=>$p): ?>
 		<div class="profession">
-			<select name="profession_id[]">
+			__POZICIA: <select name="profession_id[]">
+				<?php foreach ($professions as $key => $value): ?>
+				<option value="<?=$key?>" <?php if($key==$p['UserProfession']['profession_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
+				<?php endforeach; ?>
+			</select><br />
+			__OD_ROKU:<input name="year_from[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
+			__DO_ROKU:<input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
+			<br />
+			__POPIS_EN:<textarea name="description_en[]" rows="3" cols="20"><?php echo $p['UserProfession']['description_en']; ?></textarea>
+			<br />
+			__POPIS_SK:<textarea name="description_sk[]" rows="3" cols="20"><?php echo $p['UserProfession']['description_sk']; ?></textarea>
+			<input type="hidden" name="id" value="<?php echo $k; ?>" />			
+			<input type="button" value="Zmazať" onclick="this.parentNode.parentNode.removeChild(this.parentNode);"/>
+		</div>
+	<?php endforeach; ?>
+
+	
+		<!-- skryty form pre pridavanie -->
+		<div class="profession" style="display:none;" id="default_proffesion_form">
+			__POZICIA: <select name="profession_id[]">
 				<?php foreach ($professions as $key => $value): ?>
 				<option value="<?=$key?>"><?=$value?></option>
 				<?php endforeach; ?>
-			</select>
-			<input name="year_from[]" type="text" value=""/>
-			<input name="year_to[]" type="text" value=""/>
-			<textarea name="description_en[]" rows="3"></textarea>
-			<textarea name="description_sk[]" rows="3"></textarea>
-			<input type="button" value="Zmaza�" onclick="this.parent.remove()"/>
+			</select><br />
+			__OD_ROKU:<input name="year_from[]" type="text" value="" />
+			__DO_ROKU:<input name="year_to[]" type="text" value="" />
+			<br />
+			__POPIS_EN:<textarea name="description_en[]" rows="3" cols="10"></textarea>
+			<br />
+			__POPIS_SK:<textarea name="description_sk[]" rows="3" cols="10"></textarea>			
+			<input type="button" value="Zmazať" onclick="this.parentNode.parentNode.removeChild(this.parentNode);"/>
 		</div>
-	<?php endforeach; ?>
-	<div id="dalsie">
+	
+	<div id="append_profesion_div">
 	</div>
 	
 	<!-- Profesie generovane javascriptiom -->
-	<input type="button" value="pridat" onclick="" />
-	
-	<!--  V javascripte ktory nastane po kliknuti na pridat tlacidlo sa do divu "dalsie" prida novy element  -->
+	<input type="button" value="pridat" onclick="cloneAppend('default_proffesion_form','append_profesion_div');" />
 
-	<?php 
-/*	
-	
-	<select name="profession_id[]">
-		<?php foreach ($professions as $key => $value): ?>
-		<option value="<?=$key?>"><?=$value?></option>
-		<?php endforeach; ?>
-	</select>
-	<input name="year_from[]" type="text" value=""/>
-	<input name="year_to[]" type="text" value=""/>
-	<textarea name="description_en[]" rows="3"></textarea>
-	<textarea name="description_sk[]" rows="3"></textarea>
-	*/ ?>
+
 </div>
 
 
