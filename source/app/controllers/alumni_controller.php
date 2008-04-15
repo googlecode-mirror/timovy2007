@@ -222,6 +222,7 @@ class AlumniController extends AppController
 		
 		$this->set('user_professions', $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id)));
 		$this->set('user', $user);
+		$this->set('lang', $this->Session->read('Config.language'));
 		$this->data = $user;
 	}
 	

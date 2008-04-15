@@ -12,6 +12,7 @@
   			item.style.display = 'block';
   		});
 	}
+	
 	Event.observe(window, 'load', function() {
   		Event.observe('langChange', 'change', function() {
 			updateLang();  			
@@ -49,9 +50,10 @@
 <div class="myprofile">
 	<h3>
 		<span style="float: right">
+			<?=$lang;?>
 			<select id="langChange">
-				<option value="sk">__Slovensky</option>
-				<option value="en">__Anglicky</option>
+				<option <?=($lang=='sk' ? 'selected="selected"': '');?> value="sk">__Slovensky</option>
+				<option <?=($lang=='en' ? 'selected="selected"': '');?> value="en">__Anglicky</option>
 			</select>
 		</span>
 		<?php __('ALUMNI_MY_PROFILE_PROFESSION')?>:
