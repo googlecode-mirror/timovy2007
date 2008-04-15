@@ -35,7 +35,12 @@ class User extends AppModel
 		(
 			'className'		=> 'UserProfession',
 			'foreignKey'	=> 'user_id'
-		)
+		),
+		'UserLanguage' => array
+		(
+			'className'		=> 'UserLanguage',
+			'foreignKey'	=> 'language_id'
+		)		
 	); 
 	
 	var $hasAndBelongsToMany = array

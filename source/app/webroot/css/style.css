@@ -438,7 +438,7 @@ table td {
 #bottomin {
 	color: white;
 	background: url("./images/bottom.gif") no-repeat;
-	width: 753px;
+	width: 740px;
 	height: 73px;
 	margin: 0 auto;
 	text-align: right;
@@ -609,6 +609,15 @@ p.myprofile {
 	overflow/**/: auto;
     \height: 1%;
 }
+div.myprofile {
+	padding-left: 17px;
+	padding-right: 10px;
+	background-color: #DEF1F8;
+	border-top: 1px solid #86BECD;
+	border-bottom: 1px solid #86BECD;
+	overflow/**/: auto;
+    \height: 1%;
+}
 img.myprofile {
 	margin-right: 10px;
 }
@@ -625,4 +634,15 @@ form.alumni_myprofile label {
 a.btn {
 	font-weight: normal;
 	color: black;
+}
+.lang_en {
+  display: none;
+}
+.lang_sk {
+  display: none;
+}
+.profession {
+  border: 1px solid #86BECD;
+  margin-bottom: 10px;
+  padding: 5px;
 }
