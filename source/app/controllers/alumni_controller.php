@@ -161,6 +161,51 @@ class AlumniController extends AppController
 			// publish_email
 			$this->data['User']['publish_email'] = isset($_POST['publish_email']) ? 1 : 0;
 			if ($this->User->save($this->data, true, array('email', 'address', 'phone', 'icq', 'occupation', 'publish_email'))) {
+				
+				// spracuj profesie
+				$updProfessions = array(); // vsetky updatnute profesie
+				foreach ($_POST['profession_id'] as $key=>$profession_id) {
+					if (isset($_POST['user_profession_id'][$key])) {
+
+						// updatne user_profesiu
+						$user_profession_id = (int) $_POST['user_profession_id'][$key];
+						$updProfessions[] = $user_profession_id;
+						if (!$this->UserProfession->hasAny(array('id' => $user_profession_id))) {
+							throw new Exception('Non existing profession with id: '. $user_profession_id);
+						}
+						$this->UserProfession->id = $user_profession_id;
+						if (!$this->UserProfession->save(array(
+							'profession_id' 	=> $_POST['profession_id'][$key],
+							'year_from' 		=> $_POST['year_from'][$key],
+							'year_to' 			=> $_POST['year_to'][$key],
+							'description_sk' 	=> $_POST['description_sk'][$key],
+							'description_en' 	=> $_POST['description_en'][$key] 
+						))) {
+							throw new Exception('Update failed !');
+						};
+					} else {
+						// uloz novu profesiu
+						$this->UserProfession->create();
+						if (!$this->UserProfession->save(array(
+							'user_id'			=> $this->User->id,
+							'profession_id' 	=> $_POST['profession_id'][$key],
+							'year_from' 		=> $_POST['year_from'][$key],
+							'year_to' 			=> $_POST['year_to'][$key],
+							'description_sk' 	=> $_POST['description_sk'][$key],
+							'description_en' 	=> $_POST['description_en'][$key] 
+						))) {
+							throw new Exception('Save new failed !');
+						};
+					}
+				}
+				
+				// vymaz odstranene profesie
+				foreach ($user['UserProfession'] as $user_profession) {
+					if (!in_array($user_profession['id'], $updProfessions)) {
+						$this->UserProfession->del($user_profession['id']);
+					}
+				}
+				
 				$this->My->setInfo(__('Your profile has been changed.', true));	
 				$this->redirect('/alumni/myprofile', null, true);
 			} else {
