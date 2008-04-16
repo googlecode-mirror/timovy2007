@@ -144,14 +144,14 @@
 				<?php endforeach; ?>
 			</select>			
 			<input type="hidden" name="user_language_id[]" value="<?php echo $p['UserLanguage']['id']; ?>" />			
-			<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_ADD")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
+			<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
 		</div>	
 	<?php endforeach; ?>
 	
 	<div id="append_language_div"></div>
 	
 	<!-- Profesie generovane javascriptiom -->
-	<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="cloneAppend('default_language_form','append_language_div');" />
+	<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_ADD")?>" onclick="cloneAppend('default_language_form','append_language_div');" />
 	<br /><br />
 </div>
 
