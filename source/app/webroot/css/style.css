@@ -645,4 +645,15 @@ a.btn {
   border: 1px solid #86BECD;
   margin-bottom: 10px;
   padding: 5px;
+  display: block;
+  clear: right;
+}
+div.profession input, select {
+  width: 100px;
+}
+div.profession input.year {
+  width: 50px;
+}
+div.profession label {
+  text-align: left;
 }
