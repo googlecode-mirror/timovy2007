@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-16 12:19+0100\n"
-"PO-Revision-Date: 2008-04-16 12:27+0100\n"
+"POT-Creation-Date: 2008-04-16 22:13+0100\n"
+"PO-Revision-Date: 2008-04-16 22:13+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -39,77 +39,77 @@ msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Non-Existing user."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:252
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:250
 msgid "Your profile has been changed."
 msgstr "Your profile has been changed."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:255
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:253
 msgid "There was a error saving profile data."
 msgstr "There was a error saving profile data."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:301
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:294
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Your profile image has been removed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:303
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:296
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Deleting image file failed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:363
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:356
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Your image has been successfully changed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:365
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:358
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Error uploading your image. Error creating new PNG file."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:369
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:362
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Error uploading your image. Unsupported image type."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:371
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:364
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Error uploading your image. Error creating image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:374
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:367
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Error uploading your image. "
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:379
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:372
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Error uploading your image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:427
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:420
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Password has been changed"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:429
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:422
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Error saving data"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:432
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:425
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Bad new password"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:212
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:435
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:428
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Passwords are different."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:215
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:438
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:431
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Bad old password."
 
@@ -329,11 +329,6 @@ msgstr " Occupation"
 msgid "ALUMNI_MYPROFILE_PROFESSION"
 msgstr " Career"
 
-# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:90
-msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
-msgstr "Selection of language for profession description"
-
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:92
 msgid "ALUMNI_MYPROFILE_LANGUAGE_SLOVAK"
@@ -344,71 +339,76 @@ msgstr "Slovak"
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ENGLISH"
 msgstr "English"
 
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:96
+msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
+msgstr "Selection of language for profession description"
+
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:100
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:166
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:101
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:167
 msgid "ALUMNI_MYPROFILE_PROFESSION_POSITION"
 msgstr "Position"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:105
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:171
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:106
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:172
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM"
 msgstr "From year"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:106
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:172
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:107
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:173
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_TO"
 msgstr "To year"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:109
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:175
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:110
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:176
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN"
 msgstr "Description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:112
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:178
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:113
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:179
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK"
 msgstr "Description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:115
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:180
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:116
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:181
 msgid "ALUMNI_MYPROFILE_PROFESSION_DELETE"
 msgstr " Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:122
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:123
 msgid "ALUMNI_MYPROFILE_PROFESSION_ADD"
 msgstr " Add"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:129
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:130
 msgid "ALUMNI_MYPROFILE_LANGUAGES"
 msgstr "Foreign languages"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:134
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:185
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:135
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:186
 msgid "ALUMNI_MYPROFILE_LANGUAGE"
 msgstr "Language"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:146
-msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
-msgstr "Add"
-
-# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:153
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:196
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:147
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:197
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Delete"
 
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:154
+msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
+msgstr "Add"
+
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:42
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:158
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:159
 msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
 msgstr "Change informations"
 
@@ -605,7 +605,7 @@ msgstr "There are no such users ..."
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:2
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:6
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:137
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:136
 msgid "MENU_MAIL_COMPOSE"
 msgstr "Compose mail"
 
@@ -688,7 +688,7 @@ msgstr "* Rows marked with bold font are global system groups."
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:132
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:131
 msgid "MENU_MAIL"
 msgstr "Local mail"
 
@@ -775,7 +775,7 @@ msgstr "To"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:139
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:138
 msgid "MENU_MAIL_SETTINGS"
 msgstr "Local mail settings"
 
@@ -1007,18 +1007,23 @@ msgstr "Statistics Index"
 msgid "USER_PROFILE_MENU"
 msgstr "My Profile"
 
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:112
+msgid "MENU_ALUMNI_CURRICULUM"
+msgstr "CV"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:126
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:125
 msgid "MAIL_MENU"
 msgstr "Local Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:150
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:149
 msgid "MENU_NOVINKY"
 msgstr "News"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:166
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:165
 msgid "CRUMB_MENU"
 msgstr "Home"
 

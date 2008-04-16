@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-16 12:07+0100\n"
-"PO-Revision-Date: 2008-04-16 12:07+0100\n"
+"POT-Creation-Date: 2008-04-16 22:11+0100\n"
+"PO-Revision-Date: 2008-04-16 22:12+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -39,77 +39,77 @@ msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Neexistujúci používatel"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:252
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:250
 msgid "Your profile has been changed."
 msgstr "Váš profil bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:255
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:253
 msgid "There was a error saving profile data."
 msgstr "Nastala chyba pri ukladaní dát."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:301
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:294
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:303
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:296
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Nastala chyba pri mazaní obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:363
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:356
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Obrázok bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:365
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:358
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť PNG obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:369
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:362
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Nastala chyba pri uploadovani suboru. Nepodporovaný typ."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:371
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:364
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť nový obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:374
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:367
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno zistiť veľkosť obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:379
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:372
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Nastala chyba pri uploadovani suboru. Prosím skontrolujte, či váš obrázok spĺňa stanovené parametre."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:427
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:420
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Heslo bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:429
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:422
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Nastala chyba pri ukladaní nového hesla."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:432
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:425
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Zadali ste zlé nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:192
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:435
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:428
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Heslá sa nezhodujú"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:195
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:438
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:431
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
@@ -325,90 +325,90 @@ msgid "ALUMNI_MYPROFILE_OCCUPATION"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:86
-msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
-msgstr "Výber jazyka popisu profesií"
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:87
+msgid "ALUMNI_MYPROFILE_PROFESSION"
+msgstr "Profesijný rast"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:89
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:92
 msgid "ALUMNI_MYPROFILE_LANGUAGE_SLOVAK"
 msgstr "Slovensky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:90
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:93
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ENGLISH"
 msgstr "Anglicky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:97
-msgid "ALUMNI_MYPROFILE_PROFESSION"
-msgstr "Profesijný rast"
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:96
+msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
+msgstr "Výber jazyka popisu profesií"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:102
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:168
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:101
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:167
 msgid "ALUMNI_MYPROFILE_PROFESSION_POSITION"
 msgstr "Pracovná pozícia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:107
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:173
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:106
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:172
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM"
 msgstr "Od roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:108
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:174
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:107
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:173
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_TO"
 msgstr "Do roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:111
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:177
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:110
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:176
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:114
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:180
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:113
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:179
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:117
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:182
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:116
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:181
 msgid "ALUMNI_MYPROFILE_PROFESSION_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:124
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:123
 msgid "ALUMNI_MYPROFILE_PROFESSION_ADD"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:131
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:130
 msgid "ALUMNI_MYPROFILE_LANGUAGES"
 msgstr "Cudzie jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:136
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:187
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:135
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:186
 msgid "ALUMNI_MYPROFILE_LANGUAGE"
 msgstr "Jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:148
-msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
-msgstr "Pridať"
-
-# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:155
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:198
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:147
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:197
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:160
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:154
+msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
+msgstr "Pridať"
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:159
 msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
 msgstr "Zmeniť údaje"
 
@@ -606,7 +606,7 @@ msgstr "Nebol najdený žiaden používateľ vyhovujúci zadanému reťazcu."
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:2
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:6
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:137
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:136
 msgid "MENU_MAIL_COMPOSE"
 msgstr "Vytvoriť novú správu"
 
@@ -689,7 +689,7 @@ msgstr "* Tlstým písmom sú vyznačené systémové skupiny."
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:132
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:131
 msgid "MENU_MAIL"
 msgstr "Lokálne správy"
 
@@ -777,7 +777,7 @@ msgstr "Pre"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:139
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:138
 msgid "MENU_MAIL_SETTINGS"
 msgstr "Nastavenie správ"
 
@@ -1009,18 +1009,23 @@ msgstr "Štatistiky"
 msgid "USER_PROFILE_MENU"
 msgstr "Môj Profil"
 
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:112
+msgid "MENU_ALUMNI_CURRICULUM"
+msgstr "Životopis"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:126
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:125
 msgid "MAIL_MENU"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:150
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:149
 msgid "MENU_NOVINKY"
 msgstr "Novinky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:166
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:165
 msgid "CRUMB_MENU"
 msgstr "Domov"
 
