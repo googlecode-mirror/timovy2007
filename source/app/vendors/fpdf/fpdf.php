@@ -69,6 +69,8 @@ var $keywords;           //keywords
 var $creator;            //creator
 var $AliasNbPages;       //alias for total number of pages
 var $PDFVersion;         //PDF version number
+// cakephp hack
+var $helpers;
 
 /*******************************************************************************
 *                                                                              *
@@ -77,13 +79,11 @@ var $PDFVersion;         //PDF version number
 *******************************************************************************/
 function FPDF($orientation='P',$unit='mm',$format='A4')
 {
-echo "construct ";
-pr($orientation);
-echo "unit ";
-pr($unit);
-echo "format ";
-pr($format);
-
+  
+  // cakephp hack
+  if($orientation===array()) $orientation='P';
+  $this->helpers = null;
+  
 	//Some checks
 	$this->_dochecks();
 	//Initialization of properties

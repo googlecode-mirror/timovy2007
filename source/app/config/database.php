@@ -70,8 +70,8 @@ class DATABASE_CONFIG
 		'driver' 	=> 'postgres',
 		'connect' 	=> 'pg_connect',
 		'host' 		=> 'localhost',
-		'login' 	=> 'team15',
-		'password' 	=> 'team15',
+		'login' 	=> 'yonban',
+		'password' 	=> 'tajneheslo',
 		'database' 	=> 'yonban',
 		'prefix' 	=> ''
 	);

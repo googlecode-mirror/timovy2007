@@ -17,7 +17,7 @@ class fpdfHelper extends FPDF {
 	function Header()
 	{
 	    //Logo
-	    $this->Image(WWW_ROOT.DS.'img/logo.png',10,8,33);  
+	    //$this->Image(WWW_ROOT.DS.'img/logo.png',10,8,33);  
 		// you can use jpeg or pngs see the manual for fpdf for more info
 	    //Arial bold 15
 	    $this->SetFont('Arial','B',15);
