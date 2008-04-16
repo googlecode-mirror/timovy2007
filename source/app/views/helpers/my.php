@@ -25,7 +25,7 @@ class MyHelper extends Helper
 			echo '<div class="errorMessage">';
 			echo '<div class="errorMessageRight">';
 			echo '<div class="errorMessageLeft">';
-			echo '<div class="message"><img src="'.$this->Html->url('/css/images/error.gif').'" /><span>';
+			echo '<div class="message"><img src="'.$this->Html->url('/css/images/error.gif').'" alt="error" /><span>';
 			$this->Session->flash('error');
 			echo '</span><img src="'.$this->Html->url('/css/images/error.gif').'" /></div>';
 			echo '</div>';
@@ -40,7 +40,7 @@ class MyHelper extends Helper
 			echo '<div class="flashMessage">';
 			echo '<div class="flashMessageRight">';
 			echo '<div class="flashMessageLeft">';
-			echo '<div class="message"><img src="'.$this->Html->url('/css/images/notice.gif').'" /><span>';
+			echo '<div class="message"><img src="'.$this->Html->url('/css/images/notice.gif').'" alt="notice" /><span>';
 			$this->Session->flash('info');
 			echo '</span><img src="'.$this->Html->url('/css/images/notice.gif').'" /></div>';
 			echo '</div></div></div>';	

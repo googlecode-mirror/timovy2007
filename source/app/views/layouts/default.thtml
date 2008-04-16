@@ -109,8 +109,7 @@
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>" class="menuitema"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
-                                       									
-
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/curriculum')?>" class="menuitema"><?php echo __("MENU_ALUMNI_CURRICULUM")?></a></li>                                       									
 								</ul>
 							</div>	
 						</div>	

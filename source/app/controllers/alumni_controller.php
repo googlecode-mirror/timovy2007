@@ -9,7 +9,7 @@ class AlumniController extends AppController
 	var $uses = array('User', 'Graduate', 'StudyType', 'Specialization', 'UsersOnline', 'Project', 'UserProfession', 'Profession', 'Level', 'Language', 'UserLanguage');
 	var $components = array('Login', 'Email');
 	var $auth = 'toto je nove';
-	var $helpers = array('form');
+	var $helpers = array('form','fpdf');
 	// var $required_clearances = array('SUPER_ADMIN');
 	
 	public function index()
@@ -157,50 +157,49 @@ class AlumniController extends AppController
 		//
 		// updatni informacie
 		if ($this->data) {
-			//
+		
 			// publish_email
 			$this->data['User']['publish_email'] = isset($_POST['publish_email']) ? 1 : 0;
 			if ($this->User->save($this->data, true, array('email', 'address', 'phone', 'icq', 'occupation', 'publish_email'))) {
 				
 				// spracuj profesie
 				$updProfessions = array(); // vsetky updatnute profesie
-				//if(isset($_POST['profession_id'])) {
-  				foreach ($_POST['profession_id'] as $key=>$profession_id) {
-  					if (isset($_POST['user_profession_id'][$key])) {
-  
-  						// updatne user_profesiu
-  						$user_profession_id = (int) $_POST['user_profession_id'][$key];
-  						$updProfessions[] = $user_profession_id;
-  						if (!$this->UserProfession->hasAny(array('id' => $user_profession_id))) {
-  							throw new Exception('Non existing profession with id: '. $user_profession_id);
-  						}
-  						$this->UserProfession->id = $user_profession_id;
-  						if (!$this->UserProfession->save(array(
-  							'profession_id' 	=> $_POST['profession_id'][$key],
-  							'year_from' 		=> $_POST['year_from'][$key],
-  							'year_to' 			=> $_POST['year_to'][$key],
-  							'description_sk' 	=> $_POST['description_sk'][$key],
-  							'description_en' 	=> $_POST['description_en'][$key] 
-  						))) {
-  							throw new Exception('Update failed !');
-  						};
-  					} else {
-  						// uloz novu profesiu
-  						$this->UserProfession->create();
-  						if (!$this->UserProfession->save(array(
-  							'user_id'			=> $this->User->id,
-  							'profession_id' 	=> $_POST['profession_id'][$key],
-  							'year_from' 		=> $_POST['year_from'][$key],
-  							'year_to' 			=> $_POST['year_to'][$key],
-  							'description_sk' 	=> $_POST['description_sk'][$key],
-  							'description_en' 	=> $_POST['description_en'][$key] 
-  						))) {
-  							throw new Exception('Save new failed !');
-  						};
-  					}
-  				}
-				//}
-				
+				if(!isset($_POST['profession_id'])) $_POST['proffesion_id'] = array();
+				foreach ($_POST['profession_id'] as $key=>$profession_id) {
+					if (isset($_POST['user_profession_id'][$key])) {
+
+						// updatne user_profesiu
+						$user_profession_id = (int) $_POST['user_profession_id'][$key];
+						$updProfessions[] = $user_profession_id;
+						if (!$this->UserProfession->hasAny(array('id' => $user_profession_id))) {
+							throw new Exception('Non existing profession with id: '. $user_profession_id);
+						}
+						$this->UserProfession->id = $user_profession_id;
+						if (!$this->UserProfession->save(array(
+							'profession_id' 	=> $_POST['profession_id'][$key],
+							'year_from' 		=> $_POST['year_from'][$key],
+							'year_to' 			=> $_POST['year_to'][$key],
+							'description_sk' 	=> $_POST['description_sk'][$key],
+							'description_en' 	=> $_POST['description_en'][$key] 
+						))) {
+							throw new Exception('Update failed !');
+						};
+					} else {
+						// uloz novu profesiu
+						$this->UserProfession->create();
+						if (!$this->UserProfession->save(array(
+							'user_id'			=> $this->User->id,
+							'profession_id' 	=> $_POST['profession_id'][$key],
+							'year_from' 		=> $_POST['year_from'][$key],
+							'year_to' 			=> $_POST['year_to'][$key],
+							'description_sk' 	=> $_POST['description_sk'][$key],
+							'description_en' 	=> $_POST['description_en'][$key] 
+						))) {
+							throw new Exception('Save new failed !');
+						};
+					}
+				}
+			
 				// vymaz odstranene profesie
 				foreach ($user['UserProfession'] as $user_profession) {
 					if (!in_array($user_profession['id'], $updProfessions)) {
@@ -210,37 +209,36 @@ class AlumniController extends AppController
 				
 				//spracuj jazyky
 				$updLanguages = array(); // vsetky updatnute profesie
-				//if(isset($_POST['language_id'])) {
-  				foreach ($_POST['language_id'] as $key=>$language_id) {
-  					if (isset($_POST['user_language_id'][$key])) {
-  
-  						// updatne user_language
-  						$user_language_id = (int) $_POST['user_language_id'][$key];
-  						$updLanguages[] = $user_language_id;
-  						if (!$this->UserLanguage->hasAny(array('id' => $user_language_id))) {
-  							throw new Exception('Non existing language with id: '. $user_language_id);
-  						}
-  						$this->UserLanguage->id = $user_language_id;
-  						if (!$this->UserLanguage->save(array(
-  							'language_id' 	=> $_POST['language_id'][$key],
-  							'language_id' 	=> $_POST['language_id'][$key],
-  							'level_id' 		=> $_POST['level_id'][$key] 
-  						))) {
-  							throw new Exception('Update failed !');
-  						};
-  					} else {
-  						// uloz novu profesiu
-  						$this->UserLanguage->create();
-  						if (!$this->UserLanguage->save(array(
-  							'user_id'			=> $this->User->id,
-  							'language_id' 	=> $_POST['language_id'][$key],
-  							'level_id' 		=> $_POST['level_id'][$key] 
-  						))) {
-  							throw new Exception('Save new failed !');
-  						};
-  					}
-  				}
-  			//}
+				if(!isset($_POST['language_id'])) $_POST['language_id'] = array();
+				foreach ($_POST['language_id'] as $key=>$language_id) {
+					if (isset($_POST['user_language_id'][$key])) {
+
+						// updatne user_language
+						$user_language_id = (int) $_POST['user_language_id'][$key];
+						$updLanguages[] = $user_language_id;
+						if (!$this->UserLanguage->hasAny(array('id' => $user_language_id))) {
+							throw new Exception('Non existing language with id: '. $user_language_id);
+						}
+						$this->UserLanguage->id = $user_language_id;
+						if (!$this->UserLanguage->save(array(
+							'language_id' 	=> $_POST['language_id'][$key],
+							'language_id' 	=> $_POST['language_id'][$key],
+							'level_id' 		=> $_POST['level_id'][$key] 
+						))) {
+							throw new Exception('Update failed !');
+						};
+					} else {
+						// uloz novu profesiu
+						$this->UserLanguage->create();
+						if (!$this->UserLanguage->save(array(
+							'user_id'			=> $this->User->id,
+							'language_id' 	=> $_POST['language_id'][$key],
+							'level_id' 		=> $_POST['level_id'][$key] 
+						))) {
+							throw new Exception('Save new failed !');
+						};
+					}
+				}
 				
 				// vymaz odstranene profesie
 				foreach ($user['UserLanguage'] as $user_language) {
@@ -256,15 +254,10 @@ class AlumniController extends AppController
 			}
 		}
 		
-		//$userProfessions = $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id));
-		
-
-		
     $this->Level->displayField = $this->Language->displayField = $this->Profession->displayField = 'name_'. $this->Session->read('Config.language');
 		$this->set('professions', $this->Profession->find("list"));
 		$this->set('languages', $this->Language->find("list"));
 		$this->set('levels', $this->Level->find("list"));
-		
 		$this->set('user_professions', $this->UserProfession->findAll(array('UserProfession.user_id'=> $this->User->id)));
 		$this->set('user_languages', $this->UserLanguage->findAll(array('UserLanguage.user_id'=> $this->User->id)));
 		$this->set('user', $user);
@@ -442,6 +435,16 @@ class AlumniController extends AppController
 		//
 		// zobraz
 		$this->set('user', $user);
+	}
+	
+	/*
+	 * Vygeneruje vlastne CV do PDF-ka
+	 */	 
+	
+	function curriculum() {
+    $this->layout = 'pdf'; //this will use the pdf.thtml layout
+    $this->set('data','hello world!');
+    $this->render(); 
 	}
 }
 ?>

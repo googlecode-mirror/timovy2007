@@ -39,7 +39,7 @@ class User extends AppModel
 		'UserLanguage' => array
 		(
 			'className'		=> 'UserLanguage',
-			'foreignKey'	=> 'language_id'
+			'foreignKey'	=> 'user_id'
 		)		
 	); 
 	
