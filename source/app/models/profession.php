@@ -5,7 +5,7 @@
  */
 class Profession extends AppModel 
 {
-	var $name = 'Proffesion';
+	var $name = 'Profession';
 	
 	var $hasMany = array
 	(

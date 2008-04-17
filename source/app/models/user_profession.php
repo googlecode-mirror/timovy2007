@@ -5,13 +5,13 @@
  */
 class UserProfession extends AppModel 
 {
-	var $name = 'UserProffesion';
+	var $name = 'UserProfession';
 	
 	var $belongsTo = array
 	(
-		'Proffesion' => array
+		'Profession' => array
 		(
-			'className'		=> 'Proffesion',
+			'className'		=> 'Profession',
 			'foreignKey'	=> 'profession_id'
 		),
 		'User' => array
