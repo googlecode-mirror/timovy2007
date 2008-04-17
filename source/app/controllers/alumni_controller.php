@@ -442,8 +442,26 @@ class AlumniController extends AppController
 	 */	 
 	
 	function curriculum() {
-    $this->layout = 'pdf'; //this will use the pdf.thtml layout
-    $this->set('data','hello world!');
+		
+		// musi byt prihlaseny
+		if (!$this->Login->isLogged()) {
+			$this->My->setError('You need to be logged');
+			$this->redirect('/', null, true);
+		}		
+		
+		// nacitam informacie
+		$this->User->id = $this->Login->user_id();
+		if (!($user = $this->User->find(array('User.id'=>$this->User->id), null, null, 2))) {
+			$this->My->setError('Can\'t read user informations');
+			$this->redirect('/', null, true);
+		}
+    	
+    //this will use the pdf.thtml layout	
+    $this->layout = 'pdf'; 
+    
+    $this->set('user',$user);
+    pr($user);
+    die;
     $this->render(); 
 	}
 }

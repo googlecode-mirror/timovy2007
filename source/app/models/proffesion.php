@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * @package AATeam
  * @subpackage app.models
