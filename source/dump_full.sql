@@ -15,6 +15,13 @@ SET escape_string_warning = off;
 COMMENT ON SCHEMA public IS 'Standard public schema';
 
 
+--
+-- Name: plpgsql; Type: PROCEDURAL LANGUAGE; Schema: -; Owner: postgres
+--
+
+CREATE PROCEDURAL LANGUAGE plpgsql;
+
+
 SET search_path = public, pg_catalog;
 
 --
@@ -598,7 +605,7 @@ ALTER SEQUENCE login_history_id_seq OWNED BY login_history.id;
 -- Name: login_history_id_seq; Type: SEQUENCE SET; Schema: public; Owner: team14
 --
 
-SELECT pg_catalog.setval('login_history_id_seq', 14, true);
+SELECT pg_catalog.setval('login_history_id_seq', 19, true);
 
 
 --
@@ -1148,7 +1155,7 @@ ALTER TABLE public.user_languages_id_seq OWNER TO team14;
 -- Name: user_languages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: team14
 --
 
-SELECT pg_catalog.setval('user_languages_id_seq', 4, true);
+SELECT pg_catalog.setval('user_languages_id_seq', 10, true);
 
 
 --
@@ -1404,7 +1411,7 @@ ALTER SEQUENCE users_online_id_seq OWNED BY users_online.id;
 -- Name: users_online_id_seq; Type: SEQUENCE SET; Schema: public; Owner: team14
 --
 
-SELECT pg_catalog.setval('users_online_id_seq', 14, true);
+SELECT pg_catalog.setval('users_online_id_seq', 19, true);
 
 
 --
@@ -2348,6 +2355,11 @@ INSERT INTO login_history VALUES (11, 1, '127.0.0.1', '2008-04-08 10:05:54.87420
 INSERT INTO login_history VALUES (12, 1, '127.0.0.1', '2008-04-08 11:18:41.849728');
 INSERT INTO login_history VALUES (13, 1, '127.0.0.1', '2008-04-12 00:20:57.825');
 INSERT INTO login_history VALUES (14, 1, '127.0.0.1', '2008-04-15 22:25:26.509');
+INSERT INTO login_history VALUES (15, 1, '127.0.0.1', '2008-04-16 08:47:14.288');
+INSERT INTO login_history VALUES (16, 1, '127.0.0.1', '2008-04-16 17:59:33.621');
+INSERT INTO login_history VALUES (17, 4, '127.0.0.1', '2008-04-16 19:57:00.904');
+INSERT INTO login_history VALUES (18, 1, '127.0.0.1', '2008-04-17 20:52:19.569');
+INSERT INTO login_history VALUES (19, 1, '127.0.0.1', '2008-04-17 22:31:03.908');
 
 
 --
@@ -4159,8 +4171,9 @@ INSERT INTO study_types VALUES (3, 'DoktorandskĂ© ĹˇtĂşdium', 3);
 -- Data for Name: user_languages; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO user_languages VALUES (3, 1, 3, 1);
-INSERT INTO user_languages VALUES (4, 1, 4, 4);
+INSERT INTO user_languages VALUES (8, 1, 1, 1);
+INSERT INTO user_languages VALUES (9, 1, 3, 2);
+INSERT INTO user_languages VALUES (10, 1, 4, 4);
 
 
 --
@@ -4184,7 +4197,6 @@ INSERT INTO user_mail_states VALUES ('DELETED');
 
 INSERT INTO user_professions VALUES (1, 1, 1, 2000, 2000, 'text sk', 'text en');
 INSERT INTO user_professions VALUES (2, 1, 2, 2002, 2002, 'text dalsi sk', 'text dalsi en');
-INSERT INTO user_professions VALUES (4, 1, 1, NULL, NULL, '', '');
 
 
 --
@@ -4903,6 +4915,11 @@ INSERT INTO users VALUES (1, 'te22111', 'test', NULL, '098f6bcd4621d373cade4e832
 --
 
 INSERT INTO users_clearances VALUES (1, 1, 8, 'allow');
+INSERT INTO users_clearances VALUES (4, 1, 5, 'allow');
+INSERT INTO users_clearances VALUES (5, 1, 4, 'allow');
+INSERT INTO users_clearances VALUES (6, 1, 3, 'allow');
+INSERT INTO users_clearances VALUES (7, 1, 2, 'allow');
+INSERT INTO users_clearances VALUES (8, 1, 1, 'allow');
 
 
 --
