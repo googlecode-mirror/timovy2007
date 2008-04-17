@@ -455,13 +455,12 @@ class AlumniController extends AppController
 			$this->My->setError('Can\'t read user informations');
 			$this->redirect('/', null, true);
 		}
-    	
+//pr($user);
+//die;    	
     //this will use the pdf.thtml layout	
     $this->layout = 'pdf'; 
-    
     $this->set('user',$user);
-    pr($user);
-    die;
+    $this->set('lang', $this->Session->read('Config.language'));
     $this->render(); 
 	}
 }
