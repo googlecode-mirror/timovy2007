@@ -4907,12 +4907,13 @@ INSERT INTO users VALUES (1, 'te22111', 'test', NULL, '098f6bcd4621d373cade4e832
 -- Data for Name: users_clearances; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO users_clearances VALUES (1, 1, 8, 'allow');
-INSERT INTO users_clearances VALUES (4, 1, 5, 'allow');
-INSERT INTO users_clearances VALUES (5, 1, 4, 'allow');
-INSERT INTO users_clearances VALUES (6, 1, 3, 'allow');
-INSERT INTO users_clearances VALUES (7, 1, 2, 'allow');
-INSERT INTO users_clearances VALUES (8, 1, 1, 'allow');
+INSERT INTO users_clearances VALUES (1, 1, 1, 'allow');
+INSERT INTO users_clearances VALUES (2, 1, 2, 'allow');
+INSERT INTO users_clearances VALUES (3, 1, 3, 'allow');
+INSERT INTO users_clearances VALUES (4, 1, 4, 'allow');
+INSERT INTO users_clearances VALUES (5, 1, 5, 'allow');
+INSERT INTO users_clearances VALUES (6, 1, 6, 'allow');
+INSERT INTO users_clearances VALUES (7, 1, 8, 'allow');
 
 
 --
@@ -6156,3 +6157,15 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 
 
+CREATE TABLE statistic (
+    id integer NOT NULL,
+    sql text NOT NULL,
+    name_sk character varying(255),
+    name_en character varying(255)
+);
+ALTER TABLE ONLY statistic
+    ADD CONSTRAINT statistic_pkey PRIMARY KEY (id);
+
+INSERT INTO statistic(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
+INSERT INTO statistic(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
+INSERT INTO statistic(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');

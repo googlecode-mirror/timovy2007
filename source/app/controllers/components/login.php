@@ -210,10 +210,11 @@ class LoginComponent extends Object
 
 		// replace do users_online
 		$UsersOnline = new UsersOnline();
+		$this->Session->write('foo','bar');    
 		$UsersOnlineData = array
 		(
 			'user_id'				=> $someone['User']['id'],
-			'session_id'			=> session_id(),
+			'session_id'			=> $this->Session->id(),  //TODO poriesit aby tu bolo cislo session - nevklada sa !!!
 			'session_start'			=> 'NOW()',
 			'session_last_refresh'	=> 'NOW()'
 		);

@@ -2,15 +2,16 @@
 
 //vendor('excel_writer/ExcelWriter'); 
 //App::import('Vendor',true,true,array(),'excelwriter'.DS.'ExcelWriterx.php');
-App::import('Vendor','excel_writer'.DS.'ExcelWriterx');
-App::import('Vendor','ole'.DS.'OleRoot');
+//App::import('Vendor','excel_writer'.DS.'ExcelWriter');
+App::import('Vendor','excel_writer'.DS.'excelwriter');
+App::import('Vendor','ole'.DS.'oleroot');
 
-App::import('Vendor','ole'.DS.'OleFile');
+App::import('Vendor','ole'.DS.'olefile');
 
 
 // http://bakery.cakephp.org/articles/view/generate-excel-spreadsheets-from-your-database 
 set_time_limit(10); // Set maximum execution time to 10 seconds.
-error_reporting(E_ALL ^E_NOTICE); // Notice errors break the Excel file format.
+//error_reporting(E_ALL ^E_NOTICE); // Notice errors break the Excel file format.
 
 define('TEXT_FORMAT',     0);
 define('NUM_FORMAT',      1);
@@ -20,6 +21,7 @@ define('TIME_FORMAT',     4);
 define('DATETIME_FORMAT', 5);
 
 class excelHelper extends ExcelWriter {
+ 
 
   var $workbook;
   var $worksheets = array();
@@ -31,6 +33,9 @@ class excelHelper extends ExcelWriter {
   var $valign = 'vcenter';
   var $bold   = 0;
   var $italic = 0;
+  var $helpers = null;
+  var $counter_col = 0;
+  var $counter_row = 0;
 
   /**
    * Creates the necessary objects and a temporary Excel file. Sets the
@@ -40,10 +45,10 @@ class excelHelper extends ExcelWriter {
    * @param string  $filename  Name of the downloadable file
    */
   function excelHelper($filename = 'data.xls') {
-echo "construct excel helperu<br>";
+    if($filename==array()) $filename = 'data.xls';
     $this->workbook =& new ExcelWriter();
     $this->workbook->setTempDir(TMP."cache");
-
+    $this->workbook->filename = $filename; 
     $this->workbook->setVersion(8); // Set workbook to Excel 97 (for UTF-8 support)
   }
 
@@ -196,13 +201,32 @@ echo "construct excel helperu<br>";
     return $worksheet->write($row, $col, $token, $this->formats[$format]);
   }
   
+  function WriteRawData(&$worksheet, $data){
+    $header = $data[0];
+    $worksheet->hideGridlines();    
+    $heading_format = $this->workbook->AddFormat(array('bold' => 1, 'align' => 'center')); 
+    foreach($header as $key=>$value){
+      $worksheet->write( $this->counter_row, $this->counter_col++, $key, $heading_format);
+    }
+    $this->counter_col = 0;
+    $this->counter_row++;
+    foreach($data as $key=>$value){
+      foreach($value as $key2=>$value2) {
+        $worksheet->write($this->counter_row, $this->counter_col++, $value2, null);
+      }
+      $this->counter_row++;
+      $this->counter_col = 0;  
+    }    
+//die;
+  }
+  
   /**
    * Sends the temporary Excel file as a string to the render engine
    * and clears all objects.
    */
   function OutputFile() {
+    $this->workbook->send($this->workbook->filename);
     $this->workbook->Close();
-    echo file_get_contents($this->workbook->filename, "rb");
   }
 
 }

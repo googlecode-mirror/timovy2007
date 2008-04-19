@@ -2,9 +2,9 @@
 
 class StatsController extends AppController 
 {  
-  var $uses = array('Stat', 'User', 'Graduate', 'StudyType', 'Specialization', 'UsersOnline', 'Project', 'UserProfession', 'Profession', 'Level', 'Language', 'UserLanguage');  
+  var $uses = array('Stat');  
 	var $components = array('Login');
-	var $helpers = array('form','Excel');
+	var $helpers = array('Form', 'Excel'); 
   
   function index()
   {
@@ -14,11 +14,13 @@ class StatsController extends AppController
   }
   
   function export() {
+  
     if ($this->data) {
-      $data = array();
-      $data['sheet1'] = $this->Language->findAll(NULL, NULL, NULL, NULL, 1, 2);
+      $sql = $this->Stat->find(array('id' => $this->data['Stat']['id']) );
+      $data = $this->Stat->SqlQuery($sql['Stat']['sql']);            
       $this->set('data', $data);
       $this->render('action', 'excel');
+      $this->layout = 'excel'; 
     }
     else {
       $this->redirect('/stats', null, true);

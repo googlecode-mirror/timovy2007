@@ -7,9 +7,9 @@
 
 <span style="color: red;">
 TODO:
-urobit form na vyber hotovych sql selectov
+Urobit daky pekny form na vyber statistiky a asi odstranit kecy co su dole pod tymto
 </span>
-<br/><br/>
+<br /><br />
 
 <h1>Zoznam štatistík</h1>
 

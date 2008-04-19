@@ -1,5 +1,5 @@
 <?php 
-App::import('Vendor','fpdf\fpdf');
+App::import('Vendor','fpdf'.DS.'fpdf');
 
 if (!defined('PARAGRAPH_STRING')) define('PARAGRAPH_STRING', '~~~');
 
