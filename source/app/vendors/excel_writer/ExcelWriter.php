@@ -1,4 +1,5 @@
 <?php
+echo "excel writer load";
 /*
 *  Module written/ported by Xavier Noguer <xnoguer@rezebra.com>
 *

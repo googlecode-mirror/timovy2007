@@ -1,3 +1,10 @@
+<?php echo $form->create('Stat',array('action'=> "export")); ?>
+<?php echo $form->label('Stat.name_'.$lang,'__STATISTIKY NA VYBER',null); ?>
+<?php echo $form->select('Stat.id',$statistics,'1',null,false); ?><br />
+<?php echo $form->submit('__Vygenerovat excel'); ?>
+<?php echo $form->end();?>
+
+
 <span style="color: red;">
 TODO:
 urobit form na vyber hotovych sql selectov

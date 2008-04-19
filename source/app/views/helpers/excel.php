@@ -1,4 +1,13 @@
 <?php
+
+//vendor('excel_writer/ExcelWriter'); 
+//App::import('Vendor',true,true,array(),'excelwriter'.DS.'ExcelWriterx.php');
+App::import('Vendor','excel_writer'.DS.'ExcelWriterx');
+App::import('Vendor','ole'.DS.'OleRoot');
+
+App::import('Vendor','ole'.DS.'OleFile');
+
+
 // http://bakery.cakephp.org/articles/view/generate-excel-spreadsheets-from-your-database 
 set_time_limit(10); // Set maximum execution time to 10 seconds.
 error_reporting(E_ALL ^E_NOTICE); // Notice errors break the Excel file format.
@@ -9,10 +18,6 @@ define('MONEY_FORMAT',    2);
 define('DATE_FORMAT',     3);
 define('TIME_FORMAT',     4);
 define('DATETIME_FORMAT', 5);
-
-App::import('Vendor','excel_writer/ExcelWriter');
-App::import('Vendor','ole/OleRoot');
-App::import('Vendor','ole/OleFile');
 
 class excelHelper extends ExcelWriter {
 
@@ -35,6 +40,7 @@ class excelHelper extends ExcelWriter {
    * @param string  $filename  Name of the downloadable file
    */
   function excelHelper($filename = 'data.xls') {
+echo "construct excel helperu<br>";
     $this->workbook =& new ExcelWriter();
     $this->workbook->setTempDir(TMP."cache");
 
