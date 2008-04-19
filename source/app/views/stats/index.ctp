@@ -1,3 +1,9 @@
+<span style="color: red;">
+TODO:
+urobit form na vyber hotovych sql selectov
+</span>
+<br/><br/>
+
 <h1>Zoznam štatistík</h1>
 
 <h2>Štatistika prístupov</h2>

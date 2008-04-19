@@ -3,10 +3,12 @@
 class StatsController extends AppController
 {
 
+  var $uses = array('User', 'UserProfession', 'UserLanguage');
+
   function index()
-    {
+  {
          // $this->set('stats');
-    }
+  }
 /*
     function view($id)
     {
