@@ -65,10 +65,9 @@
 </h2>
 <form class="alumni_myprofile" action="<?php echo $html->url('/alumni/myprofile')?>" method="post">
 <p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_EMAIL')?>:</label><input type="checkbox" name="publish_email" value="1" <?php echo ($user['User']['publish_email']==1) ? 'checked' : '';?> />
-		<?php __("ALUMNI_MYPROFILE_PUBLISH_EMAIL")?>
-		<br />	
-	<label>&nbsp;</label> <?php echo $form->text('User/email')?><br />
+	<label><?php __('ALUMNI_MYPROFILE_EMAIL')?>:</label><?php echo $form->text('User/email')?><input class="left_space" type="checkbox" name="publish_email" value="1" <?php echo ($user['User']['publish_email']==1) ? 'checked' : '';?> />
+    <?php __("ALUMNI_MYPROFILE_PUBLISH_EMAIL")?>
+		<br />
 </p><br /><p class="myprofile">
 	<label><?php __('ALUMNI_MYPROFILE_ADDRESS')?>:</label> <?php echo $form->textarea('User/address', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
 </p><br /><p class="myprofile">
@@ -83,29 +82,31 @@
 -->
 
 <div class="myprofile">
-	<h3 style="margin-bottom: 10px">
+	<h3>
 		<?php __('ALUMNI_MYPROFILE_PROFESSION')?>:
 	</h3>
-	<div class="profession">
-    <span style="float: right;">
-  		<select id="langChange">
-  			<option <?=($lang=='sk' ? 'selected="selected"': '');?> value="sk"><?php __("ALUMNI_MYPROFILE_LANGUAGE_SLOVAK")?></option>
-  			<option <?=($lang=='en' ? 'selected="selected"': '');?> value="en"><?php __("ALUMNI_MYPROFILE_LANGUAGE_ENGLISH")?></option>
-  		</select>
-  	</span>
+	<div class="profession" style="float: left">
+    <select id="langChange" class="left_space" style="float: right">
+  		<option <?=($lang=='sk' ? 'selected="selected"': '');?> value="sk"><?php __("ALUMNI_MYPROFILE_LANGUAGE_SLOVAK")?></option>
+  		<option <?=($lang=='en' ? 'selected="selected"': '');?> value="en"><?php __("ALUMNI_MYPROFILE_LANGUAGE_ENGLISH")?></option>
+  	</select>
   	<?php __('ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION')?>:
   </div>
 	<!-- Profesie v databaze -->
 	 <?php foreach ($user_professions as $k=>$p): ?>	
-		<div class="profession">
-			<label><?php __("ALUMNI_MYPROFILE_PROFESSION_POSITION")?>:</label><select name="profession_id[]">
-				<?php foreach ($professions as $key => $value): ?>
-				<option value="<?=$key?>" <?php if($key==$p['UserProfession']['profession_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
-				<?php endforeach; ?>
-			</select><br />
-			<label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
-			<?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:<input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
-			<br />
+		<div class="profession" style="clear: left">
+			<p>
+        <label><?php __("ALUMNI_MYPROFILE_PROFESSION_POSITION")?>:</label>
+        <select name="profession_id[]">
+				  <?php foreach ($professions as $key => $value): ?>
+				  <option value="<?=$key?>" <?php if($key==$p['UserProfession']['profession_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
+				  <?php endforeach; ?>
+			  </select>
+      </p>
+			<p>
+        <label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
+			  <label class="left_space" style="width: 98px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_to']; ?>" />
+      </p>
 			<div class="lang_en">
 				<label><?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN")?>:</label><textarea name="description_en[]" rows="3" cols="100" style="width: 350px;"><?php echo $p['UserProfession']['description_en']; ?></textarea>
 			</div>
@@ -113,7 +114,7 @@
 				<label><?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK")?>:</label><textarea name="description_sk[]" rows="3" cols="100" style="width: 350px;"><?php echo $p['UserProfession']['description_sk']; ?></textarea>
 			</div>
 			<input type="hidden" name="user_profession_id[]" value="<?php echo $p['UserProfession']['id']; ?>" />			
-			<input type="button" value="<?php __("ALUMNI_MYPROFILE_PROFESSION_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
+			<p style="text-align: center; margin-bottom: 0em"><input type="button" value="<?php __("ALUMNI_MYPROFILE_PROFESSION_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" /></p>
 		</div>	
 	<?php endforeach; ?>
 	
@@ -132,19 +133,21 @@
 	<!-- Profesie v databaze -->
 	 <?php foreach ($user_languages as $k=>$p): ?>	
 		<div class="profession">
-			<label><?php __("ALUMNI_MYPROFILE_LANGUAGE")?>:</label>
-      <select name="language_id[]">
-				<?php foreach ($languages as $key => $value): ?>
-				<option value="<?=$key?>" <?php if($key==$p['UserLanguage']['language_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
-				<?php endforeach; ?>
-			</select>
-      <select name="level_id[]">
-				<?php foreach ($levels as $key => $value): ?>
-				<option value="<?=$key?>" <?php if($key==$p['UserLanguage']['level_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
-				<?php endforeach; ?>
-			</select>			
+			<p>
+        <label><?php __("ALUMNI_MYPROFILE_LANGUAGE")?>:</label>
+        <select name="language_id[]" style="width: 175px">
+  				<?php foreach ($languages as $key => $value): ?>
+  				<option value="<?=$key?>" <?php if($key==$p['UserLanguage']['language_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
+  				<?php endforeach; ?>
+  			</select>
+        <select name="level_id[]" class="left_space" style="width: 175px">
+  				<?php foreach ($levels as $key => $value): ?>
+  				<option value="<?=$key?>" <?php if($key==$p['UserLanguage']['level_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
+  				<?php endforeach; ?>
+  			</select>
+      </p>			
 			<input type="hidden" name="user_language_id[]" value="<?php echo $p['UserLanguage']['id']; ?>" />			
-			<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
+			<p style="text-align: center; margin-bottom: 0em"><input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" /></p>
 		</div>	
 	<?php endforeach; ?>
 	
@@ -164,35 +167,41 @@
 
 <!-- skryty form pre pridavanie profesii -->
 <div class="profession" style="display:none;" id="default_proffesion_form">
-	<?php __("ALUMNI_MYPROFILE_PROFESSION_POSITION")?>: <select name="profession_id[]">
-		<?php foreach ($professions as $key => $value): ?>
-		<option value="<?=$key?>"><?=$value?></option>
-		<?php endforeach; ?>
-	</select><br />
-	<?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:<input name="year_from[]" type="text" value="" />
-	<?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:<input name="year_to[]" type="text" value="" />
-	<br />
+	<p>
+    <label><?php __("ALUMNI_MYPROFILE_PROFESSION_POSITION")?>:</label>
+    <select name="profession_id[]">
+  		<?php foreach ($professions as $key => $value): ?>
+  		<option value="<?=$key?>"><?=$value?></option>
+  		<?php endforeach; ?>
+  	</select>
+  </p>
+	<p>
+    <label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="" />
+  	<label class="left_space" style="width: 98px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="" />
+  </p>
 	<div class="lang_en">
-		<?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN")?>:<textarea  name="description_en[]" rows="3" cols="100" style="width: 350px;"></textarea>
+		<label><?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN")?>:</label><textarea  name="description_en[]" rows="3" cols="100" style="width: 350px;"></textarea>
 	</div>
 	<div class="lang_sk">
-		<?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK")?>:<textarea  name="description_sk[]" rows="3" cols="100" style="width: 350px;"></textarea>
+		<label><?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK")?>:</label><textarea  name="description_sk[]" rows="3" cols="100" style="width: 350px;"></textarea>
 	</div>			
-	<input type="button" value="<?php __("ALUMNI_MYPROFILE_PROFESSION_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);"/>
+	<p style="text-align: center"><input type="button" value="<?php __("ALUMNI_MYPROFILE_PROFESSION_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);"/></p>
 </div>
 
 <!-- skryty form pre pridavanie jazykov -->
 <div class="profession" style="display:none;" id="default_language_form">
-	<label><?php __("ALUMNI_MYPROFILE_LANGUAGE")?>:</label>
-  <select name="language_id[]">
-		<?php foreach ($languages as $key => $value): ?>
-		 <option value="<?=$key?>"><?=$value?></option>
-		<?php endforeach; ?>
-	</select>
-  <select name="level_id[]">
-		<?php foreach ($levels as $key => $value): ?>
-		  <option value="<?=$key?>"><?=$value?></option>
-		<?php endforeach; ?>
-	</select>			
-	<input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
+	<p>
+    <label><?php __("ALUMNI_MYPROFILE_LANGUAGE")?>:</label>
+    <select name="language_id[]" style="width: 175px">
+  		<?php foreach ($languages as $key => $value): ?>
+  		 <option value="<?=$key?>"><?=$value?></option>
+  		<?php endforeach; ?>
+  	</select>
+    <select name="level_id[]" class="left_space" style="width: 175px">
+  		<?php foreach ($levels as $key => $value): ?>
+  		  <option value="<?=$key?>"><?=$value?></option>
+  		<?php endforeach; ?>
+  	</select>
+  </p>			
+	<p style="text-align: center; margin-bottom: 0em"><input type="button" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" /></p>
 </div>	

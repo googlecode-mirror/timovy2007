@@ -618,6 +618,9 @@ div.myprofile {
 	overflow/**/: auto;
     \height: 1%;
 }
+div.myprofile h3 {
+  margin-bottom: 10px
+}
 img.myprofile {
 	margin-right: 10px;
 }
@@ -637,9 +640,13 @@ a.btn {
 }
 .lang_en {
   display: none;
+  padding: 0em;
+  margin-bottom: 1em;
 }
 .lang_sk {
   display: none;
+  padding: 0em;
+  margin-bottom: 1em;
 }
 .profession {
   border: 1px solid #86BECD;
@@ -649,11 +656,21 @@ a.btn {
   clear: right;
 }
 div.profession input, select {
-  width: 100px;
+  float: left;
+  width: 120px;
 }
-div.profession input.year {
-  width: 50px;
+div.profession input[type="button"] {
+  float: none;
 }
 div.profession label {
+  width: 100px;
   text-align: left;
+}
+div.profession p {
+  padding: 0em;
+  margin-top: 0em;
+	margin-bottom: 2em;
+}
+.left_space {
+  margin-left: 10px;
 }
