@@ -3,11 +3,12 @@
 class StatsController extends AppController
 {
 
-  var $uses = array('User', 'UserProfession', 'UserLanguage');
+  var $uses = array('User', 'UserProfession', 'UserLanguage', 'Stat');
 
   function index()
   {
-         // $this->set('stats');
+    $this->Stat->displayField = 'name_'. $this->Session->read('Config.language');
+		$this->set('professions', $this->Stat->find("list"));
   }
 /*
     function view($id)
