@@ -54,6 +54,14 @@ class User extends AppModel
 			'unique'				=> 'true'
 		)
 	);
+
+	/*
+  var $belongsTo = array (
+      'LdapUser' => array (
+          'className' => 'LdapUser',
+          'foreignKey' => 'ldapname'
+      )
+  ); 	*/
 	
 	/**
 	 * Retrieve array of user roles for selected user

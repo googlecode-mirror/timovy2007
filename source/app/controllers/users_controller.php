@@ -73,7 +73,7 @@ class UsersController extends AppController
 		$user_custom_clearances = $this->User->custom_clearances($user_id);
 		
 		// 
-		// pre kazdu clearance zisti ci ju ma momentalny pouzivatel povolenu/zakzanu/default
+		// pre kazdu clearance zisti ci ju ma momentalny pouzivatel povolenu/zakazanu/default
 		foreach ($clearances as $k=>$c) {
 			$access = 'default';
 			if (in_array($c['Clearance']['key'], array_keys($user_custom_clearances))) {

@@ -173,6 +173,7 @@ class LoginComponent extends Object
 	{
 		$User = new User();
 		
+		
 		// zisti ci existuje
 		$someone = $User->findByUsername($username);
 		if (empty($someone['User']['username'])) {

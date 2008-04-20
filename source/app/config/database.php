@@ -75,5 +75,16 @@ class DATABASE_CONFIG
 		'database' 	=> 'yonban',
 		'prefix' 	=> ''
 	);
+/*		
+  var $ldap = array (
+      'datasource' => 'ldap',
+      'host' => 'ldap.stuba.sk',                
+      'port' => 389,                        
+      'basedn' => 'dc=stuba,dc=sk',
+      'login' => "uid=xgarajj,ou=People,dc=stuba,dc=sk", 
+      'password' => "", //$this->ldap_password,                
+      'version' => 3                    
+  );
+*/  
 }
 ?>
