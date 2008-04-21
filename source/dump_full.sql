@@ -1765,7 +1765,7 @@ INSERT INTO academics VALUES (397);
 --
 
 INSERT INTO clearances VALUES (1, 'IMPORT', 'Data import', 'Import dát', 'Import of the data from YonBan', 'Importovanie dát zo systému YonBan', NULL);
-INSERT INTO clearances VALUES (2, 'MAIL_WRITE', 'Mail writing', 'Zasielanie správ', 'Writing mails to other users', Možnosť zasielať správy ostatným používateľom', NULL);
+INSERT INTO clearances VALUES (2, 'MAIL_WRITE', 'Mail writing', 'Zasielanie správ', 'Writing mails to other users', 'Možnosť zasielať správy ostatným používateľom', NULL);
 INSERT INTO clearances VALUES (3, 'WALL_POSTER_WRITE', 'Wall Poster Writing', 'Prispievanie na nástenku', 'Wall Poster Writing', 'Prispievanie na nástenku', NULL);
 INSERT INTO clearances VALUES (4, 'WALL_POSTER_ADMIN', 'Wall Poster Administration', 'Manažovanie nástenky', 'Wall Poster Administration', 'Manažovanie nástenky', NULL);
 INSERT INTO clearances VALUES (5, 'MANAGE_USERS', 'User & Permission management', 'Správa používateľov a používateľských práv', 'Management of users and users rights', 'Manažovanie používateľov a ich práv', 1);
@@ -5594,11 +5594,19 @@ ALTER TABLE ONLY clearances
 
 
 --
--- Name: clearances_name_key; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
+-- Name: clearances_name_en_key; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
 --
 
 ALTER TABLE ONLY clearances
-    ADD CONSTRAINT clearances_name_key UNIQUE (name);
+    ADD CONSTRAINT clearances_name_en_key UNIQUE (name_en);
+
+
+--
+-- Name: clearances_name_sk_key; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
+--
+
+ALTER TABLE ONLY clearances
+    ADD CONSTRAINT clearances_name_sk_key UNIQUE (name_sk);
 
 
 --
