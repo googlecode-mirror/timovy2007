@@ -54,8 +54,8 @@
 </tr>
 <?php foreach ($clearances as $c) { ?>
 <tr >
-	<td><?php echo $c['Clearance']['name']?></td>
-	<td><?Php echo $c['Clearance']['description']?></td>
+	<td><?php echo $c['Clearance']['name_'.$lang]?></td>
+	<td><?Php echo $c['Clearance']['description_'.$lang]?></td>
 	<td><input type="radio" onclick="updatex_status();" class="ctr_default" value="default" name="status[<?php echo $c['Clearance']['id']?>]" <?php if ($c['Clearance']['access']=='default') echo 'checked'?> /> Predvolené</td>
 	<td><input type="radio" onclick="updatex_status();" class="ctr_allow" value="allow" name="status[<?php echo $c['Clearance']['id']?>]" <?php if ($c['Clearance']['access']=='allow') echo 'checked'?> /> Áno</td>
 	<td><input type="radio" onclick="updatex_status();" class="ctr_deny" value="deny" name="status[<?php echo $c['Clearance']['id']?>]" <?php if ($c['Clearance']['access']=='deny') echo 'checked'?> /> Nie</td>	

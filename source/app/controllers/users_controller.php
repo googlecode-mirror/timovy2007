@@ -106,6 +106,7 @@ class UsersController extends AppController
 		$this->set('clearances', $clearances);
 		$this->set('user', $data);
 		$this->set('roles', $roles);
+		$this->set('lang', $this->Session->read('Config.language'));
 	}
 	
 	/**
