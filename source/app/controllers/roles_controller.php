@@ -81,6 +81,7 @@ class RolesController extends AppController
 		// 
 		// render
 		$this->set('clearances', $this->Clearance->findAll());
+		$this->set('lang', $this->Session->read('Config.language'));
 	}
 	
 	function delete($role_id)
@@ -113,7 +114,7 @@ class RolesController extends AppController
 			$this->redirect('/roles', null, true);
 		}
 		
-		print_r($this->data);
+		//print_r($this->data);
 		//exit();
 		
 		//
@@ -139,6 +140,7 @@ class RolesController extends AppController
 		$this->set('role_id', $role_id);
 		$this->set('clearance_ids', $clearance_ids);
 		$this->set('clearances', $this->Clearance->findAll());
+		$this->set('lang', $this->Session->read('Config.language'));
 	}
 }
 ?>

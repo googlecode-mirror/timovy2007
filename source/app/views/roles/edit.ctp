@@ -27,8 +27,8 @@
 <?php foreach ($clearances as $c) { ?>
 <tr>
 	<td><input type="checkbox" value="<?php echo $c['Clearance']['id']?>" <?php if (in_array($c['Clearance']['id'], $clearance_ids)) { echo 'checked'; }?> name="data[Clearance][Clearance][]" /></td>
-	<td><?php echo $c['Clearance']['name']?></td>
-	<td><?php echo $c['Clearance']['description']?></td>
+	<td><?php echo $c['Clearance']['name_'.$lang]?></td>
+	<td><?php echo $c['Clearance']['description_'.$lang]?></td>
 </tr>
 <?php } ?>
 </table>

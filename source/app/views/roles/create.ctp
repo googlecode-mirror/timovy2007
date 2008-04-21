@@ -24,8 +24,8 @@
 <?php foreach ($clearances as $c) { ?>
 <tr>
 	<td><input type="checkbox" value="<?php echo $c['Clearance']['id']?>" name="clearance[<?php echo $c['Clearance']['id']?>]" /></td>
-	<td><?php echo $c['Clearance']['name']?></td>
-	<td><?php echo $c['Clearance']['description']?></td>
+	<td><?php echo $c['Clearance']['name_'.$lang]?></td>
+	<td><?php echo $c['Clearance']['description_'.$lang]?></td>
 </tr>
 <?php } ?>
 </table>
