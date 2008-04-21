@@ -472,8 +472,10 @@ SELECT pg_catalog.setval('academics_id_seq', 1, false);
 CREATE TABLE clearances (
     id integer NOT NULL,
     "key" character varying(64) NOT NULL,
-    name character varying(64) NOT NULL,
-    description text,
+    name_en character varying(64) NOT NULL,
+    name_sk character varying(64) NOT NULL,
+    description_en text,
+    description_sk text,
     parent_id integer
 );
 
@@ -1762,12 +1764,13 @@ INSERT INTO academics VALUES (397);
 -- Data for Name: clearances; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO clearances VALUES (1, 'IMPORT', 'Importovanie dat', 'Importovanie dat zo systmu yonban', NULL);
-INSERT INTO clearances VALUES (2, 'MAIL_WRITE', 'Zasielanie sprav', 'Moze zasielat spravy ostatnym pouzivatelom', NULL);
-INSERT INTO clearances VALUES (3, 'WALL_POSTER_WRITE', 'Wall Poster Write', 'Prispievanie na nastenku', NULL);
-INSERT INTO clearances VALUES (4, 'WALL_POSTER_ADMIN', 'Wall Poster Admin', 'Manazovanie nastenky', NULL);
-INSERT INTO clearances VALUES (5, 'MANAGE_USERS', 'User & Permission management', 'Manazovanie pouzivatelov a ich prav', 1);
-INSERT INTO clearances VALUES (8, 'MANAGE_NEWS', 'Actualities management', 'Manazovanie aktualít', NULL);
+INSERT INTO clearances VALUES (1, 'IMPORT', 'Data import', 'Import dát', 'Import of the data from YonBan', 'Importovanie dát zo systému YonBan', NULL);
+INSERT INTO clearances VALUES (2, 'MAIL_WRITE', 'Mail writing', 'Zasielanie správ', 'Writing mails to other users', Možnosť zasielať správy ostatným používateľom', NULL);
+INSERT INTO clearances VALUES (3, 'WALL_POSTER_WRITE', 'Wall Poster Writing', 'Prispievanie na nástenku', 'Wall Poster Writing', 'Prispievanie na nástenku', NULL);
+INSERT INTO clearances VALUES (4, 'WALL_POSTER_ADMIN', 'Wall Poster Administration', 'Manažovanie nástenky', 'Wall Poster Administration', 'Manažovanie nástenky', NULL);
+INSERT INTO clearances VALUES (5, 'MANAGE_USERS', 'User & Permission management', 'Správa používateľov a používateľských práv', 'Management of users and users rights', 'Manažovanie používateľov a ich práv', 1);
+INSERT INTO clearances VALUES (6, 'MANAGE_CODELISTS', 'Code lists managment', 'Správa číselníkov', 'Management of code lists', 'Manažovanie číselníkov', NULL);
+INSERT INTO clearances VALUES (8, 'MANAGE_NEWS', 'Actualities management', 'Správa aktualít', 'Management of the module Actualities', 'Manažovanie modulu Aktuality', NULL);
 
 
 --
@@ -4211,7 +4214,7 @@ INSERT INTO users VALUES (12, '50', 'markov', NULL, '098f6bcd4621d373cade4e83262
 INSERT INTO users VALUES (13, '13', 'gramatovae', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Elena', NULL, 'Gramatová', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (14, '22165', 'rf22165', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Rudolf', NULL, 'Fáber', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (15, '10007', 'flochovaj', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Jana', NULL, 'Flochova', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
-INSERT INTO users VALUES (16, '48', 'vranicv', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Valentino', NULL, 'VraniÄ‡', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
+INSERT INTO users VALUES (16, '48', 'vranicv', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Valentino', NULL, 'Vranić', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (17, '21', 'husarovaz', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Zuzana', NULL, 'Husárová', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (18, '20006', 'ra20006', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Rastislav', NULL, 'Ambruš', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (19, '702003', 'andrejkoa', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Anton', NULL, 'Andrejko', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
