@@ -18,10 +18,11 @@ class ImportController extends AppController
 	
 	function db()
 	{
+	  /*
 		$this->My->setError('Chýba presná štruktúra dát zo systému YonBan.');
 		$this->redirect('/import');
 		exit();
-		
+		*/
 		// 
 		// initialize
 		// get the ID for graduate_role_id, and academic_role_id
@@ -71,6 +72,7 @@ class ImportController extends AppController
 		//
 		// zoznam pouzivatelov
 		$users = $this->Importdb->users();
+pr($users);		
 		if ($users == false) {
 			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam pouzivatelov zo systemu yonban!');
 			$this->User->rollback();
