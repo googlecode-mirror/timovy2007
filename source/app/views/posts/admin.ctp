@@ -3,7 +3,7 @@
 <p><?php echo $html->link("Add Post", "/posts/add"); ?>
 <table>
     <tr>
-        <th>Id</th>
+<!--        <th>Id</th> -->
         <th width="70%">Title</th>
         <th>Action</th>
         <th>Created</th>
@@ -13,9 +13,9 @@
 
     <?php foreach ($posts as $post): ?>
     <tr>
-        <td><?php echo $post['Post']['id']; ?></td>
+  <!--      <td><?php echo $post['Post']['id']; ?></td> -->
         <td>
-            <?php echo $html->link($post['Post']['title'], '/posts/view/'.$post['Post']['id']);?>
+            <?php echo $html->link($post['Post']['title'], '/posts/edit/'.$post['Post']['id']);?>
         </td>
         <td>
             <?php echo $html->link(

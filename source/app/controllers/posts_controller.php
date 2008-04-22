@@ -1,5 +1,4 @@
 <?php
-
 class PostsController extends AppController
 {
     var $name = 'Posts';
@@ -32,7 +31,8 @@ class PostsController extends AppController
     function admin()
     {
 		$this->check_permission();
-		$this->set('posts', $this->Post->findAll());
+		$this->set('posts', $this->Post->findAll(null,null,array('Post.created'=>'DESC')));
+		 
     }
 
     function add()
@@ -43,8 +43,11 @@ class PostsController extends AppController
             if ($this->Post->save($this->data))
             {
                 //$this->flash('Your post has been saved.','/posts');
-				$this->My->setInfo(__("NEWS_ITEM_ADDED"));
-				$this->redirect('/posts/admin');
+				$this->My->setInfo(__("NEWS_ITEM_ADDED", true), true);
+				$this->redirect('/posts/admin', null, true);
+				
+/*				$this->My->setInfo(__('Your profile has been changed.', true));	
+				$this->redirect('/alumni/myprofile', null, true);*/
             }
         }
     }
@@ -54,7 +57,7 @@ class PostsController extends AppController
 		$this->check_permission();
 	    $this->Post->del($id);
 	    //$this->flash('The post with id: '.$id.' has been deleted.', '/posts');
-		$this->My->setInfo(__("NEWS_ITEM_REMOVED"));
+		$this->My->setInfo(__("NEWS_ITEM_REMOVED", true));
 		$this->redirect('/posts/admin');
 	}
 
@@ -71,11 +74,10 @@ class PostsController extends AppController
 		    if ($this->Post->save($this->data['Post']))
 		    {
 		  		//$this->flash('Your post has been updated.','/posts');
-				$this->My->setInfo(__("NEWS_ITEM_UPDATED"));
+				$this->My->setInfo(__("NEWS_ITEM_UPDATED", true));
 				$this->redirect('/posts/admin');
 		    }
 		}
 	}
 }
-
 ?>
