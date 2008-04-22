@@ -6174,8 +6174,10 @@ CREATE TABLE stats (
     name_sk character varying(255),
     name_en character varying(255)
 );
-ALTER TABLE ONLY stats
+ALTER TABLE ONLY public.stats
     ADD CONSTRAINT stats_pkey PRIMARY KEY (id);
+
+ALTER TABLE public.stats OWNER TO team14;
 
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');

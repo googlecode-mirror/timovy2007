@@ -3,7 +3,9 @@
 class PostsController extends AppController
 {
     var $name = 'Posts';
-	var $helpers = array('Html', 'Form');
+    var $use = array('Posts');
+	var $helpers = array('Html', 'Form', 'Paginator');
+	var $paginate = array('limit' => 5, 'page' => 1, 'order'=>array('created' => 'desc'));
 	
 	private function check_permission()
 	{
@@ -17,14 +19,14 @@ class PostsController extends AppController
 	
     function index()
     {
-         $this->set('posts', $this->Post->findAll());
+        // $this->set('posts', $this->Post->findAll());
+        $this->set('posts', $this->paginate('Post'));
     }
 
     function view($id)
     {
         $this->Post->id = $id;
         $this->set('post', $this->Post->read());
-
     }
 
     function admin()

@@ -49,7 +49,7 @@ class excelHelper extends ExcelWriter {
     $this->workbook =& new ExcelWriter();
     $this->workbook->setTempDir(TMP."cache");
     $this->workbook->filename = $filename; 
-    $this->workbook->setVersion(8); // Set workbook to Excel 97 (for UTF-8 support)
+    //$this->workbook->setVersion(8); // Set workbook to Excel 97 (for UTF-8 support)
   }
 
   /**
