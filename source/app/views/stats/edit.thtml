@@ -1,0 +1,19 @@
+<?php $url = "stats"; $modul="Stat"; ?>
+
+<h2><?php _("Editacia statistiky"); ?></h2>
+<?php echo $form->create($modul, array('action'=> "/edit/".$id)); ?>
+<br />
+
+<?php echo $form->label($modul.'name_sk', __("slovensky nazov", true), null); ?><br />
+<?php echo $form->text('name_sk', array('value'=>$data[$modul]['name_sk'])); ?><br />
+
+<br />
+<?php echo $form->label($modul.'.name_en',__("aglicky nazov", true),null); ?><br />
+<?php echo $form->text('name_en', array('value'=>$data[$modul]['name_en'])); ?><br />
+<br />
+<?php echo $form->label($modul.'.sql',__("SQL dotaz", true),null); ?><br />
+<?php echo $form->text('sql', array('value'=>$data[$modul]['sql'], 'style'=>'width: 250px;')); ?><br />
+<br />
+<?php echo $form->submit(__("Ulozit", true)); ?>
+<?php echo $form->end();?>
+<br />

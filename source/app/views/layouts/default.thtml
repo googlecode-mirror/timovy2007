@@ -93,7 +93,7 @@
 									<?php if ($Login->check('IMPORT')) { ?>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/import/')?>" class="menuitema"><?php echo __("MENU_IMPORT")?></a></li>
 									<?php } ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/select')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
 								</ul>
 							</div>	
 						</div>	
@@ -108,10 +108,10 @@
 							<div class="boxbottom">
 								<div class="boxtitle"><?php echo __("CODELISTS_MENU")?></div>
 								<ul class="menu">
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/stat/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_STATISTIK")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/profession/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PROFESII")?></a></li>
-                  <li class="adminmenuitem"><a href="<?php echo $html->url('/language/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_JAZYKOV")?></a></li>
-                  <li class="adminmenuitem"><a href="<?php echo $html->url('/level/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_LEVELOV")?></a></li>									
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_STATISTIK")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/professions/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PROFESII")?></a></li>
+                  <li class="adminmenuitem"><a href="<?php echo $html->url('/languages/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_JAZYKOV")?></a></li>
+                  <li class="adminmenuitem"><a href="<?php echo $html->url('/levels/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_LEVELOV")?></a></li>									
 								</ul>
 							</div>	
 						</div>	

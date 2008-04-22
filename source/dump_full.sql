@@ -6167,17 +6167,24 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
+CREATE SEQUENCE stats_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 1
+  CACHE 1;
+ALTER TABLE stats_id_seq OWNER TO team14;
 
-CREATE TABLE stats (
-    id integer NOT NULL,
-    sql text NOT NULL,
-    name_sk character varying(255),
-    name_en character varying(255)
-);
-ALTER TABLE ONLY public.stats
-    ADD CONSTRAINT stats_pkey PRIMARY KEY (id);
-
-ALTER TABLE public.stats OWNER TO team14;
+CREATE TABLE stats
+(
+  id serial NOT NULL,
+  sql text NOT NULL,
+  name_sk character varying(255),
+  name_en character varying(255),
+  CONSTRAINT stats_pkey PRIMARY KEY (id)
+) 
+WITHOUT OIDS;
+ALTER TABLE stats OWNER TO team14;
 
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');

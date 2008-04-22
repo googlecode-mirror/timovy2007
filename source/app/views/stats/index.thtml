@@ -1,0 +1,34 @@
+<?php $url = "stats"; $modul="Stat"; ?>
+
+<h1><?php echo __("sprava_sql_statistik")?></h1>
+
+<?php echo $html->link(__("Pridat_statistiku", true),"/".$url."/add"); ?>
+<br />
+
+<h2 style="margin-top: 0"><?php echo __("zoznam_statistik")?></h2>
+
+<table class="std_table">
+<tr>
+	<th><?php echo __("name_statistic")?></th>
+	<th>Akcie</th>
+</tr>
+<?php foreach ($data as $key=>$value) { ?>
+<tr>
+	<td><?php echo $value[$modul]['name_'.$lang]?></td>
+	<td>
+		<a href="<?=$html->url('/'.$url.'/edit/'.$value[$modul]['id'])?>"><?php echo __("UPRAVIT")?></a>,
+		<a href="<?=$html->url('/'.$url.'/delete/'.$value[$modul]['id'])?>"><?php echo __("ZMAZAT")?></a>
+	</td>
+</tr>
+<?php } ?>
+</table>
+
+<p>
+	<span style="float: right">		
+		 <?php echo $paginator->first('|<<', array(),  null,  array('class'=>'disabled')); ?>
+	</span>
+	<?php echo $paginator->numbers();?>
+	<span style="float: left">
+		<?php echo $paginator->last('>>|', array(),  null,  array('class'=>'disabled')); ?>
+	</span>
+</p>
