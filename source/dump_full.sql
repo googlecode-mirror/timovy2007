@@ -526,10 +526,12 @@ ALTER TABLE public.graduates OWNER TO team14;
 -- Name: languages; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
 --
 
-CREATE TABLE languages (
-    id integer NOT NULL,
-    name_sk character varying(255) NOT NULL,
-    name_en character varying(255) NOT NULL
+CREATE TABLE languages
+(
+  id serial NOT NULL,
+  name_sk character varying(255) NOT NULL,
+  name_en character varying(255) NOT NULL,
+  CONSTRAINT languages_pkey PRIMARY KEY (id)
 );
 
 
@@ -6191,6 +6193,11 @@ INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vs
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');
 
+--
 
 CREATE SEQUENCE professions_id_seq;
 ALTER TABLE professions_id_seq OWNER TO team14;
+
+CREATE SEQUENCE languages_id_seq;
+ALTER TABLE languages_id_seq OWNER TO team14;
+
