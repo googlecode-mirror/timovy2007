@@ -903,9 +903,10 @@ SELECT pg_catalog.setval('posts_id_seq', 3, true);
 --
 
 CREATE TABLE professions (
-    id integer NOT NULL,
+    id serial NOT NULL,
     name_sk character varying(255) NOT NULL,
-    name_en character varying(255) NOT NULL
+    name_en character varying(255) NOT NULL,
+    CONSTRAINT professions_pkey PRIMARY KEY (id)
 );
 
 
@@ -6189,3 +6190,7 @@ ALTER TABLE stats OWNER TO team14;
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');
+
+
+CREATE SEQUENCE professions_id_seq;
+ALTER TABLE professions_id_seq OWNER TO team14;
