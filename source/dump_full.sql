@@ -21,6 +21,17 @@ SET search_path = public, pg_catalog;
 -- Name: tablefunc_crosstab_2; Type: TYPE; Schema: public; Owner: postgres
 --
 
+
+CREATE SEQUENCE professions_id_seq;
+ALTER TABLE professions_id_seq OWNER TO team14;
+
+CREATE SEQUENCE languages_id_seq;
+ALTER TABLE languages_id_seq OWNER TO team14;
+
+CREATE SEQUENCE levels_id_seq;
+ALTER TABLE levels_id_seq OWNER TO team14;
+
+
 CREATE TYPE tablefunc_crosstab_2 AS (
 	row_name text,
 	category_1 text,
@@ -548,12 +559,13 @@ COMMENT ON TABLE languages IS 'languages for user_languages';
 -- Name: levels; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
 --
 
-CREATE TABLE levels (
-    id integer NOT NULL,
-    name_sk character varying(255) NOT NULL,
-    name_en character varying(255) NOT NULL
+CREATE TABLE levels
+(
+  id serial NOT NULL,
+  name_sk character varying(255) NOT NULL,
+  name_en character varying(255) NOT NULL,
+  CONSTRAINT levels_pkey PRIMARY KEY (id)
 );
-
 
 ALTER TABLE public.levels OWNER TO team14;
 
@@ -6193,11 +6205,4 @@ INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vs
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');
 
---
-
-CREATE SEQUENCE professions_id_seq;
-ALTER TABLE professions_id_seq OWNER TO team14;
-
-CREATE SEQUENCE languages_id_seq;
-ALTER TABLE languages_id_seq OWNER TO team14;
 

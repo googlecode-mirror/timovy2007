@@ -1,0 +1,14 @@
+<?php $url = "levels"; $modul="Levels"; ?>
+
+<h2><?php __("Editacia urovne"); ?></h2>
+<?php echo $form->create($modul, array('action'=> "/edit/".$id)); ?>
+<br />
+<?php echo $form->label($modul.'name_sk', __("slovensky nazov", true), null); ?><br />
+<?php echo $form->text('name_sk', array('value'=>$data[$modul]['name_sk'])); ?><br />
+<br />
+<?php echo $form->label($modul.'.name_en',__("aglicky nazov", true),null); ?><br />
+<?php echo $form->text('name_en', array('value'=>$data[$modul]['name_en'])); ?><br />
+<br />
+<?php echo $form->submit(__("Ulozit", true)); ?>
+<?php echo $form->end();?>
+<br />
