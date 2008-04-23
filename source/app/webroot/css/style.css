@@ -22,13 +22,16 @@ input, textarea {
 select, option {
 }
 
+label {
+  text-align: left;
+}
+
 label.ind1 {
 	display: block;
 	float: left;
 	width: 10em;
 	margin-bottom: 0.3em;
 }
-
 
 h1 {
 	margin-top: 15px;
@@ -91,6 +94,8 @@ table td {
 	margin: 0px;
 	padding: 0px;
 	height: 0px;
+	border: 0px;
+	display: hidden;
 }
 
 .container {
@@ -589,7 +594,7 @@ p.alumni_profile label {
 	color: #0190BC; 
 	display: block; 
 	float: left; 
-	width: 120px;
+	width: 140px;
 }
 #alumni_search_form h2 {
 	color: black;
@@ -663,13 +668,12 @@ div.profession input[type="button"] {
   float: none;
 }
 div.profession label {
-  width: 100px;
-  text-align: left;
+  width: 120px;
 }
-div.profession p {
-  padding: 0em;
-  margin-top: 0em;
-	margin-bottom: 2em;
+div.profession div {
+  padding: 0px;
+  margin-top: 0px;
+	margin-bottom: 5px;
 }
 .left_space {
   margin-left: 10px;
