@@ -1,12 +1,12 @@
 <?php $my->addCrumb(__("MENU_AKTUALITY", true)); ?> 
 <h1>Aktuality - Administracia</h1>
-<p><?php echo $html->link("Add Post", "/posts/add"); ?>
+<p><?php echo $html->link(__("NEWS_ADD_POST", true), "/posts/add"); ?>
 <table>
     <tr>
 <!--        <th>Id</th> -->
-        <th width="70%">Title</th>
-        <th>Action</th>
-        <th>Created</th>
+        <th width="70%" align=left><?php __("NEWS_TITLE") ?></th>
+        <th align=left><?php __("NEWS_ACTION") ?></th>
+        <th align=left><?php __("NEWS_CREATED") ?></th>
     </tr>
 
    <!-- Here's where we loop through our $posts array, printing out post info -->
@@ -19,13 +19,12 @@
         </td>
         <td>
             <?php echo $html->link(
-                'Delete',
+                __("NEWS_DELETE_POST",true),
                 "/posts/delete/{$post['Post']['id']}",
                 null,
-                'Are you sure?'
-            )?>, 
-            <?php echo $html->link('Edit', '/posts/edit/'.$post['Post']['id']);?>
-        </td>
+                __("NEWS_ARE_YOU_SURE_DELETE",true)
+            )?>,
+            <?php echo $html->link(__("NEWS_EDIT",true), '/posts/edit/'.$post['Post']['id']);?>
         </td>
         <td><?php echo date("j.n.Y", strtotime($post['Post']['created'])); ?></td>
     </tr>

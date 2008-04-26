@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-22 20:55+0100\n"
-"PO-Revision-Date: 2008-04-22 21:39+0100\n"
-"Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
+"PO-Revision-Date: 2008-04-27 01:31+0100\n"
+"Last-Translator: \n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,227 +13,285 @@ msgstr ""
 "X-Poedit-Country: SLOVAKIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __\n"
-"X-Poedit-Basepath: D:\\webroot\\source\\app\n"
-"X-Poedit-SearchPath-0: D:\\webroot\\source\\app\n"
+"X-Poedit-Basepath: c:\\Timovy2007\\source\\app\\\n"
+"X-Poedit-SearchPath-0: c:\\Timovy2007\\source\\app\n"
 
 # C:\Inetpub\htdocs\tp\src\app/app_controller.php:67
-#: D:\webroot\source\app/app_controller.php:111
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:265
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:374
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:405
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:429
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:562
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:582
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:616
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:638
-#: D:\webroot\source\app/views/wall_posters/add.thtml:41
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:209
-#: D:\webroot\source\app/views/wall_posters/view.thtml:194
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:118
+#: c:\Timovy2007\source\app/app_controller.php:111
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:265
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:374
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:405
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:429
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:562
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:582
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:616
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:638
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:41
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:209
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:194
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:118
 msgid "ERROR_ACCESS_DENIED"
 msgstr "Nemáte právo pre prístup na zadanú stránku!"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/alumni_controller.php:106
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:106
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Neexistujúci používatel"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: D:\webroot\source\app/controllers/alumni_controller.php:250
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:250
 msgid "Your profile has been changed."
 msgstr "Váš profil bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: D:\webroot\source\app/controllers/alumni_controller.php:253
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:253
 msgid "There was a error saving profile data."
 msgstr "Nastala chyba pri ukladaní dát."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/alumni_controller.php:294
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:294
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:296
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:296
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Nastala chyba pri mazaní obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:356
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:356
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Obrázok bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:358
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:358
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť PNG obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:362
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:362
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Nastala chyba pri uploadovani suboru. Nepodporovaný typ."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:364
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:364
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť nový obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:367
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:367
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno zistiť veľkosť obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:372
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:372
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Nastala chyba pri uploadovani suboru. Prosím skontrolujte, či váš obrázok spĺňa stanovené parametre."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/controllers/alumni_controller.php:420
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:420
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Heslo bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:422
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:422
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Nastala chyba pri ukladaní nového hesla."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: D:\webroot\source\app/controllers/alumni_controller.php:425
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:425
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Zadali ste zlé nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:192
-#: D:\webroot\source\app/controllers/alumni_controller.php:428
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:428
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Heslá sa nezhodujú"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:195
-#: D:\webroot\source\app/controllers/alumni_controller.php:431
+#: c:\Timovy2007\source\app/controllers/alumni_controller.php:431
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:28
+msgid "Jazyk uspesne upraveny."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:32
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:45
+msgid "Problem pri ukladani jazyka do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:41
+msgid "Novy jazyk uspesne vlozeny do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:28
+msgid "Uroven uspesne upravena."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:32
+msgid "Problem pri urovne jazyka do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:41
+msgid "Nova uroven uspesne vlozena do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:45
+msgid "Problem pri ukladani urovne do db."
+msgstr ""
+
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:21
-#: D:\webroot\source\app/controllers/login_controller.php:31
+#: c:\Timovy2007\source\app/controllers/login_controller.php:31
 msgid "LOGIN_FAILED"
 msgstr "Zadali ste zlé prihlasovacie meno alebo heslo. Prosím skúste znovu."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/login_controller.php:40
+#: c:\Timovy2007\source\app/controllers/login_controller.php:40
 msgid "LOGIN_SUCCESSFULL"
 msgstr "Boli ste úspešne prihlásený do systému."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/login_controller.php:89
+#: c:\Timovy2007\source\app/controllers/login_controller.php:89
 msgid "LOGOUT_SUCCESSFULL"
 msgstr "Boli ste úspešne odhlásený zo systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:94
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:94
 msgid "MAIL_PERFORM_SAVE_ERROR"
 msgstr "Nastala chyba pri ukladaní správy"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/mails_controller.php:101
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:101
 msgid "MAIL_PERFORM_NONEXISTING_MAIL"
 msgstr "Akcia nad už neexistujúcou správou."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:204
-#: D:\webroot\source\app/controllers/mails_controller.php:223
-#: D:\webroot\source\app/controllers/mails_controller.php:235
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:204
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:223
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:235
 msgid "MAIL_COMPOSE_BAD_ADDRESS"
 msgstr "Zadali ste nesprávnu adresu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:245
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:245
 msgid "MAIL_COMPOSE_EMPTY_SUBJECT"
 msgstr "Prosím zadajte názov správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:249
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:249
 msgid "MAIL_COMPOSE_EMPTY_BODY"
 msgstr "Prosím vyplnte telo správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:265
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:265
 msgid "MAIL_COMPOSE_SAVE_ERROR"
 msgstr "Nastala chyba pri ukladaní správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:279
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:279
 msgid "MAIL_COMPOSE_SAVE_USRADDR_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na adresy používateľov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:294
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:294
 msgid "MAIL_COMPOSE_SAVE_GRPADDR_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na adresy skupín."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:324
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:324
 msgid "MAIL_COMPOSE_SAVE_USRASSOC_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:347
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:347
 msgid "MAIL_COMPOSE_SAVE_SUCCESSFULL"
 msgstr "Správa bola úspešne odoslaná."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:390
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:390
 msgid "MAIL_SETTINGS_EDIT_SUCCESS"
 msgstr "Nastavenie preposielania správ bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:398
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:398
 msgid "MAIL_SETTINGS_EDIT_ERROR"
 msgstr "Nepodarilo sa uložiť nastavenia, prosím skontrolujte správnosť email adresy."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:384
-#: D:\webroot\source\app/controllers/mails_controller.php:476
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:476
 msgid "MAIL_READ_NOT_FOUND"
 msgstr "Správa nebola najdená"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:507
+#: c:\Timovy2007\source\app/controllers/mails_controller.php:507
 msgid "MAIL_READ_GROUP"
 msgstr "Skupina"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:14
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:14
 msgid "NEWS_PERMISSION_DENIED"
 msgstr "Neoprávnený prístup"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:46
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:46
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:60
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:60
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:77
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:77
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:28
+msgid "Profesia uspesne upravena."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:32
+msgid "Problem pri ukladani profesie."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:41
+msgid "Nova profesia uspesne vlozena do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:45
+msgid "Problem pri ukladani profesie do db."
+msgstr ""
+
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:112
-#: D:\webroot\source\app/controllers/roles_controller.php:113
+#: c:\Timovy2007\source\app/controllers/roles_controller.php:113
 msgid "Nonexisting role"
 msgstr "Neexistujúca rola"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:123
-#: D:\webroot\source\app/controllers/roles_controller.php:124
+#: c:\Timovy2007\source\app/controllers/roles_controller.php:124
 msgid "Permission role has been successfully updated!"
 msgstr "Právo bolo úspešne zmenené"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:126
-#: D:\webroot\source\app/controllers/roles_controller.php:127
+#: c:\Timovy2007\source\app/controllers/roles_controller.php:127
 msgid "There was a error by updating permission role"
 msgstr "Nastala chyba pri upravovaní práva."
 
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:28
+msgid "Statistika uspesne upravena."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:32
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:45
+msgid "Problem pri ukladani sql dotazu do db."
+msgstr ""
+
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:41
+msgid "Nova statistika uspesne vlozena do db."
+msgstr ""
+
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:273
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:273
 msgid "ERROR_NO_USER"
 msgstr "Neexistujúci používateľ"
 
@@ -242,1333 +300,1522 @@ msgstr "Neexistujúci používateľ"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:138
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:85
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:86
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:380
-#: D:\webroot\source\app/views/wall_posters/index.thtml:87
-#: D:\webroot\source\app/views/wall_posters/view.thtml:52
-#: D:\webroot\source\app/views/wall_posters/view.thtml:160
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:101
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:86
+#: c:\Timovy2007\source\app/controllers/wall_posters_controller.php:380
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:87
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:52
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:160
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:101
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:86
 msgid "Anonymn"
 msgstr "Anonym"
 
-#: D:\webroot\source\app/webroot/test.php:75
+#: c:\Timovy2007\source\app/webroot/test.php:75
 msgid "Debug setting does not allow access to this url."
 msgstr "Nastavenia neumožňujú prístup na zadanú adresu URL."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:5
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:6
 msgid "CURRICULUM"
 msgstr "Životopis"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:7
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:8
 msgid "PERSONAL_DATA"
 msgstr "Osobné údaje"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:16
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:17
 msgid "NAME_AND_SURNAME"
 msgstr "Meno a priezvisko"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:19
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:20
 msgid "ADDRESS"
 msgstr "Adresa"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:23
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:24
 msgid "TELEPHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:28
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:29
 msgid "EMAIL"
 msgstr "Email"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:35
-msgid "POSITION"
-msgstr "Pozicia"
-
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:36
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:37
 msgid "FROM"
 msgstr "Od"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:37
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:38
 msgid "TO"
 msgstr "Do"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:38
-msgid "NOTE"
-msgstr "Poznámka"
-
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:41
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:42
 msgid "EMPLOYMENT"
 msgstr "Zamestnanie"
 
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:51
+#: c:\Timovy2007\source\app/views/alumni/curriculum.ctp:52
 msgid "LANGUAGES"
 msgstr "Jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:1
-#: D:\webroot\source\app/views/alumni/myimage.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:128
+#: c:\Timovy2007\source\app/views/alumni/myimage.ctp:1
+#: c:\Timovy2007\source\app/views/alumni/myimage.ctp:2
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:128
 msgid "MENU_ALUMNI_MYIMAGE"
 msgstr "Upraviť moj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:8
+#: c:\Timovy2007\source\app/views/alumni/myimage.ctp:8
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
 msgstr "Zmeniť obrázok svojho profilu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:14
+#: c:\Timovy2007\source\app/views/alumni/myimage.ctp:14
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
 msgstr "Zmeniť obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:15
+#: c:\Timovy2007\source\app/views/alumni/myimage.ctp:15
 msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
 msgstr "Odstrániť obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:57
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:58
-#: D:\webroot\source\app/views/layouts/default.thtml:127
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:57
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:58
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:127
 msgid "MENU_ALUMNI_MYPROFILE"
 msgstr "Upraviť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/myprofile.ctp:6
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:61
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:61
 msgid "View my profile"
 msgstr "Zobraziť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:62
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:62
 msgid "ALUMNI_PROFILE_CHANGEINFO_TITLE"
 msgstr "Zmeniť ostatné detaily profilu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:68
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:68
 msgid "ALUMNI_MYPROFILE_EMAIL"
 msgstr "E-mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:69
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:69
 msgid "ALUMNI_MYPROFILE_PUBLISH_EMAIL"
 msgstr "Zverejniť e-mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:72
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:72
 msgid "ALUMNI_MYPROFILE_ADDRESS"
 msgstr "Adresa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:74
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:74
 msgid "ALUMNI_MYPROFILE_PHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:76
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:76
 msgid "ALUMNI_MYPROFILE_ICQ"
 msgstr "ICQ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:80
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:80
 msgid "ALUMNI_MYPROFILE_OCCUPATION"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:86
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:86
 msgid "ALUMNI_MYPROFILE_PROFESSION"
 msgstr "Profesijný rast"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:90
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:90
 msgid "ALUMNI_MYPROFILE_LANGUAGE_SLOVAK"
 msgstr "Slovensky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:91
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:91
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ENGLISH"
 msgstr "Anglicky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:93
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:93
 msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
 msgstr "Výber jazyka popisu profesií"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:99
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:171
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:100
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:172
 msgid "ALUMNI_MYPROFILE_PROFESSION_POSITION"
 msgstr "Pracovná pozícia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:107
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:179
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:109
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:181
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM"
 msgstr "Od roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:108
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:180
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:110
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:182
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_TO"
 msgstr "Do roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:111
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:183
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:114
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:186
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:114
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:186
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:117
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:189
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:117
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:188
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:120
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:191
 msgid "ALUMNI_MYPROFILE_PROFESSION_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:124
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:127
 msgid "ALUMNI_MYPROFILE_PROFESSION_ADD"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:131
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:134
 msgid "ALUMNI_MYPROFILE_LANGUAGES"
 msgstr "Cudzie jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:137
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:194
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:139
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:196
 msgid "ALUMNI_MYPROFILE_LANGUAGE"
 msgstr "Jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:150
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:206
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:151
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:208
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:157
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:159
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:162
+#: c:\Timovy2007\source\app/views/alumni/myprofile.ctp:164
 msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
 msgstr "Zmeniť údaje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/password.ctp:1
-#: D:\webroot\source\app/views/alumni/password.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:129
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:1
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:3
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:129
 msgid "MENU_ALUMNI_PASSWORD"
 msgstr "Zmeniť heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:5
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:5
 msgid "ALUMNI_PASSWORD_INFO"
 msgstr "Tu môžete zmeniť svoje heslo. Heslo musí byť minimálne 4 znaky dlhé a nemôže obsahovať diakritiku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/password.ctp:10
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:10
 msgid "ALUMNI_PASS_OLD"
 msgstr "Staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:13
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:13
 msgid "ALUMNI_PASS_NEW_1"
 msgstr "Nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:14
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_2"
 msgstr "Nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/password.ctp:18
+#: c:\Timovy2007\source\app/views/alumni/password.ctp:18
 msgid "ALUMNI_PASSWORD_SUBMIT"
 msgstr "Zmeniť heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:1
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:1
 msgid "MENU_ALUMNI_PROFILE"
 msgstr "Profil absolventa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:21
-#: D:\webroot\source\app/views/alumni/profile.ctp:4
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:4
 msgid "ALUMNI_PROFILE_ZAKL_INFORMACIE"
 msgstr "Základné informácie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:26
-#: D:\webroot\source\app/views/alumni/profile.ctp:10
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:10
 msgid "ALUMNI_PROFILE_MISSING_PICTURE"
 msgstr "Chýba obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:15
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:15
 msgid "ALUMNI_PROFILE_MENO"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:32
-#: D:\webroot\source\app/views/alumni/profile.ctp:16
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:16
 msgid "ALUMNI_PROFILE_PRIEZVISKO"
 msgstr "Priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:18
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:18
 msgid "ALUMNI_PROFILE_TITUL"
 msgstr "Titul"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/profile.ctp:21
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:21
 msgid "ALUMNI_PROFILE_ADDRESS"
 msgstr "Adresa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:28
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:28
 msgid "ALUMNI_PROFILE_SPECIALIZATION"
 msgstr "Špecializácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/profile.ctp:35
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:35
 msgid "ALUMNI_PROFILE_SEND_MESSAGE"
 msgstr "Poslať správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: D:\webroot\source\app/views/alumni/profile.ctp:40
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:40
 msgid "Edit my profile"
 msgstr "Upraviť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:46
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:46
 msgid "ALUMNI_PROFILE_ODBORNE_PRACE"
 msgstr "Odborné práce"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
-#: D:\webroot\source\app/views/alumni/profile.ctp:50
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:50
 msgid "DB_PROJECT_TYPE_NAME"
 msgstr "name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:51
 msgid "ALUMNI_PROFILE_TEMA"
 msgstr "Téma"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:51
 msgid "DB_PROJECT_NAME"
 msgstr "name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:53
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:53
 msgid "ALUMNI_PROFILE_ACADEMIC"
 msgstr "Vedúci"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:54
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:54
 msgid "ALUMNI_PROFILE_DESCRIPTION"
 msgstr "Anotácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:56
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:56
 msgid "DB_PROJECT_DESCRIPTION"
 msgstr "description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:21
-#: D:\webroot\source\app/views/alumni/profile.ctp:69
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:69
 msgid "ALUMNI_PROFILE_KONTAKT_OSTATNE"
 msgstr "Kontakt - Ďalšie informácie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:71
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:71
 msgid "ALUMNI_PROFILE_PHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:72
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:72
 msgid "ALUMNI_PROFILE_EMAIL"
 msgstr "E-Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:74
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:74
 msgid "ALUMNI_PROFILE_ICQ"
 msgstr "ICQ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:77
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:77
 msgid "ALUMNI_PROFILE_OCCUPATION"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:82
+#: c:\Timovy2007\source\app/views/alumni/profile.ctp:82
 msgid "ALUMNI_PROFILE_BACK"
 msgstr "Naspäť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
-#: D:\webroot\source\app/views/import/index.ctp:1
-#: D:\webroot\source\app/views/import/index.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:94
+#: c:\Timovy2007\source\app/views/import/index.ctp:1
+#: c:\Timovy2007\source\app/views/import/index.ctp:2
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:94
 msgid "MENU_IMPORT"
 msgstr "Importovanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/login/allready_logged.ctp:1
-#: D:\webroot\source\app/views/login/allready_logged.ctp:2
-#: D:\webroot\source\app/views/login/index.ctp:1
-#: D:\webroot\source\app/views/login/index.ctp:2
+#: c:\Timovy2007\source\app/views/login/allready_logged.ctp:1
+#: c:\Timovy2007\source\app/views/login/allready_logged.ctp:2
+#: c:\Timovy2007\source\app/views/login/index.ctp:1
+#: c:\Timovy2007\source\app/views/login/index.ctp:2
 msgid "MENU_LOGIN"
 msgstr "Prihlásenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/allready_logged.ctp:4
-#: D:\webroot\source\app/views/login/allready_logged.ctp:4
+#: c:\Timovy2007\source\app/views/login/allready_logged.ctp:4
 msgid "LOGIN_YOU_ARE_ALLREADY_LOGGED_IN"
 msgstr "Už ste prihlásený do systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
-#: D:\webroot\source\app/views/login/index.ctp:6
-#: D:\webroot\source\app/views/layouts/default.thtml:38
+#: c:\Timovy2007\source\app/views/login/index.ctp:6
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:38
 msgid "Login"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/index.ctp:4
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:37
-#: D:\webroot\source\app/views/login/index.ctp:7
-#: D:\webroot\source\app/views/layouts/default.thtml:41
+#: c:\Timovy2007\source\app/views/login/index.ctp:7
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:41
 msgid "Heslo"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/ajax_search_groups.ctp:13
+#: c:\Timovy2007\source\app/views/mails/ajax_search_groups.ctp:13
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_NO_RESULTS"
 msgstr "Nie ste prihlásený v žiadnej diskusnej skupine."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/ajax_search_users.ctp:16
+#: c:\Timovy2007\source\app/views/mails/ajax_search_users.ctp:16
 msgid "MAIL_COMPOSE_SEARCH_NO_RESULTS"
 msgstr "Nebol najdený žiaden používateľ vyhovujúci zadanému reťazcu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:1
-#: D:\webroot\source\app/views/mails/compose.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:6
-#: D:\webroot\source\app/views/layouts/default.thtml:154
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:1
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:2
+#: c:\Timovy2007\source\app/views/mails/index.ctp:6
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:154
 msgid "MENU_MAIL_COMPOSE"
 msgstr "Vytvoriť novú správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:7
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:7
 msgid "MAIL_COMPOSE_ADDRESS"
 msgstr "Adresát"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:11
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:11
 msgid "MAIL_COMPOSE_SEARCH_USERS"
 msgstr "Hľadaj používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:12
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:12
 msgid "MAIL_COMPOSE_SEARCH_GROUPS"
 msgstr "Vyber skupinu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:16
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:16
 msgid "MAIL_COMPOSE_ADDRESS_INFO"
 msgstr "Mená oddelené čiarkou"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:20
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:20
 msgid "MAIL_COMPOSE_NAME"
 msgstr "Názov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:32
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:32
 msgid "MAIL_COMPOSE_SUBMIT"
 msgstr "Odoslať správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:50
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:50
 msgid "MAIL_COMPOSE_SEARCH_USERS_TITLE"
 msgstr "Hľadaj používateľov ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:71
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:71
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_TITLE"
 msgstr "Výber cieľovej skupiny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:138
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:138
 msgid "MAIL_COMPOSE_SEARCH_USERS_LABEL"
 msgstr "Zadajte meno používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:139
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:139
 msgid "MAIL_COMPOSE_SEARCH_LOADING"
 msgstr "Prebieha hladanie ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:142
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:142
 msgid "MAIL_COMPOSE_SEARCH_USER_SUBMIT"
 msgstr "Hľadaj"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:149
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:149
 msgid "MAIL_COMPOSE_SEARCH_USER_ADD"
 msgstr "Pridať označených používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:157
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:157
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_LABEL"
 msgstr "Prosím vyberte skupinu / skupiny."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:160
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:160
 msgid "MAIL_COMPOSE_SEARCH_GROUP_ADD"
 msgstr "Pridať vybrané skupiny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:163
+#: c:\Timovy2007\source\app/views/mails/compose.ctp:163
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_INFO"
 msgstr "* Tlstým písmom sú vyznačené systémové skupiny."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:149
+#: c:\Timovy2007\source\app/views/mails/index.ctp:1
+#: c:\Timovy2007\source\app/views/mails/read.ctp:1
+#: c:\Timovy2007\source\app/views/mails/read.ctp:2
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:149
 msgid "MENU_MAIL"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:8
+#: c:\Timovy2007\source\app/views/mails/index.ctp:8
 msgid "MAIL_BOX_TITLE"
 msgstr "Zoznam správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:16
+#: c:\Timovy2007\source\app/views/mails/index.ctp:16
 msgid "MAIL_BOX_FROM"
 msgstr "Od"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:17
+#: c:\Timovy2007\source\app/views/mails/index.ctp:17
 msgid "MAIL_BOX_SUBJECT"
 msgstr "Predmet správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:18
+#: c:\Timovy2007\source\app/views/mails/index.ctp:18
 msgid "MAIL_BOX_TIME"
 msgstr "Dátum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:23
+#: c:\Timovy2007\source\app/views/mails/index.ctp:23
 msgid "MAIL_BOX_NO_MESSAGES"
 msgstr "Nemáte žiadne správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:40
+#: c:\Timovy2007\source\app/views/mails/index.ctp:40
 msgid "MAIL_BOX_LISTING_PREV"
 msgstr "<< Novšie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:41
+#: c:\Timovy2007\source\app/views/mails/index.ctp:41
 msgid "MAIL_BOX_LISTING_OF"
 msgstr "z"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:42
+#: c:\Timovy2007\source\app/views/mails/index.ctp:42
 msgid "MAIL_BOX_LISTING_NEXT"
 msgstr "Staršie >>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:28
-#: D:\webroot\source\app/views/mails/index.ctp:45
+#: c:\Timovy2007\source\app/views/mails/index.ctp:45
 msgid "MAIL_BOX_BOTTOM_SELECTED"
 msgstr "Označené maily"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:30
-#: D:\webroot\source\app/views/mails/index.ctp:48
+#: c:\Timovy2007\source\app/views/mails/index.ctp:48
 msgid "MAIL_BOX_ACTION_SET_READED"
 msgstr "Označ ako prečítané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:31
-#: D:\webroot\source\app/views/mails/index.ctp:49
+#: c:\Timovy2007\source\app/views/mails/index.ctp:49
 msgid "MAIL_BOX_ACTION_SET_DELETED"
 msgstr "Vymaž"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:51
+#: c:\Timovy2007\source\app/views/mails/index.ctp:51
 msgid "MAIL_BOX_BOTTOM_SUBMIT"
 msgstr "Vykonať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:5
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:25
-#: D:\webroot\source\app/views/mails/read.ctp:5
-#: D:\webroot\source\app/views/mails/read.ctp:25
+#: c:\Timovy2007\source\app/views/mails/read.ctp:5
+#: c:\Timovy2007\source\app/views/mails/read.ctp:25
 msgid "MAIL_READ_BACK_TO_INDEX"
 msgstr "Naspäť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:13
-#: D:\webroot\source\app/views/mails/read.ctp:13
+#: c:\Timovy2007\source\app/views/mails/read.ctp:13
 msgid "MAIL_READ_REPLY"
 msgstr "Odpovedať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/read.ctp:18
+#: c:\Timovy2007\source\app/views/mails/read.ctp:18
 msgid "MAIL_READ_FROM"
 msgstr "Od "
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:19
-#: D:\webroot\source\app/views/mails/read.ctp:19
+#: c:\Timovy2007\source\app/views/mails/read.ctp:19
 msgid "MAIL_READ_TO"
 msgstr "Pre"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/mails/settings.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:156
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:1
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:156
 msgid "MENU_MAIL_SETTINGS"
 msgstr "Nastavenie správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:2
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:2
 msgid "MAIL_SETTINGS_TITLE"
 msgstr "Nastavenie správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:8
-#: D:\webroot\source\app/views/mails/settings.ctp:4
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:4
 msgid "MAIL_SETTINGS_FORWARD_MAIL"
 msgstr "Preposielanie interných správ na e-mailovú adresu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:8
-#: D:\webroot\source\app/views/mails/settings.ctp:6
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:6
 msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
 msgstr "Ak si želáte, aby Vám bola zasielaná kópia prijatých správ na e-mailovú adresu, uveďte ju do nasledujúceho políčka prosím. Ak si neželáte preposielať správy, nechajte políčko prázdne."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:11
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:11
 msgid "MAIL_SETTINGS_LISTING"
 msgstr "Počet zobrazených mailov na jednu stránku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/mails/settings.ctp:24
+#: c:\Timovy2007\source\app/views/mails/settings.ctp:24
 msgid "MAIL_SETTINGS_SUBMIT"
 msgstr "Uložiť nastavenia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:1
+#: c:\Timovy2007\source\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/add.ctp:4
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:7
+#: c:\Timovy2007\source\app/views/posts/edit.ctp:5
+#: c:\Timovy2007\source\app/views/posts/index.ctp:1
 msgid "NEWS_TITLE"
-msgstr "Aktuality"
+msgstr "Titulok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:17
-#: D:\webroot\source\app/views/news/index.ctp:17
-#: D:\webroot\source\app/views/about/index.thtml:25
+#: c:\Timovy2007\source\app/views/news/index.ctp:17
+#: c:\Timovy2007\source\app/views/about/index.thtml:25
 msgid "Published"
 msgstr "Published"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/add.ctp:1
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:3
+msgid "NEWS_ADD_POST"
+msgstr "Pridať novú aktualitu"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/add.ctp:9
+#: c:\Timovy2007\source\app/views/posts/edit.ctp:10
+msgid "NEWS_BODY"
+msgstr "Text"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/add.ctp:14
+#: c:\Timovy2007\source\app/views/posts/edit.ctp:15
+msgid "NEWS_SAVE"
+msgstr "Uložiť"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
-#: D:\webroot\source\app/views/posts/admin.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:72
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:1
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:72
 msgid "MENU_AKTUALITY"
 msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:5
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:8
+msgid "NEWS_ACTION"
+msgstr "Akcia"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:9
+msgid "NEWS_CREATED"
+msgstr "Vytvorené"
+
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:22
+msgid "NEWS_DELETE_POST"
+msgstr "Zmazať"
+
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:25
+msgid "NEWS_ARE_YOU_SURE_DELETE"
+msgstr "Zmazať vybranú aktualitu?"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/admin.ctp:27
+msgid "NEWS_EDIT"
+msgstr "Upraviť"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/edit.ctp:1
+msgid "NEWS_EDIT_POST"
+msgstr "Upraviť aktualitu"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: c:\Timovy2007\source\app/views/posts/index.ctp:5
 msgid "NEWS_ADDED"
 msgstr "Pridané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
-#: D:\webroot\source\app/views/roles/edit.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:2
+#: c:\Timovy2007\source\app/views/roles/edit.ctp:1
+#: c:\Timovy2007\source\app/views/roles/edit.ctp:2
 msgid "Edit role"
 msgstr "Upraviť rolu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/roles/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:91
+#: c:\Timovy2007\source\app/views/roles/index.ctp:1
+#: c:\Timovy2007\source\app/views/roles/index.ctp:2
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:91
 msgid "MENU_SPRAVA_PRAV"
 msgstr "Správa práv"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/edit.ctp:1
-#: D:\webroot\source\app/views/users/password.ctp:1
+#: c:\Timovy2007\source\app/views/users/edit.ctp:1
+#: c:\Timovy2007\source\app/views/users/password.ctp:1
 msgid "MENU_UPRAVA_POUZIVATELOV"
 msgstr "Správa používateľov "
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:90
+#: c:\Timovy2007\source\app/views/users/index.ctp:1
+#: c:\Timovy2007\source\app/views/users/index.ctp:3
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:90
 msgid "MENU_SPRAVA_POUZIVATELOF"
 msgstr "Správa používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
-#: D:\webroot\source\app/views/about/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:70
+#: c:\Timovy2007\source\app/views/about/index.thtml:1
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:70
 msgid "MENU_ABOUT"
 msgstr "O Systéme"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:4
-#: D:\webroot\source\app/views/about/index.thtml:5
+#: c:\Timovy2007\source\app/views/about/index.thtml:5
 msgid "UVOD_INFO"
 msgstr "Vitajte na stránkach internetového portálu venovaného prezentácií absolventov našej fakulty. V našej databáze sa momentálne nachádza %s absolventov. "
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
-#: D:\webroot\source\app/views/about/index.thtml:9
+#: c:\Timovy2007\source\app/views/about/index.thtml:9
 msgid "ABOUT_LAST_NASTENKA_TITLE"
 msgstr "Posledných 5 oznamov nástenky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:14
-#: D:\webroot\source\app/views/about/index.thtml:12
+#: c:\Timovy2007\source\app/views/about/index.thtml:12
 msgid "ABOUT_NASTE_MORE_DETAIL"
 msgstr "bližšie informácie >>>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/about/index.thtml:21
+#: c:\Timovy2007\source\app/views/about/index.thtml:21
 msgid "DB_NEWS_TITLE_COLUMNT"
 msgstr "title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/about/index.thtml:23
+#: c:\Timovy2007\source\app/views/about/index.thtml:23
 msgid "DB_NEWS_BODY_COLUMN"
 msgstr "body"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/alumni/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:71
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:1
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:71
 msgid "MENU_ABSOLVENTI"
 msgstr "Absolventi"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/views/alumni/index.thtml:6
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:6
 msgid "ALUMNI_ZOZNAM_SEARCH_TITLE"
 msgstr "Hľadanie na základe mena alebo zamerania"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:8
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:8
 msgid "ALUMNI_SEARCH_NAME"
 msgstr "Meno alebo priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/views/alumni/index.thtml:13
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:13
 msgid "ALUMNI_SEARCH_ZAMERANIE"
 msgstr "Zameranie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/index.thtml:24
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:24
 msgid "ALUMNI_SEARCH_SUBMIT"
 msgstr "Hľadaj v absolventoch"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:26
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:26
 msgid "ALUMNI_SEARCH_INFO_TOTAL"
 msgstr "V systéme sa momentálne nachádza celkovo %s absolventov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:31
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:31
 msgid "ALUMNI_SEARCH_VYSLEDOK_TITLE"
 msgstr "Výsledok hľadania"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/index.thtml:37
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:37
 msgid "ALUMNI_LIST_MENO"
 msgstr "Meno a priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:38
-#: D:\webroot\source\app/views/alumni/index.thtml:38
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:38
 msgid "ALUMNI_LIST_STUDYTYPE"
 msgstr "Typ štúdia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/index.thtml:39
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:39
 msgid "ALUMNI_LIST_SPECIALIZATION"
 msgstr "Špecializácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:55
+#: c:\Timovy2007\source\app/views/alumni/index.thtml:55
 msgid "ALUMNI_SEARCH_NO_ROWS"
 msgstr "Nenašli sa žiadni používatelia."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
-#: D:\webroot\source\app/views/contact/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:76
+#: c:\Timovy2007\source\app/views/contact/index.thtml:1
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:76
 msgid "MENU_KONTAKT"
 msgstr "Kontakt"
 
+#: c:\Timovy2007\source\app/views/languages/add.thtml:3
+msgid "Pridanie jazyka"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/add.thtml:6
+#: c:\Timovy2007\source\app/views/languages/edit.thtml:6
+#: c:\Timovy2007\source\app/views/levels/add.thtml:6
+#: c:\Timovy2007\source\app/views/levels/edit.thtml:6
+#: c:\Timovy2007\source\app/views/professions/add.thtml:6
+#: c:\Timovy2007\source\app/views/professions/edit.thtml:6
+#: c:\Timovy2007\source\app/views/stats/add.thtml:6
+#: c:\Timovy2007\source\app/views/stats/edit.thtml:7
+msgid "slovensky nazov"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/add.thtml:9
+#: c:\Timovy2007\source\app/views/languages/edit.thtml:9
+#: c:\Timovy2007\source\app/views/levels/add.thtml:9
+#: c:\Timovy2007\source\app/views/levels/edit.thtml:9
+#: c:\Timovy2007\source\app/views/professions/add.thtml:9
+#: c:\Timovy2007\source\app/views/professions/edit.thtml:9
+#: c:\Timovy2007\source\app/views/stats/add.thtml:9
+#: c:\Timovy2007\source\app/views/stats/edit.thtml:11
+msgid "aglicky nazov"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/add.thtml:12
+#: c:\Timovy2007\source\app/views/languages/edit.thtml:12
+#: c:\Timovy2007\source\app/views/levels/add.thtml:12
+#: c:\Timovy2007\source\app/views/levels/edit.thtml:12
+#: c:\Timovy2007\source\app/views/professions/add.thtml:12
+#: c:\Timovy2007\source\app/views/professions/edit.thtml:12
+#: c:\Timovy2007\source\app/views/stats/add.thtml:15
+#: c:\Timovy2007\source\app/views/stats/edit.thtml:17
+msgid "Ulozit"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/edit.thtml:3
+msgid "Editacia jazyka"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:3
+msgid "sprava jazykov"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:5
+msgid "Pridat_jazyk"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:8
+msgid "zoznam_jazykov"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:12
+msgid "name_jazyka"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:19
+#: c:\Timovy2007\source\app/views/levels/index.thtml:19
+#: c:\Timovy2007\source\app/views/professions/index.thtml:19
+#: c:\Timovy2007\source\app/views/stats/index.thtml:19
+msgid "UPRAVIT"
+msgstr "Upraviť"
+
+#: c:\Timovy2007\source\app/views/languages/index.thtml:20
+#: c:\Timovy2007\source\app/views/levels/index.thtml:20
+#: c:\Timovy2007\source\app/views/professions/index.thtml:20
+#: c:\Timovy2007\source\app/views/stats/index.thtml:20
+msgid "ZMAZAT"
+msgstr "Zmazať"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
-#: D:\webroot\source\app/views/layouts/default.thtml:23
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:23
 msgid "MENU_HOME"
 msgstr "Domov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:27
-#: D:\webroot\source\app/views/layouts/default.thtml:25
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:25
 msgid "MENU_HELP"
 msgstr "Pomoc"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
-#: D:\webroot\source\app/views/layouts/default.thtml:27
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:27
 msgid "MENU_SITEMAP"
 msgstr "Sitemap"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:48
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:48
 msgid "LOGGED_AS"
 msgstr "Prihlásený ako"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:48
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:48
 msgid "LOGIN_OUT"
 msgstr "Odhlásiť sa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
-#: D:\webroot\source\app/views/layouts/default.thtml:73
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:73
 msgid "MENU_FORUM"
 msgstr "Fórum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/layouts/default.thtml:74
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:74
 msgid "MENU_AKCIE"
 msgstr "Akcie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:76
-#: D:\webroot\source\app/views/layouts/default.thtml:75
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:75
 msgid "MENU_NASTENKA"
 msgstr "Nástenka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:86
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:86
 msgid "ADMIN_MENU"
 msgstr "Admin Menu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:88
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:88
 msgid "MENU_SPRAVA_AKTUALIT"
 msgstr "Správa aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/layouts/default.thtml:96
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:96
 msgid "MENU_STATISTIC_INDEX"
 msgstr "Štatistiky"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:109
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:109
 msgid "CODELISTS_MENU"
 msgstr ""
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:111
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:111
 msgid "MENU_SPRAVA_STATISTIK"
 msgstr "Správa štatistík"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:112
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:112
 msgid "MENU_SPRAVA_PROFESII"
 msgstr "Správa profesii"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:113
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:113
 msgid "MENU_SPRAVA_JAZYKOV"
 msgstr "Správa jazykov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/layouts/default.thtml:114
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:114
 msgid "MENU_SPRAVA_LEVELOV"
 msgstr "Správa úrovní"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:125
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:125
 msgid "USER_PROFILE_MENU"
 msgstr "Môj Profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/layouts/default.thtml:130
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:130
 msgid "MENU_ALUMNI_CURRICULUM"
 msgstr "Životopis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:143
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:143
 msgid "MAIL_MENU"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:167
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:167
 msgid "MENU_NOVINKY"
 msgstr "Novinky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
-#: D:\webroot\source\app/views/layouts/default.thtml:183
+#: c:\Timovy2007\source\app/views/layouts/default.thtml:183
 msgid "CRUMB_MENU"
 msgstr "Domov"
+
+#: c:\Timovy2007\source\app/views/levels/add.thtml:3
+msgid "Pridanie urovne"
+msgstr ""
+
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+#: c:\Timovy2007\source\app/views/levels/edit.thtml:3
+#, fuzzy
+msgid "Editacia urovne"
+msgstr "Upraviť rolu"
+
+#: c:\Timovy2007\source\app/views/levels/index.thtml:3
+msgid "sprava jurovni"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/levels/index.thtml:5
+msgid "Pridat_uroven"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/levels/index.thtml:8
+msgid "zoznam_urovni"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/levels/index.thtml:12
+msgid "name_urovne"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/professions/add.thtml:3
+msgid "Pridanie profesie"
+msgstr ""
+
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
+#: c:\Timovy2007\source\app/views/professions/edit.thtml:3
+#, fuzzy
+msgid "Editacia profesie"
+msgstr "Upraviť môj profil"
+
+#: c:\Timovy2007\source\app/views/professions/index.thtml:3
+msgid "sprava profesii"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/professions/index.thtml:5
+msgid "Pridat_profesiu"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/professions/index.thtml:8
+msgid "zoznam_profesii"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/professions/index.thtml:12
+msgid "name_profesie"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/add.thtml:3
+msgid "Vypis statistik"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/add.thtml:12
+#: c:\Timovy2007\source\app/views/stats/edit.thtml:14
+msgid "SQL dotaz"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/edit.thtml:3
+msgid "Editacia statistiky"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/index.thtml:3
+msgid "sprava_sql_statistik"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/index.thtml:5
+msgid "Pridat_statistiku"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/index.thtml:8
+msgid "zoznam_statistik"
+msgstr ""
+
+#: c:\Timovy2007\source\app/views/stats/index.thtml:12
+msgid "name_statistic"
+msgstr ""
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
-#: D:\webroot\source\app/views/wall_posters/add.thtml:5
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:5
 msgid "WALL_POSTERS_HEADING_ADD_POSTER"
 msgstr "Pridávanie oznam na nástenku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/add.thtml:9
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:24
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:94
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:9
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:24
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:94
 msgid "WALL_POSTERS_POSTER_NADPIS"
 msgstr "Nadpis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/add.thtml:11
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:26
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:96
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:132
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:11
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:26
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:96
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:132
 msgid "WALL_POSTERS_ERR_SET_NADPIS"
 msgstr "Zadajte prosím nadpis oznamu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
-#: D:\webroot\source\app/views/wall_posters/add.thtml:14
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:29
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:99
-#: D:\webroot\source\app/views/wall_posters/index.thtml:77
-#: D:\webroot\source\app/views/wall_posters/view.thtml:46
-#: D:\webroot\source\app/views/wall_posters/view.thtml:154
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:91
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:76
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:14
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:29
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:99
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:77
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:46
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:154
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:91
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:76
 msgid "WALL_POSTERS_POSTER_CONTENT_MSG"
 msgstr "Obsah oznamu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
-#: D:\webroot\source\app/views/wall_posters/add.thtml:16
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:31
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:101
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:137
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:16
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:31
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:101
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:137
 msgid "WALL_POSTERS_ERR_SET_CONTENT_MSG"
 msgstr "Zadajte prosím text oznamu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
-#: D:\webroot\source\app/views/wall_posters/add.thtml:19
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:34
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:104
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:19
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:34
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:104
 msgid "WALL_POSTERS_POSTER_VALID_FROM_DATE"
 msgstr "Platnosť od (RRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
-#: D:\webroot\source\app/views/wall_posters/add.thtml:21
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:36
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:106
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:142
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:21
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:36
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:106
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:142
 msgid "WALL_POSTERS_ERR_SET_VALID_FROM"
 msgstr "Zadajte prosím platnosť od kedy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/add.thtml:24
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:39
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:109
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:24
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:39
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:109
 msgid "WALL_POSTERS_POSTER_VALID_UNTIL_DATE"
 msgstr "Platnosť do (RRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/add.thtml:26
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:41
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:111
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:147
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:26
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:41
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:111
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:147
 msgid "WALL_POSTERS_ERR_SET_VALID_UNTIL"
 msgstr "Zadajte prosím platnosť do kedy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/add.thtml:29
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:29
 msgid "WALL_POSTERS_ADD_SAVE_CHANGES"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/add.thtml:30
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:48
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:156
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:193
-#: D:\webroot\source\app/views/wall_posters/view.thtml:68
-#: D:\webroot\source\app/views/wall_posters/view.thtml:70
-#: D:\webroot\source\app/views/wall_posters/view.thtml:80
-#: D:\webroot\source\app/views/wall_posters/view.thtml:178
+#: c:\Timovy2007\source\app/views/wall_posters/add.thtml:30
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:48
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:156
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:193
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:68
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:70
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:80
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:178
 msgid "WALL_POSTERS_LINK_BACK"
 msgstr "Späť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:59
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:5
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:58
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:5
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:64
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:5
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:64
 msgid "WALL_POSTERS_HEADING_POSTER_EDITATION"
 msgstr "Editovanie oznamu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:68
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:67
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:11
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:70
-#: D:\webroot\source\app/views/wall_posters/index.thtml:68
-#: D:\webroot\source\app/views/wall_posters/view.thtml:37
-#: D:\webroot\source\app/views/wall_posters/view.thtml:145
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:67
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:11
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:70
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:68
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:37
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:145
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:67
 msgid "WALL_POSTERS_POSTER_IS_NOT_SHOWN"
 msgstr "Oznam sa nezobrazuje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:13
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:72
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:13
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:72
 msgid "WALL_POSTERS_REFUSED_TIMESTAMP"
 msgstr "Čas zamietnutia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:14
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:73
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:175
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:14
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:73
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:175
 msgid "WALL_POSTERS_POSTER_REFUSED_REASON"
 msgstr "Dôvod zamietnutia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:20
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:20
 msgid "WALL_POSTERS_POSTER_REQUEST_DATA"
 msgstr "Údaje žiadosti"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:85
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:84
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:22
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:92
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:128
-#: D:\webroot\source\app/views/wall_posters/index.thtml:85
-#: D:\webroot\source\app/views/wall_posters/view.thtml:50
-#: D:\webroot\source\app/views/wall_posters/view.thtml:158
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:99
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:84
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:22
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:92
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:128
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:85
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:50
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:158
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:99
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:84
 msgid "WALL_POSTERS_POSTER_CREATED_BY"
 msgstr "Oznam vystavil(a)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:44
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:44
 msgid "WALL_POSTERS_EDIT_SAVE_CHANGES"
 msgstr "Uložiť zmeny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:45
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:46
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:46
 msgid "WALL_POSTERS_EDIT_SAVE_CHANGES_AND_REQUEST"
 msgstr "Uložiť zmeny a požiadať o potvrdenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:55
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:202
-#: D:\webroot\source\app/views/wall_posters/view.thtml:184
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:55
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:202
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:184
 msgid "WALL_POSTERS_TEXT_REQUESTED_POST_NOT_EXISTS"
 msgstr "Požadovaný oznam neexistuje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:91
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:91
 msgid "WALL_POSTERS_POSTER_CURRENT_DATA"
 msgstr "Terajšie údaje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:127
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:127
 msgid "WALL_POSTERS_POSTER_NEW_POSTER"
 msgstr "Nový oznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:127
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:127
 msgid "WALL_POSTERS_POSTER_POSTER_DATA_CHANGES"
 msgstr "Zmeny údajov oznamu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:130
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:130
 msgid "WALL_POSTERS_POSTER_NEW_NADPIS"
 msgstr "Nový nadpis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:135
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:135
 msgid "WALL_POSTERS_POSTER_NEW_CONTENT_MSG"
 msgstr "Nový text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:140
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:140
 msgid "WALL_POSTERS_POSTER_NEW_VALID_FROM_DATE"
 msgstr "Nová platnosť od (RRRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:145
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:145
 msgid "WALL_POSTERS_POSTER_NEW_VALID_UNTIL_DATE"
 msgstr "Nová platnosť do (RRRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:6
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:153
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:153
 msgid "WALL_POSTERS_EDIT_ACCEPT_CHANGES"
 msgstr "Potvrdiť zmeny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:155
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:155
 msgid "WALL_POSTERS_EDIT_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:55
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:54
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:54
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:177
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:177
 msgid "WALL_POSTERS_ERR_SET_REFUSED_REASON"
 msgstr "Zadajte prosím text zamietnutia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:182
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:182
 msgid "WALL_POSTERS_EDIT_CHANGE_REFUSED_REASON"
 msgstr "Zmeniť dôvod zamietnutia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:185
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:185
 msgid "WALL_POSTERS_EDIT_REFUSE_CHANGES"
 msgstr "Zamietnuť zmeny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:68
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:67
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:187
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:187
 msgid "WALL_POSTERS_EDIT_DENY_SHOWING"
 msgstr "Zamietnuť zobrazenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:191
+#: c:\Timovy2007\source\app/views/wall_posters/edit.thtml:191
 msgid "WALL_POSTERS_EDIT_DISABLE_DENIAL"
 msgstr "Zrušiť zamietnutie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:6
-#: D:\webroot\source\app/views/wall_posters/index.thtml:6
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:6
 msgid "WALL_POSTERS_HEADING_LIST_ACTUAL_POSTERS"
 msgstr "Aktuálne oznamy nástenky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
-#: D:\webroot\source\app/views/wall_posters/index.thtml:7
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:6
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:6
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:7
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:6
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:6
 msgid "WALL_POSTERS_LINK_ADD_POSTER"
 msgstr "Pridať oznam na nástenku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:8
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:7
-#: D:\webroot\source\app/views/wall_posters/index.thtml:8
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:7
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:8
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:7
 msgid "WALL_POSTERS_LINK_MANAGE_POTERS_AWAITING_CONFIRMATION"
 msgstr "Prezerať čakajúce oznamy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:9
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:8
-#: D:\webroot\source\app/views/wall_posters/index.thtml:9
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:8
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:9
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:8
 msgid "WALL_POSTERS_LINK_OLD_POSTERS"
 msgstr "Zobraziť staré oznamy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/index.thtml:11
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:10
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:11
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:10
 msgid "WALL_POSTERS_LINK_SEARCH"
 msgstr "Hľadaj v oznamoch"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:25
-#: D:\webroot\source\app/views/wall_posters/index.thtml:25
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:25
 msgid "WALL_POSTERS_HEADING3_NO_ACTUAL_POSTERS"
 msgstr "Žiadne aktuálne oznamy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/index.thtml:36
-#: D:\webroot\source\app/views/wall_posters/view.thtml:10
-#: D:\webroot\source\app/views/wall_posters/view.thtml:97
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:35
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:35
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:36
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:10
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:97
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:35
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:35
 msgid "WALL_POSTERS_POSTER_IS_NEW_POSTER"
 msgstr "Nový oznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:44
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:43
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:43
-#: D:\webroot\source\app/views/wall_posters/index.thtml:44
-#: D:\webroot\source\app/views/wall_posters/view.thtml:18
-#: D:\webroot\source\app/views/wall_posters/view.thtml:107
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:45
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:43
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:44
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:18
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:107
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:45
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:43
 msgid "WALL_POSTERS_POSTER_IS_CONFIRMATION_REQUEST"
 msgstr "Žiadosť o potvrdenie zmeny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:55
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:54
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:54
-#: D:\webroot\source\app/views/wall_posters/index.thtml:55
-#: D:\webroot\source\app/views/wall_posters/view.thtml:29
-#: D:\webroot\source\app/views/wall_posters/view.thtml:137
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:75
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:54
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:55
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:29
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:137
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:75
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:54
 msgid "WALL_POSTERS_POSTER_IS_REFUSED"
 msgstr "Žiadosť je zamietnutá"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:59
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:5
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:58
-#: D:\webroot\source\app/views/wall_posters/index.thtml:59
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:5
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:58
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:59
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:5
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:58
 msgid "WALL_POSTERS_HEADING_POSTERS_AWAITING_CONFIRMATION"
 msgstr "Oznamy čakajúce na potvrdenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/index.thtml:71
-#: D:\webroot\source\app/views/wall_posters/view.thtml:40
-#: D:\webroot\source\app/views/wall_posters/view.thtml:148
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:85
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:70
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:71
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:40
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:148
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:85
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:70
 msgid "WALL_POSTERS_POSTER_REFUSED_DATE"
 msgstr "Zamietnuté dňa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
-#: D:\webroot\source\app/views/wall_posters/index.thtml:74
-#: D:\webroot\source\app/views/wall_posters/view.thtml:43
-#: D:\webroot\source\app/views/wall_posters/view.thtml:151
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:88
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:74
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:43
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:151
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:88
 msgid "WALL_POSTERS_POSTER_VALID_FROM"
 msgstr "Platný od"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/index.thtml:75
-#: D:\webroot\source\app/views/wall_posters/view.thtml:44
-#: D:\webroot\source\app/views/wall_posters/view.thtml:152
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:89
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:75
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:44
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:152
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:89
 msgid "WALL_POSTERS_POSTER_VALID_UNTIL"
 msgstr "Platný do"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:81
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:80
-#: D:\webroot\source\app/views/wall_posters/index.thtml:81
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:95
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:80
+#: c:\Timovy2007\source\app/views/wall_posters/index.thtml:81
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:95
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:80
 msgid "WALL_POSTERS_LINK_SHOW_POSTER_DETAIL"
 msgstr "Zobraziť detaily"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/view.thtml:64
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:64
 msgid "WALL_POSTERS_LINK_EDIT"
 msgstr "Editovať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
-#: D:\webroot\source\app/views/wall_posters/view.thtml:66
-#: D:\webroot\source\app/views/wall_posters/view.thtml:176
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:66
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:176
 msgid "WALL_POSTERS_LINK_DELETE"
 msgstr "Odstrániť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/view.thtml:66
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:66
 msgid "WALL_POSTERS_REMOVE_THIS_POSTER"
 msgstr "Odstrániť oznam ?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
-#: D:\webroot\source\app/views/wall_posters/view.thtml:76
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:76
 msgid "WALL_POSTERS_TEXT_REQUIRED_POSTER_NOT_EXISTS"
 msgstr "Požadovaný oznam neexistuje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:85
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:84
-#: D:\webroot\source\app/views/wall_posters/view.thtml:76
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:76
 msgid "WALL_POSTERS_TEXT_OR_CANNOT_BE_DISPLAYED"
 msgstr "alebo Vám nemôže byť zobrazený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:45
-#: D:\webroot\source\app/views/wall_posters/view.thtml:109
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:47
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:109
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:47
 msgid "WALL_POSTERS_POSTER_IS_DELETE_REQUEST"
 msgstr "Oznam zrušený jeho vlastníkom"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/view.thtml:173
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:173
 msgid "WALL_POSTERS_LINK_ADMINISTRATE"
 msgstr "Administruj"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/view.thtml:176
+#: c:\Timovy2007\source\app/views/wall_posters/view.thtml:176
 msgid "WALL_POSTERS_REMOVE_THIS_POSTER?"
 msgstr "Odstrániť tento oznam?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:8
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:7
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:8
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:7
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:8
 msgid "WALL_POSTERS_LINK_ACTUAL_POSTERS"
 msgstr "Zobraziť aktuálne oznamy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:24
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:24
+#: c:\Timovy2007\source\app/views/wall_posters/viewlist_admin.thtml:24
 msgid "WALL_POSTERS_HEADING3_NO_POSTERS_AWAITING_CONFIRMATION"
 msgstr "Žiadne oznamy čakajúce na potvrdenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:5
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:5
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:5
 msgid "WALL_POSTERS_HEADING_LIST_OLD_POSTERS"
 msgstr "Staré oznamy nástenky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:23
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:23
+#: c:\Timovy2007\source\app/views/wall_posters/viewold.thtml:23
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "Žiadne staré oznamy"
-
-#~ msgid "SLOVAK"
-#~ msgstr "Slovensky"
-#~ msgid "ENGLISH"
-#~ msgstr "Anglicky"
 
