@@ -6,12 +6,11 @@ class PostsController extends AppController
 	var $helpers = array('Html', 'Form', 'Paginator');
 	var $paginate = array('limit' => 5, 'page' => 1, 'order'=>array('created' => 'desc'));
 	
+   	// Overi ci ma pouzivatel potrebne prava  
 	private function check_permission()
 	{
-    	// over ci ma k tomu pravi
-    	// permission pridat do databazy
 		if (!$this->Login->check('MANAGE_NEWS')) {
-			$this->My->setError(__('NEWS_PERMISSION_DENIED',true));	// Error msg, po edit
+			$this->My->setError(__('NEWS_PERMISSION_DENIED',true));	
 			$this->redirect('/posts/index', null, true);
 		}
 	}

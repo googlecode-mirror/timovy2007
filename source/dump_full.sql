@@ -1786,6 +1786,9 @@ INSERT INTO clearances VALUES (4, 'WALL_POSTER_ADMIN', 'Wall Poster Administrati
 INSERT INTO clearances VALUES (5, 'MANAGE_USERS', 'User & Permission management', 'Správa používateľov a používateľských práv', 'Management of users and users rights', 'Manažovanie používateľov a ich práv', 1);
 INSERT INTO clearances VALUES (6, 'MANAGE_CODELISTS', 'Code lists managment', 'Správa číselníkov', 'Management of code lists', 'Manažovanie číselníkov', NULL);
 INSERT INTO clearances VALUES (8, 'MANAGE_NEWS', 'Actualities management', 'Správa aktualít', 'Management of the module Actualities', 'Manažovanie modulu Aktuality', NULL);
+INSERT INTO clearances VALUES (9, 'MANAGE_STATS', 'Statistics management', 'Správa štatistík', 'Management of the module Stats', 'Manažovanie modulu Štatistiky', NULL);
+INSERT INTO clearances VALUES (10, 'MANAGE_LEVELS', 'Levels management', 'Správa úrovní', 'Management of the module Levels', 'Manažovanie modulu Úrovne', NULL);
+INSERT INTO clearances VALUES (11, 'MANAGE_PROFESSIONS', 'Professions management', 'Správa profesií', 'Management of the module Professions', 'Manažovanie modulu Profesie', NULL);
 
 
 --

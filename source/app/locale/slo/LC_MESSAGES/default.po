@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-22 20:55+0100\n"
-"PO-Revision-Date: 2008-04-27 01:31+0100\n"
+"PO-Revision-Date: 2008-04-27 01:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -113,32 +113,40 @@ msgstr "Heslá sa nezhodujú"
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
-#: c:\Timovy2007\source\app/controllers/languages_controller.php:28
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:15
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:15
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:15
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:15
+#, fuzzy
+msgid "_PERMISSION_DENIED"
+msgstr "Neoprávnený prístup"
+
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:41
 msgid "Jazyk uspesne upraveny."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/languages_controller.php:32
 #: c:\Timovy2007\source\app/controllers/languages_controller.php:45
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:60
 msgid "Problem pri ukladani jazyka do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/languages_controller.php:41
+#: c:\Timovy2007\source\app/controllers/languages_controller.php:56
 msgid "Novy jazyk uspesne vlozeny do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/levels_controller.php:28
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:41
 msgid "Uroven uspesne upravena."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/levels_controller.php:32
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:45
 msgid "Problem pri urovne jazyka do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/levels_controller.php:41
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:56
 msgid "Nova uroven uspesne vlozena do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/levels_controller.php:45
+#: c:\Timovy2007\source\app/controllers/levels_controller.php:60
 msgid "Problem pri ukladani urovne do db."
 msgstr ""
 
@@ -229,36 +237,36 @@ msgstr "Správa nebola najdená"
 msgid "MAIL_READ_GROUP"
 msgstr "Skupina"
 
-#: c:\Timovy2007\source\app/controllers/posts_controller.php:14
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:13
 msgid "NEWS_PERMISSION_DENIED"
 msgstr "Neoprávnený prístup"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: c:\Timovy2007\source\app/controllers/posts_controller.php:46
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:45
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
-#: c:\Timovy2007\source\app/controllers/posts_controller.php:60
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:59
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
-#: c:\Timovy2007\source\app/controllers/posts_controller.php:77
+#: c:\Timovy2007\source\app/controllers/posts_controller.php:76
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
-#: c:\Timovy2007\source\app/controllers/professions_controller.php:28
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:41
 msgid "Profesia uspesne upravena."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/professions_controller.php:32
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:45
 msgid "Problem pri ukladani profesie."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/professions_controller.php:41
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:56
 msgid "Nova profesia uspesne vlozena do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/professions_controller.php:45
+#: c:\Timovy2007\source\app/controllers/professions_controller.php:60
 msgid "Problem pri ukladani profesie do db."
 msgstr ""
 
@@ -277,16 +285,16 @@ msgstr "Právo bolo úspešne zmenené"
 msgid "There was a error by updating permission role"
 msgstr "Nastala chyba pri upravovaní práva."
 
-#: c:\Timovy2007\source\app/controllers/stats_controller.php:28
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:41
 msgid "Statistika uspesne upravena."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/stats_controller.php:32
 #: c:\Timovy2007\source\app/controllers/stats_controller.php:45
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:60
 msgid "Problem pri ukladani sql dotazu do db."
 msgstr ""
 
-#: c:\Timovy2007\source\app/controllers/stats_controller.php:41
+#: c:\Timovy2007\source\app/controllers/stats_controller.php:56
 msgid "Nova statistika uspesne vlozena do db."
 msgstr ""
 
