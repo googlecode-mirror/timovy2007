@@ -2418,13 +2418,7 @@ INSERT INTO news VALUES (1, 'Testovacia prevádzka', 'Testing', '<p>Lorem ipsum 
 -- Data for Name: posts; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO posts VALUES (1, 'Testovacia prevádzka', 'Dnešným dňom otvárame testovaciu prevádzku portálu ALUMNI. Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.
-
-Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií.
-
-Veľa úspechov pri používaní portálu Vám želá
-tím ALUMINIUM
-', '2008-04-29 10:00:00.000000', NULL);
+INSERT INTO posts VALUES (1, 'Testovacia prevádzka', 'Dnešným dňom otvárame testovaciu prevádzku portálu ALUMNI. Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.<br><br>Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií.<br><br>Veľa úspechov pri používaní portálu Vám želá<br>tím ALUMINIUM', '2008-04-29 10:00:00.000000', NULL);
 
 
 --

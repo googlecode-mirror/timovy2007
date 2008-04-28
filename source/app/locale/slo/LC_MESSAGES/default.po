@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 19:54+0100\n"
-"PO-Revision-Date: 2008-04-28 19:57+0100\n"
+"POT-Creation-Date: 2008-04-28 21:54+0100\n"
+"PO-Revision-Date: 2008-04-28 21:54+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -52,11 +52,6 @@ msgstr "Nastala chyba pri ukladaní dát."
 #: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:294
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
-
-# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
-msgid "NEWS_MAIN_TITLE"
-msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
 #: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:296
@@ -955,7 +950,6 @@ msgstr "Uložiť nastavenia"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:4
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:7
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:5
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
 msgid "NEWS_TITLE"
 msgstr "Titulok"
 
@@ -1016,6 +1010,11 @@ msgstr "Upraviť"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:1
 msgid "NEWS_EDIT_POST"
 msgstr "Upraviť aktualitu"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
+msgid "NEWS_MAIN_TITLE"
+msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5

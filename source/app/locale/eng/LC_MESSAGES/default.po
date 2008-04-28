@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 19:57+0100\n"
-"PO-Revision-Date: 2008-04-28 21:22+0100\n"
+"POT-Creation-Date: 2008-04-28 21:53+0100\n"
+"PO-Revision-Date: 2008-04-28 21:54+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -948,7 +948,6 @@ msgstr "Save settings"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:4
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:7
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:5
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
 msgid "NEWS_TITLE"
 msgstr "News"
 
@@ -1008,6 +1007,11 @@ msgstr "Edit"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:1
 msgid "NEWS_EDIT_POST"
 msgstr "Edit actualities"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
+msgid "NEWS_MAIN_TITLE"
+msgstr "Actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
