@@ -1789,6 +1789,7 @@ INSERT INTO clearances VALUES (8, 'MANAGE_NEWS', 'Actualities management', 'Spr�
 INSERT INTO clearances VALUES (9, 'MANAGE_STATS', 'Statistics management', 'Správa štatistík', 'Management of the module Stats', 'Manažovanie modulu Štatistiky', NULL);
 INSERT INTO clearances VALUES (10, 'MANAGE_LEVELS', 'Levels management', 'Správa úrovní', 'Management of the module Levels', 'Manažovanie modulu Úrovne', NULL);
 INSERT INTO clearances VALUES (11, 'MANAGE_PROFESSIONS', 'Professions management', 'Správa profesií', 'Management of the module Professions', 'Manažovanie modulu Profesie', NULL);
+INSERT INTO clearances VALUES (12, 'MANAGE_LANGUAGES', 'Languages managment', 'Správa jazykov', 'Management of the module Languages','Manažovanie modulu jazyky');
 
 
 --
@@ -4938,6 +4939,7 @@ INSERT INTO users_clearances VALUES (7, 1, 8, 'allow');
 INSERT INTO users_clearances VALUES (8, 1, 9, 'allow');
 INSERT INTO users_clearances VALUES (9, 1, 10, 'allow');
 INSERT INTO users_clearances VALUES (10, 1, 11, 'allow');
+INSERT INTO users_clearances VALUES (10, 1, 12, 'allow');
 
 
 --
