@@ -1785,11 +1785,11 @@ INSERT INTO clearances VALUES (3, 'WALL_POSTER_WRITE', 'Wall Poster Writing', 'P
 INSERT INTO clearances VALUES (4, 'WALL_POSTER_ADMIN', 'Wall Poster Administration', 'Manažovanie nástenky', 'Wall Poster Administration', 'Manažovanie nástenky', NULL);
 INSERT INTO clearances VALUES (5, 'MANAGE_USERS', 'User & Permission management', 'Správa používateľov a používateľských práv', 'Management of users and users rights', 'Manažovanie používateľov a ich práv', 1);
 INSERT INTO clearances VALUES (6, 'MANAGE_CODELISTS', 'Code lists managment', 'Správa číselníkov', 'Management of code lists', 'Manažovanie číselníkov', NULL);
-INSERT INTO clearances VALUES (8, 'MANAGE_NEWS', 'Actualities management', 'Správa aktualít', 'Management of the module Actualities', 'Manažovanie modulu Aktuality', NULL);
-INSERT INTO clearances VALUES (9, 'MANAGE_STATS', 'Statistics management', 'Správa štatistík', 'Management of the module Stats', 'Manažovanie modulu Štatistiky', NULL);
-INSERT INTO clearances VALUES (10, 'MANAGE_LEVELS', 'Levels management', 'Správa úrovní', 'Management of the module Levels', 'Manažovanie modulu Úrovne', NULL);
-INSERT INTO clearances VALUES (11, 'MANAGE_PROFESSIONS', 'Professions management', 'Správa profesií', 'Management of the module Professions', 'Manažovanie modulu Profesie', NULL);
-INSERT INTO clearances VALUES (12, 'MANAGE_LANGUAGES', 'Languages managment', 'Správa jazykov', 'Management of the module Languages','Manažovanie modulu jazyky');
+INSERT INTO clearances VALUES (7, 'MANAGE_NEWS', 'Actualities management', 'Správa aktualít', 'Management of the module Actualities', 'Manažovanie modulu Aktuality', NULL);
+INSERT INTO clearances VALUES (8, 'MANAGE_STATS', 'Statistics management', 'Správa štatistík', 'Management of the module Stats', 'Manažovanie modulu Štatistiky', NULL);
+INSERT INTO clearances VALUES (9, 'MANAGE_LEVELS', 'Levels management', 'Správa úrovní', 'Management of the module Levels', 'Manažovanie modulu Úrovne', NULL);
+INSERT INTO clearances VALUES (10, 'MANAGE_PROFESSIONS', 'Professions management', 'Správa profesií', 'Management of the module Professions', 'Manažovanie modulu Profesie', NULL);
+INSERT INTO clearances VALUES (11, 'MANAGE_LANGUAGES', 'Languages managment', 'Správa jazykov', 'Management of the module Languages','Manažovanie modulu jazyky');
 
 
 --
@@ -2411,16 +2411,20 @@ INSERT INTO login_history VALUES (19, 1, '127.0.0.1', '2008-04-17 22:31:03.908')
 -- Data for Name: news; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO news VALUES (1, 'Testing - Vitajte na našej stránke', 'Testing - Welcome to our page', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque mollis, magna et laoreet dignissim, risus tellus interdum est, a varius felis nisi ut sapien. Phasellus eget nunc in mi consectetuer molestie. Fusce tempor, odio eu blandit imperdiet, lorem libero bibendum risus, a malesuada tellus lacus id est. Mauris eu ligula nec risus mollis accumsan. Praesent fermentum sapien sit amet tellus. Proin ac elit at pede mollis molestie. Mauris euismod, lectus in condimentum dapibus, velit nisi pellentesque nibh, et faucibus ligula dolor vitae lectus. Curabitur malesuada. In feugiat lorem quis tortor. Nulla nec quam. Ut nec nibh. Sed nibh lacus, tristique vitae, commodo faucibus, vulputate at, quam. Vestibulum et quam. Pellentesque porttitor vehicula tellus. Pellentesque eleifend venenatis mi.</p><p>Integer sem sapien, fringilla sed, volutpat ut, iaculis in, augue. Integer convallis. Proin pede turpis, consectetuer ut, convallis id, molestie ac, ligula. Aenean gravida nulla vitae nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec varius lobortis diam. Donec neque eros, vulputate quis, aliquam vel, scelerisque vel, felis. Ut scelerisque pede ac urna. Nulla et metus vel risus tincidunt blandit. In hac habitasse platea dictumst. Etiam viverra enim vel turpis. Donec purus tortor, mattis sed, consequat quis, cursus sit amet, massa. Morbi a nulla ac lectus ultricies congue. Nam commodo luctus nulla. Duis volutpat. Phasellus porttitor ligula in turpis. Sed bibendum ipsum id mauris.</p>', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque mollis, magna et laoreet dignissim, risus tellus interdum est, a varius felis nisi ut sapien. Phasellus eget nunc in mi consectetuer molestie. Fusce tempor, odio eu blandit imperdiet, lorem libero bibendum risus, a malesuada tellus lacus id est. Mauris eu ligula nec risus mollis accumsan. Praesent fermentum sapien sit amet tellus. Proin ac elit at pede mollis molestie. Mauris euismod, lectus in condimentum dapibus, velit nisi pellentesque nibh, et faucibus ligula dolor vitae lectus. Curabitur malesuada. In feugiat lorem quis tortor. Nulla nec quam. Ut nec nibh. Sed nibh lacus, tristique vitae, commodo faucibus, vulputate at, quam. Vestibulum et quam. Pellentesque porttitor vehicula tellus. Pellentesque eleifend venenatis mi.</p><p>Integer sem sapien, fringilla sed, volutpat ut, iaculis in, augue. Integer convallis. Proin pede turpis, consectetuer ut, convallis id, molestie ac, ligula. Aenean gravida nulla vitae nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec varius lobortis diam. Donec neque eros, vulputate quis, aliquam vel, scelerisque vel, felis. Ut scelerisque pede ac urna. Nulla et metus vel risus tincidunt blandit. In hac habitasse platea dictumst. Etiam viverra enim vel turpis. Donec purus tortor, mattis sed, consequat quis, cursus sit amet, massa. Morbi a nulla ac lectus ultricies congue. Nam commodo luctus nulla. Duis volutpat. Phasellus porttitor ligula in turpis. Sed bibendum ipsum id mauris.</p>', '2001-01-11', '2001-01-01', 1);
+INSERT INTO news VALUES (1, 'Testovacia prevádzka', 'Testing', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque mollis, magna et laoreet dignissim, risus tellus interdum est, a varius felis nisi ut sapien. Phasellus eget nunc in mi consectetuer molestie. Fusce tempor, odio eu blandit imperdiet, lorem libero bibendum risus, a malesuada tellus lacus id est. Mauris eu ligula nec risus mollis accumsan. Praesent fermentum sapien sit amet tellus. Proin ac elit at pede mollis molestie. Mauris euismod, lectus in condimentum dapibus, velit nisi pellentesque nibh, et faucibus ligula dolor vitae lectus. Curabitur malesuada. In feugiat lorem quis tortor. Nulla nec quam. Ut nec nibh. Sed nibh lacus, tristique vitae, commodo faucibus, vulputate at, quam. Vestibulum et quam. Pellentesque porttitor vehicula tellus. Pellentesque eleifend venenatis mi.</p><p>Integer sem sapien, fringilla sed, volutpat ut, iaculis in, augue. Integer convallis. Proin pede turpis, consectetuer ut, convallis id, molestie ac, ligula. Aenean gravida nulla vitae nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec varius lobortis diam. Donec neque eros, vulputate quis, aliquam vel, scelerisque vel, felis. Ut scelerisque pede ac urna. Nulla et metus vel risus tincidunt blandit. In hac habitasse platea dictumst. Etiam viverra enim vel turpis. Donec purus tortor, mattis sed, consequat quis, cursus sit amet, massa. Morbi a nulla ac lectus ultricies congue. Nam commodo luctus nulla. Duis volutpat. Phasellus porttitor ligula in turpis. Sed bibendum ipsum id mauris.</p>', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque mollis, magna et laoreet dignissim, risus tellus interdum est, a varius felis nisi ut sapien. Phasellus eget nunc in mi consectetuer molestie. Fusce tempor, odio eu blandit imperdiet, lorem libero bibendum risus, a malesuada tellus lacus id est. Mauris eu ligula nec risus mollis accumsan. Praesent fermentum sapien sit amet tellus. Proin ac elit at pede mollis molestie. Mauris euismod, lectus in condimentum dapibus, velit nisi pellentesque nibh, et faucibus ligula dolor vitae lectus. Curabitur malesuada. In feugiat lorem quis tortor. Nulla nec quam. Ut nec nibh. Sed nibh lacus, tristique vitae, commodo faucibus, vulputate at, quam. Vestibulum et quam. Pellentesque porttitor vehicula tellus. Pellentesque eleifend venenatis mi.</p><p>Integer sem sapien, fringilla sed, volutpat ut, iaculis in, augue. Integer convallis. Proin pede turpis, consectetuer ut, convallis id, molestie ac, ligula. Aenean gravida nulla vitae nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec varius lobortis diam. Donec neque eros, vulputate quis, aliquam vel, scelerisque vel, felis. Ut scelerisque pede ac urna. Nulla et metus vel risus tincidunt blandit. In hac habitasse platea dictumst. Etiam viverra enim vel turpis. Donec purus tortor, mattis sed, consequat quis, cursus sit amet, massa. Morbi a nulla ac lectus ultricies congue. Nam commodo luctus nulla. Duis volutpat. Phasellus porttitor ligula in turpis. Sed bibendum ipsum id mauris.</p>', '2001-01-11', '2001-01-01', 1);
 
 
 --
 -- Data for Name: posts; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO posts VALUES (1, 'The title', 'This is the post body.', '2008-03-11 12:30:16.929482', NULL);
-INSERT INTO posts VALUES (2, 'A title once again', 'And the post body follows.', '2008-03-11 12:30:16.929482', NULL);
-INSERT INTO posts VALUES (3, 'Title strikes back', 'This is really exciting! Not.', '2008-03-11 12:30:16.929482', NULL);
+INSERT INTO posts VALUES (1, 'Testovacia prevádzka', 'Dnešným dňom otvárame testovaciu prevádzku portálu ALUMNI. Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.
+
+Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií.
+
+Veľa úspechov pri používaní portálu Vám želá
+tím ALUMINIUM
+', '2008-04-29 10:00:00.000000', NULL);
 
 
 --
@@ -2802,12 +2806,12 @@ INSERT INTO projects VALUES (172, 'ZP', 579, NULL, 162, '2005/2006', 'Systém pr
 ', 1);
 INSERT INTO projects VALUES (173, 'ZP', 294, NULL, 163, '2005/2006', 'Systém pre animovanie chôdze ľudskej kostry', 'Systém pre animovanie chôdze ľudskej kostry', 'Urobte rešerš literatúry o počítačových modeloch ľudskej kostry a animácie chôdze a  na základe výsledkov tímových projektov [1], [2] doplňte model  kostry človeka a jeho animácie o chrbticu, hrudný kôš, horné končatiny a hlavu. Použite rovnakú reprezentáciu 3D modelu, štruktúru dát modelu kostry, formát súboru pre simuláciu pohybu ako aj metodiku transformácie existujúcich modelov do požadovanej štruktúry dát..  
 
-[1]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+[1] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
 [2] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
 
 ', 'Urobte rešerš literatúry o počítačových modeloch ľudskej kostry a animácie chôdze a  na základe výsledkov tímových projektov [1], [2] doplňte model  kostry človeka a jeho animácie o chrbticu, hrudný kôš, horné končatiny a hlavu. Použite rovnakú reprezentáciu 3D modelu, štruktúru dát modelu kostry, formát súboru pre simuláciu pohybu ako aj metodiku transformácie existujúcich modelov do požadovanej štruktúry dát..  
 
-[1]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+[1] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
 [2] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
 
 ', 1);
@@ -3082,15 +3086,15 @@ INSERT INTO projects VALUES (315, 'ZP', 566, NULL, 296, '2005/2006', 'Evolučná
 http://www.fiit.stuba.sk/~kvasnicka/DiskretnaMatematika/Chapter_07/Prezentacia_Quine_McCluskey.pdf.', 'Metóda Quinova a McCluskeyho patrí medzi veľmi efektívne prístupy k minimalizácii Boolových funkcií. Jej ďalšou výhodou je pomerne ľahká algoritmizácia pre veľké množstvo (niekoľko sto) klauzúl s mnohými literálmi (niekoľko desiatok). Pomocou tejto metódy sa zostrojí množina  tzv. redukovaných klauzúl, z ktorých hľadáme takú minimánu podmnožnu, aby plne pokrývala všetky pôvodné klauzule danej Boolovej funkcie. Tento proces sa obvykle rieši buď ručne, alebo metódou spätného prehľadávania (backtrack). Avšak, ak máme mnoho sto redukovaných klauzúl, použitie spätného prehľadávania vedie k enormnému nárastu časovej zložitosti (vieme, ze časová zložitosť spätného prehľadávania rastie exponenciálne). Z týchto dôvodov v práci bude použitý evolučný algoritmus k nájdeniu optimálného pokrytia pôvodných klazúl redukovanými klauzulami. Prípadným záujemcom doporučujem pozrieť sa na moju prezentáciu na adrese
 http://www.fiit.stuba.sk/~kvasnicka/DiskretnaMatematika/Chapter_07/Prezentacia_Quine_McCluskey.pdf.', 1);
 INSERT INTO projects VALUES (316, 'ZP', 294, NULL, 300, '2005/2006', 'Sledovanie pohybu ľudskej kostry  v prostredí augmented reality', 'Sledovanie pohybu ľudskej kostry  v prostredí augmented reality', 'Na základe výsledkov prác [1], [2], [3],  analyzujte možnosti integrovania modulu pre sledovanie pohybu  časti  ľudskej kostry do prostredia augmented reality v systéme ARToolkit  [4]. Navrhnite a implementujte program pre pohyb časti virtuálnej kostry sledujúcej reálnu kostru snímanú kamerou.
-   [1] Gejguš, P., Šperka, M.: Face tracking in color video sequences. Proceedings SCCG 2003,
+  [1] Gejguš, P., Šperka, M.: Face tracking in color video sequences. Proceedings SCCG 2003,
    Budmerice, Pp.268-273.
-  [2]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+  [2] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
   [3] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
   [4] ARToolkit: Stránka University of Washington. http://www.hitl.washington.edu/projects/shared_space/ 
 ', 'Na základe výsledkov prác [1], [2], [3],  analyzujte možnosti integrovania modulu pre sledovanie pohybu  časti  ľudskej kostry do prostredia augmented reality v systéme ARToolkit  [4]. Navrhnite a implementujte program pre pohyb časti virtuálnej kostry sledujúcej reálnu kostru snímanú kamerou.
-   [1] Gejguš, P., Šperka, M.: Face tracking in color video sequences. Proceedings SCCG 2003,
+  [1] Gejguš, P., Šperka, M.: Face tracking in color video sequences. Proceedings SCCG 2003,
    Budmerice, Pp.268-273.
-  [2]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+  [2] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
   [3] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
   [4] ARToolkit: Stránka University of Washington. http://www.hitl.washington.edu/projects/shared_space/ 
 ', 1);
@@ -3166,12 +3170,12 @@ Odporúčaná literatúra:
 http://math.chtf.stuba.sk/kog_vedy.htm', 1);
 INSERT INTO projects VALUES (331, 'ZP', 294, NULL, 315, '2005/2006', 'Systém pre animovanie chôdze ľudskej kostry', 'Systém pre animovanie chôdze ľudskej kostry', 'Urobte rešerš literatúry o počítačových modeloch ľudskej kostry a animácie chôdze a  na základe výsledkov tímových projektov [1], [2] doplňte model  kostry človeka a jeho animácie o chrbticu, hrudný kôš, horné končatiny a hlavu. Použite rovnakú reprezentáciu 3D modelu, štruktúru dát modelu kostry, formát súboru pre simuláciu pohybu ako aj metodiku transformácie existujúcich modelov do požadovanej štruktúry dát.  
 
-[1]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+[1] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
 [2] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
 
 ', 'Urobte rešerš literatúry o počítačových modeloch ľudskej kostry a animácie chôdze a  na základe výsledkov tímových projektov [1], [2] doplňte model  kostry človeka a jeho animácie o chrbticu, hrudný kôš, horné končatiny a hlavu. Použite rovnakú reprezentáciu 3D modelu, štruktúru dát modelu kostry, formát súboru pre simuláciu pohybu ako aj metodiku transformácie existujúcich modelov do požadovanej štruktúry dát.  
 
-[1]  Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
+[1] Mareták, P.: Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2004)
 [2] Lučenič, Ľ.:  Analýza a animácia chôdze človeka. Tímový projekt FIIT STU Bratislava (2005)
 
 ', 1);
@@ -4935,11 +4939,11 @@ INSERT INTO users_clearances VALUES (3, 1, 3, 'allow');
 INSERT INTO users_clearances VALUES (4, 1, 4, 'allow');
 INSERT INTO users_clearances VALUES (5, 1, 5, 'allow');
 INSERT INTO users_clearances VALUES (6, 1, 6, 'allow');
-INSERT INTO users_clearances VALUES (7, 1, 8, 'allow');
-INSERT INTO users_clearances VALUES (8, 1, 9, 'allow');
-INSERT INTO users_clearances VALUES (9, 1, 10, 'allow');
-INSERT INTO users_clearances VALUES (10, 1, 11, 'allow');
-INSERT INTO users_clearances VALUES (10, 1, 12, 'allow');
+INSERT INTO users_clearances VALUES (7, 1, 7, 'allow');
+INSERT INTO users_clearances VALUES (8, 1, 8, 'allow');
+INSERT INTO users_clearances VALUES (9, 1, 9, 'allow');
+INSERT INTO users_clearances VALUES (10, 1, 10, 'allow');
+INSERT INTO users_clearances VALUES (11, 1, 11, 'allow');
 
 
 --

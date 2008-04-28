@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-28 19:57+0100\n"
-"PO-Revision-Date: 2008-04-28 20:00+0100\n"
+"PO-Revision-Date: 2008-04-28 21:22+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1012,7 +1012,7 @@ msgstr "Edit actualities"
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
 msgid "NEWS_ADDED"
-msgstr "The news was successfuly added!"
+msgstr "Added"
 
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
