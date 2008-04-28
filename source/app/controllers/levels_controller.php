@@ -12,7 +12,7 @@ class LevelsController extends AppController
 	private function check_permission()
 	{
 		if (!$this->Login->check('MANAGE_LEVELS')) {
-			$this->My->setError(__('_PERMISSION_DENIED',true));	
+			$this->My->setError(__('PERMISSION_DENIED',true));	
 			$this->redirect('/login', null, true);
 		}
 	}
@@ -38,11 +38,11 @@ class LevelsController extends AppController
     else
     {    
       if ($this->Levels->save($this->data)) {
-        $this->My->setInfo(__('Uroven uspesne upravena.', true));
+        $this->My->setInfo(__('LEVELS_ITEM_UPDATED', true));
 			  $this->redirect('/levels', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri urovne jazyka do db.', true));
+				$this->My->setError(__('LEVELS_ERROR_ON_INSERT', true));
 			}       
     }
   }
@@ -53,11 +53,11 @@ class LevelsController extends AppController
 
     if ($this->data) {
       if ($this->Levels->save($this->data)) {
-        $this->My->setInfo(__('Nova uroven uspesne vlozena do db.', true));
+        $this->My->setInfo(__('LEVELS_ITEM_ADDED', true));
 			  $this->redirect('/levels', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani urovne do db.', true));
+				$this->My->setError(__('LEVELS_ERROR_ON_INSERT', true));
 			}			
     }
   }  

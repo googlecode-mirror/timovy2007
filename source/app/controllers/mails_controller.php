@@ -139,7 +139,7 @@ class MailsController extends AppController
 		//
 		// over ci ma k tomu pravi
 		if (!$this->Login->check('MAIL_WRITE')) {
-			$this->My->setError('MAIL_COMPOSE_PERMISSION_DENIED');
+			$this->My->setError(__('PERMISSION_DENIED', true));
 			$this->redirect('/mails/index', null, true);
 		}
 		
@@ -161,7 +161,7 @@ class MailsController extends AppController
 			// nacitaj info o pouzivatelovi
 			$this->User->id = (int)$_GET['user_id'];
 			if (!($user = $this->User->read())) {
-				$this->My->setError('MAIL_COMPOSE_NON_EXISTING_USER');
+				$this->My->setError(__('MAIL_COMPOSE_NON_EXISTING_USER', true));
 			} else {
 				$address = $user['User']['username'].'<'.$user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
 			}

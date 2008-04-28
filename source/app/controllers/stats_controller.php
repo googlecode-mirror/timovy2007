@@ -12,7 +12,7 @@ class StatsController extends AppController
 	private function check_permission()
 	{
 		if (!$this->Login->check('MANAGE_STATS')) {
-			$this->My->setError(__('_PERMISSION_DENIED',true));	
+			$this->My->setError(__('PERMISSION_DENIED',true));	
 			$this->redirect('/login', null, true);
 		}
 	}
@@ -38,11 +38,11 @@ class StatsController extends AppController
     else
     {    
       if ($this->Stat->save($this->data)) {
-        $this->My->setInfo(__('Statistika uspesne upravena.', true));
+        $this->My->setInfo(__('STATS_ITEM_UPDATED', true));
 			  $this->redirect('/stats', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani sql dotazu do db.', true));
+				$this->My->setError(__('STATS_ERROR_ON_INSERT', true));
 			}       
     }
   }
@@ -53,11 +53,11 @@ class StatsController extends AppController
 
 	   if ($this->data) {
 	      if ($this->Stat->save($this->data)) {
-	        $this->My->setInfo(__('Nova statistika uspesne vlozena do db.', true));
+	        $this->My->setInfo(__('STATS_ITEM_NEW', true));
 				  $this->redirect('/stats', null, true);
 				}
 	      else { 
-					$this->My->setError(__('Problem pri ukladani sql dotazu do db.', true));
+					$this->My->setError(__('STATS_ERROR_ON_INSERT', true));
 				}			
 	    }
   }  

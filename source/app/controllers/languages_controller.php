@@ -12,7 +12,7 @@ class LanguagesController extends AppController
 	private function check_permission()
 	{
 		if (!$this->Login->check('MANAGE_LANGUAGES')) {
-			$this->My->setError(__('_PERMISSION_DENIED',true));	
+			$this->My->setError(__('PERMISSION_DENIED',true));	
 			$this->redirect('/login', null, true);
 		}
 	}
@@ -38,11 +38,11 @@ class LanguagesController extends AppController
     else
     {    
       if ($this->Languages->save($this->data)) {
-        $this->My->setInfo(__('Jazyk uspesne upraveny.', true));
+        $this->My->setInfo(__('LANGUAGES_ITEM_UPADATED', true));
 			  $this->redirect('/languages', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani jazyka do db.', true));
+				$this->My->setError(__('LANGUAGES_ERROR_ON_INSERT', true));
 			}       
     }
   }
@@ -53,11 +53,11 @@ class LanguagesController extends AppController
 
     if ($this->data) {
       if ($this->Languages->save($this->data)) {
-        $this->My->setInfo(__('Novy jazyk uspesne vlozeny do db.', true));
+        $this->My->setInfo(__('LANGUAGES_ITEM_ADDED', true));
 			  $this->redirect('/languages', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani jazyka do db.', true));
+				$this->My->setError(__('LANGUAGES_ERROR_ON_INSERT', true));
 			}			
     }
   }  

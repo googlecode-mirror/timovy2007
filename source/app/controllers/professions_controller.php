@@ -12,7 +12,7 @@ class ProfessionsController extends AppController
 	private function check_permission()
 	{
 		if (!$this->Login->check('MANAGE_PROFESSIONS')) {
-			$this->My->setError(__('_PERMISSION_DENIED',true));	
+			$this->My->setError(__('PERMISSION_DENIED',true));	
 			$this->redirect('/login', null, true);
 		}
 	}
@@ -38,11 +38,11 @@ class ProfessionsController extends AppController
     else
     {    
       if ($this->Professions->save($this->data)) {
-        $this->My->setInfo(__('Profesia uspesne upravena.', true));
+        $this->My->setInfo(__('PROFESSIONS_ITEM_UPDATED', true));
 			  $this->redirect('/professions', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani profesie.', true));
+				$this->My->setError(__('PROFESSIONS_ERROR_ON_INSERT', true));
 			}       
     }
   }
@@ -53,11 +53,11 @@ class ProfessionsController extends AppController
 
     if ($this->data) {
       if ($this->Professions->save($this->data)) {
-        $this->My->setInfo(__('Nova profesia uspesne vlozena do db.', true));
+        $this->My->setInfo(__('PROFESSIONS_ITEM_ADDED', true));
 			  $this->redirect('/professions', null, true);
 			}
       else { 
-				$this->My->setError(__('Problem pri ukladani profesie do db.', true));
+				$this->My->setError(__('PROFESSIONS_ERROR_ON_INSERT', true));
 			}			
     }
   }  

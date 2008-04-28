@@ -10,7 +10,7 @@ class PostsController extends AppController
 	private function check_permission()
 	{
 		if (!$this->Login->check('MANAGE_NEWS')) {
-			$this->My->setError(__('NEWS_PERMISSION_DENIED',true));	
+			$this->My->setError(__('PERMISSION_DENIED',true));	
 			$this->redirect('/posts/index', null, true);
 		}
 	}
