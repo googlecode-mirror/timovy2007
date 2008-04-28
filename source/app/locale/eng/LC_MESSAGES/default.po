@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 21:53+0100\n"
-"PO-Revision-Date: 2008-04-28 21:54+0100\n"
+"POT-Creation-Date: 2008-04-28 22:40+0100\n"
+"PO-Revision-Date: 2008-04-28 22:44+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -953,7 +953,6 @@ msgstr "News"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:17
 #: C:\Users\Jojo\webroot\alumni\app/views/news/index.ctp:17
-#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:25
 msgid "Published"
 msgstr "Published by"
 
@@ -1070,14 +1069,13 @@ msgid "ABOUT_NASTE_MORE_DETAIL"
 msgstr "more info >>>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:21
-msgid "DB_NEWS_TITLE_COLUMNT"
-msgstr "title_en"
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:20
+msgid "ABOUT_MAIN_TITLE"
+msgstr "ALUMNI - Testing"
 
-# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
-#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:23
-msgid "DB_NEWS_BODY_COLUMN"
-msgstr "body_en"
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:22
+msgid "ABOUT_MAIN_TEXT"
+msgstr "This portal presents the information about graduates of the Faculty of Informatics and Information Technologies of the Slovak University of Technology in Bratislava. Portal was created at team projects in the academic years 2006/2007 and 2007/2008, and is the product of Absolute ALUMiNIc team and ALUMINIUM team.<br /><br />The goal of portal is to present information about graduates of our faculty to the general public, who have the opportunity to browse the basic information about graduates. Portal provides also the communication between faculty and graduates or graduates in between. Graduates have the possibility to edit their personal data and to decide what data will be visible to the general public. The portal provide tools for administration to the employees of faculty, as well as the ability of acquiring statistical data of the recorded information."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:1

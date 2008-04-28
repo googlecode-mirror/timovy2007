@@ -1,4 +1,4 @@
-<?php $my->addCrumb(__("MENU_ABOUT", true)); ?>
+<?php $my->addCrumb(__("MENU_ABOUT", true));?>
 <h1><?php __('ABOUT_INTRODUCTION');?></h1>		
 <p class="just">
 
@@ -17,10 +17,7 @@
 -->
 
 <br />
-<?php foreach ($news as $n) { ?>
-<h1><?php echo $n['News'][__('DB_NEWS_TITLE_COLUMNT', true)]?></h1>
-<div>
-	<?php echo $n['News'][__('DB_NEWS_BODY_COLUMN', true)]?>
-</div>
-<p style="border-top: 1px dotted silver; text-align: right;"><small><?php __('Published')?>: <?php echo $n['User']['title'].' '.$n['User']['first_name'].' '.$n['User']['middle_name'].' '.$n['User']['last_name'];?>, <?php echo $myTime->nice($n['News']['created'])?></small></p>
-<?php } ?>
+<h1><?php __('ABOUT_MAIN_TITLE');?></h1>		
+<p class="just">
+	<?php __('ABOUT_MAIN_TEXT');?>
+</p>
