@@ -1,10 +1,10 @@
 <?php 
-//App::import('Vendor','fpdf'.DS.'fpdf');
-App::import('Vendor','ufpdf'.DS.'ufpdf');
+App::import('Vendor','fpdf'.DS.'fpdf');
+//App::import('Vendor','ufpdf'.DS.'ufpdf');
 
 if (!defined('PARAGRAPH_STRING')) define('PARAGRAPH_STRING', '~~~');
 
-class fpdfHelper extends UFPDF {
+class fpdfHelper extends FPDF {
 	var $title;
 	
 	function setup ($orientation='P',$unit='mm',$format='A4') {
