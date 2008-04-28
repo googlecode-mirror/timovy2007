@@ -2605,10 +2605,10 @@ INSERT INTO projects VALUES (92, 'ZP', 660, NULL, 87, '2004/2005', 'CSIDC 2005',
 INSERT INTO projects VALUES (93, 'DP', 97, NULL, 88, '2005/2006', 'Transformácie UML diagramov v prostredí IBM Rational Software Architect', 'Transformácie UML diagramov v prostredí IBM Rational Software Architect', NULL, NULL, 1);
 INSERT INTO projects VALUES (94, 'ZP', 674, NULL, 89, '2004/2005', 'Interaktívna kolaboratívna trojrozmerná vizualizácia modelov a dát', 'Interactive Collaboration Three-dimensional Visualization Models and Data ', 'Analyzujte niektoré súčasné prístupy k interaktívnej kolaboratívnej vizualizácii. Navrhnite a vytvorte systém umožňujúci vizualizáciu modelov a z nich získaných dát v trojrozmernom priestore. S vizualizovanými dátami, parametrami modelov a objektami budú môcť manipulovať viacerí používatelia (z rôznych počítačov pripojených do siete) súčasne. Zabezpečte, aby používatelia, ktorí sa nevidia, mohli koordinovať svoju prácu vo vizualizovanej scéne. Riešenie realizujte v jazyku Java s použitím knižnice Java3D (prípadne v inom jazyku a prostredí, ktoré má vhodné vlastnosti). Funkčnosť riešenia otestujte na príkladoch.', 'Analyzujte niektoré súčasné prístupy k interaktívnej kolaboratívnej vizualizácii. Navrhnite a vytvorte systém umožňujúci vizualizáciu modelov a z nich získaných dát v trojrozmernom priestore. S vizualizovanými dátami, parametrami modelov a objektami budú môcť manipulovať viacerí používatelia (z rôznych počítačov pripojených do siete) súčasne. Zabezpečte, aby používatelia, ktorí sa nevidia, mohli koordinovať svoju prácu vo vizualizovanej scéne. Riešenie realizujte v jazyku Java s použitím knižnice Java3D (prípadne v inom jazyku a prostredí, ktoré má vhodné vlastnosti). Funkčnosť riešenia otestujte na príkladoch.', 1);
 INSERT INTO projects VALUES (95, 'ZP', 16, NULL, 90, '2004/2005', 'Systém na podporu multiparadigmového návrhu', 'System for support of multi-paradigm design', 'Programovacie jazyky poskytujú rôzne mechanizmy (paradigmy) na modelovanie domény aplikácie. V multiparadigmovom návrhu sa výber týchto mechanizmov uskutočňuje explicitne na základe analýzy domény aplikácie a domény riešenia (t.j. programovacieho jazyka).
-Analyzujte možnosti podpory modelovania vlastností (feature modeling) â€” predovšetkým diagramov vlastností (feature diagrams) â€” pre potreby multiparadigmového návrhu. Analyzujte aj možnosť podpory transformačnej analýzy, t.j. mapovania modelu vlastností domény aplikácie na model vlastností domény riešenia.
+Analyzujte možnosti podpory modelovania vlastností (feature modeling) — predovšetkým diagramov vlastností (feature diagrams) — pre potreby multiparadigmového návrhu. Analyzujte aj možnosť podpory transformačnej analýzy, t.j. mapovania modelu vlastností domény aplikácie na model vlastností domény riešenia.
 Navrhnite a implementujte systém na podporu multiparadigmového návrhu založený na modelovaní vlastností. Pri tvorbe systému zvážte použitie multiparadigmového návrhu a implementácie v jazyku AspectJ (aspektovo-orientované rozšírenie Javy).
 ', 'Programovacie jazyky poskytujú rôzne mechanizmy (paradigmy) na modelovanie domény aplikácie. V multiparadigmovom návrhu sa výber týchto mechanizmov uskutočňuje explicitne na základe analýzy domény aplikácie a domény riešenia (t.j. programovacieho jazyka).
-Analyzujte možnosti podpory modelovania vlastností (feature modeling) â€” predovšetkým diagramov vlastností (feature diagrams) â€” pre potreby multiparadigmového návrhu. Analyzujte aj možnosť podpory transformačnej analýzy, t.j. mapovania modelu vlastností domény aplikácie na model vlastností domény riešenia.
+Analyzujte možnosti podpory modelovania vlastností (feature modeling) — predovšetkým diagramov vlastností (feature diagrams) — pre potreby multiparadigmového návrhu. Analyzujte aj možnosť podpory transformačnej analýzy, t.j. mapovania modelu vlastností domény aplikácie na model vlastností domény riešenia.
 Navrhnite a implementujte systém na podporu multiparadigmového návrhu založený na modelovaní vlastností. Pri tvorbe systému zvážte použitie multiparadigmového návrhu a implementácie v jazyku AspectJ (aspektovo-orientované rozšírenie Javy).
 ', 1);
 INSERT INTO projects VALUES (96, 'DP', 579, NULL, 93, '2005/2006', 'Systém získavania doplňujúcich informácií', 'System for obtaining additional information', NULL, NULL, 1);
@@ -3249,10 +3249,10 @@ INSERT INTO projects VALUES (362, 'ZP', 704, NULL, 348, '2005/2006', 'Editor zdr
 ', 'Analyzujte vlastnosti editorov zdrojových programov  a  možnosti zdieľania dokumentov obsahujúcich zdrojové  programy pri tímovej práci .  Analyzujte  možnosti , spôsoby a princípy podpory tímovej práce pri tvorbe takýchto dokumentov .  Navrhnite editor zdrojových programov , ktorý bude podporovať  zvýrazňovanie syntaxe (vybraného)  programovacieho jazyka a umožní zostavovanie celku z jednotlivých častí vytvorených v tíme. Doporučený implementačný jazyk - jazyk Java.
  
 ', 1);
-INSERT INTO projects VALUES (363, 'ZP', 35, NULL, 349, '2005/2006', 'Interpret lambda-výrazov', 'Interpret lambda-výrazov', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazykâ€”umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazykuâ€”lambda-výrazy. 
+INSERT INTO projects VALUES (363, 'ZP', 35, NULL, 349, '2005/2006', 'Interpret lambda-výrazov', 'Interpret lambda-výrazov', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazyk—umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazyku—lambda-výrazy. 
 
 Výstupom tohto projektu by mal byť program schopný redukovať (vyhodnotiť) ľubovoľný lambda-výraz do normálnej formy (v ktorej už nie je možné robiť žiadne ďalšie redukcie), ak zadaný lambda-výraz má normálnu formu. Váš program by mal vedieť zobraziť jednotlivé kroky redukcie (vyhodnocovania) tak ako ten program postupoval od zadaného lambda-výrazu až k výsledku. Tiež zvážte užitočnosť tzv. „syntactic-suggar“ konštrukcií, ktoré v určitých prípadoch sprehľadňujú opis dát a opis výpočtu a je ich možné používať namiesto surových lambda-výrazov. Tie, ktoré uznáte za užitočné, zahrňte do svojho jazyka.
-', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazykâ€”umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazykuâ€”lambda-výrazy. 
+', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazyk—umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazyku—lambda-výrazy. 
 
 Výstupom tohto projektu by mal byť program schopný redukovať (vyhodnotiť) ľubovoľný lambda-výraz do normálnej formy (v ktorej už nie je možné robiť žiadne ďalšie redukcie), ak zadaný lambda-výraz má normálnu formu. Váš program by mal vedieť zobraziť jednotlivé kroky redukcie (vyhodnocovania) tak ako ten program postupoval od zadaného lambda-výrazu až k výsledku. Tiež zvážte užitočnosť tzv. „syntactic-suggar“ konštrukcií, ktoré v určitých prípadoch sprehľadňujú opis dát a opis výpočtu a je ich možné používať namiesto surových lambda-výrazov. Tie, ktoré uznáte za užitočné, zahrňte do svojho jazyka.
 ', 1);
@@ -3325,10 +3325,10 @@ Literatura:
 V. Kvasnička, J. Pospíchal: Informatika pre sociálne vedy. UK Bratislava 2005.
 Informácie o ant colony optimalizácii na www http://iridia.ulb.ac.be/~mdorigo/ACO/publications.html
 ', 1);
-INSERT INTO projects VALUES (377, 'ZP', 35, NULL, 370, '2005/2006', 'Interpret lambda-výrazov', 'Interpret lambda-výrazov', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazykâ€”umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazykuâ€”lambda-výrazy. 
+INSERT INTO projects VALUES (377, 'ZP', 35, NULL, 370, '2005/2006', 'Interpret lambda-výrazov', 'Interpret lambda-výrazov', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazyk—umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazyku—lambda-výrazy. 
 
 Výstupom tohto projektu by mal byť program schopný redukovať (vyhodnotiť) ľubovoľný lambda-výraz do normálnej formy (v ktorej už nie je možné robiť žiadne ďalšie redukcie), ak zadaný lambda-výraz má normálnu formu. Váš program by mal vedieť zobraziť jednotlivé kroky redukcie (vyhodnocovania) tak ako ten program postupoval od zadaného lambda-výrazu až k výsledku. Tiež zvážte užitočnosť tzv. „syntactic-suggar“ konštrukcií, ktoré v určitých prípadoch sprehľadňujú opis dát a opis výpočtu a je ich možné používať namiesto surových lambda-výrazov. Tie, ktoré uznáte za užitočné, zahrňte do svojho jazyka.
-', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazykâ€”umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazykuâ€”lambda-výrazy. 
+', 'Vašou úlohou bude naštudovať lambda-kalkulus a vytvoriť program, ktorý bude schopný interpretovať lambda-výrazy. Z určitého pohľadu môžeme lambda-kalkulus považovať za programovací jazyk. Jedná sa o úplný programovací jazyk—umožňuje nám opísať ľubovoľný výpočet. Jedná sa (z pohľadu sémantiky) o jednoduchý programovací jazyk. Je ho možné kompletne opísať na niekoľko málo stranách. Vďaka tejto jednoduchosti bude možné pomerne ľahko vytvoriť príslušný interpret schopný interpretovať programy napísané v tomto jazyku—lambda-výrazy. 
 
 Výstupom tohto projektu by mal byť program schopný redukovať (vyhodnotiť) ľubovoľný lambda-výraz do normálnej formy (v ktorej už nie je možné robiť žiadne ďalšie redukcie), ak zadaný lambda-výraz má normálnu formu. Váš program by mal vedieť zobraziť jednotlivé kroky redukcie (vyhodnocovania) tak ako ten program postupoval od zadaného lambda-výrazu až k výsledku. Tiež zvážte užitočnosť tzv. „syntactic-suggar“ konštrukcií, ktoré v určitých prípadoch sprehľadňujú opis dát a opis výpočtu a je ich možné používať namiesto surových lambda-výrazov. Tie, ktoré uznáte za užitočné, zahrňte do svojho jazyka.
 ', 1);
@@ -3395,7 +3395,7 @@ INSERT INTO projects VALUES (420, 'ZP', 342, NULL, 438, '2003/2004', 'Programov�
 ', 0);
 INSERT INTO projects VALUES (421, 'DP', 298, NULL, 438, '2005/2006', 'Analýza a vyhodnotenie sieťovej komunikácie', 'Analýza a vyhodnotenie sieťovej komunikácie', NULL, NULL, 0);
 INSERT INTO projects VALUES (422, 'DP', 690, NULL, 439, '2005/2006', 'Grafovo-teoretický model kolaboratívnych sietí', 'Graph-theoretical model of the collaboration networks', NULL, NULL, 1);
-INSERT INTO projects VALUES (423, 'ZP', 272, NULL, 439, '2003/2004', 'Podpora výučby OOP', 'The educational support of the object oriented programming', 'Analyzujte objektovo orientovaný prístup k tvorbe programov a porovnajte existujúce objektovo orientované programovacie jazyky (C++, Java, Eiffel, SmallTalk, â€¦). Navrhnite a implementujte aplikáciu, ktorá bude slúžiť ako pomôcka pri výučbe objektovo orientovaného programovania. Navrhnutý systém naplňte textom s príkladmi zadelených do ucelených celkov. Overte funkčnosť navrhnutého systému', 'Analyzujte objektovo orientovaný prístup k tvorbe programov a porovnajte existujúce objektovo orientované programovacie jazyky (C++, Java, Eiffel, SmallTalk, â€¦). Navrhnite a implementujte aplikáciu, ktorá bude slúžiť ako pomôcka pri výučbe objektovo orientovaného programovania. Navrhnutý systém naplňte textom s príkladmi zadelených do ucelených celkov. Overte funkčnosť navrhnutého systému', 1);
+INSERT INTO projects VALUES (423, 'ZP', 272, NULL, 439, '2003/2004', 'Podpora výučby OOP', 'The educational support of the object oriented programming', 'Analyzujte objektovo orientovaný prístup k tvorbe programov a porovnajte existujúce objektovo orientované programovacie jazyky (C++, Java, Eiffel, SmallTalk, …). Navrhnite a implementujte aplikáciu, ktorá bude slúžiť ako pomôcka pri výučbe objektovo orientovaného programovania. Navrhnutý systém naplňte textom s príkladmi zadelených do ucelených celkov. Overte funkčnosť navrhnutého systému', 'Analyzujte objektovo orientovaný prístup k tvorbe programov a porovnajte existujúce objektovo orientované programovacie jazyky (C++, Java, Eiffel, SmallTalk, …). Navrhnite a implementujte aplikáciu, ktorá bude slúžiť ako pomôcka pri výučbe objektovo orientovaného programovania. Navrhnutý systém naplňte textom s príkladmi zadelených do ucelených celkov. Overte funkčnosť navrhnutého systému', 1);
 INSERT INTO projects VALUES (424, 'DP', 579, NULL, 440, '2004/2005', 'Využitie multimédií pri filmových súťažiach', 'Využitie multimédií pri filmových súťažiach', NULL, NULL, 1);
 INSERT INTO projects VALUES (425, 'DP', 360, NULL, 441, '2004/2005', 'Nedokonalosti v realizácii kombinačných logických obvodov', 'Nedokonalosti v realizácii kombinačných logických obvodov', NULL, NULL, 0);
 INSERT INTO projects VALUES (426, 'DP', 569, NULL, 442, '2005/2006', 'Modelovanie, špecifikácia a verifikácia logických obvodov', 'Modeling, specification and verification of logic circuits', NULL, NULL, 0);
@@ -5644,22 +5644,6 @@ ALTER TABLE ONLY graduates
 
 
 --
--- Name: languages_pkey; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
---
-
-ALTER TABLE ONLY languages
-    ADD CONSTRAINT languages_pkey PRIMARY KEY (id);
-
-
---
--- Name: levels_pkey; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
---
-
-ALTER TABLE ONLY levels
-    ADD CONSTRAINT levels_pkey PRIMARY KEY (id);
-
-
---
 -- Name: login_history_pkey; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
 --
 
@@ -5737,14 +5721,6 @@ ALTER TABLE ONLY mails
 
 ALTER TABLE ONLY news
     ADD CONSTRAINT news_pkey PRIMARY KEY (id);
-
-
---
--- Name: professions_pkey; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
---
-
-ALTER TABLE ONLY professions
-    ADD CONSTRAINT professions_pkey PRIMARY KEY (id);
 
 
 --
@@ -6207,5 +6183,3 @@ ALTER TABLE stats OWNER TO team14;
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
 INSERT INTO stats(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');
-
-
