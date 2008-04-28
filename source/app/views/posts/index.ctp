@@ -1,4 +1,4 @@
-<h1><?php __("NEWS_TITLE")?></h1>
+<h1><?php __("NEWS_MAIN_TITLE")?></h1>
 
 <?php foreach ($posts as $post): ?>
 	<h2><?php echo $post['Post']['title']?></h2>

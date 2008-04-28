@@ -53,6 +53,11 @@ msgstr "Nastala chyba pri ukladaní dát."
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
+msgid "NEWS_MAIN_TITLE"
+msgstr "Aktuality"
+
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
 #: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:296
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
