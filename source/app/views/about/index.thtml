@@ -1,8 +1,8 @@
 <?php $my->addCrumb(__("MENU_ABOUT", true)); ?>
-<h1>Úvod</h1>		
+<h1><?php __('ABOUT_INTRODUCTION');?></h1>		
 <p class="just">
 
-	<?php $x = __('UVOD_INFO', true);  echo sprintf($x, $pocet_absolventov);?>
+	<?php $x = __('ABOUT_INTRODUCTION_INFO', true);  echo sprintf($x, $pocet_absolventov);?>
 </p>
 <!--
 <div style="border-bottom: padding-bottom: 5px;">

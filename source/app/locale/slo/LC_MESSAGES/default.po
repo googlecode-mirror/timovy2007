@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 18:56+0100\n"
-"PO-Revision-Date: 2008-04-28 19:16+0100\n"
+"POT-Creation-Date: 2008-04-28 19:54+0100\n"
+"PO-Revision-Date: 2008-04-28 19:57+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1050,10 +1050,13 @@ msgstr "Správa používateľov"
 msgid "MENU_ABOUT"
 msgstr "O Systéme"
 
-# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:2
+msgid "ABOUT_INTRODUCTION"
+msgstr "Úvod"
+
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:5
-msgid "UVOD_INFO"
-msgstr "Vitajte na stránkach internetového portálu venovaného prezentácií absolventov našej fakulty. V našej databáze sa momentálne nachádza %s absolventov. "
+msgid "ABOUT_INTRODUCTION_INFO"
+msgstr "Vitajte na stránkach internetového portálu venovaného prezentácií absolventov našej fakulty. V našej databáze sa momentálne nachádza %s absolventov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:9
@@ -1857,7 +1860,4 @@ msgstr "Staré oznamy nástenky"
 #: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:23
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "Žiadne staré oznamy"
-
-#~ msgid "NEWS_PERMISSION_DENIED"
-#~ msgstr "Neoprávnený prístup"
 

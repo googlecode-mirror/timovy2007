@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 19:18+0100\n"
-"PO-Revision-Date: 2008-04-28 19:46+0100\n"
+"POT-Creation-Date: 2008-04-28 19:57+0100\n"
+"PO-Revision-Date: 2008-04-28 20:00+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1047,10 +1047,13 @@ msgstr "Account Management"
 msgid "MENU_ABOUT"
 msgstr "About system"
 
-# C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:2
+msgid "ABOUT_INTRODUCTION"
+msgstr "Introduction"
+
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:5
-msgid "UVOD_INFO"
-msgstr "Please welcome to our information portal. Here you can find informations about our alumni. Currently there are %s alumnis in our database."
+msgid "ABOUT_INTRODUCTION_INFO"
+msgstr "Welcome to our information portal! Here you can find informations about our alumnis. Currently there are %s alumnis in our database."
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:9
