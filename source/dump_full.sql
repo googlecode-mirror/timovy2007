@@ -4935,6 +4935,9 @@ INSERT INTO users_clearances VALUES (4, 1, 4, 'allow');
 INSERT INTO users_clearances VALUES (5, 1, 5, 'allow');
 INSERT INTO users_clearances VALUES (6, 1, 6, 'allow');
 INSERT INTO users_clearances VALUES (7, 1, 8, 'allow');
+INSERT INTO users_clearances VALUES (8, 1, 9, 'allow');
+INSERT INTO users_clearances VALUES (9, 1, 10, 'allow');
+INSERT INTO users_clearances VALUES (10, 1, 11, 'allow');
 
 
 --
