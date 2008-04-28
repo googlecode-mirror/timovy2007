@@ -49,7 +49,7 @@
         $ws .= $value['Language']['name_'.$lang].": ";
         $ws .= $value['Level']['name_'.$lang]."\n";            
       }
-      $fpdf->WriteCurriculumRow(10, 50, "R", iconv("UTF-8", "windows-1250", __("ALUMNI_MYPROFILE_CV_LANGUAGES", true)), array('Arial','', 14), array(241,241,241), 10, 140, "L", $ws, array('Arial','',14), array(241,241,241));
+      $fpdf->WriteCurriculumRow(10, 50, "R", iconv("UTF-8", "windows-1250", __("ALUMNI_MYPROFILE_CV_LANGUAGES", true)), array('Arial','', 14), array(241,241,241), 10, 140, "L", iconv("UTF-8", "windows-1250", $ws), array('Arial','',14), array(241,241,241));
       $fpdf->Ln(1);    
     }    
 
