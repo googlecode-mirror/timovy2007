@@ -76,6 +76,10 @@ var $AliasNbPages;       //alias for total number of pages
 *******************************************************************************/
 function FPDF($orientation='P',$unit='mm',$format='A4')
 {
+  // cakephp hack
+  if($orientation===array()) $orientation='P';
+  $this->helpers = null;
+  
 	//Some checks
 	$this->_dochecks();
 	//Initialization of properties

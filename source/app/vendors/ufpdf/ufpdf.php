@@ -14,8 +14,9 @@
 if(!class_exists('UFPDF'))
 {
 define('UFPDF_VERSION','0.1');
+error_reporting(0);
 
-include_once 'fpdf.php';
+include_once '../vendors/fpdf/fpdf.php';
 
 class UFPDF extends FPDF
 {
@@ -38,7 +39,7 @@ function GetStringWidth($s)
   $cw=&$this->CurrentFont['cw'];
   $w=0;
   foreach($codepoints as $cp)
-    $w+=$cw[$cp];
+    if(isset($cw[$cp])) $w+=$cw[$cp];
   return $w*$this->FontSize/1000;
 }
 
