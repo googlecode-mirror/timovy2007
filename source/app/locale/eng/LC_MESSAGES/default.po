@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-28 19:18+0100\n"
-"PO-Revision-Date: 2008-04-28 19:35+0100\n"
+"PO-Revision-Date: 2008-04-28 19:46+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -962,7 +962,7 @@ msgstr "Published by"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:3
 msgid "NEWS_ADD_POST"
-msgstr "Add new post"
+msgstr "Add new actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:9
@@ -1007,7 +1007,7 @@ msgstr "Edit"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:1
 msgid "NEWS_EDIT_POST"
-msgstr "Edit post"
+msgstr "Edit actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
