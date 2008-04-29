@@ -203,8 +203,7 @@
   	<?php foreach ($levels as $key => $value): ?>
   	<option value="<?=$key?>"><?=$value?></option>
   	<?php endforeach; ?>
-  </select>
-  <input type="hidden" name="user_language_id[]" value="<?php echo $p['UserLanguage']['id']; ?>" />			
+  </select>			
 	<input type="button"  class="left_space" style="width: 66px; float: left" value="<?php __("ALUMNI_MYPROFILE_LANGUAGE_DELETE")?>" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" />
 	<p class="clear" />
 </div>	

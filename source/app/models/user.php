@@ -72,7 +72,7 @@ class User extends AppModel
 	public function custom_clearances($user_id)
 	{
 		$out = array();
-		$rows = $this->query("SELECT uc.*, c.key, c.name, c.description FROM users_clearances uc JOIN clearances c ON c.id=uc.clearance_id WHERE user_id=".(int)$user_id);
+		$rows = $this->query("SELECT uc.*, c.key, c.name_sk, c.name_en, c.description_sk, c.description_en FROM users_clearances uc JOIN clearances c ON c.id=uc.clearance_id WHERE user_id=".(int)$user_id);
 		foreach ($rows as $r)
 		{
 			$out[$r[0]['key']] = $r[0];
