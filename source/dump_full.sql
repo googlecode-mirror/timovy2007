@@ -22,16 +22,6 @@ SET search_path = public, pg_catalog;
 --
 
 
-CREATE SEQUENCE professions_id_seq;
-ALTER TABLE professions_id_seq OWNER TO team14;
-
-CREATE SEQUENCE languages_id_seq;
-ALTER TABLE languages_id_seq OWNER TO team14;
-
-CREATE SEQUENCE levels_id_seq;
-ALTER TABLE levels_id_seq OWNER TO team14;
-
-
 CREATE TYPE tablefunc_crosstab_2 AS (
 	row_name text,
 	category_1 text,
@@ -436,6 +426,33 @@ ALTER FUNCTION public.xslt_process(text, text) OWNER TO postgres;
 SET default_tablespace = '';
 
 SET default_with_oids = false;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
+--
+
+CREATE TABLE users (
+    id integer NOT NULL,
+    personal_number character varying(32),
+    username character varying(255) NOT NULL,
+    ldapname character varying(255),
+    "password" character varying(32) NOT NULL,
+    first_name character varying(255) NOT NULL,
+    middle_name character varying(255),
+    last_name character varying(255) NOT NULL,
+    title character varying(64),
+    email character varying(255),
+    address text,
+    phone character varying(64),
+    icq character varying(54),
+    occupation character varying(255),
+    forward_mail character varying(255),
+    mail_listing integer DEFAULT 20 NOT NULL,
+    publish_email smallint DEFAULT 0
+);
+
+
+ALTER TABLE public.users OWNER TO team14;
 
 --
 -- Name: academics; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
@@ -1285,33 +1302,6 @@ ALTER SEQUENCE user_professions_id_seq OWNED BY user_professions.id;
 
 SELECT pg_catalog.setval('user_professions_id_seq', 4, true);
 
-
---
--- Name: users; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
---
-
-CREATE TABLE users (
-    id integer NOT NULL,
-    personal_number character varying(32),
-    username character varying(255) NOT NULL,
-    ldapname character varying(255),
-    "password" character varying(32) NOT NULL,
-    first_name character varying(255) NOT NULL,
-    middle_name character varying(255),
-    last_name character varying(255) NOT NULL,
-    title character varying(64),
-    email character varying(255),
-    address text,
-    phone character varying(64),
-    icq character varying(54),
-    occupation character varying(255),
-    forward_mail character varying(255),
-    mail_listing integer DEFAULT 20 NOT NULL,
-    publish_email smallint DEFAULT 0
-);
-
-
-ALTER TABLE public.users OWNER TO team14;
 
 --
 -- Name: users_clearances; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
@@ -6163,14 +6153,6 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-CREATE SEQUENCE stats_id_seq
-  INCREMENT 1
-  MINVALUE 1
-  MAXVALUE 9223372036854775807
-  START 1
-  CACHE 1;
-ALTER TABLE stats_id_seq OWNER TO team14;
-
 CREATE TABLE stats
 (
   id serial NOT NULL,
@@ -6182,6 +6164,6 @@ CREATE TABLE stats
 WITHOUT OIDS;
 ALTER TABLE stats OWNER TO team14;
 
-INSERT INTO stats(id, sql, name_sk, name_en) VALUES (1,'SELECT * FROM users','vsetci pouzivatelia','all users');
-INSERT INTO stats(id, sql, name_sk, name_en) VALUES (2,'SELECT * FROM professions','vsetky profesie','all professions');
-INSERT INTO stats(id, sql, name_sk, name_en) VALUES (3,'SELECT * FROM languages','vsetky jazyky','all languages');
+INSERT INTO stats(sql, name_sk, name_en) VALUES ('SELECT * FROM users','vsetci pouzivatelia','all users');
+INSERT INTO stats(sql, name_sk, name_en) VALUES ('SELECT * FROM professions','vsetky profesie','all professions');
+INSERT INTO stats(sql, name_sk, name_en) VALUES ('SELECT * FROM languages','vsetky jazyky','all languages');

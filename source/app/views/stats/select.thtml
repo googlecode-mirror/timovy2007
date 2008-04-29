@@ -1,8 +1,12 @@
 <h1><?php __('STATS_LIST'); ?></h1>
+<?php echo $form->create('Stat',array('action'=> "export")); ?>
 <div class="settings_box">
-  <?php echo $form->create('Stat',array('action'=> "export")); ?>
-  <p><?php echo $form->label('Stat.name_'.$lang,__('STATS_SELECT_ITEM'),null); ?></p>
-  <p><?php echo $form->select('Stat.id',$statistics,'1',null,false); ?><br /></p>
-  <p><?php echo $form->submit(__('STATS_GENERATE_XLS')); ?>
-  <?php echo $form->end();?></p>
+  <?php echo $form->label('Stat.name_'.$lang,__('STATS_SELECT_ITEM', true), null); ?>:
+  <p style="padding-bottom: 0px">
+    <?php echo $form->select('Stat.id', $statistics, '1', null, false); ?>
+  </p>
+  <p class="clear" />
 </div>
+<?php echo $form->submit(__('STATS_GENERATE_XLS', true)); ?>
+<?php echo $form->end();?>
+

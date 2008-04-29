@@ -8,7 +8,6 @@
     <?php echo $form->text('User/forward_mail')?>
   </p>
 </div>
-<br />
 <div class="settings_box">
 	<?php __("MAIL_SETTINGS_LISTING")?>:<br />
 	<p style="padding-bottom: 0px">

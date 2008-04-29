@@ -1,6 +1,6 @@
 <?php $url = "stats"; $modul="Stat"; ?>
 
-<h2><?php _("STATS_PRINTOUT"); ?></h2>
+<h2><?php __("STATS_ADD_ITEM"); ?></h2>
 <?php echo $form->create($modul,array('action'=> "")); ?>
 <br />
 <?php echo $form->label($modul.'name_sk', __("STATS_SLOVAK_NAME", true), null); ?>:<br />

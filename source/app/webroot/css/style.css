@@ -678,3 +678,7 @@ div.profession div {
 .left_space {
   margin-left: 10px;
 }
+div.submit {
+  padding-top: 10px;
+	padding-bottom: 10px;
+}
