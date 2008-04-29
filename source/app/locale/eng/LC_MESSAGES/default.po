@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 23:11+0100\n"
-"PO-Revision-Date: 2008-04-28 23:13+0100\n"
-"Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
+"POT-Creation-Date: 2008-04-29 01:58+0100\n"
+"PO-Revision-Date: 2008-04-29 02:04+0100\n"
+"Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,295 +12,295 @@ msgstr ""
 "X-Poedit-Language: English\n"
 "X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: D:\\webroot\\source\\app\n"
+"X-Poedit-Basepath: ´C:\\Users\\Jojo\\webroot\\alumni\\app\n"
 "X-Poedit-KeywordsList: __\n"
-"X-Poedit-SearchPath-0: D:\\webroot\\source\\app\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Jojo\\webroot\\alumni\\app\n"
 
 # C:\Inetpub\htdocs\tp\src\app/app_controller.php:101
-#: D:\webroot\source\app/app_controller.php:111
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:265
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:374
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:405
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:429
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:562
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:582
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:616
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:638
-#: D:\webroot\source\app/views/wall_posters/add.thtml:41
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:209
-#: D:\webroot\source\app/views/wall_posters/view.thtml:194
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:118
+#: C:\Users\Jojo\webroot\alumni\app/app_controller.php:111
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:265
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:374
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:405
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:429
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:562
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:582
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:616
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:638
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:41
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:209
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:194
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:118
 msgid "ERROR_ACCESS_DENIED"
 msgstr "Permission denied."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/alumni_controller.php:106
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:106
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Non-Existing user."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: D:\webroot\source\app/controllers/alumni_controller.php:250
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:250
 msgid "Your profile has been changed."
 msgstr "Your profile has been changed."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: D:\webroot\source\app/controllers/alumni_controller.php:253
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:253
 msgid "There was a error saving profile data."
 msgstr "There was an error saving profile data."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
-#: D:\webroot\source\app/controllers/alumni_controller.php:294
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:294
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Your profile image has been removed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:296
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:296
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Deleting image file failed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:356
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:356
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Your image has been successfully changed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:358
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:358
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Error uploading your image. Error creating new PNG file."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:362
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:362
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Error uploading your image. Unsupported image type."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:364
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:364
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Error uploading your image. Error creating image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:367
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:367
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Error uploading your image. "
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:372
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:372
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Error uploading your image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:420
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:420
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Password has been changed"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:422
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:422
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Error saving data"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
-#: D:\webroot\source\app/controllers/alumni_controller.php:425
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:425
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Bad new password"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:212
-#: D:\webroot\source\app/controllers/alumni_controller.php:428
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:428
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Passwords are different."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:215
-#: D:\webroot\source\app/controllers/alumni_controller.php:431
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:431
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Bad old password."
 
-#: D:\webroot\source\app/controllers/languages_controller.php:15
-#: D:\webroot\source\app/controllers/levels_controller.php:15
-#: D:\webroot\source\app/controllers/mails_controller.php:142
-#: D:\webroot\source\app/controllers/posts_controller.php:13
-#: D:\webroot\source\app/controllers/professions_controller.php:15
-#: D:\webroot\source\app/controllers/stats_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:142
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:13
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:15
 msgid "PERMISSION_DENIED"
 msgstr "Permission denied!"
 
-#: D:\webroot\source\app/controllers/languages_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:41
 msgid "LANGUAGES_ITEM_UPADATED"
 msgstr "The language was successfuly updated."
 
-#: D:\webroot\source\app/controllers/languages_controller.php:45
-#: D:\webroot\source\app/controllers/languages_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:60
 msgid "LANGUAGES_ERROR_ON_INSERT"
 msgstr "An error occurs while saving language to the database!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/languages_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:56
 msgid "LANGUAGES_ITEM_ADDED"
 msgstr "The language was successfuly added."
 
-#: D:\webroot\source\app/controllers/levels_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:41
 msgid "LEVELS_ITEM_UPDATED"
 msgstr "The language level was successfuly updated."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/levels_controller.php:45
-#: D:\webroot\source\app/controllers/levels_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:60
 msgid "LEVELS_ERROR_ON_INSERT"
 msgstr "An error occurs while inserting the language level to the databse!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/levels_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:56
 msgid "LEVELS_ITEM_ADDED"
 msgstr "The language level was successfuly added!"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:15
-#: D:\webroot\source\app/controllers/login_controller.php:31
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:31
 msgid "LOGIN_FAILED"
 msgstr "Bad username or password! Please try again."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
-#: D:\webroot\source\app/controllers/login_controller.php:40
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:40
 msgid "LOGIN_SUCCESSFULL"
 msgstr "You have been successfully logged in!"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
-#: D:\webroot\source\app/controllers/login_controller.php:89
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:89
 msgid "LOGOUT_SUCCESSFULL"
 msgstr "You have been successfully logged out"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
-#: D:\webroot\source\app/controllers/mails_controller.php:94
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:94
 msgid "MAIL_PERFORM_SAVE_ERROR"
 msgstr "Error by saving a new message! "
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/mails_controller.php:101
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:101
 msgid "MAIL_PERFORM_NONEXISTING_MAIL"
 msgstr "Nonexisting mail."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/mails_controller.php:164
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:164
 msgid "MAIL_COMPOSE_NON_EXISTING_USER"
 msgstr "The user does not exist!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/controllers/mails_controller.php:204
-#: D:\webroot\source\app/controllers/mails_controller.php:223
-#: D:\webroot\source\app/controllers/mails_controller.php:235
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:204
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:223
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:235
 msgid "MAIL_COMPOSE_BAD_ADDRESS"
 msgstr "Bad address, please check it and try again."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
-#: D:\webroot\source\app/controllers/mails_controller.php:245
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:245
 msgid "MAIL_COMPOSE_EMPTY_SUBJECT"
 msgstr "Please fill subject of your message."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
-#: D:\webroot\source\app/controllers/mails_controller.php:249
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:249
 msgid "MAIL_COMPOSE_EMPTY_BODY"
 msgstr "Please fill body of your message."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
-#: D:\webroot\source\app/controllers/mails_controller.php:265
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:265
 msgid "MAIL_COMPOSE_SAVE_ERROR"
 msgstr "Error by saving a new message!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:108
-#: D:\webroot\source\app/controllers/mails_controller.php:279
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:279
 msgid "MAIL_COMPOSE_SAVE_USRADDR_ERROR"
 msgstr "Error by saving a new message - user address association!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:119
-#: D:\webroot\source\app/controllers/mails_controller.php:294
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:294
 msgid "MAIL_COMPOSE_SAVE_GRPADDR_ERROR"
 msgstr "Error by saving a new message - group address association."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
-#: D:\webroot\source\app/controllers/mails_controller.php:324
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:324
 msgid "MAIL_COMPOSE_SAVE_USRASSOC_ERROR"
 msgstr "Error saving a new message - user mail association."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
-#: D:\webroot\source\app/controllers/mails_controller.php:347
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:347
 msgid "MAIL_COMPOSE_SAVE_SUCCESSFULL"
 msgstr "Your message has been sent."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:65
-#: D:\webroot\source\app/controllers/mails_controller.php:390
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:390
 msgid "MAIL_SETTINGS_EDIT_SUCCESS"
 msgstr "Your settings have been successfully saved."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:73
-#: D:\webroot\source\app/controllers/mails_controller.php:398
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:398
 msgid "MAIL_SETTINGS_EDIT_ERROR"
 msgstr "Saving settings failed. Please check if your e-mail address is correct."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:348
-#: D:\webroot\source\app/controllers/mails_controller.php:476
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:476
 msgid "MAIL_READ_NOT_FOUND"
 msgstr "There is no mail with this ID."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/controllers/mails_controller.php:507
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:507
 msgid "MAIL_READ_GROUP"
 msgstr "Group"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:45
 msgid "NEWS_ITEM_ADDED"
 msgstr "The news was successfuly added!"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:59
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:59
 msgid "NEWS_ITEM_REMOVED"
 msgstr "The news was removed!"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:76
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:76
 msgid "NEWS_ITEM_UPDATED"
 msgstr "The news was successfuly updated!"
 
-#: D:\webroot\source\app/controllers/professions_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:41
 msgid "PROFESSIONS_ITEM_UPDATED"
 msgstr "The profession was successfuly updated."
 
-#: D:\webroot\source\app/controllers/professions_controller.php:45
-#: D:\webroot\source\app/controllers/professions_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:60
 msgid "PROFESSIONS_ERROR_ON_INSERT"
 msgstr "An error occurs while saving profession to the database!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/professions_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:56
 msgid "PROFESSIONS_ITEM_ADDED"
 msgstr "The profession was successfuly added."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:112
-#: D:\webroot\source\app/controllers/roles_controller.php:113
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:113
 msgid "Nonexisting role"
 msgstr "Nonexisting role"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:123
-#: D:\webroot\source\app/controllers/roles_controller.php:124
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:124
 msgid "Permission role has been successfully updated!"
 msgstr "Permission role has been successfully updated!"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:126
-#: D:\webroot\source\app/controllers/roles_controller.php:127
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:127
 msgid "There was a error by updating permission role"
 msgstr "There was a error by updating permission role"
 
-#: D:\webroot\source\app/controllers/stats_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:41
 msgid "STATS_ITEM_UPDATED"
 msgstr "The statistic was successfuly updated."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/stats_controller.php:45
-#: D:\webroot\source\app/controllers/stats_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:60
 msgid "STATS_ERROR_ON_INSERT"
 msgstr "An error occurs while inserting the statistic to the database!"
 
-#: D:\webroot\source\app/controllers/stats_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:56
 msgid "STATS_ITEM_NEW"
 msgstr "New statistic successfuly added."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:273
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:273
 msgid "ERROR_NO_USER"
 msgstr "Non existing user"
 
@@ -309,1112 +309,1204 @@ msgstr "Non existing user"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:138
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:85
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:86
-#: D:\webroot\source\app/controllers/wall_posters_controller.php:380
-#: D:\webroot\source\app/views/wall_posters/index.thtml:87
-#: D:\webroot\source\app/views/wall_posters/view.thtml:52
-#: D:\webroot\source\app/views/wall_posters/view.thtml:160
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:101
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:86
+#: C:\Users\Jojo\webroot\alumni\app/controllers/wall_posters_controller.php:380
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:87
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:52
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:160
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:101
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:86
 msgid "Anonymn"
 msgstr "Anonym"
 
-#: D:\webroot\source\app/webroot/test.php:75
+#: C:\Users\Jojo\webroot\alumni\app/webroot/test.php:75
 msgid "Debug setting does not allow access to this url."
 msgstr "Debug setting does not allow access to this url."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:6
 msgid "ALUMNI_MYPROFILE_CV_CURRICULUM"
 msgstr "Curriculum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:8
 msgid "ALUMNI_MYPROFILE_CV_PERSONAL_DATA"
 msgstr "Personal data"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:17
 msgid "ALUMNI_MYPROFILE_CV_NAME_AND_SURNAME"
 msgstr "Name and surname"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:20
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:20
 msgid "ALUMNI_MYPROFILE_CV_ADDRESS"
 msgstr "Address"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:24
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:24
 msgid "ALUMNI_MYPROFILE_CV_TELEPHONE"
 msgstr "Phone"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:29
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:29
 msgid "ALUMNI_MYPROFILE_CV_EMAIL"
 msgstr "E-Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:36
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:36
 msgid "ALUMNI_MYPROFILE_CV_POSITION"
 msgstr "Position"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:37
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:37
 msgid "ALUMNI_MYPROFILE_CV_FROM"
 msgstr "From"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:38
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:38
 msgid "ALUMNI_MYPROFILE_CV_TO"
 msgstr "To"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:39
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:39
 msgid "ALUMNI_MYPROFILE_CV_NOTE"
 msgstr "Note"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:42
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:42
 msgid "ALUMNI_MYPROFILE_CV_EMPLOYMENT"
 msgstr "Employment"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:52
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:52
 msgid "ALUMNI_MYPROFILE_CV_LANGUAGES"
 msgstr "Languages"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/myimage.ctp:1
-#: D:\webroot\source\app/views/alumni/myimage.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:128
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:128
 msgid "MENU_ALUMNI_MYIMAGE"
 msgstr " My profile image"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myimage.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:8
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
 msgstr "Here you can change you image, please upload only jpeg, bmb, gif or png images with size less than 1MB."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myimage.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:14
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
 msgstr "Change image"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myimage.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:15
 msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
 msgstr " Delete image"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:57
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:58
-#: D:\webroot\source\app/views/layouts/default.thtml:127
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:57
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:58
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:127
 msgid "MENU_ALUMNI_MYPROFILE"
-msgstr "My Profile"
+msgstr "My profile"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/myprofile.ctp:6
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:61
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:61
 msgid "View my profile"
 msgstr "View my profile"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:62
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:62
 msgid "ALUMNI_PROFILE_CHANGEINFO_TITLE"
 msgstr "Change my personal informations:"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:68
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:68
 msgid "ALUMNI_MYPROFILE_EMAIL"
 msgstr " E-Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:69
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:69
 msgid "ALUMNI_MYPROFILE_PUBLISH_EMAIL"
 msgstr "Make my e-mail address public"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:72
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:72
 msgid "ALUMNI_MYPROFILE_ADDRESS"
 msgstr " Address"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:74
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:74
 msgid "ALUMNI_MYPROFILE_PHONE"
 msgstr " Phone"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:76
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:76
 msgid "ALUMNI_MYPROFILE_ICQ"
 msgstr " ICQ Number"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:80
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:80
 msgid "ALUMNI_MYPROFILE_OCCUPATION"
 msgstr " Occupation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:86
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:86
 msgid "ALUMNI_MYPROFILE_PROFESSION"
 msgstr " Career"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:90
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:90
 msgid "ALUMNI_MYPROFILE_LANGUAGE_SLOVAK"
 msgstr "Slovak"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:91
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:91
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ENGLISH"
 msgstr "English"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:93
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:93
 msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
 msgstr "Selection of language for profession description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:100
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:172
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:100
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:172
 msgid "ALUMNI_MYPROFILE_PROFESSION_POSITION"
 msgstr "Position"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:109
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:181
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:109
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:181
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM"
 msgstr "From year"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:110
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:182
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:110
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:182
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_TO"
 msgstr "To year"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:114
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:186
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:114
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:186
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN"
 msgstr "Description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:117
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:189
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:117
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:189
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK"
 msgstr "Description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:120
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:191
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:120
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:191
 msgid "ALUMNI_MYPROFILE_PROFESSION_DELETE"
 msgstr " Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:127
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:127
 msgid "ALUMNI_MYPROFILE_PROFESSION_ADD"
 msgstr " Add"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:134
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:134
 msgid "ALUMNI_MYPROFILE_LANGUAGES"
 msgstr "Foreign languages"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:139
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:196
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:139
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:196
 msgid "ALUMNI_MYPROFILE_LANGUAGE"
 msgstr "Language"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:151
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:208
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:151
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:208
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:159
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:159
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
 msgstr "Add"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:42
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:164
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:164
 msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
 msgstr "Change informations"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/password.ctp:1
-#: D:\webroot\source\app/views/alumni/password.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:129
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:129
 msgid "MENU_ALUMNI_PASSWORD"
 msgstr "Change password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/password.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:5
 msgid "ALUMNI_PASSWORD_INFO"
 msgstr "Your password have to be at least 4 characters long."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/password.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:10
 msgid "ALUMNI_PASS_OLD"
 msgstr "Old password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/password.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:13
 msgid "ALUMNI_PASS_NEW_1"
 msgstr "New password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/password.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_2"
 msgstr "New password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: D:\webroot\source\app/views/alumni/password.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:18
 msgid "ALUMNI_PASSWORD_SUBMIT"
 msgstr "Change password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/profile.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:1
 msgid "MENU_ALUMNI_PROFILE"
 msgstr "Profile"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:3
-#: D:\webroot\source\app/views/alumni/profile.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:4
 msgid "ALUMNI_PROFILE_ZAKL_INFORMACIE"
 msgstr "Basic informations"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:8
-#: D:\webroot\source\app/views/alumni/profile.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:10
 msgid "ALUMNI_PROFILE_MISSING_PICTURE"
 msgstr "Missing picture"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:15
 msgid "ALUMNI_PROFILE_MENO"
 msgstr "Name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:14
-#: D:\webroot\source\app/views/alumni/profile.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:16
 msgid "ALUMNI_PROFILE_PRIEZVISKO"
 msgstr "Last name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
-#: D:\webroot\source\app/views/alumni/profile.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:18
 msgid "ALUMNI_PROFILE_TITUL"
 msgstr "Title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/alumni/profile.ctp:21
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:21
 msgid "ALUMNI_PROFILE_ADDRESS"
 msgstr "Address "
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:26
-#: D:\webroot\source\app/views/alumni/profile.ctp:28
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:28
 msgid "ALUMNI_PROFILE_SPECIALIZATION"
 msgstr "Specialization"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:31
-#: D:\webroot\source\app/views/alumni/profile.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:35
 msgid "ALUMNI_PROFILE_SEND_MESSAGE"
 msgstr "Send private message"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: D:\webroot\source\app/views/alumni/profile.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:40
 msgid "Edit my profile"
 msgstr "Edit my profile"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
-#: D:\webroot\source\app/views/alumni/profile.ctp:46
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:46
 msgid "ALUMNI_PROFILE_ODBORNE_PRACE"
 msgstr "Projects"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:39
-#: D:\webroot\source\app/views/alumni/profile.ctp:50
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:50
 msgid "DB_PROJECT_TYPE_NAME"
 msgstr "name_en"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:51
 msgid "ALUMNI_PROFILE_TEMA"
 msgstr "Subject"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:51
 msgid "DB_PROJECT_NAME"
 msgstr "name_en"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:42
-#: D:\webroot\source\app/views/alumni/profile.ctp:53
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:53
 msgid "ALUMNI_PROFILE_ACADEMIC"
 msgstr "Supervisor"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:43
-#: D:\webroot\source\app/views/alumni/profile.ctp:54
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:54
 msgid "ALUMNI_PROFILE_DESCRIPTION"
 msgstr "Anotation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:45
-#: D:\webroot\source\app/views/alumni/profile.ctp:56
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:56
 msgid "DB_PROJECT_DESCRIPTION"
 msgstr "description_en"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:58
-#: D:\webroot\source\app/views/alumni/profile.ctp:69
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:69
 msgid "ALUMNI_PROFILE_KONTAKT_OSTATNE"
 msgstr "Contact - more informations"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:60
-#: D:\webroot\source\app/views/alumni/profile.ctp:71
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:71
 msgid "ALUMNI_PROFILE_PHONE"
 msgstr "Phone"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: D:\webroot\source\app/views/alumni/profile.ctp:72
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:72
 msgid "ALUMNI_PROFILE_EMAIL"
 msgstr "E-Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/alumni/profile.ctp:74
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:74
 msgid "ALUMNI_PROFILE_ICQ"
 msgstr "ICQ number"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/views/alumni/profile.ctp:77
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:77
 msgid "ALUMNI_PROFILE_OCCUPATION"
 msgstr "Occupation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:71
-#: D:\webroot\source\app/views/alumni/profile.ctp:82
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:82
 msgid "ALUMNI_PROFILE_BACK"
 msgstr "Back"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
-#: D:\webroot\source\app/views/import/index.ctp:1
-#: D:\webroot\source\app/views/import/index.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:94
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:94
 msgid "MENU_IMPORT"
 msgstr "Import"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/login/allready_logged.ctp:1
-#: D:\webroot\source\app/views/login/allready_logged.ctp:2
-#: D:\webroot\source\app/views/login/index.ctp:1
-#: D:\webroot\source\app/views/login/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:2
 msgid "MENU_LOGIN"
 msgstr "Logging in"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/allready_logged.ctp:4
-#: D:\webroot\source\app/views/login/allready_logged.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:4
 msgid "LOGIN_YOU_ARE_ALLREADY_LOGGED_IN"
 msgstr "You are allready logged in."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
-#: D:\webroot\source\app/views/login/index.ctp:6
-#: D:\webroot\source\app/views/layouts/default.thtml:38
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:38
 msgid "Login"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:36
-#: D:\webroot\source\app/views/login/index.ctp:7
-#: D:\webroot\source\app/views/layouts/default.thtml:41
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:41
 msgid "Heslo"
 msgstr "Password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/ajax_search_groups.ctp:13
-#: D:\webroot\source\app/views/mails/ajax_search_groups.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/ajax_search_groups.ctp:13
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_NO_RESULTS"
 msgstr "There are no group, where are you participating."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/ajax_search_users.ctp:16
-#: D:\webroot\source\app/views/mails/ajax_search_users.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/ajax_search_users.ctp:16
 msgid "MAIL_COMPOSE_SEARCH_NO_RESULTS"
 msgstr "There are no such users ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
-#: D:\webroot\source\app/views/mails/compose.ctp:1
-#: D:\webroot\source\app/views/mails/compose.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:6
-#: D:\webroot\source\app/views/layouts/default.thtml:154
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:154
 msgid "MENU_MAIL_COMPOSE"
 msgstr "Compose mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/mails/compose.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:7
 msgid "MAIL_COMPOSE_ADDRESS"
 msgstr "Address"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
-#: D:\webroot\source\app/views/mails/compose.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:11
 msgid "MAIL_COMPOSE_SEARCH_USERS"
 msgstr "Search for a user"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:11
-#: D:\webroot\source\app/views/mails/compose.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:12
 msgid "MAIL_COMPOSE_SEARCH_GROUPS"
 msgstr "Choose a group"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:7
-#: D:\webroot\source\app/views/mails/compose.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:16
 msgid "MAIL_COMPOSE_ADDRESS_INFO"
 msgstr "Usernames separated by comma."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:15
-#: D:\webroot\source\app/views/mails/compose.ctp:20
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:20
 msgid "MAIL_COMPOSE_NAME"
 msgstr "Subject"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
-#: D:\webroot\source\app/views/mails/compose.ctp:32
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:32
 msgid "MAIL_COMPOSE_SUBMIT"
 msgstr "Send mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:45
-#: D:\webroot\source\app/views/mails/compose.ctp:50
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:50
 msgid "MAIL_COMPOSE_SEARCH_USERS_TITLE"
 msgstr "Search users ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:57
-#: D:\webroot\source\app/views/mails/compose.ctp:71
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:71
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_TITLE"
 msgstr "Select groups ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:97
-#: D:\webroot\source\app/views/mails/compose.ctp:138
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:138
 msgid "MAIL_COMPOSE_SEARCH_USERS_LABEL"
 msgstr "Name of a user"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:98
-#: D:\webroot\source\app/views/mails/compose.ctp:139
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:139
 msgid "MAIL_COMPOSE_SEARCH_LOADING"
 msgstr "Searching ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: D:\webroot\source\app/views/mails/compose.ctp:142
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:142
 msgid "MAIL_COMPOSE_SEARCH_USER_SUBMIT"
 msgstr "Search users"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:108
-#: D:\webroot\source\app/views/mails/compose.ctp:149
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:149
 msgid "MAIL_COMPOSE_SEARCH_USER_ADD"
 msgstr "Add selected users"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:116
-#: D:\webroot\source\app/views/mails/compose.ctp:157
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:157
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_LABEL"
 msgstr "Please choose group / groups."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:119
-#: D:\webroot\source\app/views/mails/compose.ctp:160
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:160
 msgid "MAIL_COMPOSE_SEARCH_GROUP_ADD"
 msgstr "Add selected groups"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:122
-#: D:\webroot\source\app/views/mails/compose.ctp:163
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:163
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_INFO"
 msgstr "* Rows marked with bold font are global system groups."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:149
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:149
 msgid "MENU_MAIL"
 msgstr "Local mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:8
 msgid "MAIL_BOX_TITLE"
 msgstr "Local mails"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:16
 msgid "MAIL_BOX_FROM"
 msgstr "From"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
-#: D:\webroot\source\app/views/mails/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:17
 msgid "MAIL_BOX_SUBJECT"
 msgstr "Subject"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:18
 msgid "MAIL_BOX_TIME"
 msgstr "Date"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:23
 msgid "MAIL_BOX_NO_MESSAGES"
 msgstr "Your have no messages."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:40
 msgid "MAIL_BOX_LISTING_PREV"
 msgstr "<< Newer"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:41
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:41
 msgid "MAIL_BOX_LISTING_OF"
 msgstr "of"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:42
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:42
 msgid "MAIL_BOX_LISTING_NEXT"
 msgstr "Older >>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:28
-#: D:\webroot\source\app/views/mails/index.ctp:45
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:45
 msgid "MAIL_BOX_BOTTOM_SELECTED"
 msgstr "Selected messages"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:30
-#: D:\webroot\source\app/views/mails/index.ctp:48
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:48
 msgid "MAIL_BOX_ACTION_SET_READED"
 msgstr "Mark as readed"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:31
-#: D:\webroot\source\app/views/mails/index.ctp:49
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:49
 msgid "MAIL_BOX_ACTION_SET_DELETED"
 msgstr "Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:27
-#: D:\webroot\source\app/views/mails/index.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:51
 msgid "MAIL_BOX_BOTTOM_SUBMIT"
 msgstr "Confirm"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:10
-#: D:\webroot\source\app/views/mails/read.ctp:5
-#: D:\webroot\source\app/views/mails/read.ctp:25
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:25
 msgid "MAIL_READ_BACK_TO_INDEX"
 msgstr "<< Naspäť na index"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/read.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:13
 msgid "MAIL_READ_REPLY"
 msgstr "Reply"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/read.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:18
 msgid "MAIL_READ_FROM"
 msgstr "From"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:10
-#: D:\webroot\source\app/views/mails/read.ctp:19
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:19
 msgid "MAIL_READ_TO"
 msgstr "To"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/mails/settings.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:156
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:156
 msgid "MENU_MAIL_SETTINGS"
 msgstr "Local mail settings"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:2
 msgid "MAIL_SETTINGS_TITLE"
 msgstr "Mail settings"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:4
-#: D:\webroot\source\app/views/mails/settings.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:4
 msgid "MAIL_SETTINGS_FORWARD_MAIL"
 msgstr "Forwarding messages"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:6
-#: D:\webroot\source\app/views/mails/settings.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:6
 msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
 msgstr "For forwarding your local mails to your global e-mail, please fill your e-mail address here."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:13
 msgid "MAIL_SETTINGS_LISTING"
 msgstr "Count of displayed mail rows"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:10
-#: D:\webroot\source\app/views/mails/settings.ctp:24
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:29
 msgid "MAIL_SETTINGS_SUBMIT"
 msgstr "Save settings"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:4
-#: D:\webroot\source\app/views/posts/admin.ctp:7
-#: D:\webroot\source\app/views/posts/edit.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:5
 msgid "NEWS_TITLE"
 msgstr "News"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:17
-#: D:\webroot\source\app/views/news/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/news/index.ctp:17
 msgid "Published"
 msgstr "Published by"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:3
 msgid "NEWS_ADD_POST"
 msgstr "Add new actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
-#: D:\webroot\source\app/views/posts/add.ctp:9
-#: D:\webroot\source\app/views/posts/edit.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:10
 msgid "NEWS_BODY"
 msgstr "Text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:14
-#: D:\webroot\source\app/views/posts/edit.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:15
 msgid "NEWS_SAVE"
 msgstr "Save"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
-#: D:\webroot\source\app/views/posts/admin.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:72
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:72
 msgid "MENU_AKTUALITY"
 msgstr "Actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:2
+msgid "NEWS_MANAGEMENT"
+msgstr "Actualities Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:8
 msgid "NEWS_ACTION"
 msgstr "Action"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:9
 msgid "NEWS_CREATED"
 msgstr "Created"
 
-#: D:\webroot\source\app/views/posts/admin.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:22
 msgid "NEWS_DELETE_POST"
 msgstr "Delete"
 
-#: D:\webroot\source\app/views/posts/admin.ctp:25
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:25
 msgid "NEWS_ARE_YOU_SURE_DELETE"
 msgstr "Are you sure to delete the news?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:27
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:27
 msgid "NEWS_EDIT"
 msgstr "Edit"
 
-#: D:\webroot\source\app/views/posts/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:1
 msgid "NEWS_EDIT_POST"
 msgstr "Edit actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
 msgid "NEWS_MAIN_TITLE"
 msgstr "Actualities"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
 msgid "NEWS_ADDED"
 msgstr "Added"
 
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
-#: D:\webroot\source\app/views/roles/edit.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:2
 msgid "Edit role"
 msgstr "Edit role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/roles/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:91
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:91
 msgid "MENU_SPRAVA_PRAV"
 msgstr "Permission Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/edit.ctp:1
-#: D:\webroot\source\app/views/users/password.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/password.ctp:1
 msgid "MENU_UPRAVA_POUZIVATELOV"
 msgstr "Account Management "
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:90
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:90
 msgid "MENU_SPRAVA_POUZIVATELOF"
 msgstr "Account Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
-#: D:\webroot\source\app/views/about/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:70
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:70
 msgid "MENU_ABOUT"
 msgstr "About system"
 
-#: D:\webroot\source\app/views/about/index.thtml:2
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:2
 msgid "ABOUT_INTRODUCTION"
 msgstr "Introduction"
 
-#: D:\webroot\source\app/views/about/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:5
 msgid "ABOUT_INTRODUCTION_INFO"
 msgstr "Welcome to our information portal! Here you can find informations about our alumnis. Currently there are %s alumnis in our database."
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
-#: D:\webroot\source\app/views/about/index.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:9
 msgid "ABOUT_LAST_NASTENKA_TITLE"
 msgstr "Last 5 records of notice board"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:14
-#: D:\webroot\source\app/views/about/index.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:12
 msgid "ABOUT_NASTE_MORE_DETAIL"
 msgstr "more info >>>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/about/index.thtml:20
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:20
 msgid "ABOUT_MAIN_TITLE"
 msgstr "ALUMNI - Testing"
 
-#: D:\webroot\source\app/views/about/index.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:22
 msgid "ABOUT_MAIN_TEXT"
 msgstr "This portal presents the information about graduates of the Faculty of Informatics and Information Technologies of the Slovak University of Technology in Bratislava. Portal was created at team projects in the academic years 2006/2007 and 2007/2008, and is the product of Absolute ALUMiNIc team and ALUMINIUM team.<br /><br />The goal of portal is to present information about graduates of our faculty to the general public, who have the opportunity to browse the basic information about graduates. Portal provides also the communication between faculty and graduates or graduates in between. Graduates have the possibility to edit their personal data and to decide what data will be visible to the general public. The portal provide tools for administration to the employees of faculty, as well as the ability of acquiring statistical data of the recorded information."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/alumni/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:71
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:71
 msgid "MENU_ABSOLVENTI"
 msgstr "Alumni"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/views/alumni/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:6
 msgid "ALUMNI_ZOZNAM_SEARCH_TITLE"
 msgstr "Search by name or study type "
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/index.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:8
 msgid "ALUMNI_SEARCH_NAME"
 msgstr "Name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/index.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:13
 msgid "ALUMNI_SEARCH_ZAMERANIE"
 msgstr "Specialization"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: D:\webroot\source\app/views/alumni/index.thtml:24
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:24
 msgid "ALUMNI_SEARCH_SUBMIT"
 msgstr "Search"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/index.thtml:26
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:26
 msgid "ALUMNI_SEARCH_INFO_TOTAL"
 msgstr "Currently there are %s users in database"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/index.thtml:31
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:31
 msgid "ALUMNI_SEARCH_VYSLEDOK_TITLE"
 msgstr "Search results"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/index.thtml:37
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:37
 msgid "ALUMNI_LIST_MENO"
 msgstr " Name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:38
-#: D:\webroot\source\app/views/alumni/index.thtml:38
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:38
 msgid "ALUMNI_LIST_STUDYTYPE"
 msgstr "Study type"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:26
-#: D:\webroot\source\app/views/alumni/index.thtml:39
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:39
 msgid "ALUMNI_LIST_SPECIALIZATION"
 msgstr " Specialization"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/views/alumni/index.thtml:55
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:55
 msgid "ALUMNI_SEARCH_NO_ROWS"
 msgstr "No users found."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
-#: D:\webroot\source\app/views/contact/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:76
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:76
 msgid "MENU_KONTAKT"
 msgstr "Contact"
 
-#: D:\webroot\source\app/views/languages/add.thtml:3
-msgid "Pridanie jazyka"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:3
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:3
+msgid "LANGUAGES_ADD_ITEM"
+msgstr "Add new language"
 
-#: D:\webroot\source\app/views/languages/add.thtml:6
-#: D:\webroot\source\app/views/languages/edit.thtml:6
-#: D:\webroot\source\app/views/levels/add.thtml:6
-#: D:\webroot\source\app/views/levels/edit.thtml:6
-#: D:\webroot\source\app/views/professions/add.thtml:6
-#: D:\webroot\source\app/views/professions/edit.thtml:6
-#: D:\webroot\source\app/views/stats/add.thtml:6
-#: D:\webroot\source\app/views/stats/edit.thtml:7
-msgid "slovensky nazov"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:6
+msgid "LANGUAGES_SLOVAK_NAME"
+msgstr "Slovak name"
 
-#: D:\webroot\source\app/views/languages/add.thtml:9
-#: D:\webroot\source\app/views/languages/edit.thtml:9
-#: D:\webroot\source\app/views/levels/add.thtml:9
-#: D:\webroot\source\app/views/levels/edit.thtml:9
-#: D:\webroot\source\app/views/professions/add.thtml:9
-#: D:\webroot\source\app/views/professions/edit.thtml:9
-#: D:\webroot\source\app/views/stats/add.thtml:9
-#: D:\webroot\source\app/views/stats/edit.thtml:11
-msgid "aglicky nazov"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:9
+msgid "LANGUAGES_ENGLISH_NAME"
+msgstr "English name"
 
-#: D:\webroot\source\app/views/languages/add.thtml:12
-#: D:\webroot\source\app/views/languages/edit.thtml:12
-#: D:\webroot\source\app/views/levels/add.thtml:12
-#: D:\webroot\source\app/views/levels/edit.thtml:12
-#: D:\webroot\source\app/views/professions/add.thtml:12
-#: D:\webroot\source\app/views/professions/edit.thtml:12
-#: D:\webroot\source\app/views/stats/add.thtml:15
-#: D:\webroot\source\app/views/stats/edit.thtml:17
-msgid "Ulozit"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:12
+msgid "LANGUAGES_SAVE"
+msgstr "Save"
 
-#: D:\webroot\source\app/views/languages/edit.thtml:3
-msgid "Editacia jazyka"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:3
+msgid "LANGUAGES_EDIT_ITEM"
+msgstr "Edit language"
 
-#: D:\webroot\source\app/views/languages/index.thtml:3
-msgid "sprava jazykov"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:2
+msgid "LANGUAGES_MANAGMENT"
+msgstr "Language Management"
 
-#: D:\webroot\source\app/views/languages/index.thtml:5
-msgid "Pridat_jazyk"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:4
+msgid "LANGUAGES_LIST"
+msgstr "List of langauges"
 
-#: D:\webroot\source\app/views/languages/index.thtml:8
-msgid "zoznam_jazykov"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:8
+msgid "LANGUAGES_NAME"
+msgstr "Name"
 
-#: D:\webroot\source\app/views/languages/index.thtml:12
-msgid "name_jazyka"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:9
+msgid "LANGUAGES_ACTIONS"
+msgstr "Action"
 
-#: D:\webroot\source\app/views/languages/index.thtml:19
-#: D:\webroot\source\app/views/levels/index.thtml:19
-#: D:\webroot\source\app/views/professions/index.thtml:19
-#: D:\webroot\source\app/views/stats/index.thtml:19
-msgid "UPRAVIT"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:15
+msgid "LANGUAGES_EDIT"
+msgstr "Edit"
 
-#: D:\webroot\source\app/views/languages/index.thtml:20
-#: D:\webroot\source\app/views/levels/index.thtml:20
-#: D:\webroot\source\app/views/professions/index.thtml:20
-#: D:\webroot\source\app/views/stats/index.thtml:20
-msgid "ZMAZAT"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:16
+msgid "LANGUAGES_DELETE"
+msgstr "Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
-#: D:\webroot\source\app/views/layouts/default.thtml:23
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:23
 msgid "MENU_HOME"
 msgstr "Home"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:27
-#: D:\webroot\source\app/views/layouts/default.thtml:25
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:25
 msgid "MENU_HELP"
 msgstr "Help"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
-#: D:\webroot\source\app/views/layouts/default.thtml:27
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:27
 msgid "MENU_SITEMAP"
 msgstr "Sitemap"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:48
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
 msgid "LOGGED_AS"
 msgstr "Logged as"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:48
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
 msgid "LOGIN_OUT"
 msgstr "Log out"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
-#: D:\webroot\source\app/views/layouts/default.thtml:73
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:73
 msgid "MENU_FORUM"
 msgstr "Forum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/layouts/default.thtml:74
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:74
 msgid "MENU_AKCIE"
 msgstr "Events"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:76
-#: D:\webroot\source\app/views/layouts/default.thtml:75
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:75
 msgid "MENU_NASTENKA"
 msgstr "Notice Board"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:86
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:86
 msgid "ADMIN_MENU"
 msgstr "Menu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/layouts/default.thtml:88
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:88
 msgid "MENU_SPRAVA_AKTUALIT"
 msgstr "Actualities Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:112
-#: D:\webroot\source\app/views/layouts/default.thtml:96
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:96
 msgid "MENU_STATISTIC_INDEX"
 msgstr "Statistics Index"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:109
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:109
 msgid "CODELISTS_MENU"
 msgstr "Codelists Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/layouts/default.thtml:111
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:111
 msgid "MENU_SPRAVA_STATISTIK"
 msgstr "Statistics Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:112
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:112
 msgid "MENU_SPRAVA_PROFESII"
 msgstr "Profession Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:113
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:113
 msgid "MENU_SPRAVA_JAZYKOV"
 msgstr "Languages Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/layouts/default.thtml:114
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:114
 msgid "MENU_SPRAVA_LEVELOV"
-msgstr "Language Levels Management "
+msgstr "Levels Management "
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:125
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:125
 msgid "USER_PROFILE_MENU"
 msgstr "My Profile"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/views/layouts/default.thtml:130
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:130
 msgid "MENU_ALUMNI_CURRICULUM"
 msgstr "CV"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:143
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:143
 msgid "MAIL_MENU"
 msgstr "Local Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:167
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:167
 msgid "MENU_NOVINKY"
 msgstr "News"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
-#: D:\webroot\source\app/views/layouts/default.thtml:183
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:183
 msgid "CRUMB_MENU"
 msgstr "Home"
 
-#: D:\webroot\source\app/views/levels/add.thtml:3
-msgid "Pridanie urovne"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:3
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:3
+msgid "LEVELS_ADD_ITEM"
+msgstr "Add new level"
 
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
-#: D:\webroot\source\app/views/levels/edit.thtml:3
-#, fuzzy
-msgid "Editacia urovne"
-msgstr "Edit role"
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:6
+msgid "LEVELS_SLOVAK_NAME"
+msgstr "Slovak name"
 
-#: D:\webroot\source\app/views/levels/index.thtml:3
-msgid "sprava jurovni"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:9
+msgid "LEVELS_ENGLISH_NAME"
+msgstr "English name"
 
-#: D:\webroot\source\app/views/levels/index.thtml:5
-msgid "Pridat_uroven"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:12
+msgid "LEVELS_SAVE"
+msgstr "Save"
 
-#: D:\webroot\source\app/views/levels/index.thtml:8
-msgid "zoznam_urovni"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:3
+msgid "LEVELS_EDIT_ITEM"
+msgstr "Edit level"
 
-#: D:\webroot\source\app/views/levels/index.thtml:12
-msgid "name_urovne"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:2
+msgid "LEVELS_MANAGEMENT"
+msgstr "Levels Management"
 
-#: D:\webroot\source\app/views/professions/add.thtml:3
-msgid "Pridanie profesie"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:4
+msgid "LEVELS_LIST"
+msgstr "Levels list"
 
-# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: D:\webroot\source\app/views/professions/edit.thtml:3
-#, fuzzy
-msgid "Editacia profesie"
-msgstr "Edit my profile"
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:8
+msgid "LELVELS_NAME"
+msgstr "Name"
 
-#: D:\webroot\source\app/views/professions/index.thtml:3
-msgid "sprava profesii"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:9
+msgid "LELVELS_ACTION"
+msgstr "Action"
 
-#: D:\webroot\source\app/views/professions/index.thtml:5
-msgid "Pridat_profesiu"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:15
+msgid "LEVELS_EDIT"
+msgstr "Edit"
 
-#: D:\webroot\source\app/views/professions/index.thtml:8
-msgid "zoznam_profesii"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:16
+msgid "LEVELS_DELETE"
+msgstr "Edit profession"
 
-#: D:\webroot\source\app/views/professions/index.thtml:12
-msgid "name_profesie"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:3
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:3
+msgid "PROFESSIONS_ADD_ITEM"
+msgstr "Add new profession"
 
-#: D:\webroot\source\app/views/stats/add.thtml:3
-msgid "Vypis statistik"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:6
+msgid "PROFESSIONS_SLOVAK_NAME"
+msgstr "Slovak name"
 
-#: D:\webroot\source\app/views/stats/add.thtml:12
-#: D:\webroot\source\app/views/stats/edit.thtml:14
-msgid "SQL dotaz"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:9
+msgid "PROFESSIONS_ENGLISH_NAME"
+msgstr "English name"
 
-#: D:\webroot\source\app/views/stats/edit.thtml:3
-msgid "Editacia statistiky"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:12
+msgid "PROFESSIONS_SAVE"
+msgstr "Save"
 
-#: D:\webroot\source\app/views/stats/index.thtml:3
-msgid "sprava_sql_statistik"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:3
+msgid "PROFESSIONS_EDIT_ITEM"
+msgstr "Edit profession"
 
-#: D:\webroot\source\app/views/stats/index.thtml:5
-msgid "Pridat_statistiku"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:2
+msgid "PROFESSIONS_MANAGEMENT"
+msgstr "Professions management"
 
-#: D:\webroot\source\app/views/stats/index.thtml:8
-msgid "zoznam_statistik"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:4
+msgid "PROFESSIONS_LIST"
+msgstr "List of professions"
 
-#: D:\webroot\source\app/views/stats/index.thtml:12
-msgid "name_statistic"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:8
+msgid "PROFESSIONS_NAME"
+msgstr "Name"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:9
+msgid "PROFESSIONS_ACTION"
+msgstr "Action"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:15
+msgid "PROFESSIONS_EDIT"
+msgstr "Edit"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:16
+msgid "PROFESSIONS_DELETE"
+msgstr "Delete"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:3
+msgid "STATS_PRINTOUT"
+msgstr "Statistics printout"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:7
+msgid "STATS_SLOVAK_NAME"
+msgstr "Slovak name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:11
+msgid "STATS_ENGLISH_NAME"
+msgstr "English name"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:14
+msgid "STATS_SQL_QUERY"
+msgstr "SQL query"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:17
+msgid "STATS_SAVE"
+msgstr "Save"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:3
+msgid "STATS_EDIT_ITEM"
+msgstr "Edit statistic"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:2
+msgid "STATS_MANAGEMENT"
+msgstr "Statistics Management"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
+msgid "STATS_ADD_ITEM"
+msgstr "Add new statistic"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:1
+msgid "STATS_LIST"
+msgstr "List of statistics"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:8
+msgid "STATS_NAME"
+msgstr "Name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:9
+msgid "STATS_ACTION"
+msgstr "Action"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:15
+msgid "STATS_EDIT"
+msgstr "Edit"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:16
+msgid "STATS_DELETE"
+msgstr "Delete"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:4
+msgid "STATS_SELECT_ITEM"
+msgstr "Select desired statistics"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:6
+msgid "STATS_GENERATE_XLS"
+msgstr "Generate .xls file"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:5
-#: D:\webroot\source\app/views/wall_posters/add.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:5
 msgid "WALL_POSTERS_HEADING_ADD_POSTER"
 msgstr "Adding poster"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:23
-#: D:\webroot\source\app/views/wall_posters/add.thtml:9
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:24
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:94
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:24
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:94
 msgid "WALL_POSTERS_POSTER_NADPIS"
 msgstr "Title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:25
-#: D:\webroot\source\app/views/wall_posters/add.thtml:11
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:26
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:96
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:132
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:26
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:96
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:132
 msgid "WALL_POSTERS_ERR_SET_NADPIS"
 msgstr "Please fill in field title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76
-#: D:\webroot\source\app/views/wall_posters/add.thtml:14
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:29
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:99
-#: D:\webroot\source\app/views/wall_posters/index.thtml:77
-#: D:\webroot\source\app/views/wall_posters/view.thtml:46
-#: D:\webroot\source\app/views/wall_posters/view.thtml:154
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:91
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:76
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:29
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:99
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:77
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:46
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:154
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:91
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:76
 msgid "WALL_POSTERS_POSTER_CONTENT_MSG"
 msgstr "Text"
 
@@ -1422,19 +1514,19 @@ msgstr "Text"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:30
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:100
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:136
-#: D:\webroot\source\app/views/wall_posters/add.thtml:16
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:31
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:101
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:137
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:16
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:31
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:101
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:137
 msgid "WALL_POSTERS_ERR_SET_CONTENT_MSG"
 msgstr "Please fill in field text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:19
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:33
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:103
-#: D:\webroot\source\app/views/wall_posters/add.thtml:19
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:34
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:104
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:19
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:34
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:104
 msgid "WALL_POSTERS_POSTER_VALID_FROM_DATE"
 msgstr "Valid from (RRRR-MM-DD)"
 
@@ -1442,19 +1534,19 @@ msgstr "Valid from (RRRR-MM-DD)"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:105
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:141
-#: D:\webroot\source\app/views/wall_posters/add.thtml:21
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:36
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:106
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:142
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:21
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:36
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:106
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:142
 msgid "WALL_POSTERS_ERR_SET_VALID_FROM"
 msgstr "Please fill in fiel valid from"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:24
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:38
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:108
-#: D:\webroot\source\app/views/wall_posters/add.thtml:24
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:39
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:109
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:24
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:39
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:109
 msgid "WALL_POSTERS_POSTER_VALID_UNTIL_DATE"
 msgstr "Valid until (RRRR-MM-DD)"
 
@@ -1462,15 +1554,15 @@ msgstr "Valid until (RRRR-MM-DD)"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:40
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:110
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:146
-#: D:\webroot\source\app/views/wall_posters/add.thtml:26
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:41
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:111
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:147
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:26
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:41
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:111
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:147
 msgid "WALL_POSTERS_ERR_SET_VALID_UNTIL"
 msgstr "Please fill in fiel valid until."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/add.thtml:29
-#: D:\webroot\source\app/views/wall_posters/add.thtml:29
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:29
 msgid "WALL_POSTERS_ADD_SAVE_CHANGES"
 msgstr "Add poster"
 
@@ -1481,341 +1573,358 @@ msgstr "Add poster"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:67
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:69
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:79
-#: D:\webroot\source\app/views/wall_posters/add.thtml:30
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:48
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:156
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:193
-#: D:\webroot\source\app/views/wall_posters/view.thtml:68
-#: D:\webroot\source\app/views/wall_posters/view.thtml:70
-#: D:\webroot\source\app/views/wall_posters/view.thtml:80
-#: D:\webroot\source\app/views/wall_posters/view.thtml:178
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/add.thtml:30
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:48
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:156
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:193
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:68
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:70
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:80
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:178
 msgid "WALL_POSTERS_LINK_BACK"
 msgstr "Back"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:4
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:63
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:5
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:64
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:64
 msgid "WALL_POSTERS_HEADING_POSTER_EDITATION"
 msgstr "Poster editation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:68
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:67
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:11
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:70
-#: D:\webroot\source\app/views/wall_posters/index.thtml:68
-#: D:\webroot\source\app/views/wall_posters/view.thtml:37
-#: D:\webroot\source\app/views/wall_posters/view.thtml:145
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:67
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:70
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:68
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:37
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:145
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:67
 msgid "WALL_POSTERS_POSTER_IS_NOT_SHOWN"
 msgstr "Poster is not displayed"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:12
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:71
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:13
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:72
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:72
 msgid "WALL_POSTERS_REFUSED_TIMESTAMP"
 msgstr "Refusal time"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:13
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:72
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:174
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:14
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:73
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:175
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:73
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:175
 msgid "WALL_POSTERS_POSTER_REFUSED_REASON"
 msgstr "Refusal reason"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:19
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:20
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:20
 msgid "WALL_POSTERS_POSTER_REQUEST_DATA"
 msgstr "Request data"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:85
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:84
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:22
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:92
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:128
-#: D:\webroot\source\app/views/wall_posters/index.thtml:85
-#: D:\webroot\source\app/views/wall_posters/view.thtml:50
-#: D:\webroot\source\app/views/wall_posters/view.thtml:158
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:99
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:84
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:92
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:128
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:85
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:50
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:158
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:99
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:84
 msgid "WALL_POSTERS_POSTER_CREATED_BY"
 msgstr "Created by"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:43
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:44
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:44
 msgid "WALL_POSTERS_EDIT_SAVE_CHANGES"
 msgstr "Save changes"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:45
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:46
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:46
 msgid "WALL_POSTERS_EDIT_SAVE_CHANGES_AND_REQUEST"
 msgstr "Save changes and request acceptaion"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:54
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:201
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:162
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:55
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:202
-#: D:\webroot\source\app/views/wall_posters/view.thtml:184
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:55
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:202
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:184
 msgid "WALL_POSTERS_TEXT_REQUESTED_POST_NOT_EXISTS"
 msgstr "Requested poster doesn't exist."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:90
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:91
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:91
 msgid "WALL_POSTERS_POSTER_CURRENT_DATA"
 msgstr "Current poster data"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:126
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:127
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:127
 msgid "WALL_POSTERS_POSTER_NEW_POSTER"
 msgstr "New poster"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:126
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:127
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:127
 msgid "WALL_POSTERS_POSTER_POSTER_DATA_CHANGES"
 msgstr "Poster data changes"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:129
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:130
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:130
 msgid "WALL_POSTERS_POSTER_NEW_NADPIS"
 msgstr "New title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:134
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:135
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:135
 msgid "WALL_POSTERS_POSTER_NEW_CONTENT_MSG"
 msgstr "New text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:139
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:140
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:140
 msgid "WALL_POSTERS_POSTER_NEW_VALID_FROM_DATE"
 msgstr "New valid from (RRRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:144
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:145
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:145
 msgid "WALL_POSTERS_POSTER_NEW_VALID_UNTIL_DATE"
 msgstr "New valid until (RRRR-MM-DD)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:152
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:153
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:153
 msgid "WALL_POSTERS_EDIT_ACCEPT_CHANGES"
 msgstr "Accept changes"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:154
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:155
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:155
 msgid "WALL_POSTERS_EDIT_SAVE"
 msgstr "Save"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:176
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:177
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:177
 msgid "WALL_POSTERS_ERR_SET_REFUSED_REASON"
 msgstr "Please input refusal text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:181
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:182
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:182
 msgid "WALL_POSTERS_EDIT_CHANGE_REFUSED_REASON"
 msgstr "Change refusal reason"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:184
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:185
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:185
 msgid "WALL_POSTERS_EDIT_REFUSE_CHANGES"
 msgstr "Deny changes"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:186
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:187
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:187
 msgid "WALL_POSTERS_EDIT_DENY_SHOWING"
 msgstr "Deny displaying"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/edit.thtml:190
-#: D:\webroot\source\app/views/wall_posters/edit.thtml:191
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/edit.thtml:191
 msgid "WALL_POSTERS_EDIT_DISABLE_DENIAL"
 msgstr "Disable denial"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:6
-#: D:\webroot\source\app/views/wall_posters/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:6
 msgid "WALL_POSTERS_HEADING_LIST_ACTUAL_POSTERS"
 msgstr "List of actual posters"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
-#: D:\webroot\source\app/views/wall_posters/index.thtml:7
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:6
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:6
 msgid "WALL_POSTERS_LINK_ADD_POSTER"
 msgstr "Add poster"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:8
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:7
-#: D:\webroot\source\app/views/wall_posters/index.thtml:8
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:7
 msgid "WALL_POSTERS_LINK_MANAGE_POTERS_AWAITING_CONFIRMATION"
 msgstr "Show posters awaiting confirmation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:9
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:8
-#: D:\webroot\source\app/views/wall_posters/index.thtml:9
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:8
 msgid "WALL_POSTERS_LINK_OLD_POSTERS"
 msgstr "Show old posters"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/wall_posters/index.thtml:11
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:10
 msgid "WALL_POSTERS_LINK_SEARCH"
 msgstr "Search"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:25
-#: D:\webroot\source\app/views/wall_posters/index.thtml:25
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:25
 msgid "WALL_POSTERS_HEADING3_NO_ACTUAL_POSTERS"
 msgstr "There are no actual posters"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/views/wall_posters/index.thtml:36
-#: D:\webroot\source\app/views/wall_posters/view.thtml:10
-#: D:\webroot\source\app/views/wall_posters/view.thtml:97
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:35
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:35
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:36
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:35
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:35
 msgid "WALL_POSTERS_POSTER_IS_NEW_POSTER"
 msgstr "New poster"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:44
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:43
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:43
-#: D:\webroot\source\app/views/wall_posters/index.thtml:44
-#: D:\webroot\source\app/views/wall_posters/view.thtml:18
-#: D:\webroot\source\app/views/wall_posters/view.thtml:107
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:45
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:43
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:44
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:107
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:45
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:43
 msgid "WALL_POSTERS_POSTER_IS_CONFIRMATION_REQUEST"
 msgstr "Request for confirmation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:55
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:54
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:54
-#: D:\webroot\source\app/views/wall_posters/index.thtml:55
-#: D:\webroot\source\app/views/wall_posters/view.thtml:29
-#: D:\webroot\source\app/views/wall_posters/view.thtml:137
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:75
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:54
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:55
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:29
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:137
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:75
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:54
 msgid "WALL_POSTERS_POSTER_IS_REFUSED"
 msgstr "Confirmation is refused"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:59
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:5
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:58
-#: D:\webroot\source\app/views/wall_posters/index.thtml:59
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:5
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:58
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:59
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:58
 msgid "WALL_POSTERS_HEADING_POSTERS_AWAITING_CONFIRMATION"
 msgstr "List of posters awaiting confirmation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:71
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:64
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:70
-#: D:\webroot\source\app/views/wall_posters/index.thtml:71
-#: D:\webroot\source\app/views/wall_posters/view.thtml:40
-#: D:\webroot\source\app/views/wall_posters/view.thtml:148
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:85
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:70
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:71
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:40
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:148
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:85
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:70
 msgid "WALL_POSTERS_POSTER_REFUSED_DATE"
 msgstr "Refusal date"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:67
-#: D:\webroot\source\app/views/wall_posters/index.thtml:74
-#: D:\webroot\source\app/views/wall_posters/view.thtml:43
-#: D:\webroot\source\app/views/wall_posters/view.thtml:151
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:88
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:74
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:43
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:151
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:88
 msgid "WALL_POSTERS_POSTER_VALID_FROM"
 msgstr "Valid from"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:75
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:68
-#: D:\webroot\source\app/views/wall_posters/index.thtml:75
-#: D:\webroot\source\app/views/wall_posters/view.thtml:44
-#: D:\webroot\source\app/views/wall_posters/view.thtml:152
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:89
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:75
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:44
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:152
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:89
 msgid "WALL_POSTERS_POSTER_VALID_UNTIL"
 msgstr "Valid until"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:81
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:74
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:80
-#: D:\webroot\source\app/views/wall_posters/index.thtml:81
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:95
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:80
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/index.thtml:81
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:95
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:80
 msgid "WALL_POSTERS_LINK_SHOW_POSTER_DETAIL"
 msgstr "Show details"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:63
-#: D:\webroot\source\app/views/wall_posters/view.thtml:64
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:64
 msgid "WALL_POSTERS_LINK_EDIT"
 msgstr "Edit"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
-#: D:\webroot\source\app/views/wall_posters/view.thtml:66
-#: D:\webroot\source\app/views/wall_posters/view.thtml:176
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:66
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:176
 msgid "WALL_POSTERS_LINK_DELETE"
 msgstr "Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
-#: D:\webroot\source\app/views/wall_posters/view.thtml:66
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:66
 msgid "WALL_POSTERS_REMOVE_THIS_POSTER"
 msgstr "Delete this poster?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:75
-#: D:\webroot\source\app/views/wall_posters/view.thtml:76
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:76
 msgid "WALL_POSTERS_TEXT_REQUIRED_POSTER_NOT_EXISTS"
 msgstr "Requested poster doesn't exist"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:75
-#: D:\webroot\source\app/views/wall_posters/view.thtml:76
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:76
 msgid "WALL_POSTERS_TEXT_OR_CANNOT_BE_DISPLAYED"
 msgstr "or can't be shown to You."
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:45
-#: D:\webroot\source\app/views/wall_posters/view.thtml:109
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:47
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:109
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:47
 msgid "WALL_POSTERS_POSTER_IS_DELETE_REQUEST"
 msgstr "Owner deleted this poster"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:63
-#: D:\webroot\source\app/views/wall_posters/view.thtml:173
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:173
 msgid "WALL_POSTERS_LINK_ADMINISTRATE"
 msgstr "Administruj"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
-#: D:\webroot\source\app/views/wall_posters/view.thtml:176
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/view.thtml:176
 msgid "WALL_POSTERS_REMOVE_THIS_POSTER?"
 msgstr "Delete this poster?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:8
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:7
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:8
 msgid "WALL_POSTERS_LINK_ACTUAL_POSTERS"
 msgstr "Show actual posters"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:24
-#: D:\webroot\source\app/views/wall_posters/viewlist_admin.thtml:24
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewlist_admin.thtml:24
 msgid "WALL_POSTERS_HEADING3_NO_POSTERS_AWAITING_CONFIRMATION"
 msgstr "There are no poters awaiting confirmation"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:5
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:5
 msgid "WALL_POSTERS_HEADING_LIST_OLD_POSTERS"
 msgstr "List of old posters"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:23
-#: D:\webroot\source\app/views/wall_posters/viewold.thtml:23
+#: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:23
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "There are no old posters"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#~ msgid "LANGUAGES_SAVE_ITEM"
+#~ msgstr "Save"
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#~ msgid "LEVELS_SAVE_ITEM"
+#~ msgstr "Save"
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
+#, fuzzy
+#~ msgid "Editacia profesie"
+#~ msgstr "Edit my profile"
+
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+#, fuzzy
+#~ msgid "Editacia urovne"
+#~ msgstr "Edit role"
 

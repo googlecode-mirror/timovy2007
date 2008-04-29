@@ -1,6 +1,6 @@
 <?php $my->addCrumb(__("MENU_AKTUALITY", true)); ?> 
-<h1>Aktuality - Administracia</h1>
-<p><?php echo $html->link(__("NEWS_ADD_POST", true), "/posts/add"); ?>
+<h1><?php __("NEWS_MANAGEMENT");?></h1>
+<p><?php echo $html->link(__("NEWS_ADD_POST", true), "/posts/add"); ?></p>
 <table>
     <tr>
 <!--        <th>Id</th> -->

@@ -42,13 +42,13 @@
 			<?php echo $paginator->next(__('MAIL_BOX_LISTING_NEXT', true))?>
 			
 		</span>
-		<?php __('MAIL_BOX_BOTTOM_SELECTED')?>:
-		<select name="action">
+		<label style="float:left"><?php __('MAIL_BOX_BOTTOM_SELECTED')?>:</label>
+		<select class="left_space" name="action" style="float: left">
 			<option value=""></option>
 			<option value="READED"><?php __('MAIL_BOX_ACTION_SET_READED')?></option>
 			<option value="DELETED"><?php __('MAIL_BOX_ACTION_SET_DELETED')?></option>
 		</select>
-		<input type="submit" value="<?php __('MAIL_BOX_BOTTOM_SUBMIT');?>" />
+		<input class="left_space" type="submit" value="<?php __('MAIL_BOX_BOTTOM_SUBMIT');?>" />
 	</td>
 </tr>
 </table>

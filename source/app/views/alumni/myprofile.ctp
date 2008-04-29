@@ -91,7 +91,7 @@
   		<option <?=($lang=='en' ? 'selected="selected"': '');?> value="en"><?php __("ALUMNI_MYPROFILE_LANGUAGE_ENGLISH")?></option>
   	</select>
   	<label style="width: auto;"><?php __('ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION')?>:</label>
-  	<p class="clear" style="margin-bottom: 0px" />
+  	<p class="clear" />
   </div>
 	<!-- Profesie v databaze -->
 	 <?php foreach ($user_professions as $k=>$p): ?>	
@@ -103,12 +103,12 @@
 				  <option value="<?=$key?>" <?php if($key==$p['UserProfession']['profession_id']) echo "selected=\"selected\""; ?>><?=$value?></option>
 				  <?php endforeach; ?>
 			  </select>
-			  <p class="clear"></p>
+			  <p class="clear" />
       </div>
 			<div>
         <label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
 			  <label class="left_space" style="width: 98px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_to']; ?>" />
-			  <p class="clear"></p>
+			  <p class="clear" />
       </div>
 			<div class="lang_en">
 				<label><?php __("ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN")?>:</label><textarea name="description_en[]" rows="3" cols="100" style="width: 350px;"><?php echo $p['UserProfession']['description_en']; ?></textarea>

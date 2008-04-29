@@ -1,14 +1,14 @@
 <?php $url = "professions"; $modul="Professions"; ?>
 
-<h2><?php _("Editacia profesie"); ?></h2>
+<h2><?php __("PROFESSIONS_EDIT_ITEM"); ?></h2>
 <?php echo $form->create($modul, array('action'=> "/edit/".$id)); ?>
 <br />
-<?php echo $form->label($modul.'name_sk', __("slovensky nazov", true), null); ?><br />
+<?php echo $form->label($modul.'name_sk', __("PROFESSIONS_SLOVAK_NAME", true), null); ?>:<br />
 <?php echo $form->text('name_sk', array('value'=>$data[$modul]['name_sk'])); ?><br />
 <br />
-<?php echo $form->label($modul.'.name_en',__("aglicky nazov", true),null); ?><br />
+<?php echo $form->label($modul.'.name_en',__("PROFESSIONS_ENGLISH_NAME", true), null); ?>:<br />
 <?php echo $form->text('name_en', array('value'=>$data[$modul]['name_en'])); ?><br />
 <br />
-<?php echo $form->submit(__("Ulozit", true)); ?>
+<?php echo $form->submit(__("PROFESSIONS_SAVE", true)); ?>
 <?php echo $form->end();?>
 <br />

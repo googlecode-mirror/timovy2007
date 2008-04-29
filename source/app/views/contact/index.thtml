@@ -18,12 +18,6 @@
 </thead>
 <tbody>
 	<tr>
-		<td class="ico_user">Ľuboš Bartoš</td>
-		<td>developer</td>
-		<td class="ico_email"><a class="link" href="mailto:lubosb@szm.sk">lubosb@szm.sk</a></td>
-	</tr>
-
-	<tr>
 		<td class="ico_user">Peter Cích</td>
 		<td>dokumentarista</td>
 		<td class="ico_email"><a class="link" href="mailto:peter.cich@gmail.com">peter.cich@gmail.com</a></td>

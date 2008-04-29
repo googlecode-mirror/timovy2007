@@ -1,23 +1,19 @@
 <?php $url = "languages"; $modul="Languages"; ?>
-
-<h1><?php echo __("sprava jazykov")?></h1>
-
-<?php echo $html->link(__("Pridat_jazyk", true),"/".$url."/add"); ?>
-<br />
-
-<h2 style="margin-top: 0"><?php echo __("zoznam_jazykov")?></h2>
+<h1><?php __("LANGUAGES_MANAGMENT")?></h1>
+<p><?php echo $html->link(__("LANGUAGES_ADD_ITEM", true),"/".$url."/add"); ?></p>
+<h2 style="margin-top: 0"><?php __("LANGUAGES_LIST")?></h2>
 
 <table class="std_table">
 <tr>
-	<th><?php echo __("name_jazyka")?></th>
-	<th>Akcie</th>
+	<th><?php __("LANGUAGES_NAME");?></th>
+	<th><?php __("LANGUAGES_ACTIONS");?></th>
 </tr>
 <?php foreach ($data as $key=>$value) { ?>
 <tr>
 	<td><?php echo $value[$modul]['name_'.$lang]?></td>
 	<td>
-		<a href="<?=$html->url('/'.$url.'/edit/'.$value[$modul]['id'])?>"><?php echo __("UPRAVIT")?></a>,
-		<a href="<?=$html->url('/'.$url.'/delete/'.$value[$modul]['id'])?>"><?php echo __("ZMAZAT")?></a>
+		<a href="<?=$html->url('/'.$url.'/edit/'.$value[$modul]['id'])?>"><?php echo __("LANGUAGES_EDIT")?></a>,
+		<a href="<?=$html->url('/'.$url.'/delete/'.$value[$modul]['id'])?>"><?php echo __("LANGUAGES_DELETE")?></a>
 	</td>
 </tr>
 <?php } ?>

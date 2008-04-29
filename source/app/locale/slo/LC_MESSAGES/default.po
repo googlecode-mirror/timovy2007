@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-28 23:02+0100\n"
-"PO-Revision-Date: 2008-04-28 23:04+0100\n"
+"POT-Creation-Date: 2008-04-29 01:57+0100\n"
+"PO-Revision-Date: 2008-04-29 02:07+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -924,12 +924,12 @@ msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
 msgstr "Ak si želáte, aby Vám bola zasielaná kópia prijatých správ na e-mailovú adresu, uveďte ju do nasledujúceho políčka prosím. Ak si neželáte preposielať správy, nechajte políčko prázdne."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:13
 msgid "MAIL_SETTINGS_LISTING"
 msgstr "Počet zobrazených mailov na jednu stránku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:24
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:29
 msgid "MAIL_SETTINGS_SUBMIT"
 msgstr "Uložiť nastavenia"
 
@@ -969,6 +969,11 @@ msgstr "Uložiť"
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:72
 msgid "MENU_AKTUALITY"
 msgstr "Aktuality"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:2
+msgid "NEWS_MANAGEMENT"
+msgstr "Správa aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:8
@@ -1130,75 +1135,62 @@ msgstr "Nenašli sa žiadni používatelia."
 msgid "MENU_KONTAKT"
 msgstr "Kontakt"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:3
-msgid "Pridanie jazyka"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:3
+msgid "LANGUAGES_ADD_ITEM"
+msgstr "Pridať nový jazyk"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:6
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:6
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:7
-msgid "slovensky nazov"
-msgstr ""
+msgid "LANGUAGES_SLOVAK_NAME"
+msgstr "Názov v slovenčine"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:9
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:9
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:11
-msgid "aglicky nazov"
-msgstr ""
+msgid "LANGUAGES_ENGLISH_NAME"
+msgstr "Názov v angličtine"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:12
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:15
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:17
-msgid "Ulozit"
-msgstr ""
+msgid "LANGUAGES_SAVE"
+msgstr "Uložiť"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:3
-msgid "Editacia jazyka"
-msgstr ""
+msgid "LANGUAGES_EDIT_ITEM"
+msgstr "Upraviť jazyk"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:3
-msgid "sprava jazykov"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:2
+msgid "LANGUAGES_MANAGMENT"
+msgstr "Správa jazykov"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:5
-msgid "Pridat_jazyk"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:4
+msgid "LANGUAGES_LIST"
+msgstr "Zoznam jazykov"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:8
-msgid "zoznam_jazykov"
-msgstr ""
+msgid "LANGUAGES_NAME"
+msgstr "Názov"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:12
-msgid "name_jazyka"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:9
+msgid "LANGUAGES_ACTIONS"
+msgstr "Akcia"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:19
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:19
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:19
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:19
-msgid "UPRAVIT"
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:15
+msgid "LANGUAGES_EDIT"
 msgstr "Upraviť"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:20
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:20
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:20
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:20
-msgid "ZMAZAT"
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:16
+msgid "LANGUAGES_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
@@ -1305,87 +1297,187 @@ msgstr "Novinky"
 msgid "CRUMB_MENU"
 msgstr "Domov"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:3
-msgid "Pridanie urovne"
-msgstr ""
-
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:3
-#, fuzzy
-msgid "Editacia urovne"
-msgstr "Upraviť rolu"
-
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:3
-msgid "sprava jurovni"
-msgstr ""
+msgid "LEVELS_ADD_ITEM"
+msgstr "Pridať úroveň"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:5
-msgid "Pridat_uroven"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:6
+msgid "LEVELS_SLOVAK_NAME"
+msgstr "Názov v slovenčine"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:9
+msgid "LEVELS_ENGLISH_NAME"
+msgstr "Názov v angličtine"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:12
+msgid "LEVELS_SAVE"
+msgstr "Uložiť"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:3
+msgid "LEVELS_EDIT_ITEM"
+msgstr "Upraviť úroveň"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:2
+msgid "LEVELS_MANAGEMENT"
+msgstr "Správa úrovní jazykov"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:4
+msgid "LEVELS_LIST"
+msgstr "Zoznam úrovní"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:8
-msgid "zoznam_urovni"
-msgstr ""
+msgid "LELVELS_NAME"
+msgstr "Názov"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:12
-msgid "name_urovne"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:9
+msgid "LELVELS_ACTION"
+msgstr "Akcia"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:15
+msgid "LEVELS_EDIT"
+msgstr "Upraviť"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:16
+msgid "LEVELS_DELETE"
+msgstr "Zmazať"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:3
-msgid "Pridanie profesie"
-msgstr ""
-
-# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:3
-#, fuzzy
-msgid "Editacia profesie"
-msgstr "Upraviť môj profil"
-
 #: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:3
-msgid "sprava profesii"
-msgstr ""
+msgid "PROFESSIONS_ADD_ITEM"
+msgstr "Pridať novú profesiu"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:5
-msgid "Pridat_profesiu"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:6
+msgid "PROFESSIONS_SLOVAK_NAME"
+msgstr "Názov v slovenčine"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:9
+msgid "PROFESSIONS_ENGLISH_NAME"
+msgstr "Názov v angličtine"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:12
+msgid "PROFESSIONS_SAVE"
+msgstr "Uložiť"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:3
+msgid "PROFESSIONS_EDIT_ITEM"
+msgstr "Upraviť profesiu"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:2
+msgid "PROFESSIONS_MANAGEMENT"
+msgstr "Správa profesií"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:4
+msgid "PROFESSIONS_LIST"
+msgstr "Zoznam profesií"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:8
-msgid "zoznam_profesii"
-msgstr ""
+msgid "PROFESSIONS_NAME"
+msgstr "Názov"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:12
-msgid "name_profesie"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:9
+msgid "PROFESSIONS_ACTION"
+msgstr "Akcia"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:15
+msgid "PROFESSIONS_EDIT"
+msgstr "Upraviť"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:16
+msgid "PROFESSIONS_DELETE"
+msgstr "Zmazať"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:3
-msgid "Vypis statistik"
-msgstr ""
+msgid "STATS_PRINTOUT"
+msgstr "Výpis štatistík"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:7
+msgid "STATS_SLOVAK_NAME"
+msgstr "Názov v slovenčine"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:11
+msgid "STATS_ENGLISH_NAME"
+msgstr "Názov v angličtine"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:12
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:14
-msgid "SQL dotaz"
-msgstr ""
+msgid "STATS_SQL_QUERY"
+msgstr "SQL dopyt"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:17
+msgid "STATS_SAVE"
+msgstr "Uložiť"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:3
-msgid "Editacia statistiky"
-msgstr ""
+msgid "STATS_EDIT_ITEM"
+msgstr "Upraviť štatistiku"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:2
+msgid "STATS_MANAGEMENT"
+msgstr "Správa štatistík"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
-msgid "sprava_sql_statistik"
-msgstr ""
+msgid "STATS_ADD_ITEM"
+msgstr "Pridať štatistiku"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:5
-msgid "Pridat_statistiku"
-msgstr ""
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:1
+msgid "STATS_LIST"
+msgstr "Zoznam štatistík"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:8
-msgid "zoznam_statistik"
-msgstr ""
+msgid "STATS_NAME"
+msgstr "Názov"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:12
-msgid "name_statistic"
-msgstr ""
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:9
+msgid "STATS_ACTION"
+msgstr "Akcia"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:15
+msgid "STATS_EDIT"
+msgstr "Upraviť"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:16
+msgid "STATS_DELETE"
+msgstr "Zmazať"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:4
+msgid "STATS_SELECT_ITEM"
+msgstr "Zvoľte si želanú štatistiku"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:6
+msgid "STATS_GENERATE_XLS"
+msgstr "Vygenerovať vo formáte .xls"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:7
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:6
@@ -1850,4 +1942,26 @@ msgstr "Staré oznamy nástenky"
 #: C:\Users\Jojo\webroot\alumni\app/views/wall_posters/viewold.thtml:23
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "Žiadne staré oznamy"
+
+#~ msgid "UPRAVIT"
+#~ msgstr "Upraviť"
+#~ msgid "ZMAZAT"
+#~ msgstr "Zmazať"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#~ msgid "LANGUAGES_SAVE_ITEM"
+#~ msgstr "Uložiť"
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#~ msgid "LEVELS_SAVE_ITEM"
+#~ msgstr "Uložiť"
+# C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
+#, fuzzy
+#~ msgid "Editacia profesie"
+#~ msgstr "Upraviť môj profil"
+
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+#, fuzzy
+#~ msgid "Editacia urovne"
+#~ msgstr "Upraviť rolu"
 

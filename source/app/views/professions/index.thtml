@@ -1,23 +1,19 @@
 <?php $url = "professions"; $modul="Professions"; ?>
-
-<h1><?php echo __("sprava profesii")?></h1>
-
-<?php echo $html->link(__("Pridat_profesiu", true),"/".$url."/add"); ?>
-<br />
-
-<h2 style="margin-top: 0"><?php echo __("zoznam_profesii")?></h2>
+<h1><?php __("PROFESSIONS_MANAGEMENT");?></h1>
+<p><?php echo $html->link(__("PROFESSIONS_ADD_ITEM", true),"/".$url."/add"); ?></p>
+<h2 style="margin-top: 0"><?php __("PROFESSIONS_LIST");?></h2>
 
 <table class="std_table">
 <tr>
-	<th><?php echo __("name_profesie")?></th>
-	<th>Akcie</th>
+	<th><?php __("PROFESSIONS_NAME");?>:</th>
+	<th><?php __("PROFESSIONS_ACTION");?>:</th>
 </tr>
 <?php foreach ($data as $key=>$value) { ?>
 <tr>
 	<td><?php echo $value[$modul]['name_'.$lang]?></td>
 	<td>
-		<a href="<?=$html->url('/'.$url.'/edit/'.$value[$modul]['id'])?>"><?php echo __("UPRAVIT")?></a>,
-		<a href="<?=$html->url('/'.$url.'/delete/'.$value[$modul]['id'])?>"><?php echo __("ZMAZAT")?></a>
+		<a href="<?=$html->url('/'.$url.'/edit/'.$value[$modul]['id'])?>"><?php __("PROFESSIONS_EDIT");?></a>,
+		<a href="<?=$html->url('/'.$url.'/delete/'.$value[$modul]['id'])?>"><?php __("PROFESSIONS_DELETE");?></a>
 	</td>
 </tr>
 <?php } ?>
