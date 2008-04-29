@@ -3,10 +3,16 @@
 //vendor('excel_writer/ExcelWriter'); 
 //App::import('Vendor',true,true,array(),'excelwriter'.DS.'ExcelWriterx.php');
 //App::import('Vendor','excel_writer'.DS.'ExcelWriter');
-App::import('Vendor','excel_writer'.DS.'excelwriter');
-App::import('Vendor','ole'.DS.'oleroot');
 
-App::import('Vendor','ole'.DS.'olefile');
+//App::import('Vendor','excel_writer'.DS.'excelwriter');
+//App::import('Vendor','ole'.DS.'oleroot');
+//App::import('Vendor','ole'.DS.'olefile');
+
+// hard hack cakephpfunction on linux
+require_once(dirname(dirname(dirname(__FILE__))).DS.'vendors'.DS.'excel_writer'.DS.'ExcelWriter.php');
+require_once(dirname(dirname(dirname(__FILE__))).DS.'vendors'.DS.'ole'.DS.'OleRoot.php');
+require_once(dirname(dirname(dirname(__FILE__))).DS.'vendors'.DS.'ole'.DS.'OleFile.php');
+
 
 
 // http://bakery.cakephp.org/articles/view/generate-excel-spreadsheets-from-your-database 
