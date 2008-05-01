@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-01 13:15+0100\n"
-"PO-Revision-Date: 2008-05-01 13:17+0100\n"
+"POT-Creation-Date: 2008-05-01 23:51+0100\n"
+"PO-Revision-Date: 2008-05-01 23:56+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1012,43 +1012,78 @@ msgstr "Added"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:2
 msgid "ROLES_ADD_ITEM"
 msgstr "Add new role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:5
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:7
 msgid "ROLES_NAME"
 msgstr "Role name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:45
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:11
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:8
 msgid "ROLES_DESCRIPTION"
 msgstr "Role description"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:17
 msgid "ROLES_CLEARANCES"
 msgstr "Clearances"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:23
 msgid "ROLES_CREATE"
-msgstr "Create"
+msgstr "Create new role"
 
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
-# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:2
-msgid "Edit role"
+msgid "ROLES_EDIT_ITEM"
 msgstr "Edit role"
 
-# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:35
+msgid "ROLES_SAVE"
+msgstr "Save"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:35
+msgid "ROLES_BACK_TO_LIST"
+msgstr "Back to roles list"
+
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:91
-msgid "MENU_SPRAVA_PRAV"
+msgid "ROLES_MANAGEMENT"
 msgstr "Permission Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:4
+msgid "ROLES_LIST"
+msgstr "List of user roles"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:9
+msgid "ROLES_ACTIONS"
+msgstr "Actions"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:16
+msgid "ROLES_DELETE"
+msgstr "Delete"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:17
+msgid "ROLES_EDIT"
+msgstr "Edit"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
 #: C:\Users\Jojo\webroot\alumni\app/views/users/edit.ctp:1
@@ -1265,6 +1300,11 @@ msgstr "Menu"
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:88
 msgid "MENU_SPRAVA_AKTUALIT"
 msgstr "Actualities Management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:91
+msgid "MENU_SPRAVA_PRAV"
+msgstr "Permission Management"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:112
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:96
@@ -1934,9 +1974,12 @@ msgstr "List of old posters"
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "There are no old posters"
 
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
+# C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
+#~ msgid "Edit role"
+#~ msgstr "Edit role"
 #~ msgid "STATS_PRINTOUT"
 #~ msgstr "Statistics printout"
-
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #~ msgid "LANGUAGES_SAVE_ITEM"
 #~ msgstr "Save"

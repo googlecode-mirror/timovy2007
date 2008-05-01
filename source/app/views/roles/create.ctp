@@ -1,5 +1,5 @@
 <?php $my->addCrumb(__("ROLES_ADD_ITEM", true)); ?>
-<h1>Pridanie novej role</h1>
+<h1><?php __("ROLES_ADD_ITEM"); ?></h1>
 <form method="post" action="<?php $html->url('/roles/create')?>">
 <p>
 	<label><?php __("ROLES_NAME"); ?>:</label>
