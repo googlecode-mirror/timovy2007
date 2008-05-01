@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-29 01:57+0100\n"
-"PO-Revision-Date: 2008-04-29 02:07+0100\n"
+"POT-Creation-Date: 2008-05-01 13:15+0100\n"
+"PO-Revision-Date: 2008-05-01 13:16+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -525,7 +525,7 @@ msgstr "Jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:151
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:208
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:207
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Zmazať"
 
@@ -924,12 +924,12 @@ msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
 msgstr "Ak si želáte, aby Vám bola zasielaná kópia prijatých správ na e-mailovú adresu, uveďte ju do nasledujúceho políčka prosím. Ak si neželáte preposielať správy, nechajte políčko prázdne."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:12
 msgid "MAIL_SETTINGS_LISTING"
 msgstr "Počet zobrazených mailov na jednu stránku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:29
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:28
 msgid "MAIL_SETTINGS_SUBMIT"
 msgstr "Uložiť nastavenia"
 
@@ -1012,6 +1012,32 @@ msgstr "Aktuality"
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
 msgid "NEWS_ADDED"
 msgstr "Pridané"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:1
+msgid "ROLES_ADD_ITEM"
+msgstr "Pridanie novej role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:22
+msgid "ROLES_NAME"
+msgstr "Názov role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:23
+msgid "ROLES_DESCRIPTION"
+msgstr "Popis role"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:17
+msgid "ROLES_CLEARANCES"
+msgstr "Oprávnenia"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:35
+msgid "ROLES_CREATE"
+msgstr "Vytvoriť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
@@ -1408,8 +1434,9 @@ msgid "PROFESSIONS_DELETE"
 msgstr "Zmazať"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:3
-msgid "STATS_PRINTOUT"
-msgstr "Výpis štatistík"
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
+msgid "STATS_ADD_ITEM"
+msgstr "Pridať štatistiku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:6
@@ -1444,10 +1471,6 @@ msgstr "Upraviť štatistiku"
 msgid "STATS_MANAGEMENT"
 msgstr "Správa štatistík"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
-msgid "STATS_ADD_ITEM"
-msgstr "Pridať štatistiku"
-
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:4
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:1
 msgid "STATS_LIST"
@@ -1475,7 +1498,7 @@ msgstr "Zmazať"
 msgid "STATS_SELECT_ITEM"
 msgstr "Zvoľte si želanú štatistiku"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:10
 msgid "STATS_GENERATE_XLS"
 msgstr "Vygenerovať vo formáte .xls"
 
@@ -1943,6 +1966,8 @@ msgstr "Staré oznamy nástenky"
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "Žiadne staré oznamy"
 
+#~ msgid "STATS_PRINTOUT"
+#~ msgstr "Výpis štatistík"
 #~ msgid "UPRAVIT"
 #~ msgstr "Upraviť"
 #~ msgid "ZMAZAT"

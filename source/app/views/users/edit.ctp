@@ -34,7 +34,7 @@
 		<option value="<?php echo $r['id']?>"><?php echo $r['name']?> - <?php echo $r['description']?></option>
 		<?php } ?>
 	</select>
-	<button>Priradiť právo</button>
+	<button class="left_space">Priradiť právo</button>
 </p>
 </form>
 <?php } else { ?>

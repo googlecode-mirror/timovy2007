@@ -76,6 +76,7 @@ table {
 	/* border: 1px solid silver; */
 	width: 100%;
 	margin-top: 5px;
+	text-align: left;
 }
 
 table th {
@@ -681,4 +682,7 @@ div.profession div {
 div.submit {
   padding-top: 10px;
 	padding-bottom: 10px;
+}
+select[name="role_id"] {
+  width: auto;
 }
