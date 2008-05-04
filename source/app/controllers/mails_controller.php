@@ -427,10 +427,10 @@ class MailsController extends AppController
 		// nastav condition na zaklade zaslaneho hladania
 		// 
 		$condition = array(
-			'"User"."username" ILIKE \'%'. $sanit->sql(@$_POST['username']) .'%\' OR '.
-			'"User"."first_name" ILIKE \'%'. $sanit->sql(@$_POST['username']) .'%\' OR '.
-			'"User"."middle_name" ILIKE \'%'. $sanit->sql(@$_POST['username']) .'%\' OR '.
-			'"User"."last_name" ILIKE \'%'. $sanit->sql(@$_POST['username']) .'%\''
+			'"User"."username" ILIKE \'%'. $sanit->escape(@$_POST['username']) .'%\' OR '.
+			'"User"."first_name" ILIKE \'%'. $sanit->escape(@$_POST['username']) .'%\' OR '.
+			'"User"."middle_name" ILIKE \'%'. $sanit->escape(@$_POST['username']) .'%\' OR '.
+			'"User"."last_name" ILIKE \'%'. $sanit->escape(@$_POST['username']) .'%\''
 		);
 		
 		//

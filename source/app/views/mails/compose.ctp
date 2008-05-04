@@ -136,7 +136,7 @@
 <div id="mail_search_users" style="display: none; text-align: left;">
 	<div  style="padding: 0 10px 5px 10px; text-align: left;">
 	<h2><?php __('MAIL_COMPOSE_SEARCH_USERS_LABEL')?></h2>
-	<?php echo $ajax->form('/mails/ajax_search_users', 'post', array('update'=>'sarch_users_results', 'before'=>"$('sarch_users_results').innerHTML = \"".__('MAIL_COMPOSE_SEARCH_LOADING', true)."\""))?>
+	<?php echo $ajax->form('/ajax_search_users', 'post', array('update'=>'sarch_users_results', 'before'=>"$('sarch_users_results').innerHTML = \"".__('MAIL_COMPOSE_SEARCH_LOADING', true)."\""))?>
 	<p>
 		<input type="text" name="username" value="" style="width: 98%; padding: 2px;" /><br />
 		<input type="submit" value="<?php __('MAIL_COMPOSE_SEARCH_USER_SUBMIT')?>" />

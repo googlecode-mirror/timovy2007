@@ -115,7 +115,7 @@ class ImportdbComponent extends ImportYonban
 				LEFT JOIN pouzivatel as PedagLector ON PedagLector.id=Projekt.id_pedagog_veduci
 				LEFT JOIN zadanie as Zadanie on Zadanie.id_projekt=Projekt.id
 			WHERE 
-				Pouzivatel.osobne_cislo='".$sanit->sql($user)."'
+				Pouzivatel.osobne_cislo='".$sanit->escape($user)."'
 		");
 		
 		

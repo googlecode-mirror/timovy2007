@@ -47,6 +47,12 @@ class fpdfHelper extends FPDF {
 		$this->SetKeywords("ALUMNI");
 		$this->SetSubject("Curriculum vitae");
 		$this->SetTitle("Curriculum vitae");
+		//fonts
+		$this->AddFont('Arial','','arial.php');
+		$this->AddFont('Arial','B','arialbd.php');
+		$this->AddFont('Arial','I','ariali.php');
+		$this->AddFont('Arial','BI','arialbi.php');
+		$this->SetFont('Arial','',8);
   }
 	
 	function WriteCurriculumRow($left_height, $left_width, $left_align, $left_data, $left_style, $left_fillcolor, $right_height, $right_width, $right_align, $right_data, $right_style, $right_fillcolor){
