@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-01 23:52+0100\n"
-"PO-Revision-Date: 2008-05-01 23:53+0100\n"
+"POT-Creation-Date: 2008-05-12 20:09+0100\n"
+"PO-Revision-Date: 2008-05-12 20:41+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -564,7 +564,7 @@ msgstr "Nové heslo"
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_2"
-msgstr "Nové heslo"
+msgstr "Nové heslo (kontrola)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:18
@@ -684,14 +684,48 @@ msgstr "Zamestnanie"
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:82
 msgid "ALUMNI_PROFILE_BACK"
-msgstr "Naspäť na zoznam"
+msgstr "Späť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
 #: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:94
 msgid "MENU_IMPORT"
-msgstr "Importovanie"
+msgstr "Import"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
+msgid "IMPORT_MAIN_TITLE"
+msgstr "Import"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:4
+msgid "IMPORT_MAIN_TEXT"
+msgstr "Import údajov zo systému YonBan."
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:9
+msgid "IMPORT_SOAP_TITLE"
+msgstr "Import údajov cez Web service"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:11
+msgid "IMPORT_SOAP_TEXT"
+msgstr "Systém na spojenie využije externé rozhranie SOAP systému YonBan. Toto je preferovaný spôsob importu."
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:12
+msgid "IMPORT_SOAP"
+msgstr "Importovať cez SOAP"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:18
+msgid "IMPORT_DB_TITLE"
+msgstr "Import údajov priamo z databázy"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:20
+msgid "IMPORT_DB_TEXT"
+msgstr "Systém sa napojí priamo na databázu systému YonBan."
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:21
+msgid "IMPORT_DB"
+msgstr "Importovať z databázy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
 #: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:1
@@ -708,14 +742,12 @@ msgstr "Už ste prihlásený do systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
 #: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:6
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:38
 msgid "Login"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/index.ctp:4
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:37
 #: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:7
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:41
 msgid "Heslo"
 msgstr "Heslo"
 
@@ -885,7 +917,7 @@ msgstr "Vykonať"
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:5
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:25
 msgid "MAIL_READ_BACK_TO_INDEX"
-msgstr "Naspäť na zoznam"
+msgstr "Späť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:13
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:13
@@ -1098,8 +1130,48 @@ msgstr "Správa používateľov "
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:3
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:90
-msgid "MENU_SPRAVA_POUZIVATELOF"
-msgstr "Správa používateľov"
+msgid "MENU_SPRAVA_POUZIVATELOV"
+msgstr "Správa používateľov "
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:7
+msgid "USERS_SEARCH"
+msgstr "Hľadaj"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:9
+msgid "USERS_LIST"
+msgstr "Zoznam používateľov"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:12
+msgid "USERS_LOGIN"
+msgstr "Login"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:13
+msgid "USERS_NAME"
+msgstr "Meno a priezvisko"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:14
+msgid "USERS_RIGHTS"
+msgstr "Prístupové práva"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:15
+msgid "USERS_ACTIONS"
+msgstr "Akcie"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:25
+msgid "USERS_EDIT"
+msgstr "Upraviť"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:26
+msgid "USERS_CHANGE_PASSWORD"
+msgstr "Zmeniť heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1
@@ -1197,6 +1269,75 @@ msgid "MENU_KONTAKT"
 msgstr "Kontakt"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:2
+msgid "CONTACT_MAIN_TITLE"
+msgstr "Kontaktné informácie"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:4
+msgid "CONTACT_MAIN_CONTACT"
+msgstr "Hlavný kontakt"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:16
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:55
+msgid "CONTACT_EMAIL"
+msgstr "E-mail"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:7
+msgid "CONTACT_PROJECT_SUPERVISOR"
+msgstr "Projektový vedúci"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:10
+msgid "CONTACT_ALUMINIUM_CONTACTS"
+msgstr "Kontakty na členov tímu ALUMINIUM (šk. rok 2007/2008)"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:53
+msgid "CONTACT_NAME"
+msgstr "Meno"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:54
+msgid "CONTACT_FUNCTION"
+msgstr "Funkcia"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:38
+msgid "CONTACT_DOCUMENTALIST"
+msgstr "dokumentarista"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:28
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:72
+msgid "CONTACT_DESIGNER"
+msgstr "designer"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:33
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:61
+msgid "CONTACT_TEAM_LEADER"
+msgstr "vedúci tímu"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:43
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:66
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:77
+msgid "CONTACT_DEVELOPER"
+msgstr "developer"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:49
+msgid "CONTACT_ABSOLUTE_ALUMINIC_CONTACTS"
+msgstr "Kontakty na členov tímu Absolute ALUMiNIc (šk. rok 2006/2007)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:1
+msgid "HELP_MAIN_TITLE"
+msgstr "Používateľská príručka"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:2
+msgid "HELP_MAIN_TEXT"
+msgstr "Používateľskú dokumentáciu k systému si môžete stiahnuť <a href=\"http://timovy2007.googlecode.com/svn/trunk/doc/Dokumentacia/Pouzivatelska_prirucka.pdf\">tu</a>."
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:3
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:3
 msgid "LANGUAGES_ADD_ITEM"
@@ -1269,6 +1410,28 @@ msgstr "Pomoc"
 msgid "MENU_SITEMAP"
 msgstr "Sitemap"
 
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:30
+msgid "SLOVAK_VERSION"
+msgstr "Slovenská verzia"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:31
+msgid "ENGLISH_VERSION"
+msgstr "Anglická verzia"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:38
+msgid "LOGIN"
+msgstr "Meno"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:41
+msgid "PASSWORD"
+msgstr "Heslo"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:44
+msgid "LOG_IN"
+msgstr "Prihlásiť sa"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
 msgid "LOGGED_AS"
@@ -1276,7 +1439,7 @@ msgstr "Prihlásený ako"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
-msgid "LOGIN_OUT"
+msgid "LOG_OUT"
 msgstr "Odhlásiť sa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
@@ -1297,7 +1460,7 @@ msgstr "Nástenka"
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:86
 msgid "ADMIN_MENU"
-msgstr "Admin Menu"
+msgstr "Správa systému"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:88
@@ -1362,6 +1525,10 @@ msgstr "Novinky"
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:183
 msgid "CRUMB_MENU"
 msgstr "Domov"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:187
+msgid "FONT_SIZE"
+msgstr "Veľkosť písma"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:3
@@ -1472,6 +1639,11 @@ msgstr "Upraviť"
 #: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:16
 msgid "PROFESSIONS_DELETE"
 msgstr "Zmazať"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/sitemap/index.thtml:1
+msgid "SITEMAP_MAIN_TITLE"
+msgstr "Mapa stránok"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:3
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
@@ -2006,6 +2178,9 @@ msgstr "Staré oznamy nástenky"
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "Žiadne staré oznamy"
 
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
+#~ msgid "MENU_SPRAVA_POUZIVATELOF"
+#~ msgstr "Správa používateľov"
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
 #~ msgid "Edit role"

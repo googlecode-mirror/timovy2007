@@ -1,18 +1,18 @@
-<?php $my->addCrumb(__("MENU_SPRAVA_POUZIVATELOF", true)); ?>
+<?php $my->addCrumb(__("MENU_SPRAVA_POUZIVATELOV", true)); ?>
 
-<h1><?php echo __("MENU_SPRAVA_POUZIVATELOF")?></h1>
+<h1><?php echo __("MENU_SPRAVA_POUZIVATELOV")?></h1>
 
 <form action="<?php echo $html->url('/users/search/')?>" method="post" style="text-align: right;">
 	<input type="text" name="name" value="<?=$name?>"/>
-	<input type="submit" name="xxx" value="Hľadaj" />
+	<input type="submit" name="xxx" value="<?php __("USERS_SEARCH");?>" />
 </form>
-<h2 style="margin-top: 0">Zoznam používateľov</h2>
+<h2 style="margin-top: 0"><?php __("USERS_LIST");?></h2>
 <table class="std_table">
 <tr>
-	<th>Meno-Login</th>
-	<th>Používateľské meno</th>
-	<th>Prístupové práva</th>
-	<th>Akcie</th>
+	<th><?php __("USERS_LOGIN");?></th>
+	<th><?php __("USERS_NAME");?></th>
+	<th><?php __("USERS_RIGHTS");?></th>
+	<th><?php __("USERS_ACTIONS");?></th>
 </tr>
 <?php foreach ($users as $user) { ?>
 <tr>
@@ -22,8 +22,8 @@
 		<?php $roles = array(); foreach ($user['Role'] as $r) { $roles[] = $r['name']; } echo count($roles)>0 ? implode(', ',$roles) : '-'?>
 	</td>
 	<td>
-		<a href="<?=$html->url('/users/edit/'.$user['User']['id'])?>">upraviť</a>,
-		<a href="<?=$html->url('/users/password/'.$user['User']['id'])?>">zmeniť heslo</a>
+		<a href="<?=$html->url('/users/edit/'.$user['User']['id'])?>"><?php __("USERS_EDIT");?></a>,
+		<a href="<?=$html->url('/users/password/'.$user['User']['id'])?>"><?php __("USERS_CHANGE_PASSWORD");?></a>
 	</td>
 </tr>
 <?php } ?>

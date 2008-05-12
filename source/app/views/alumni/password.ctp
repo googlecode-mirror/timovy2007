@@ -6,13 +6,17 @@
 </p>
 
 <form action="<?php echo $html->url('/alumni/password')?>" method="POST">
+<div class="myprofile">
 <p>
-	<label><?php __('ALUMNI_PASS_OLD')?>:</label> <input type="password" name="password_old" value="" />
+	<label class="ind1"><?php __('ALUMNI_PASS_OLD')?>:</label> <input type="password" name="password_old" value="" />
 </p>	
 <p>
-	<label><?php __('ALUMNI_PASS_NEW_1')?>:</label> <input type="password" name="password_1" value="" /><br />
-	<label><?php __('ALUMNI_PASS_NEW_2')?>:</label> <input type="password" name="password_2" value="" />
+	<label class="ind1"><?php __('ALUMNI_PASS_NEW_1')?>:</label> <input type="password" name="password_1" value="" />
 </p>
+<p style="padding-top: 0px">
+	<label class="ind1"><?php __('ALUMNI_PASS_NEW_2')?>:</label> <input type="password" name="password_2" value="" />
+</p>
+</div>
 
 <p>
 	<input type="submit" value="<?php __('ALUMNI_PASSWORD_SUBMIT')?>" />

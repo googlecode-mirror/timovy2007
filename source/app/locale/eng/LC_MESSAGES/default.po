@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-01 23:51+0100\n"
-"PO-Revision-Date: 2008-05-01 23:56+0100\n"
+"POT-Creation-Date: 2008-05-12 20:15+0100\n"
+"PO-Revision-Date: 2008-05-12 20:40+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -564,7 +564,7 @@ msgstr "New password"
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_2"
-msgstr "New password"
+msgstr "Retype password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
 #: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:18
@@ -688,10 +688,44 @@ msgstr "Back"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
 #: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:94
 msgid "MENU_IMPORT"
 msgstr "Import"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
+msgid "IMPORT_MAIN_TITLE"
+msgstr "Import"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:4
+msgid "IMPORT_MAIN_TEXT"
+msgstr "Data import from system YonBan."
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:9
+msgid "IMPORT_SOAP_TITLE"
+msgstr "Data import via Web service"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:11
+msgid "IMPORT_SOAP_TEXT"
+msgstr "System uses extern interface SOAP to connect to YonBan. This import type is preferred."
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:12
+msgid "IMPORT_SOAP"
+msgstr "Import via SOAP"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:18
+msgid "IMPORT_DB_TITLE"
+msgstr "Data import directly from database"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:20
+msgid "IMPORT_DB_TEXT"
+msgstr "System directly conects to YonBan database."
+
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:21
+msgid "IMPORT_DB"
+msgstr "Import from database"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
 #: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:1
@@ -708,13 +742,11 @@ msgstr "You are allready logged in."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
 #: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:6
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:38
 msgid "Login"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:36
 #: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:7
-#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:41
 msgid "Heslo"
 msgstr "Password"
 
@@ -883,7 +915,7 @@ msgstr "Confirm"
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:5
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:25
 msgid "MAIL_READ_BACK_TO_INDEX"
-msgstr "<< Naspäť na index"
+msgstr "Back to index"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
 #: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:13
@@ -1095,8 +1127,48 @@ msgstr "Account Management "
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:3
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:90
-msgid "MENU_SPRAVA_POUZIVATELOF"
-msgstr "Account Management"
+msgid "MENU_SPRAVA_POUZIVATELOV"
+msgstr "Account Management "
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:7
+msgid "USERS_SEARCH"
+msgstr "Search"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:9
+msgid "USERS_LIST"
+msgstr "List of users"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:12
+msgid "USERS_LOGIN"
+msgstr "Login"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:13
+msgid "USERS_NAME"
+msgstr "Name"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:14
+msgid "USERS_RIGHTS"
+msgstr "User rights"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:15
+msgid "USERS_ACTIONS"
+msgstr "Actions"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:25
+msgid "USERS_EDIT"
+msgstr "Edit"
+
+# C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:26
+msgid "USERS_CHANGE_PASSWORD"
+msgstr "Change password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1
@@ -1194,6 +1266,75 @@ msgid "MENU_KONTAKT"
 msgstr "Contact"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:2
+msgid "CONTACT_MAIN_TITLE"
+msgstr "Contact"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:4
+msgid "CONTACT_MAIN_CONTACT"
+msgstr "Main contact"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:16
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:55
+msgid "CONTACT_EMAIL"
+msgstr "E-mail"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:7
+msgid "CONTACT_PROJECT_SUPERVISOR"
+msgstr "Project supervisor"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:10
+msgid "CONTACT_ALUMINIUM_CONTACTS"
+msgstr "Contacts to ALUMINIUM team members (school year 2007/2008)"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:53
+msgid "CONTACT_NAME"
+msgstr "Name"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:54
+msgid "CONTACT_FUNCTION"
+msgstr "Position"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:38
+msgid "CONTACT_DOCUMENTALIST"
+msgstr "documentalist"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:28
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:72
+msgid "CONTACT_DESIGNER"
+msgstr "designer"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:33
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:61
+msgid "CONTACT_TEAM_LEADER"
+msgstr "team leader"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:43
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:66
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:77
+msgid "CONTACT_DEVELOPER"
+msgstr "developer"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:49
+msgid "CONTACT_ABSOLUTE_ALUMINIC_CONTACTS"
+msgstr "Contacts to Absolute ALUMiNIc team members (school year 2006/2007)"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:1
+msgid "HELP_MAIN_TITLE"
+msgstr "User manual"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:2
+msgid "HELP_MAIN_TEXT"
+msgstr "User manual in Slovak can be downloaded <a href=\"http://timovy2007.googlecode.com/svn/trunk/doc/Dokumentacia/Pouzivatelska_prirucka.pdf\">here</a>."
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:3
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:3
 msgid "LANGUAGES_ADD_ITEM"
@@ -1266,6 +1407,28 @@ msgstr "Help"
 msgid "MENU_SITEMAP"
 msgstr "Sitemap"
 
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:30
+msgid "SLOVAK_VERSION"
+msgstr "Slovak version"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:31
+msgid "ENGLISH_VERSION"
+msgstr "English version"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:38
+msgid "LOGIN"
+msgstr "Login"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:41
+msgid "PASSWORD"
+msgstr "Password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:44
+msgid "LOG_IN"
+msgstr "Log in"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
 msgid "LOGGED_AS"
@@ -1273,7 +1436,7 @@ msgstr "Logged as"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:48
-msgid "LOGIN_OUT"
+msgid "LOG_OUT"
 msgstr "Log out"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
@@ -1294,7 +1457,7 @@ msgstr "Notice Board"
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:86
 msgid "ADMIN_MENU"
-msgstr "Menu"
+msgstr "Administration"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:88
@@ -1359,6 +1522,10 @@ msgstr "News"
 #: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:183
 msgid "CRUMB_MENU"
 msgstr "Home"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:187
+msgid "FONT_SIZE"
+msgstr "Font size"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:3
@@ -1469,6 +1636,11 @@ msgstr "Edit"
 #: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:16
 msgid "PROFESSIONS_DELETE"
 msgstr "Delete"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/sitemap/index.thtml:1
+msgid "SITEMAP_MAIN_TITLE"
+msgstr "Sitemap"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:3
 #: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:3
@@ -1974,6 +2146,9 @@ msgstr "List of old posters"
 msgid "WALL_POSTERS_HEADING3_NO_OLD_POSTERS"
 msgstr "There are no old posters"
 
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
+#~ msgid "MENU_SPRAVA_POUZIVATELOF"
+#~ msgstr "Account Management"
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:1
 # C:\Inetpub\htdocs\tp\src\app/views/roles/edit.ctp:2
 #~ msgid "Edit role"

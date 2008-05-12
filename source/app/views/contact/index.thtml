@@ -1,80 +1,80 @@
 <?php $my->addCrumb(__("MENU_KONTAKT", true)); ?>
-<h1>Kontaktné informácie</h1>
+<h1><?php __("CONTACT_MAIN_TITLE");?></h1>
 
-<h2>Hlavný kontakt:</h2>
+<h2><?php __("CONTACT_MAIN_CONTACT");?>:</h2>
 <p>
-	<label class="contact">E-mail:</label> <a class="link ico_email" href="mailto:fiit@civ.sk">fiit@civ.sk</a><br />
-	<label class="contact">Projektový vedúci:</label> <a class="link ico_email" href="mailto:minarova@fiit.stuba.sk">minarova@fiit.stuba.sk</a>
+	<label class="contact"><?php __("CONTACT_EMAIL");?>:</label> <a class="link ico_email" href="mailto:fiit@civ.sk">fiit@civ.sk</a><br />
+	<label class="contact"><?php __("CONTACT_PROJECT_SUPERVISOR");?>:</label> <a class="link ico_email" href="mailto:minarova@fiit.stuba.sk">doc. Ing. Jana Minárová, PhD.</a>
 </p>
 
-<h2>Kontakty na členov tímu ALUMINIUM (šk. rok 2007/2008):</h2>
+<h2><?php __("CONTACT_ALUMINIUM_CONTACTS");?>:</h2>
 <table class="plan std_table">
 <thead>
 	<tr>
-		<th>Meno</th>
-		<th>Funkcia</th>
-		<th>E-mail</th>
+		<th><?php __("CONTACT_NAME");?></th>
+		<th><?php __("CONTACT_FUNCTION");?></th>
+		<th><?php __("CONTACT_EMAIL");?></th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td class="ico_user">Peter Cích</td>
-		<td>dokumentarista</td>
+		<td><?php __("CONTACT_DOCUMENTALIST");?></td>
 		<td class="ico_email"><a class="link" href="mailto:peter.cich@gmail.com">peter.cich@gmail.com</a></td>
 	</tr>
 	
 	<tr>
 		<td class="ico_user">Pavol Fábik</td>
-		<td>designer</td>
+		<td><?php __("CONTACT_DESIGNER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:pavol.fabik@gmail.com">pavol.fabik@gmail.com</a></td>
 	</tr>
 	<tr>
 		<td class="ico_user">Ján Garaj</td>
-		<td>vedúci tímu</td>
+		<td><?php __("CONTACT_TEAM_LEADER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:jan.garaj@gmail.com">jan.garaj@gmail.com</a></td>
 	</tr>
 	<tr>
 		<td class="ico_user">Jozef Hergott</td>
-		<td>dokumentarista</td>
+		<td><?php __("CONTACT_DOCUMENTALIST");?></td>
 		<td class="ico_email"><a class="link" href="mailto:joe.hergott@gmail.com">joe.hergott@gmail.com</a></td>
 	</tr>
 	<tr>
 		<td class="ico_user">Jozef Hopko</td>
-		<td>developer</td>
+		<td><?php __("CONTACT_DEVELOPER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:jozef.hopko@gmail.com">jozef.hopko@gmail.com</a></td>
 	</tr>
 </tbody>
 </table>
 
-<h2>Kontakty na členov tímu Absolute ALUMiNIc (šk. rok 2006/2007):</h2>
+<h2><?php __("CONTACT_ABSOLUTE_ALUMINIC_CONTACTS");?>:</h2>
 <table class="plan std_table">
 <thead>
 	<tr>
-		<th>Meno</th>
-		<th>Funkcia</th>
-		<th>E-mail</th>
+		<th><?php __("CONTACT_NAME");?></th>
+		<th><?php __("CONTACT_FUNCTION");?></th>
+		<th><?php __("CONTACT_EMAIL");?></th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td class="ico_user">František Ďurajka</td>
-		<td>vedúci tímu</td>
+		<td><?php __("CONTACT_TEAM_LEADER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:franto@franto.sk">franto@franto.sk</a></td>
 	</tr>
 	<tr>
 		<td class="ico_user">Juraj Eliáš</td>
-		<td>developer</td>
+		<td><?php __("CONTACT_DEVELOPER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:juraj.elias@post.sk">juraj.elias@post.sk</a></td>
 	</tr>
 	<tr>
 
 		<td class="ico_user">Ján Perďoch</td>
-		<td>designer</td>
+		<td><?php __("CONTACT_DESIGNER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:jumper@websity.sk">jumper@websity.sk</a></td>
 	</tr>
 	<tr>
 		<td class="ico_user">Ladislav Rendek</td>
-		<td>developer</td>
+		<td><?php __("CONTACT_DEVELOPER");?></td>
 		<td class="ico_email"><a class="link" href="mailto:rendolaco@gmail.com">rendolaco@gmail.com</a></td>
 	</tr>
 </tbody>

@@ -1,2 +1,2 @@
-﻿<h1>Používateľská dokumentácia</h1>
-<p>Treba napísať ...</p>
+<h1><?php __("HELP_MAIN_TITLE");?></h1>
+<p><?php __("HELP_MAIN_TEXT");?></p>

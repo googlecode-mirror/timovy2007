@@ -1,2 +1,2 @@
-<h1>Mapa stránok</h1>
-<p>Treba napísať ...</p>
+<h1><?php __("SITEMAP_MAIN_TITLE");?></h1>
+<p>Už čoskoro...</p>

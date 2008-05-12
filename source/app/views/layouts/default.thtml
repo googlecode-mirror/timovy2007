@@ -27,25 +27,25 @@
 					<a href="<?=$html->url('/sitemap')?>"><?php echo __("MENU_SITEMAP")?></a>
 				</div>
 				<div id="flags">
-					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="Slovenská verzia" /></a>
-					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=en')?>"><img src="<?=$html->url('/css/images/flagen.gif')?>" alt="English version" /></a>
+					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="<?php __("SLOVAK_VERSION");?>" /></a>
+					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=en')?>"><img src="<?=$html->url('/css/images/flagen.gif')?>" alt="<?php __("ENGLISH_VERSION");?>" /></a>
 				</div>
 				<div id="loginbar">
 					<?php if (!$session->check('User')) { ?>
 					<form action="<?=$html->url('/login/login')?>" method="post">
 						<input type="hidden" name="post_redirect" value="<?php echo $post_redirect;?>" />
 						<div class="formelement">
-							<?php echo __("Login")?> <?=$form->text('User/username')?>
+							<?php echo __("LOGIN");?> <?=$form->text('User/username')?>
 						</div>
 						<div class="formelement">
-							<?php echo __('Heslo')?> <?=$form->password('User/password')?>
+							<?php echo __('PASSWORD');?> <?=$form->password('User/password')?>
 						</div>
 						<div class="formelement">
-							<input type="image" value="Prihlásiť" class="logimg" src="<?=$html->url('/css/images/login.gif')?>" />
+							<input type="image" value="<?php echo __("LOG_IN");?>" class="logimg" src="<?=$html->url('/css/images/login.gif')?>" />
 						</div>
 					</form>
 					<?php } else { ?>
-						<?php echo __("LOGGED_AS")?>: <strong><?php echo $LoggedAs;?></strong> [<a href="<?=$html->url('/login/logout')?>"><?php echo __("LOGIN_OUT");?></a>]
+						<?php echo __("LOGGED_AS");?>: <strong><?php echo $LoggedAs;?></strong> [<a href="<?=$html->url('/login/logout')?>"><?php echo __("LOG_OUT");?></a>]
 					<?php } ?>
 				</div>
 				<div class="clear"></div>
@@ -67,13 +67,13 @@
 					<div class="boxblank">
 						<div class="boxbottomblank">
 							<ul class="menu">
-								<li class="menuitem"><a href="<?=$html->url('/about')?>" class="menuitema"><?php echo __("MENU_ABOUT");?></a></li>
-								<li class="menuitem"><a href="<?=$html->url('/alumni')?>" class="menuitema"><?php echo __("MENU_ABSOLVENTI")?></a></li>
-								<li class="menuitem"><a href="<?=$html->url('/posts')?>" class="menuitema"><?php echo __("MENU_AKTUALITY")?></a></li>
-<!--								<li class="menuitem"><a href="<?=$html->url('/forum')?>" class="menuitema"><?php echo __("MENU_FORUM")?></a></li>-->
-<!--								<li class="menuitem"><a href="<?=$html->url('/events')?>" class="menuitema"><?php echo __("MENU_AKCIE")?></a></li>-->
-<!--								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>" class="menuitema"><?php echo __("MENU_NASTENKA")?></a></li>-->
-								<li class="menuitem"><a href="<?=$html->url('/contact')?>" class="menuitema"><?php echo __("MENU_KONTAKT")?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/about')?>"><?php echo __("MENU_ABOUT");?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/alumni')?>"><?php echo __("MENU_ABSOLVENTI")?></a></li>
+								<li class="menuitem"><a href="<?=$html->url('/posts')?>"><?php echo __("MENU_AKTUALITY")?></a></li>
+<!--								<li class="menuitem"><a href="<?=$html->url('/forum')?>"><?php echo __("MENU_FORUM")?></a></li>-->
+<!--								<li class="menuitem"><a href="<?=$html->url('/events')?>"><?php echo __("MENU_AKCIE")?></a></li>-->
+<!--								<li class="menuitem"><a href="<?=$html->url('/wall_posters')?>"><?php echo __("MENU_NASTENKA")?></a></li>-->
+								<li class="menuitem"><a href="<?=$html->url('/contact')?>"><?php echo __("MENU_KONTAKT")?></a></li>
 							</ul>
 						</div>	
 					</div>
@@ -85,15 +85,15 @@
 							<div class="boxbottom">
 								<div class="boxtitle"><?php echo __("ADMIN_MENU")?></div>
 								<ul class="menu">
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/posts/admin')?>" class="menuitema"><?php echo __("MENU_SPRAVA_AKTUALIT")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/posts/admin')?>"><?php echo __("MENU_SPRAVA_AKTUALIT")?></a></li>
 									<?php if ($Login->check('MANAGE_USERS')) { ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/users/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_POUZIVATELOF")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/roles/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PRAV")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/users/')?>"><?php echo __("MENU_SPRAVA_POUZIVATELOV")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/roles/')?>"><?php echo __("MENU_SPRAVA_PRAV")?></a></li>
 									<?php } ?>
 									<?php if ($Login->check('IMPORT')) { ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/import/')?>" class="menuitema"><?php echo __("MENU_IMPORT")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/import/')?>"><?php echo __("MENU_IMPORT")?></a></li>
 									<?php } ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/select')?>" class="menuitema"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/select')?>"><?php echo __("MENU_STATISTIC_INDEX")?></a></li>
 								</ul>
 							</div>	
 						</div>	
@@ -108,10 +108,10 @@
 							<div class="boxbottom">
 								<div class="boxtitle"><?php echo __("CODELISTS_MENU")?></div>
 								<ul class="menu">
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_STATISTIK")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/professions/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_PROFESII")?></a></li>
-                  <li class="adminmenuitem"><a href="<?php echo $html->url('/languages/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_JAZYKOV")?></a></li>
-                  <li class="adminmenuitem"><a href="<?php echo $html->url('/levels/')?>" class="menuitema"><?php echo __("MENU_SPRAVA_LEVELOV")?></a></li>									
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/stats/')?>"><?php echo __("MENU_SPRAVA_STATISTIK")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/professions/')?>"><?php echo __("MENU_SPRAVA_PROFESII")?></a></li>
+                  <li class="adminmenuitem"><a href="<?php echo $html->url('/languages/')?>"><?php echo __("MENU_SPRAVA_JAZYKOV")?></a></li>
+                  <li class="adminmenuitem"><a href="<?php echo $html->url('/levels/')?>"><?php echo __("MENU_SPRAVA_LEVELOV")?></a></li>									
 								</ul>
 							</div>	
 						</div>	
@@ -124,10 +124,10 @@
 							<div class="boxbottom">
 								<div class="boxtitle"><?php echo __("USER_PROFILE_MENU")?></div>
 								<ul class="menu">
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>" class="menuitema"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>" class="menuitema"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/curriculum')?>" class="menuitema"><?php echo __("MENU_ALUMNI_CURRICULUM")?></a></li>                                       									
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myprofile')?>"><?php echo __("MENU_ALUMNI_MYPROFILE")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/myimage')?>"><?php echo __("MENU_ALUMNI_MYIMAGE")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/password')?>"><?php echo __("MENU_ALUMNI_PASSWORD")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/alumni/curriculum')?>"><?php echo __("MENU_ALUMNI_CURRICULUM")?></a></li>                                       									
 								</ul>
 							</div>	
 						</div>	
@@ -144,16 +144,16 @@
 								<ul class="menu">
 									
 									<li class="adminmenuitem">
-										<a href="<?php echo $html->url('/mails/')?>" class="menuitema">
+										<a href="<?php echo $html->url('/mails/')?>">
 											<?php if ($mail_new_count > 0) { ?><strong><?php } ?>
 												<?php echo __("MENU_MAIL")?> (<?php echo $mail_new_count;?>)
 											<?php if ($mail_new_count > 0) { ?></strong><?php } ?>
 										</a>
 									</li>
 									<?php if ($Login->check('MAIL_WRITE')) { ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/compose')?>" class="menuitema"><?php echo __("MENU_MAIL_COMPOSE")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/compose')?>"><?php echo __("MENU_MAIL_COMPOSE")?></a></li>
 									<?php } ?>
-									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/settings')?>" class="menuitema"><?php echo __("MENU_MAIL_SETTINGS")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/settings')?>"><?php echo __("MENU_MAIL_SETTINGS")?></a></li>
 								</ul>
 							</div>	
 						</div>	
@@ -184,7 +184,7 @@
 							<?php echo $my->getCrumbs(); ?>
 						</div>
 						<div id="sizer">
-							Veľkosť písma:
+							<?php __("FONT_SIZE");?>:
 								<a onclick="changeFontSize(1);return false;" title="Increase size" href="#"><img src="<?=$html->url('/css/images/large.gif')?>" alt="Zväčšiť písmo" /></a>
 								<a onclick="changeFontSize(-1);return false;" title="Decrease size" href="#"><img src="<?=$html->url('/css/images/normal.gif')?>" alt="Zmenšiť písmo" /></a>
 						</div>
