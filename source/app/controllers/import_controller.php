@@ -18,6 +18,7 @@ class ImportController extends AppController
 	
 	function db()
 	{
+	  set_time_limit(60*60*6);
 	  /*
 		$this->My->setError('Chýba presná štruktúra dát zo systému YonBan.');
 		$this->redirect('/import');
@@ -72,7 +73,6 @@ class ImportController extends AppController
 		//
 		// zoznam pouzivatelov
 		$users = $this->Importdb->users();
-pr($users);		
 		if ($users == false) {
 			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam pouzivatelov zo systemu yonban!');
 			$this->User->rollback();
@@ -126,7 +126,6 @@ pr($users);
 				//
 				// user_id
 				if (false === ($usr = $this->User->find(array('User.personal_number'=>$user['personal_number']), array('User.id')))) {
-					exit('wtf');
 					$IMPORT_ERRORS[] = 'Nepodarilo sa najst pouzivatela s osobnym cislom: '.$user['personal_number'];
 					continue;
 				}
@@ -239,9 +238,10 @@ pr($users);
 		
 		
 		
-		
+		echo "Erors:<br />";
 		print_r($IMPORT_ERRORS);
-		// print_r($IMPORT_SUCCESS);
+		echo "Success:<br />";
+		print_r($IMPORT_SUCCESS);
 		
 		//
 		// THE END

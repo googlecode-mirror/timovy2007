@@ -207,23 +207,22 @@ class excelHelper extends ExcelWriter {
     return $worksheet->write($row, $col, $token, $this->formats[$format]);
   }
   
-  function WriteRawData(&$worksheet, $data){
+  function WriteRawData(&$worksheet, $data){    
     $header = $data[0];
     $worksheet->hideGridlines();    
     $heading_format = $this->workbook->AddFormat(array('bold' => 1, 'align' => 'center')); 
     foreach($header as $key=>$value){
-      $worksheet->write( $this->counter_row, $this->counter_col++, $key, $heading_format);
+      $worksheet->write( $this->counter_row, $this->counter_col++,  iconv("UTF-8", "windows-1250", $key), $heading_format);
     }
     $this->counter_col = 0;
     $this->counter_row++;
     foreach($data as $key=>$value){
       foreach($value as $key2=>$value2) {
-        $worksheet->write($this->counter_row, $this->counter_col++, $value2, null);
+        $worksheet->write($this->counter_row, $this->counter_col++,  iconv("UTF-8", "windows-1250", $value2), null);
       }
       $this->counter_row++;
       $this->counter_col = 0;  
     }    
-//die;
   }
   
   /**

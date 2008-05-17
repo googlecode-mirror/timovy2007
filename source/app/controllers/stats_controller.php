@@ -86,11 +86,11 @@ class StatsController extends AppController
     if ($this->data) {
       $sql = $this->Stat->find(array('id' => $this->data['Stat']['id']) );      
       if(preg_match("/DROP|TRUNCATE/", $sql['Stat']['sql'])) {
-        $data = array('action'=>'not allowed!!!');       
+        $data = array(0 => array('action'=>'DROP and TRUNCATE not allowed!!!'));       
       } 
       else {        
         $data = $this->Stat->SqlQuery($sql['Stat']['sql']);
-      }            
+      }                  
       $this->set('data', $data);
       $this->layout = 'excel'; 
     }

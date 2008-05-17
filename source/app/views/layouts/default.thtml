@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>AA TEAM PROJECT : <?php echo $title_for_layout;?></title>          
+	<title>ALUMNI : <?php echo $title_for_layout;?></title>          
 	<link rel="icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
 	<link rel="shortcut icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
 	<?php echo $html->css('style');?>
@@ -23,8 +23,6 @@
 					<a href="<?=$html->url('/')?>"><?php echo __("MENU_HOME")?></a>
 						<img src="<?=$html->url('/css/images/separator.gif')?>" alt="separator" />
 					<a href="<?=$html->url('/help')?>"><?php echo __("MENU_HELP")?></a>
-						<img src="<?=$html->url('/css/images/separator.gif')?>" alt="separator" />
-					<a href="<?=$html->url('/sitemap')?>"><?php echo __("MENU_SITEMAP")?></a>
 				</div>
 				<div id="flags">
 					<a href="<?php echo $html->url('/'.@$post_redirect.'?language=sk')?>"><img src="<?=$html->url('/css/images/flagsk.gif')?>" alt="<?php __("SLOVAK_VERSION");?>" /></a>

@@ -1,8 +1,8 @@
 <?php
 class PostsController extends AppController
 {
-    var $name = 'Posts';
-    var $use = array('Posts');
+  var $name = 'Posts';
+  var $use = array('Posts');
 	var $helpers = array('Html', 'Form', 'Paginator');
 	var $paginate = array('limit' => 5, 'page' => 1, 'order'=>array('created' => 'desc'));
 	
@@ -17,7 +17,7 @@ class PostsController extends AppController
 	
     function index()
     {
-        // $this->set('posts', $this->Post->findAll());
+        $this->pageTitle = "prihlásení fotografi";
         $this->set('posts', $this->paginate('Post'));
     }
 
