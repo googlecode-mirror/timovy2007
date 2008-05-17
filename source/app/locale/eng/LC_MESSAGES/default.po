@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-12 20:15+0100\n"
-"PO-Revision-Date: 2008-05-12 20:40+0100\n"
+"POT-Creation-Date: 2008-05-13 11:21+0100\n"
+"PO-Revision-Date: 2008-05-13 11:36+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -390,17 +390,17 @@ msgid "MENU_ALUMNI_MYIMAGE"
 msgstr " My profile image"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:9
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
 msgstr "Here you can change you image, please upload only jpeg, bmb, gif or png images with size less than 1MB."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:16
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
 msgstr "Change image"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:61
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:17
 msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
 msgstr " Delete image"
 
@@ -552,22 +552,22 @@ msgid "ALUMNI_PASSWORD_INFO"
 msgstr "Your password have to be at least 4 characters long."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:11
 msgid "ALUMNI_PASS_OLD"
 msgstr "Old password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_1"
 msgstr "New password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:17
 msgid "ALUMNI_PASS_NEW_2"
 msgstr "Retype password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:22
 msgid "ALUMNI_PASSWORD_SUBMIT"
 msgstr "Change password"
 
@@ -1169,6 +1169,15 @@ msgstr "Edit"
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:26
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Change password"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:33
+msgid "USERS_NEXT"
+msgstr "Next"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:36
+msgid "USERS_PREVIOUS"
+msgstr "Previous"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1

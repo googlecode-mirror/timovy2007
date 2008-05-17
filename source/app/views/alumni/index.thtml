@@ -1,10 +1,9 @@
 <?php $my->addCrumb(__("MENU_ABSOLVENTI", true)); ?>
 <h1>Alumnus</h1>
 <br />
+<h2><?php __('ALUMNI_ZOZNAM_SEARCH_TITLE')?></h2>
+<br />
 <form id="alumni_search_form" action="<?=$html->url('/alumni/index')?>" method="post">
-
-	<h2><?php __('ALUMNI_ZOZNAM_SEARCH_TITLE')?>:</h2>
-	<br />
 	<label><?php __('ALUMNI_SEARCH_NAME')?>:</label>
 	<input type="text" name="name" value="<?php echo @$_SESSION['search_name'];?>" style="width: 300px" />
 	<br />

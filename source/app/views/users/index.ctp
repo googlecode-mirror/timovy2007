@@ -30,10 +30,10 @@
 </table>
 <p>
 	<span style="float: right">
-		<?php echo $paginator->next()?>
+		<?php echo $paginator->next(__("USERS_NEXT", true)." >>")?>
 	</span>
 	<span style="float: left">
-		<?php echo $paginator->prev()?>
+		<?php echo $paginator->prev("<< ".__("USERS_PREVIOUS", true))?>
 	</span>
 </p>
 <br />

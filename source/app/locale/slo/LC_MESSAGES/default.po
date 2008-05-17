@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-12 20:09+0100\n"
-"PO-Revision-Date: 2008-05-12 20:41+0100\n"
+"POT-Creation-Date: 2008-05-13 11:21+0100\n"
+"PO-Revision-Date: 2008-05-13 11:34+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -390,17 +390,17 @@ msgid "MENU_ALUMNI_MYIMAGE"
 msgstr "Upraviť moj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:9
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
 msgstr "Zmeniť obrázok svojho profilu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:16
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
 msgstr "Zmeniť obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:17
 msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
 msgstr "Odstrániť obrázok"
 
@@ -552,22 +552,22 @@ msgid "ALUMNI_PASSWORD_INFO"
 msgstr "Tu môžete zmeniť svoje heslo. Heslo musí byť minimálne 4 znaky dlhé a nemôže obsahovať diakritiku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:11
 msgid "ALUMNI_PASS_OLD"
 msgstr "Staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_1"
 msgstr "Nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:17
 msgid "ALUMNI_PASS_NEW_2"
 msgstr "Nové heslo (kontrola)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:22
 msgid "ALUMNI_PASSWORD_SUBMIT"
 msgstr "Zmeniť heslo"
 
@@ -1172,6 +1172,15 @@ msgstr "Upraviť"
 #: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:26
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Zmeniť heslo"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:33
+msgid "USERS_NEXT"
+msgstr "Ďalej"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:36
+msgid "USERS_PREVIOUS"
+msgstr "Späť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
 #: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1
