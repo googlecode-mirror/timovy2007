@@ -18,6 +18,15 @@ class ImportController extends AppController
 	
 	function db()
 	{
+		// Skontrolujeme ci sa da pripojit k databaze Yonban
+		// NOTE: Spravne to funguje iba ak je vypnuty debug mod.
+		$db = ConnectionManager::getDataSource('yonban');
+
+        if(!$db->isConnected()) {
+			$this->My->setError('Pripojenie k databáze Yonban neúspešné.');
+			$this->redirect('/import');
+        }
+
 	  $this->pageTitle = __('IMPORT_DB_TITLE', true);
 	  set_time_limit(60*60*6);
 	  /*
@@ -249,7 +258,7 @@ class ImportController extends AppController
 		
 		$this->User->commit();
 	}
-	
+		
 	function soap()
 	{
 	  $this->pageTitle = __('IMPORT_SOAP_TITLE', true);
