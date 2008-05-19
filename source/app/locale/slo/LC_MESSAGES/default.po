@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-20 00:13+0100\n"
-"PO-Revision-Date: 2008-05-20 00:15+0100\n"
+"POT-Creation-Date: 2008-05-20 00:26+0100\n"
+"PO-Revision-Date: 2008-05-20 00:45+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1214,19 +1214,19 @@ msgstr "Titulok"
 #: D:\webroot\source\app/views/posts/add.ctp:7
 #: D:\webroot\source\app/views/posts/edit.ctp:8
 msgid "NEWS_TITLE_EN"
-msgstr "Titulok"
+msgstr "Titulok (v angličtine)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/views/posts/add.ctp:13
 #: D:\webroot\source\app/views/posts/edit.ctp:14
 msgid "NEWS_BODY"
-msgstr "Text"
+msgstr "Aktualita"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/views/posts/add.ctp:16
 #: D:\webroot\source\app/views/posts/edit.ctp:17
 msgid "NEWS_BODY_EN"
-msgstr "Telo"
+msgstr "Aktualita (v angličtine)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/views/posts/add.ctp:22

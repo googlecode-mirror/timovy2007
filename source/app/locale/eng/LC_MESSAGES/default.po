@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-20 00:00+0100\n"
-"PO-Revision-Date: 2008-05-20 00:00+0100\n"
+"PO-Revision-Date: 2008-05-20 00:46+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1205,19 +1205,19 @@ msgstr "Add new actualities"
 #: D:\webroot\source\app/views/posts/admin.ctp:7
 #: D:\webroot\source\app/views/posts/edit.ctp:5
 msgid "NEWS_TITLE"
-msgstr "News"
+msgstr "Title (in Slovak)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/views/posts/add.ctp:7
 #: D:\webroot\source\app/views/posts/edit.ctp:8
 msgid "NEWS_TITLE_EN"
-msgstr "News"
+msgstr "Title"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
 #: D:\webroot\source\app/views/posts/add.ctp:13
 #: D:\webroot\source\app/views/posts/edit.ctp:14
 msgid "NEWS_BODY"
-msgstr "Text"
+msgstr "Body (in Slovak)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:22
 #: D:\webroot\source\app/views/posts/add.ctp:16
