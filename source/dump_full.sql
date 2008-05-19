@@ -329,7 +329,8 @@ ALTER TABLE public.roles_clearances OWNER TO team14;
 
 CREATE TABLE specializations (
     id integer NOT NULL,
-    name character varying(255) NOT NULL,
+    name_sk character varying(255) NOT NULL,
+    name_en character varying(255) NOT NULL,
     study_type_id integer
 );
 
@@ -360,7 +361,8 @@ ALTER TABLE public.stats OWNER TO team14;
 
 CREATE TABLE study_types (
     id integer NOT NULL,
-    name character varying(255) NOT NULL,
+    name_sk character varying(255) NOT NULL,
+    name_en character varying(255) NOT NULL,
     priority integer NOT NULL
 );
 
@@ -4618,11 +4620,11 @@ INSERT INTO roles_clearances (id, role_id, clearance_id) VALUES (10, 3, 3);
 -- Data for Name: specializations; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO specializations (id, name, study_type_id) VALUES (0, 'Počítačové systémy a siete', 2);
-INSERT INTO specializations (id, name, study_type_id) VALUES (1, 'Softvérové inžinierstvo', 2);
-INSERT INTO specializations (id, name, study_type_id) VALUES (2, 'Bezpečnosť informačných technológií', 3);
-INSERT INTO specializations (id, name, study_type_id) VALUES (3, 'Podnikanie v informatike', 3);
-INSERT INTO specializations (id, name, study_type_id) VALUES (4, 'Informačné systémy', 2);
+INSERT INTO specializations (id, name_sk, name_en, study_type_id) VALUES (0, 'Počítačové systémy a siete', 'Computers systems and networks', 2);
+INSERT INTO specializations (id, name_sk, name_en, study_type_id) VALUES (1, 'Softvérové inžinierstvo', 'Software engineering', 2);
+INSERT INTO specializations (id, name_sk, name_en, study_type_id) VALUES (2, 'Bezpečnosť informačných technológií', 'Security of information technologies', 3);
+INSERT INTO specializations (id, name_sk, name_en, study_type_id) VALUES (3, 'Podnikanie v informatike', 'Business in informatic', 3);
+INSERT INTO specializations (id, name_sk, name_en, study_type_id) VALUES (4, 'Informačné systémy', 'Information\'s systems', 2);
 
 
 --
@@ -4648,9 +4650,9 @@ SELECT pg_catalog.setval('stats_id_seq', 9, true);
 -- Data for Name: study_types; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO study_types (id, name, priority) VALUES (1, 'Bakalárske štúdium', 1);
-INSERT INTO study_types (id, name, priority) VALUES (2, 'Inžinierske štúdium', 2);
-INSERT INTO study_types (id, name, priority) VALUES (3, 'Doktorandské štúdium', 3);
+INSERT INTO study_types (id, name_sk, name_en, priority) VALUES (1, 'Bakalárske štúdium', 'Bachelor study', 1);
+INSERT INTO study_types (id, name_sk, name_en, priority) VALUES (2, 'Inžinierske štúdium', 'Engineer study', 2);
+INSERT INTO study_types (id, name_sk, name_en, priority) VALUES (3, 'Doktorandské štúdium', 'Graduant study', 3);
 
 
 --

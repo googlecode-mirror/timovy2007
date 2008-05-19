@@ -90,6 +90,7 @@ class AlumniController extends AppController
 		//
 		// najdi vsetky typy podla priority
 		$this->set('study_types', $this->StudyType->findAll(null, null, array('StudyType.priority')));
+		$this->set('lang', $this->Session->read('Config.language'));
 		$this->set('total_graduate_count', $this->Graduate->findCount());
 	}
 	
@@ -112,7 +113,7 @@ class AlumniController extends AppController
 		// 
 		// specializacia - ak sa jedna o graduate
 		if (isset($user['Graduate']['specialization_id'])) {
-			$this->set('specialization', $this->Specialization->field('name', array('Specialization.id'=>$user['Graduate']['specialization_id'])));
+			$this->set('specialization', $this->Specialization->field('name_'.$this->Session->read('Config.language'), array('Specialization.id'=>$user['Graduate']['specialization_id'])));
 		}
 		
 		// 

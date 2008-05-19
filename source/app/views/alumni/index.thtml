@@ -13,9 +13,9 @@
 	<select name="specialization_id">
 		<option value="" />
 		<?php foreach ($study_types as $study_type) { ?>
-			<optgroup label="<?php echo $study_type['StudyType']['name']?>">
+			<optgroup label="<?php echo $study_type['StudyType']['name_'.$lang]?>">
 				<?php foreach ($study_type['Specialization'] as $s) { ?>
-					<option <?php if (@$_SESSION['search_specialization_id'] == $s['id']) echo 'selected="selected"'?> value="<?php echo $s['id']?>"><?php echo $s['name']?></option>
+					<option <?php if (@$_SESSION['search_specialization_id'] == $s['id']) echo 'selected="selected"'?> value="<?php echo $s['id']?>"><?php echo $s['name_'.$lang]?></option>
 				<?php } ?>
 			</optgroup>
 		<?php } ?>
@@ -41,8 +41,8 @@
 	<?php foreach ($graduates as $g) { ?>
 	<tr>
 		<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
-		<td><?php echo @$g['StudyType']['name']?></td>
-		<td><?php echo @$g['Specialization']['name']?></td>
+		<td><?php echo @$g['StudyType']['name_'.$lang]?></td>
+		<td><?php echo @$g['Specialization']['name_'.$lang]?></td>
 	</tr>
 	<?php } ?>
 	</table>
