@@ -6,6 +6,9 @@
 	<input type="text" name="name" value="<?=$name?>"/>
 	<input type="submit" name="xxx" value="<?php __("USERS_SEARCH");?>" />
 </form>
+
+<?php echo $html->link(__("USER_ADD_NEW", true), "/users/add"); ?>
+
 <h2 style="margin-top: 0"><?php __("USERS_LIST");?></h2>
 <table class="std_table">
 <tr>

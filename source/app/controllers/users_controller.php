@@ -6,10 +6,10 @@
 class UsersController extends AppController 
 {
 	var $uses = array('User', 'UsersRole', 'Clearance', 'UsersClearance', 'Role');
-	var $helpers = array('ajax');
+	var $helpers = array('ajax', 'Html', 'Form');
 	var $components = array('Login');
 	var $required_clearances = array('MANAGE_USERS');
-	
+
 	/**
 	 * Zobrazi zoznam uzivatelov
 	 */
@@ -55,6 +55,30 @@ class UsersController extends AppController
 		$this->set('users', $this->paginate('User', $condition));
 		$this->render('index');
 	}
+	
+	    function add()
+	    {
+    	    $this->pageTitle = __('USERS_ADD_TITLE', true);
+    		$this->check_permission();
+            if (!empty($this->data))
+            {
+                $this->data['User']['title']= htmlentities($this->data['User']['title']);
+                $this->data['User']['first_name']= htmlentities($this->data['User']['first_name']);
+                $this->data['User']['middle_name']= htmlentities($this->data['User']['middle_name']);
+                $this->data['User']['last_name']= htmlentities($this->data['User']['last_name']);
+                $this->data['User']['username']= htmlentities($this->data['User']['username']);
+                $this->data['User']['email']= htmlentities($this->data['User']['email']);
+                $this->data['User']['password']= htmlentities($this->data['User']['password']);
+                if ($this->User->save($this->data))
+                {
+    				        $this->My->setInfo(__("USER_ADDED_SUCCESSFULLY", true), true);
+    				        $this->redirect('/users/index', null, true);    				
+                }else
+                {
+    				        $this->My->setInfo(__("USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT", true);
+				}
+            }
+    	}
 	
 	function delete($id)
 	{
