@@ -4,7 +4,7 @@
 <h2><?php __("CONTACT_MAIN_CONTACT");?>:</h2>
 <p>
 	<label class="contact"><?php __("CONTACT_EMAIL");?>:</label> <a class="link ico_email" href="mailto:fiit@civ.sk">fiit@civ.sk</a><br />
-	<label class="contact"><?php __("CONTACT_PROJECT_SUPERVISOR");?>:</label> <a class="link ico_email" href="mailto:minarova@fiit.stuba.sk">doc. Ing. Jana Minárová, PhD.</a>
+	<label class="contact"><?php __("CONTACT_PROJECT_SUPERVISOR");?>:</label> doc. Ing. Jana Minárová, PhD.
 </p>
 
 <h2><?php __("CONTACT_ALUMINIUM_CONTACTS");?>:</h2>
@@ -20,28 +20,28 @@
 	<tr>
 		<td class="ico_user">Peter Cích</td>
 		<td><?php __("CONTACT_DOCUMENTALIST");?></td>
-		<td class="ico_email"><a class="link" href="mailto:peter.cich@gmail.com">peter.cich@gmail.com</a></td>
+		<td class="ico_email">peter.cich [zavináč] gmail [bodka] com</td>
 	</tr>
 	
 	<tr>
 		<td class="ico_user">Pavol Fábik</td>
 		<td><?php __("CONTACT_DESIGNER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:pavol.fabik@gmail.com">pavol.fabik@gmail.com</a></td>
+		<td class="ico_email">pavol.fabik [zavináč] gmail [bodka] com</td>
 	</tr>
 	<tr>
 		<td class="ico_user">Ján Garaj</td>
 		<td><?php __("CONTACT_TEAM_LEADER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:jan.garaj@gmail.com">jan.garaj@gmail.com</a></td>
+		<td class="ico_email">jan.garaj [zavináč] gmail [bodka] com</td>
 	</tr>
 	<tr>
 		<td class="ico_user">Jozef Hergott</td>
 		<td><?php __("CONTACT_DOCUMENTALIST");?></td>
-		<td class="ico_email"><a class="link" href="mailto:joe.hergott@gmail.com">joe.hergott@gmail.com</a></td>
+		<td class="ico_email">joe.hergott [zavináč] gmail [bodka] com</td>
 	</tr>
 	<tr>
 		<td class="ico_user">Jozef Hopko</td>
 		<td><?php __("CONTACT_DEVELOPER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:jozef.hopko@gmail.com">jozef.hopko@gmail.com</a></td>
+		<td class="ico_email">jozef.hopko [zavináč] gmail [bodka] com</td>
 	</tr>
 </tbody>
 </table>
@@ -59,23 +59,23 @@
 	<tr>
 		<td class="ico_user">František Ďurajka</td>
 		<td><?php __("CONTACT_TEAM_LEADER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:franto@franto.sk">franto@franto.sk</a></td>
+		<td class="ico_email">franto [zavináč] franto  [bodka] sk</td>
 	</tr>
 	<tr>
 		<td class="ico_user">Juraj Eliáš</td>
 		<td><?php __("CONTACT_DEVELOPER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:juraj.elias@post.sk">juraj.elias@post.sk</a></td>
+		<td class="ico_email">juraj.elias [zavináč] post [bodka] sk</td>
 	</tr>
 	<tr>
 
 		<td class="ico_user">Ján Perďoch</td>
 		<td><?php __("CONTACT_DESIGNER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:jumper@websity.sk">jumper@websity.sk</a></td>
+		<td class="ico_email">jumper [zavináč] websity [bodka] sk</td>
 	</tr>
 	<tr>
 		<td class="ico_user">Ladislav Rendek</td>
 		<td><?php __("CONTACT_DEVELOPER");?></td>
-		<td class="ico_email"><a class="link" href="mailto:rendolaco@gmail.com">rendolaco@gmail.com</a></td>
+		<td class="ico_email">rendolaco [zavináč] gmail [bodka] com</td>
 	</tr>
 </tbody>
 </table>
