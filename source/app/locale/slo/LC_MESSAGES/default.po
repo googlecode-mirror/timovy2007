@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-20 00:26+0100\n"
-"PO-Revision-Date: 2008-05-20 00:45+0100\n"
+"POT-Creation-Date: 2008-05-20 01:30+0100\n"
+"PO-Revision-Date: 2008-05-20 01:31+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -152,13 +152,13 @@ msgid "IMPORT_INDEX_TITLE"
 msgstr "Import"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/import_controller.php:21
+#: D:\webroot\source\app/controllers/import_controller.php:30
 #: D:\webroot\source\app/views/import/index.ctp:18
 msgid "IMPORT_DB_TITLE"
 msgstr "Import údajov priamo z databázy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/import_controller.php:255
+#: D:\webroot\source\app/controllers/import_controller.php:264
 #: D:\webroot\source\app/views/import/index.ctp:9
 msgid "IMPORT_SOAP_TITLE"
 msgstr "Import údajov cez Web service"
@@ -169,6 +169,7 @@ msgstr "Import údajov cez Web service"
 #: D:\webroot\source\app/controllers/posts_controller.php:13
 #: D:\webroot\source\app/controllers/professions_controller.php:15
 #: D:\webroot\source\app/controllers/stats_controller.php:15
+#: D:\webroot\source\app/controllers/users_controller.php:28
 msgid "PERMISSION_DENIED"
 msgstr "Neoprávnený prístup!"
 
@@ -391,25 +392,25 @@ msgid "POSTS_ADD_TITLE"
 msgstr "Pridanie novej aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:51
+#: D:\webroot\source\app/controllers/posts_controller.php:53
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:61
+#: D:\webroot\source\app/controllers/posts_controller.php:63
 msgid "POSTS_DELETE_TITLE"
 msgstr "Odstránenie aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:65
+#: D:\webroot\source\app/controllers/posts_controller.php:67
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:71
+#: D:\webroot\source\app/controllers/posts_controller.php:73
 msgid "POSTS_EDIT_TITLE"
 msgstr "Úprava aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:83
+#: D:\webroot\source\app/controllers/posts_controller.php:89
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
@@ -530,33 +531,42 @@ msgstr "Správa používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/controllers/users_controller.php:27
+#: D:\webroot\source\app/controllers/users_controller.php:35
 msgid "USERS_SEARCH_TITLE"
 msgstr "Vyhľadávanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:58
+#: D:\webroot\source\app/controllers/users_controller.php:61
+msgid "USER_DELETE_TITLE"
+msgstr "Telo"
+
+#: D:\webroot\source\app/controllers/users_controller.php:64
+msgid "USER_ITEM_REMOVED"
+msgstr "Používateľ bol odstránený!"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:74
 msgid "USERS_EDIT_TITLE"
 msgstr "Úprava používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:120
+#: D:\webroot\source\app/controllers/users_controller.php:136
 msgid "USERS_EDITSPECIAL_TITLE"
 msgstr "Špeciálne upraviť používateľa"
 
-#: D:\webroot\source\app/controllers/users_controller.php:166
+#: D:\webroot\source\app/controllers/users_controller.php:182
 msgid "USERS_ADDROLE_TITLE"
 msgstr "Pridanie novej role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/controllers/users_controller.php:206
+#: D:\webroot\source\app/controllers/users_controller.php:222
 msgid "USERS_REMOVEROLE_TITLE"
 msgstr "Odstránenie role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/users_controller.php:243
+#: D:\webroot\source\app/controllers/users_controller.php:259
 msgid "USERS_PASSWORD_TITLE"
 msgstr "Heslo používateľa"
 
@@ -1411,12 +1421,20 @@ msgstr "Upraviť"
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Zmeniť heslo"
 
+#: D:\webroot\source\app/views/users/index.ctp:27
+msgid "USERS_DELETE"
+msgstr "Zmazať"
+
+#: D:\webroot\source\app/views/users/index.ctp:27
+msgid "USERS_ARE_YOU_SURE_DELETE"
+msgstr "Naozaj chcete zmazať?"
+
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:33
+#: D:\webroot\source\app/views/users/index.ctp:34
 msgid "USERS_NEXT"
 msgstr "Ďalej"
 
-#: D:\webroot\source\app/views/users/index.ctp:36
+#: D:\webroot\source\app/views/users/index.ctp:37
 msgid "USERS_PREVIOUS"
 msgstr "Späť"
 
