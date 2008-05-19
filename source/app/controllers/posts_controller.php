@@ -41,6 +41,8 @@ class PostsController extends AppController
     		$this->check_permission();
             if (!empty($this->data))
             {
+                $this->data['Post']['title']= htmlentities($this->data['Post']['title']);
+                $this->data['Post']['body']= htmlentities($this->data['Post']['body']);
                 if ($this->Post->save($this->data))
                 {
                     //$this->flash('Your post has been saved.','/posts');

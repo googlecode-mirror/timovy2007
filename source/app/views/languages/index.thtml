@@ -1,3 +1,5 @@
+<?php $my->addCrumb(__("MENU_SPRAVA_JAZYKOV", true)); ?>
+
 <?php $url = "languages"; $modul="Languages"; ?>
 <h1><?php __("LANGUAGES_MANAGMENT")?></h1>
 <p><?php echo $html->link(__("LANGUAGES_ADD_ITEM", true),"/".$url."/add"); ?></p>

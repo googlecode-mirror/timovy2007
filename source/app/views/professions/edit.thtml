@@ -1,3 +1,5 @@
+<?php $my->addCrumb(__("PROFESSIONS_EDIT_TITLE", true)); ?>
+
 <?php $url = "professions"; $modul="Professions"; ?>
 
 <h2><?php __("PROFESSIONS_EDIT_ITEM"); ?></h2>

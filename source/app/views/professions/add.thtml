@@ -1,5 +1,6 @@
-<?php $url = "professions"; $modul="Professions"; ?>
+<?php $my->addCrumb(__("PROFESSIONS_ADD_TITLE", true)); ?>
 
+<?php $url = "professions"; $modul="Professions"; ?>
 <h2><?php __("PROFESSIONS_ADD_ITEM"); ?></h2>
 <?php echo $form->create($modul,array('action'=> "")); ?>
 <br />

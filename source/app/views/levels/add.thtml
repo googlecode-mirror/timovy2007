@@ -1,5 +1,6 @@
-<?php $url = "levels"; $modul="Levels"; ?>
+<?php $my->addCrumb(__("LEVELS_ADD_TITLE", true)); ?>
 
+<?php $url = "levels"; $modul="Levels"; ?>
 <h2><?php __("LEVELS_ADD_ITEM"); ?></h2>
 <?php echo $form->create($modul,array('action'=> "")); ?>
 <br />

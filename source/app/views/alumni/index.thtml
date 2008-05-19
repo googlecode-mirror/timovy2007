@@ -15,7 +15,7 @@
 		<?php foreach ($study_types as $study_type) { ?>
 			<optgroup label="<?php echo $study_type['StudyType']['name']?>">
 				<?php foreach ($study_type['Specialization'] as $s) { ?>
-					<option <?php if (@$_SESSION['search_specialization_id'] == $s['id']) echo 'selected'?> value="<?php echo $s['id']?>"><?php echo $s['name']?></option>
+					<option <?php if (@$_SESSION['search_specialization_id'] == $s['id']) echo 'selected="selected"'?> value="<?php echo $s['id']?>"><?php echo $s['name']?></option>
 				<?php } ?>
 			</optgroup>
 		<?php } ?>
@@ -32,21 +32,19 @@
 	</h2>
 	<?php if (count($graduates) > 0) { ?>
 	<table style="clear: both;" id="alumni_result">
-	<thead>
+	<tr>
 		<th><?php __('ALUMNI_LIST_MENO')?></th>
 		<th><?php __('ALUMNI_LIST_STUDYTYPE')?></th>
 		<th><?php __('ALUMNI_LIST_SPECIALIZATION')?></th>
 		
-	</thead>
-	<tbody>
-		<?php foreach ($graduates as $g) { ?>
-		<tr>
-			<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
-			<td><?php echo @$g['StudyType']['name']?></td>
-			<td><?php echo @$g['Specialization']['name']?></td>
-		</tr>
-		<?php } ?>
-	</tbody>
+	</tr>
+	<?php foreach ($graduates as $g) { ?>
+	<tr>
+		<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
+		<td><?php echo @$g['StudyType']['name']?></td>
+		<td><?php echo @$g['Specialization']['name']?></td>
+	</tr>
+	<?php } ?>
 	</table>
 	<?php echo $paginator->numbers();?>
 	

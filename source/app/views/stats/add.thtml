@@ -1,5 +1,6 @@
-<?php $url = "stats"; $modul="Stat"; ?>
+<?php $my->addCrumb(__("STATS_ADD_TITLE", true)); ?>
 
+<?php $url = "stats"; $modul="Stat"; ?>
 <h2><?php __("STATS_ADD_ITEM"); ?></h2>
 <?php echo $form->create($modul,array('action'=> "")); ?>
 <br />

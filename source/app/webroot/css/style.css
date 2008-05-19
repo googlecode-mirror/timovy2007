@@ -661,7 +661,7 @@ a.btn {
   display: block;
   clear: right;
 }
-div.profession input, select {
+div.profession input, div.profession select {
   float: left;
   width: 120px;
 }

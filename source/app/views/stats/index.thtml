@@ -1,3 +1,5 @@
+<?php $my->addCrumb(__("MENU_SPRAVA_STATISTIK", true)); ?>
+
 <?php $url = "stats"; $modul="Stat"; ?>
 <h1><?php __("STATS_MANAGEMENT");?></h1>
 <p><?php echo $html->link(__("STATS_ADD_ITEM", true),"/".$url."/add");?></p>

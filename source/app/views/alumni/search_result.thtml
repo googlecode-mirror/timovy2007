@@ -1,24 +1,22 @@
-﻿<h1>Výsledok hľadania</h1>
+<h1>Výsledok hľadania</h1>
 <?php if (count($users) > 0) { ?>
 <p>
 	Pre zadaný výraz „<em><?=$search_name?></em>” boli nájdené nasledujúce záznamy:
 </p>
 <table>
-<thead>
+<tr>
 	<th>Meno a priezvisko</th>
 	<th>Typ štúdia</th>
 	<th>Dátum ukončenia</th>
 	
-</thead>
-<tbody>
-	<?php foreach ($users as $u) { ?>
-	<tr>
-		<td><?=$html->link($u[0]['full_name'], '/alumni/profile/'.$u[0]['username'])?></td>
-		<td><?=$u[0]['name']?></td>
-		<td><?=$u[0]['end']?></td>
-	</tr>
-	<?php } ?>
-</tbody>
+</tr>
+<?php foreach ($users as $u) { ?>
+<tr>
+	<td><?=$html->link($u[0]['full_name'], '/alumni/profile/'.$u[0]['username'])?></td>
+	<td><?=$u[0]['name']?></td>
+	<td><?=$u[0]['end']?></td>
+</tr>
+<?php } ?>
 </table>
 <?php } else { ?>
 <p>Pre zadaný výraz „<em><?=$search_name?></em>” neboli nájdené žiadne osoby.</p>

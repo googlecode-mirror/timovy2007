@@ -1,3 +1,5 @@
+<?php $my->addCrumb(__("MENU_SPRAVA_LEVELOV", true)); ?>
+
 <?php $url = "levels"; $modul="Levels"; ?>
 <h1><?php __("LEVELS_MANAGEMENT"); ?></h1>
 <p><?php echo $html->link(__("LEVELS_ADD_ITEM", true),"/".$url."/add"); ?></p>

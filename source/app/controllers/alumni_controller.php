@@ -158,6 +158,34 @@ class AlumniController extends AppController
 		//
 		// updatni informacie
 		if ($this->data) {
+  
+      // htmlentities pre this->data		
+  		if(is_array($this->data)) {
+        foreach($this->data as $key=>$value) {
+          if(is_array($this->data[$key])) {
+            foreach($value as $key2=>$value2) {
+              if(!is_array($this->data[$key][$key2])) $this->data[$key][$key2]= htmlentities($this->data[$key][$key2]);      
+            }
+          }
+          else {
+              $this->data[$key]= htmlentities($this->data[$key]);
+          }                
+        }
+      }
+
+      // htmlentities pre _POST		
+  		if(is_array($_POST)) {
+        foreach($_POST as $key=>$value) {
+          if(is_array($_POST[$key])) {
+            foreach($value as $key2=>$value2) {
+              if(!is_array($_POST[$key][$key2])) $_POST[$key][$key2]= htmlentities($_POST[$key][$key2]);      
+            }
+          }
+          else {
+             $_POST[$key]= htmlentities($_POST[$key]);
+          }      
+        }
+      }		
 		
 			// publish_email
 			$this->data['User']['publish_email'] = isset($_POST['publish_email']) ? 1 : 0;

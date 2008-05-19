@@ -1,3 +1,5 @@
+<?php $my->addCrumb(__("MENU_SPRAVA_PROFESII", true)); ?>
+
 <?php $url = "professions"; $modul="Professions"; ?>
 <h1><?php __("PROFESSIONS_MANAGEMENT");?></h1>
 <p><?php echo $html->link(__("PROFESSIONS_ADD_ITEM", true),"/".$url."/add"); ?></p>

@@ -1,5 +1,6 @@
-<?php $url = "languages"; $modul="Languages"; ?>
+<?php $my->addCrumb(__("LANGUAGES_EDIT_TITLE", true)); ?>
 
+<?php $url = "languages"; $modul="Languages"; ?>
 <h2><?php __("LANGUAGES_EDIT_ITEM"); ?></h2>
 <?php echo $form->create($modul, array('action'=> "/edit/".$id)); ?>
 <br />
