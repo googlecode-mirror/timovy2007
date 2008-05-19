@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-20 01:30+0100\n"
-"PO-Revision-Date: 2008-05-20 01:31+0100\n"
+"POT-Creation-Date: 2008-05-20 01:40+0100\n"
+"PO-Revision-Date: 2008-05-20 01:54+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -535,38 +535,52 @@ msgstr "Správa používateľov"
 msgid "USERS_SEARCH_TITLE"
 msgstr "Vyhľadávanie"
 
-# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/controllers/users_controller.php:61
+#: D:\webroot\source\app/views/users/add.ctp:1
+msgid "USERS_ADD_TITLE"
+msgstr "Pridanie nového používateľa"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
+#: D:\webroot\source\app/controllers/users_controller.php:74
+msgid "USER_ADDED_SUCCESSFULLY"
+msgstr "Používateľ bol úspešne pridaný."
+
+#: D:\webroot\source\app/controllers/users_controller.php:78
+msgid "USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT"
+msgstr "Neúspešné pridanie - nesprávne vyplnené polia"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:85
 msgid "USER_DELETE_TITLE"
 msgstr "Telo"
 
-#: D:\webroot\source\app/controllers/users_controller.php:64
+#: D:\webroot\source\app/controllers/users_controller.php:88
 msgid "USER_ITEM_REMOVED"
 msgstr "Používateľ bol odstránený!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:74
+#: D:\webroot\source\app/controllers/users_controller.php:98
 msgid "USERS_EDIT_TITLE"
 msgstr "Úprava používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:136
+#: D:\webroot\source\app/controllers/users_controller.php:160
 msgid "USERS_EDITSPECIAL_TITLE"
 msgstr "Špeciálne upraviť používateľa"
 
-#: D:\webroot\source\app/controllers/users_controller.php:182
+#: D:\webroot\source\app/controllers/users_controller.php:206
 msgid "USERS_ADDROLE_TITLE"
 msgstr "Pridanie novej role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/controllers/users_controller.php:222
+#: D:\webroot\source\app/controllers/users_controller.php:246
 msgid "USERS_REMOVEROLE_TITLE"
 msgstr "Odstránenie role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/users_controller.php:259
+#: D:\webroot\source\app/controllers/users_controller.php:283
 msgid "USERS_PASSWORD_TITLE"
 msgstr "Heslo používateľa"
 
@@ -1368,6 +1382,11 @@ msgstr "Zmazať"
 msgid "ROLES_EDIT"
 msgstr "Upraviť"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/views/users/add.ctp:21
+msgid "USER_SAVE"
+msgstr "Uložiť"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
 #: D:\webroot\source\app/views/users/edit.ctp:1
 #: D:\webroot\source\app/views/users/password.ctp:1
@@ -1387,54 +1406,58 @@ msgstr "Správa používateľov "
 msgid "USERS_SEARCH"
 msgstr "Hľadaj"
 
+#: D:\webroot\source\app/views/users/index.ctp:10
+msgid "USER_ADD_NEW"
+msgstr "Pridať nového používateľa"
+
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:9
+#: D:\webroot\source\app/views/users/index.ctp:12
 msgid "USERS_LIST"
 msgstr "Zoznam používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/users/index.ctp:12
+#: D:\webroot\source\app/views/users/index.ctp:15
 msgid "USERS_LOGIN"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:13
+#: D:\webroot\source\app/views/users/index.ctp:16
 msgid "USERS_NAME"
 msgstr "Meno a priezvisko"
 
-#: D:\webroot\source\app/views/users/index.ctp:14
+#: D:\webroot\source\app/views/users/index.ctp:17
 msgid "USERS_RIGHTS"
 msgstr "Prístupové práva"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:15
+#: D:\webroot\source\app/views/users/index.ctp:18
 msgid "USERS_ACTIONS"
 msgstr "Akcie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:25
+#: D:\webroot\source\app/views/users/index.ctp:28
 msgid "USERS_EDIT"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: D:\webroot\source\app/views/users/index.ctp:26
+#: D:\webroot\source\app/views/users/index.ctp:29
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Zmeniť heslo"
 
-#: D:\webroot\source\app/views/users/index.ctp:27
+#: D:\webroot\source\app/views/users/index.ctp:30
 msgid "USERS_DELETE"
 msgstr "Zmazať"
 
-#: D:\webroot\source\app/views/users/index.ctp:27
+#: D:\webroot\source\app/views/users/index.ctp:30
 msgid "USERS_ARE_YOU_SURE_DELETE"
 msgstr "Naozaj chcete zmazať?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:34
+#: D:\webroot\source\app/views/users/index.ctp:37
 msgid "USERS_NEXT"
 msgstr "Ďalej"
 
-#: D:\webroot\source\app/views/users/index.ctp:37
+#: D:\webroot\source\app/views/users/index.ctp:40
 msgid "USERS_PREVIOUS"
 msgstr "Späť"
 

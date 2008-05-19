@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-20 01:30+0100\n"
-"PO-Revision-Date: 2008-05-20 01:31+0100\n"
+"POT-Creation-Date: 2008-05-20 01:44+0100\n"
+"PO-Revision-Date: 2008-05-20 01:54+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -535,37 +535,51 @@ msgstr "Account management"
 msgid "USERS_SEARCH_TITLE"
 msgstr "Search users"
 
-# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/controllers/users_controller.php:61
+#: D:\webroot\source\app/views/users/add.ctp:1
+msgid "USERS_ADD_TITLE"
+msgstr "Adding new user"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:10
+#: D:\webroot\source\app/controllers/users_controller.php:74
+msgid "USER_ADDED_SUCCESSFULLY"
+msgstr "User has been added successfully."
+
+#: D:\webroot\source\app/controllers/users_controller.php:78
+msgid "USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT"
+msgstr "Adding user failed - incorrectly filled fields"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:85
 msgid "USER_DELETE_TITLE"
 msgstr "Permission denied."
 
-#: D:\webroot\source\app/controllers/users_controller.php:64
+#: D:\webroot\source\app/controllers/users_controller.php:88
 msgid "USER_ITEM_REMOVED"
 msgstr "User was removed!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:74
+#: D:\webroot\source\app/controllers/users_controller.php:98
 msgid "USERS_EDIT_TITLE"
 msgstr "Edit user"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:136
+#: D:\webroot\source\app/controllers/users_controller.php:160
 msgid "USERS_EDITSPECIAL_TITLE"
 msgstr "Sspecial edit user"
 
-#: D:\webroot\source\app/controllers/users_controller.php:182
+#: D:\webroot\source\app/controllers/users_controller.php:206
 msgid "USERS_ADDROLE_TITLE"
 msgstr "Add new role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
-#: D:\webroot\source\app/controllers/users_controller.php:222
+#: D:\webroot\source\app/controllers/users_controller.php:246
 msgid "USERS_REMOVEROLE_TITLE"
 msgstr "Remove role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: D:\webroot\source\app/controllers/users_controller.php:259
+#: D:\webroot\source\app/controllers/users_controller.php:283
 msgid "USERS_PASSWORD_TITLE"
 msgstr "User password"
 
@@ -1364,6 +1378,11 @@ msgstr "Delete"
 msgid "ROLES_EDIT"
 msgstr "Edit"
 
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/views/users/add.ctp:21
+msgid "USER_SAVE"
+msgstr "Save"
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
 #: D:\webroot\source\app/views/users/edit.ctp:1
 #: D:\webroot\source\app/views/users/password.ctp:1
@@ -1383,54 +1402,58 @@ msgstr "Account Management "
 msgid "USERS_SEARCH"
 msgstr "Search"
 
+#: D:\webroot\source\app/views/users/index.ctp:10
+msgid "USER_ADD_NEW"
+msgstr "Add new user"
+
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:9
+#: D:\webroot\source\app/views/users/index.ctp:12
 msgid "USERS_LIST"
 msgstr "List of users"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/users/index.ctp:12
+#: D:\webroot\source\app/views/users/index.ctp:15
 msgid "USERS_LOGIN"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:13
+#: D:\webroot\source\app/views/users/index.ctp:16
 msgid "USERS_NAME"
 msgstr "Name"
 
-#: D:\webroot\source\app/views/users/index.ctp:14
+#: D:\webroot\source\app/views/users/index.ctp:17
 msgid "USERS_RIGHTS"
 msgstr "User rights"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:15
+#: D:\webroot\source\app/views/users/index.ctp:18
 msgid "USERS_ACTIONS"
 msgstr "Actions"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:25
+#: D:\webroot\source\app/views/users/index.ctp:28
 msgid "USERS_EDIT"
 msgstr "Edit"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
-#: D:\webroot\source\app/views/users/index.ctp:26
+#: D:\webroot\source\app/views/users/index.ctp:29
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Change password"
 
-#: D:\webroot\source\app/views/users/index.ctp:27
+#: D:\webroot\source\app/views/users/index.ctp:30
 msgid "USERS_DELETE"
 msgstr "Delete"
 
-#: D:\webroot\source\app/views/users/index.ctp:27
+#: D:\webroot\source\app/views/users/index.ctp:30
 msgid "USERS_ARE_YOU_SURE_DELETE"
 msgstr "Are you sure to delete?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:34
+#: D:\webroot\source\app/views/users/index.ctp:37
 msgid "USERS_NEXT"
 msgstr "Next"
 
-#: D:\webroot\source\app/views/users/index.ctp:37
+#: D:\webroot\source\app/views/users/index.ctp:40
 msgid "USERS_PREVIOUS"
 msgstr "Previous"
 
