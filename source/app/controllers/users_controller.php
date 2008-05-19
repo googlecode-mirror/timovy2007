@@ -15,6 +15,7 @@ class UsersController extends AppController
 	 */
 	function index()
 	{
+	  $this->pageTitle = __('USERS_INDEX_TITLE', true);
 		$this->set('name', '');
 		$this->paginate['User']['limit'] = 20;
 		$this->set('users', $this->paginate('User', array()));
@@ -23,7 +24,7 @@ class UsersController extends AppController
 	
 	function search()
 	{
-		//
+		$this->pageTitle = __('USERS_SEARCH_TITLE', true);
 		// objekt pre escapovanie
 		// 
 		uses('sanitize');
@@ -54,6 +55,7 @@ class UsersController extends AppController
 	 */
 	function edit($user_id)
 	{
+	  $this->pageTitle = __('USERS_EDIT_TITLE', true); 
 		$this->User->id = $user_id;
 		
 		// 
@@ -115,7 +117,7 @@ class UsersController extends AppController
 	 */
 	function edit_special()
 	{
-		//
+		$this->pageTitle = __('USERS_EDITSPECIAL_TITLE', true);
 		// over spravnost zaslanych udajov
 		if (!is_array($_POST['status']) or empty($_POST['status'])) {
 			$this->My->setError('Neboli poslane spravne udaje !');
@@ -161,7 +163,7 @@ class UsersController extends AppController
 	 */
 	function add_role($user_id)
 	{
-		// 
+		$this->pageTitle = __('USERS_ADDROLE_TITLE', true);
 		// over existenciu pouzivatela
 		$this->User->id = $user_id;
 		if (!($user = $this->User->read())) {
@@ -201,7 +203,7 @@ class UsersController extends AppController
 	 */
 	function removerole($user_id, $role_id)
 	{
-		//
+		$this->pageTitle = __('USERS_REMOVEROLE_TITLE', true);
 		// nacitaj inf. o pouzivatelovi
 		$this->User->id = $user_id;
 		
@@ -238,7 +240,7 @@ class UsersController extends AppController
 	
 	public function password($user_id)
 	{
-		//
+		$this->pageTitle = __('USERS_PASSWORD_TITLE', true);
 		// over ci pouzivatel existuje
 		$this->User->id = $user_id;
 		if (!($user = $this->User->read())) {
