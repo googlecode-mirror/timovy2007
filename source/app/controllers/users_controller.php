@@ -75,7 +75,7 @@ class UsersController extends AppController
     				        $this->redirect('/users/index', null, true);    				
                 }else
                 {
-    				        $this->My->setInfo(__("USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT", true);
+    				        $this->My->setInfo(__("USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT", true));
 				}
             }
     	}
