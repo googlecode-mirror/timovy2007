@@ -2,7 +2,7 @@
 
 (empty($type)) ? $type = 'applications' : $type = $type;
 header("Content-type: application/vnd.ms-excel");
-header("Content-Disposition: attachment; filename=slf2007-".$type.".xls");
+header("Content-Disposition: attachment; filename=statistics-".time().".xls");
 header("Pragma: no-cache");
 header("Expires: 0");
 ?>

@@ -1,7 +1,5 @@
 <?php 
 
-/* Define fieldnames: */
-$fieldnames= array('fieldname1', 'fieldname2');
 
 /* Set default font styles: */
 $excel->font = 'Tahoma';
@@ -23,7 +21,6 @@ if(empty($data)) {
 else {
   $excel->WriteRawData($sheet1, $data);
 }
-
 
 $excel->OutputFile();
 

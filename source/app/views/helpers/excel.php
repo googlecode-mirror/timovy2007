@@ -229,8 +229,9 @@ class excelHelper extends ExcelWriter {
    * Sends the temporary Excel file as a string to the render engine
    * and clears all objects.
    */
-  function OutputFile() {
-    $this->workbook->send($this->workbook->filename);
+  function OutputFile($filename = null) {
+    if($filename === null) $filename = "statistics_".time().".xls";
+    $this->workbook->send($filename);
     $this->workbook->Close();
   }
 

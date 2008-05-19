@@ -17,7 +17,7 @@ class PostsController extends AppController
 	
     function index()
     {
-        $this->pageTitle = "prihlásení fotografi";
+        $this->pageTitle = "title";
         $this->set('posts', $this->paginate('Post'));
     }
 

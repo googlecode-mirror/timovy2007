@@ -4628,9 +4628,15 @@ INSERT INTO specializations (id, name, study_type_id) VALUES (4, 'Informačné s
 -- Data for Name: stats; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO stats (id, sql, name_sk, name_en) VALUES (1, 'SELECT * FROM users', 'vsetci pouzivatelia', 'all users');
-INSERT INTO stats (id, sql, name_sk, name_en) VALUES (2, 'SELECT * FROM professions', 'vsetky profesie', 'all professions');
-INSERT INTO stats (id, sql, name_sk, name_en) VALUES (3, 'SELECT * FROM languages', 'vsetky jazyky', 'all languages');
+INSERT INTO stats VALUES (1, 'SELECT * FROM users ORDER BY users.last_name', 'Všetci používatelia', 'All users');
+INSERT INTO stats VALUES (4, 'SELECT * FROM users JOIN graduates ON graduates.id=users.id ORDER BY users.last_name', 'Všetci absolventi', 'All graduates');
+INSERT INTO stats VALUES (5, 'SELECT * FROM users JOIN academics ON academics.id=users.id ORDER BY users.last_name', 'Zamestnanci fakulty', 'Academics');
+INSERT INTO stats VALUES (6, 'SELECT * FROM posts ORDER BY posts.created', 'Všetky aktuality', 'All actualities');
+INSERT INTO stats VALUES (7, 'SELECT users.personal_number, users.first_name, users.last_name, ip,login_time FROM login_history JOIN users ON login_history.user_id=users.id ORDER BY login_time DESC', 'Naposledy prihlásený', 'Login history');
+INSERT INTO stats VALUES (8, 'SELECT   users.personal_number, users.first_name, users.last_name,year_from, year_to, description_sk, description_en FROM user_professions JOIN users ON  user_professions.user_id=users.id', 'Profesie používateľov', 'Users professions');
+INSERT INTO stats VALUES (9, 'SELECT project_type_id, academic_id, graduate_id, users.first_name, users.last_name, study_year, name, name_en, description, description_en, specialization_id FROM projects JOIN users ON projects.graduate_id=users.id', 'Riešené projekty', 'Projects');
+INSERT INTO stats VALUES (2, 'SELECT users.first_name, users.last_name,session_id, session_start, session_last_refresh FROM users_online JOIN users ON users_online.user_id=users.id', 'Online Používatelia', 'Online Users');
+SELECT pg_catalog.setval('stats_id_seq', 9, true);
 
 
 --
