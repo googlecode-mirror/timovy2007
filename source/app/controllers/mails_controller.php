@@ -182,7 +182,7 @@ class MailsController extends AppController
 				if ($user_mail['User']['id'] == $this->Login->user_id()) {
 				
 					// 
-					$this->User->id = $user_mail['Mail']['user_id']
+					$this->User->id = $user_mail['Mail']['user_id'];
 					if (!($user = $this->User->read())) {
     				$this->My->setError(__('MAIL_COMPOSE_NON_EXISTING_USER', true));
     			} else {
