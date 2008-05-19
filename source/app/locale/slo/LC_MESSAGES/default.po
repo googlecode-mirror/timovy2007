@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-13 11:21+0100\n"
-"PO-Revision-Date: 2008-05-13 11:34+0100\n"
+"PO-Revision-Date: 2008-05-19 22:30+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1344,7 +1344,7 @@ msgstr "Používateľská príručka"
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:2
 msgid "HELP_MAIN_TEXT"
-msgstr "Používateľskú dokumentáciu k systému si môžete stiahnuť <a href=\"http://timovy2007.googlecode.com/svn/trunk/doc/Dokumentacia/Pouzivatelska_prirucka.pdf\">tu</a>."
+msgstr "Používateľskú dokumentáciu k systému si môžete stiahnuť <a href='%s'>tu</a>."
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:3

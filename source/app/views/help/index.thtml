@@ -1,2 +1,4 @@
 <h1><?php __("HELP_MAIN_TITLE");?></h1>
-<p><?php __("HELP_MAIN_TEXT");?></p>
+<?php $link = "files/Pouzivatelska_prirucka.pdf"; ?>
+<?php $text = __("HELP_MAIN_TEXT", true); ?>
+<p><?php  echo sprintf($text, $link);?></p>
