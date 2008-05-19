@@ -49,6 +49,6 @@
 	<?php echo $paginator->numbers();?>
 	
 	<?php } else { ?>
-		<p><?php __('ALUMNI_SEARCH_NO_ROWS')?>.</p>
+		<p><?php __('ALUMNI_SEARCH_NO_ROWS')?></p>
 	<?php } ?>
 <?php } ?>
