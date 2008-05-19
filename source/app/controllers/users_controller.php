@@ -68,7 +68,7 @@ class UsersController extends AppController
                 $this->data['User']['last_name']= htmlentities($this->data['User']['last_name']);
                 $this->data['User']['username']= htmlentities($this->data['User']['username']);
                 $this->data['User']['email']= htmlentities($this->data['User']['email']);
-                $this->data['User']['password']= htmlentities($this->data['User']['password']);
+                $this->data['User']['password']= md5(htmlentities($this->data['User']['password']));
                 if ($this->User->save($this->data))
                 {
     				        $this->My->setInfo(__("USER_ADDED_SUCCESSFULLY", true), true);
