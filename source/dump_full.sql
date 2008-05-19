@@ -227,8 +227,10 @@ ALTER TABLE public.news OWNER TO team14;
 
 CREATE TABLE posts (
     id integer NOT NULL,
-    title character varying(50),
-    body text,
+    title_sk character varying(50),
+    body_sk text,
+    title_en character varying(50),
+    body_en text,
     created timestamp without time zone NOT NULL,
     modified timestamp without time zone
 );
@@ -2857,7 +2859,8 @@ INSERT INTO levels (id, name_sk, name_en) VALUES (5, 'materinský jazyk', 'nativ
 -- Data for Name: posts; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO posts (id, title, body, created, modified) VALUES (1, 'Testovacia prevádzka', 'Dnešným dňom otvárame testovaciu prevádzku portálu ALUMNI. Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.<br /><br />Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií.<br /><br />Veľa úspechov pri používaní portálu Vám želá<br />tím ALUMINIUM', '2008-04-29 10:00:00', NULL);
+INSERT INTO posts (id, title_sk, body_sk, title_en, body_en, created, modified) VALUES (1, 'Testovacia prevádzka', 'Dnešným dňom otvárame testovaciu prevádzku portálu ALUMNI. Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.<br /><br />Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií.<br /><br />Veľa úspechov pri používaní portálu Vám želá<br />tím ALUMINIUM', 'Testing', 'Today we start the testing of the ALUMNI portal. This portal presents the information about graduates of the Faculty of Informatics and Information Technologies of the Slovak University of Technology in Bratislava. Portal was created at team projects in the academic years 2006/2007 and 2007/2008, and is the product of Absolute ALUMiNIc team and ALUMINIUM team.<br /><br />The goal of portal is to present information about graduates of our faculty to the general public, who have the opportunity to browse the basic information about graduates. Portal provides also the communication between faculty and graduates or graduates in between. Graduates have the possibility to edit their personal data and to decide what data will be visible to the general public. The portal provide tools for administration to the employees of faculty, as well as the ability of acquiring statistical data of the recorded information.<br /><br />Enjoy the portal<br />ALUMINIUM team', '2008-04-29 10:00:00', NULL);
+
 
 
 --

@@ -19,6 +19,7 @@ class PostsController extends AppController
     {
         $this->pageTitle = __('POSTS_INDEX_TITLE', true);
         $this->set('posts', $this->paginate('Post'));
+        $this->set('lang', $this->Session->read('Config.language'));
     }
 
     function view($id)
@@ -32,7 +33,8 @@ class PostsController extends AppController
     {
         $this->pageTitle = __('POSTS_ADMIN_TITLE', true);
 		    $this->check_permission();
-		    $this->set('posts', $this->Post->findAll(null,null,array('Post.created'=>'DESC')));		 
+		    $this->set('posts', $this->Post->findAll(null,null,array('Post.created'=>'DESC')));
+        $this->set('lang', $this->Session->read('Config.language'));		 
     }
 
     function add()
