@@ -182,8 +182,14 @@ class MailsController extends AppController
 				if ($user_mail['User']['id'] == $this->Login->user_id()) {
 				
 					// 
+					$this->User->id = $user_mail['Mail']['user_id']
+					if (!($user = $this->User->read())) {
+    				$this->My->setError(__('MAIL_COMPOSE_NON_EXISTING_USER', true));
+    			} else {
+    				$address = $user['User']['username'].'<'.$user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
+    			} 
 					// zapis udaje
-					$address = $user_mail['User']['username'].'<'.$user_mail['User']['title'].' '.$user_mail['User']['first_name'].' '.$user_mail['User']['middle_name'].' '.$user_mail['User']['last_name'].'>';
+					//$address = $user_mail['User']['username'].'<'.$user_mail['User']['title'].' '.$user_mail['User']['first_name'].' '.$user_mail['User']['middle_name'].' '.$user_mail['User']['last_name'].'>';
 					$subject = 'Re: '. $user_mail['Mail']['subject'];
 					$body_array = explode("\n", $user_mail['Mail']['body']);
 					foreach ($body_array as $row) {

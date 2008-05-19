@@ -10,7 +10,7 @@
 		</span>
 		&nbsp;
 		<span style="font-size: 65%">
-			[ <a href="<?php echo $html->url('/mails/compose/'.$message['Sender']['id'])?>"><?php __('MAIL_READ_REPLY')?></a> ]
+			[ <a href="<?php echo $html->url('/mails/compose/'.$message['UserMail']['id'].")?>"><?php __('MAIL_READ_REPLY')?></a> ]
 		</span>
 		
 	</h2>
