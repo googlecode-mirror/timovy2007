@@ -21,6 +21,14 @@ class UsersController extends AppController
 		$this->set('users', $this->paginate('User', array()));
 	}
 	
+   	// Overi ci ma pouzivatel potrebne prava  
+	private function check_permission()
+	{
+		if (!$this->Login->check('MANAGE_USERS')) {
+			$this->My->setError(__('PERMISSION_DENIED', true));	
+			$this->redirect('/login', null, true);
+		}
+	}
 	
 	function search()
 	{
@@ -48,6 +56,14 @@ class UsersController extends AppController
 		$this->render('index');
 	}
 	
+	function delete($id)
+	{
+	      	$this->pageTitle = __('USER_DELETE_TITLE', true);
+    		$this->check_permission();
+    	    $this->User->del($id);
+    		$this->My->setInfo(__("USER_ITEM_REMOVED", true));
+    		$this->redirect('/users');
+	}
 	/**
 	 * Zobrazi stranku s udajmi o pouzivatelovi, kde sa daju editovat
 	 *
