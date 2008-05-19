@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-19 23:06+0100\n"
-"PO-Revision-Date: 2008-05-19 23:16+0100\n"
+"POT-Creation-Date: 2008-05-20 00:13+0100\n"
+"PO-Revision-Date: 2008-05-20 00:15+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 # C:\Inetpub\htdocs\tp\src\app/app_controller.php:67
 #: D:\webroot\source\app/app_controller.php:111
 msgid "ERROR_ACCESS_DENIED"
-msgstr "Nemáte právo pre prístup na zadanú stránku!"
+msgstr "Telo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: D:\webroot\source\app/controllers/about_controller.php:13
@@ -32,107 +32,107 @@ msgid "ALUMNI_INDEX_TITLE"
 msgstr "Informačný systém pre komunikáciu s absolventmi"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:104
+#: D:\webroot\source\app/controllers/alumni_controller.php:105
 msgid "ALUMNI_PROFILE_TITLE"
 msgstr "Profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/alumni_controller.php:107
+#: D:\webroot\source\app/controllers/alumni_controller.php:108
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Neexistujúci používatel"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:142
+#: D:\webroot\source\app/controllers/alumni_controller.php:143
 msgid "ALUMNI_MYPROFILE_TITLE"
 msgstr "Môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: D:\webroot\source\app/controllers/alumni_controller.php:279
+#: D:\webroot\source\app/controllers/alumni_controller.php:280
 msgid "Your profile has been changed."
 msgstr "Váš profil bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: D:\webroot\source\app/controllers/alumni_controller.php:282
+#: D:\webroot\source\app/controllers/alumni_controller.php:283
 msgid "There was a error saving profile data."
 msgstr "Nastala chyba pri ukladaní dát."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:304
+#: D:\webroot\source\app/controllers/alumni_controller.php:305
 msgid "ALUMNI_MYIMAGE_TITLE"
 msgstr "Môj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/alumni_controller.php:323
+#: D:\webroot\source\app/controllers/alumni_controller.php:324
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:325
+#: D:\webroot\source\app/controllers/alumni_controller.php:326
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Nastala chyba pri mazaní obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:385
+#: D:\webroot\source\app/controllers/alumni_controller.php:386
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Obrázok bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:387
+#: D:\webroot\source\app/controllers/alumni_controller.php:388
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť PNG obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:391
+#: D:\webroot\source\app/controllers/alumni_controller.php:392
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Nastala chyba pri uploadovani suboru. Nepodporovaný typ."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:393
+#: D:\webroot\source\app/controllers/alumni_controller.php:394
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť nový obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:396
+#: D:\webroot\source\app/controllers/alumni_controller.php:397
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno zistiť veľkosť obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:401
+#: D:\webroot\source\app/controllers/alumni_controller.php:402
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Nastala chyba pri uploadovani suboru. Prosím skontrolujte, či váš obrázok spĺňa stanovené parametre."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/alumni_controller.php:416
+#: D:\webroot\source\app/controllers/alumni_controller.php:417
 msgid "ALUMNI_PASSWORD_TITLE"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/controllers/alumni_controller.php:449
+#: D:\webroot\source\app/controllers/alumni_controller.php:450
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Heslo bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:451
+#: D:\webroot\source\app/controllers/alumni_controller.php:452
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Nastala chyba pri ukladaní nového hesla."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: D:\webroot\source\app/controllers/alumni_controller.php:454
+#: D:\webroot\source\app/controllers/alumni_controller.php:455
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Zadali ste zlé nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:192
-#: D:\webroot\source\app/controllers/alumni_controller.php:457
+#: D:\webroot\source\app/controllers/alumni_controller.php:458
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Heslá sa nezhodujú"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:195
-#: D:\webroot\source\app/controllers/alumni_controller.php:460
+#: D:\webroot\source\app/controllers/alumni_controller.php:461
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:475
+#: D:\webroot\source\app/controllers/alumni_controller.php:476
 msgid "ALUMNI_CURRICULUM_TITLE"
 msgstr "Životopis"
 
@@ -377,39 +377,39 @@ msgid "POSTS_INDEX_TITLE"
 msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:26
+#: D:\webroot\source\app/controllers/posts_controller.php:27
 msgid "POSTS_VIEW_TITLE"
 msgstr "Zobrazenie aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:33
+#: D:\webroot\source\app/controllers/posts_controller.php:34
 msgid "POSTS_ADMIN_TITLE"
 msgstr "Správa aktualít"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:40
+#: D:\webroot\source\app/controllers/posts_controller.php:42
 msgid "POSTS_ADD_TITLE"
 msgstr "Pridanie novej aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:49
+#: D:\webroot\source\app/controllers/posts_controller.php:51
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:59
+#: D:\webroot\source\app/controllers/posts_controller.php:61
 msgid "POSTS_DELETE_TITLE"
 msgstr "Odstránenie aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:63
+#: D:\webroot\source\app/controllers/posts_controller.php:65
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:69
+#: D:\webroot\source\app/controllers/posts_controller.php:71
 msgid "POSTS_EDIT_TITLE"
 msgstr "Úprava aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:81
+#: D:\webroot\source\app/controllers/posts_controller.php:83
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
@@ -522,6 +522,43 @@ msgstr "Výber štatistiky"
 #: D:\webroot\source\app/controllers/stats_controller.php:84
 msgid "STATS_EXPORT_TITLE"
 msgstr "Exportovanie štatistík"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:18
+msgid "USERS_INDEX_TITLE"
+msgstr "Správa používateľov"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
+#: D:\webroot\source\app/controllers/users_controller.php:27
+msgid "USERS_SEARCH_TITLE"
+msgstr "Vyhľadávanie"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:58
+msgid "USERS_EDIT_TITLE"
+msgstr "Úprava používateľa"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:120
+msgid "USERS_EDITSPECIAL_TITLE"
+msgstr "Špeciálne upraviť používateľa"
+
+#: D:\webroot\source\app/controllers/users_controller.php:166
+msgid "USERS_ADDROLE_TITLE"
+msgstr "Pridanie novej role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
+#: D:\webroot\source\app/controllers/users_controller.php:206
+msgid "USERS_REMOVEROLE_TITLE"
+msgstr "Odstránenie role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
+#: D:\webroot\source\app/controllers/users_controller.php:243
+msgid "USERS_PASSWORD_TITLE"
+msgstr "Heslo používateľa"
 
 #: D:\webroot\source\app/webroot/test.php:75
 msgid "Debug setting does not allow access to this url."
@@ -1174,14 +1211,26 @@ msgid "NEWS_TITLE"
 msgstr "Titulok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:9
-#: D:\webroot\source\app/views/posts/edit.ctp:10
+#: D:\webroot\source\app/views/posts/add.ctp:7
+#: D:\webroot\source\app/views/posts/edit.ctp:8
+msgid "NEWS_TITLE_EN"
+msgstr "Titulok"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/views/posts/add.ctp:13
+#: D:\webroot\source\app/views/posts/edit.ctp:14
 msgid "NEWS_BODY"
 msgstr "Text"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:14
-#: D:\webroot\source\app/views/posts/edit.ctp:15
+#: D:\webroot\source\app/views/posts/add.ctp:16
+#: D:\webroot\source\app/views/posts/edit.ctp:17
+msgid "NEWS_BODY_EN"
+msgstr "Telo"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/views/posts/add.ctp:22
+#: D:\webroot\source\app/views/posts/edit.ctp:23
 msgid "NEWS_SAVE"
 msgstr "Uložiť"
 
@@ -2146,11 +2195,6 @@ msgstr "Vygenerovať vo formáte .xls"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:6
 #~ msgid "WALL_POSTERS_LINK_DELETE"
 #~ msgstr "Odstrániť"
-# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
-# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
-# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#~ msgid "WALL_POSTERS_REMOVE_THIS_POSTER"
-#~ msgstr "Odstrániť oznam ?"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:77
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:70
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:76

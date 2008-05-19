@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-19 23:24+0100\n"
-"PO-Revision-Date: 2008-05-19 23:48+0100\n"
+"POT-Creation-Date: 2008-05-20 00:00+0100\n"
+"PO-Revision-Date: 2008-05-20 00:00+0100\n"
 "Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -32,107 +32,107 @@ msgid "ALUMNI_INDEX_TITLE"
 msgstr "The Information System for Communication with Graduates"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
-#: D:\webroot\source\app/controllers/alumni_controller.php:104
+#: D:\webroot\source\app/controllers/alumni_controller.php:105
 msgid "ALUMNI_PROFILE_TITLE"
 msgstr "Profile"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/alumni_controller.php:107
+#: D:\webroot\source\app/controllers/alumni_controller.php:108
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Non-Existing user."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:16
-#: D:\webroot\source\app/controllers/alumni_controller.php:142
+#: D:\webroot\source\app/controllers/alumni_controller.php:143
 msgid "ALUMNI_MYPROFILE_TITLE"
 msgstr "My profile"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: D:\webroot\source\app/controllers/alumni_controller.php:279
+#: D:\webroot\source\app/controllers/alumni_controller.php:280
 msgid "Your profile has been changed."
 msgstr "Your profile has been changed."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: D:\webroot\source\app/controllers/alumni_controller.php:282
+#: D:\webroot\source\app/controllers/alumni_controller.php:283
 msgid "There was a error saving profile data."
 msgstr "There was an error saving profile data."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:304
+#: D:\webroot\source\app/controllers/alumni_controller.php:305
 msgid "ALUMNI_MYIMAGE_TITLE"
 msgstr "My image"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:25
-#: D:\webroot\source\app/controllers/alumni_controller.php:323
+#: D:\webroot\source\app/controllers/alumni_controller.php:324
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Your profile image has been removed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:325
+#: D:\webroot\source\app/controllers/alumni_controller.php:326
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Deleting image file failed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:385
+#: D:\webroot\source\app/controllers/alumni_controller.php:386
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Your image has been successfully changed."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:387
+#: D:\webroot\source\app/controllers/alumni_controller.php:388
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Error uploading your image. Error creating new PNG file."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:391
+#: D:\webroot\source\app/controllers/alumni_controller.php:392
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Error uploading your image. Unsupported image type."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:393
+#: D:\webroot\source\app/controllers/alumni_controller.php:394
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Error uploading your image. Error creating image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:396
+#: D:\webroot\source\app/controllers/alumni_controller.php:397
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Error uploading your image. "
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:66
-#: D:\webroot\source\app/controllers/alumni_controller.php:401
+#: D:\webroot\source\app/controllers/alumni_controller.php:402
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Error uploading your image."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
-#: D:\webroot\source\app/controllers/alumni_controller.php:416
+#: D:\webroot\source\app/controllers/alumni_controller.php:417
 msgid "ALUMNI_PASSWORD_TITLE"
 msgstr "Password"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:449
+#: D:\webroot\source\app/controllers/alumni_controller.php:450
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Password has been changed"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:12
-#: D:\webroot\source\app/controllers/alumni_controller.php:451
+#: D:\webroot\source\app/controllers/alumni_controller.php:452
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Error saving data"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:209
-#: D:\webroot\source\app/controllers/alumni_controller.php:454
+#: D:\webroot\source\app/controllers/alumni_controller.php:455
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Bad new password"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:212
-#: D:\webroot\source\app/controllers/alumni_controller.php:457
+#: D:\webroot\source\app/controllers/alumni_controller.php:458
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Passwords are different."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:215
-#: D:\webroot\source\app/controllers/alumni_controller.php:460
+#: D:\webroot\source\app/controllers/alumni_controller.php:461
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Bad old password."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:63
-#: D:\webroot\source\app/controllers/alumni_controller.php:475
+#: D:\webroot\source\app/controllers/alumni_controller.php:476
 msgid "ALUMNI_CURRICULUM_TITLE"
 msgstr "CV"
 
@@ -522,6 +522,42 @@ msgstr "Select statistics"
 #: D:\webroot\source\app/controllers/stats_controller.php:84
 msgid "STATS_EXPORT_TITLE"
 msgstr "Export statistics"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:18
+msgid "USERS_INDEX_TITLE"
+msgstr "Account management"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
+#: D:\webroot\source\app/controllers/users_controller.php:27
+msgid "USERS_SEARCH_TITLE"
+msgstr "Search users"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:58
+msgid "USERS_EDIT_TITLE"
+msgstr "Edit user"
+
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: D:\webroot\source\app/controllers/users_controller.php:120
+msgid "USERS_EDITSPECIAL_TITLE"
+msgstr "Sspecial edit user"
+
+#: D:\webroot\source\app/controllers/users_controller.php:166
+msgid "USERS_ADDROLE_TITLE"
+msgstr "Add new role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
+# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
+#: D:\webroot\source\app/controllers/users_controller.php:206
+msgid "USERS_REMOVEROLE_TITLE"
+msgstr "Remove role"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/compose.ctp:101
+#: D:\webroot\source\app/controllers/users_controller.php:243
+msgid "USERS_PASSWORD_TITLE"
+msgstr "User password"
 
 #: D:\webroot\source\app/webroot/test.php:75
 msgid "Debug setting does not allow access to this url."
@@ -2132,10 +2168,6 @@ msgstr "Generate .xls file"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
 #~ msgid "WALL_POSTERS_LINK_DELETE"
 #~ msgstr "Delete"
-# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:65
-# C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:154
-#~ msgid "WALL_POSTERS_REMOVE_THIS_POSTER"
-#~ msgstr "Delete this poster?"
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/view.thtml:75
 #~ msgid "WALL_POSTERS_TEXT_REQUIRED_POSTER_NOT_EXISTS"
 #~ msgstr "Requested poster doesn't exist"
