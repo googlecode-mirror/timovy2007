@@ -10,7 +10,7 @@
 	<br />
 	
 	<label><?php __('ALUMNI_SEARCH_ZAMERANIE')?>:</label>
-	<select name="specialization_id">
+	<select name="specialization_id"  style="width: 300px">
 		<option value="" />
 		<?php foreach ($study_types as $study_type) { ?>
 			<optgroup label="<?php echo $study_type['StudyType']['name_'.$lang]?>">
