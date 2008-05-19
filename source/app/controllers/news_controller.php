@@ -9,7 +9,7 @@ class NewsController extends AppController
 	
 	function index()
 	{
-		
+    $this->pageTitle = __('NEWS_INDEX_TITLE', true);		
 	}
 }
 ?>

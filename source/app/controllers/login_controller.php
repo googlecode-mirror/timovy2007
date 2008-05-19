@@ -15,7 +15,7 @@ class LoginController extends AppController
 	 */
 	function login()
 	{
-		//
+		$this->pageTitle = __('LOGIN_LOGIN_TITLE', true);
 		// prihlasovanie sa do systemu (ak uz nie je prihlaseny)
 		if (!empty($this->data) AND !$this->Login->isLogged()) {
 			
@@ -64,7 +64,7 @@ class LoginController extends AppController
 	 */
 	function index()
 	{
-		// 
+		$this->pageTitle = __('LOGIN_INDEX_TITLE', true); 
 		// na zaklade toho ci je uz prihlaseny alebo nie je ...
 		if ($this->Login->isLogged()) {
 			// 
@@ -85,6 +85,7 @@ class LoginController extends AppController
 	 */
 	function logout()
 	{
+	  $this->pageTitle = __('LOGIN_LOGOUT_TITLE', true);
 		$this->Login->logout();
 		$this->My->setInfo(__('LOGOUT_SUCCESSFULL', true));
 		$this->redirect('/');

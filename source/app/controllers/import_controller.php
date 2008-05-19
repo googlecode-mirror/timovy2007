@@ -12,12 +12,13 @@ class ImportController extends AppController
 		
 	function index()
 	{
-		//
+		$this->pageTitle = __('IMPORT_INDEX_TITLE', true);
 		// len zobrazovacia stranka
 	}	
 	
 	function db()
 	{
+	  $this->pageTitle = __('IMPORT_DB_TITLE', true);
 	  set_time_limit(60*60*6);
 	  /*
 		$this->My->setError('Chýba presná štruktúra dát zo systému YonBan.');
@@ -251,6 +252,7 @@ class ImportController extends AppController
 	
 	function soap()
 	{
+	  $this->pageTitle = __('IMPORT_SOAP_TITLE', true);
 		$this->My->setError('Importovanie cez SOAP rozhranie nie je ešte možné.');
 		$this->redirect('/import');
 		exit();

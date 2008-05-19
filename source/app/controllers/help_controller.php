@@ -9,7 +9,7 @@ class HelpController extends AppController
 	
 	function index()
 	{
-		
+    $this->pageTitle = __('HELP_INDEX_TITLE', true);		
 	}
 }
 ?>

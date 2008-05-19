@@ -19,16 +19,16 @@ class LanguagesController extends AppController
 
   function index()
   {
+    $this->pageTitle = __('LANGUAGES_INDEX_TITLE', true);
 		$this->check_permission();
-
 		$this->set('data', $this->paginate('Languages'));
 		$this->set('lang', $this->Session->read('Config.language'));
   } 
   
   function edit($id)
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('LANGUAGES_EDIT_TITLE', true);
+	  $this->check_permission();
     $this->Languages->id = $id;
     if (empty($this->data))
     {
@@ -49,8 +49,8 @@ class LanguagesController extends AppController
   
   function add()
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('LANGUAGES_ADD_TITLE', true);
+	  $this->check_permission();
     if ($this->data) {
       if ($this->Languages->save($this->data)) {
         $this->My->setInfo(__('LANGUAGES_ITEM_ADDED', true));
@@ -64,9 +64,9 @@ class LanguagesController extends AppController
 
   function delete($id)
   {
- 	$this->check_permission();
-
-   $this->Languages->del($id);
+    $this->pageTitle = __('LANGUAGES_DELETE_TITLE', true);
+ 	  $this->check_permission();
+    $this->Languages->del($id);
     $this->redirect('/languages', null, true);
   }  
   

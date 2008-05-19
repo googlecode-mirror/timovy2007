@@ -11,6 +11,7 @@ class MailsController extends AppController
     */
 	public function index()
 	{
+	  $this->pageTitle = __('MAILS_INDEX_TITLE', true);
 		if (!$this->Login->isLogged()) {
 			$this->redirect('/login', null, true);
 		}
@@ -136,7 +137,7 @@ class MailsController extends AppController
 	 */
 	public function compose($user_mail_id = null)
 	{
-		//
+		$this->pageTitle = __('MAILS_COMPOSE_TITLE', true);
 		// over ci ma k tomu pravi
 		if (!$this->Login->check('MAIL_WRITE')) {
 			$this->My->setError(__('PERMISSION_DENIED', true));
@@ -357,6 +358,7 @@ class MailsController extends AppController
 	 */
 	public function settings()
 	{
+	  $this->pageTitle = __('MAILS_SETTINGS_TITLE', true);
 		if (!$this->Login->isLogged()) {
 			$this->redirect('/login', null, true);
 		}
@@ -411,7 +413,7 @@ class MailsController extends AppController
 	 * @param POST username
 	 */
 	public function ajax_search_users()
-	{
+	{	  
 		if (!isset($_POST['username'])) {
 			$this->My->setError('MISSING SEARCH PARAM: "username"');
 			$this->redirect('/mails');
@@ -463,6 +465,7 @@ class MailsController extends AppController
 	 */
 	public function read($mail_id)
 	{
+	  $this->pageTitle = __('MAILS_READ_TITLE', true);
 		if (!$this->Login->isLogged()) {
 			$this->redirect('/login', null, true);
 		}

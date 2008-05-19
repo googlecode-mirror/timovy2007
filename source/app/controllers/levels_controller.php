@@ -19,16 +19,16 @@ class LevelsController extends AppController
   
   function index()
   {
+    $this->pageTitle = __('LEVELS_INDEX_TITLE', true);
 		$this->check_permission();
-
 		$this->set('data', $this->paginate('Levels'));
 		$this->set('lang', $this->Session->read('Config.language'));
   } 
   
   function edit($id)
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('LEVELS_EDIT_TITLE', true);
+	  $this->check_permission();
     $this->Levels->id = $id;
     if (empty($this->data))
     {
@@ -49,8 +49,8 @@ class LevelsController extends AppController
   
   function add()
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('LEVELS_ADD_TITLE', true);
+	  $this->check_permission();
     if ($this->data) {
       if ($this->Levels->save($this->data)) {
         $this->My->setInfo(__('LEVELS_ITEM_ADDED', true));
@@ -64,9 +64,9 @@ class LevelsController extends AppController
 
   function delete($id)
   {
- 	$this->check_permission();
-
-   $this->Levels->del($id);
+    $this->pageTitle = __('LEVELS_DELETE_TITLE', true);
+ 	  $this->check_permission();
+    $this->Levels->del($id);
     $this->redirect('/levels', null, true);
   }  
   

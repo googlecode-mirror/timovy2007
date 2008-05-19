@@ -11,16 +11,14 @@ class RolesController extends AppController
     */
 	public function index()
 	{
-		//
-		// najde vsetky role
-		//
+    $this->pageTitle = __('ROLES_INDEX_TITLE', true);
 		// - listovanie nie je treba, roli by nemalo byt vela
 		$this->set('roles', $this->Role->findAll());
 	}
 	
 	function create()
 	{
-		//
+		$this->pageTitle = __('ROLES_CREATE_TITLE', true);
 		// akcia uloz
 		if (isset($this->data)) {
 			
@@ -86,6 +84,7 @@ class RolesController extends AppController
 	
 	function delete($role_id)
 	{
+	  $this->pageTitle = __('ROLES_DELETE_TITLE', true);
 		$this->Role->id = $role_id;
 		if (!($data = $this->Role->read())) {
 			$this->My->setError('Neexistujúci identifikátor pre rolu.');
@@ -102,7 +101,7 @@ class RolesController extends AppController
 	
 	function edit($role_id)
 	{
-		//
+		$this->pageTitle = __('ROLES_EDIT_TITLE', true);
 		// pribinduj tabulku clearances
 		$this->Role->bindModel(array('hasAndBelongsToMany' => array('Clearance' => array('className' => 'Clearance','joinTable'    => 'roles_clearances','foreignKey'   => 'role_id','associationForeignKey'=> 'clearance_id',))));
 		

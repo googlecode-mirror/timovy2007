@@ -19,16 +19,16 @@ class ProfessionsController extends AppController
   
   function index()
   {
+    $this->pageTitle = __('PROFESSIONS_INDEX_TITLE', true);
 		$this->check_permission();
-
 		$this->set('data', $this->paginate('Professions'));
 		$this->set('lang', $this->Session->read('Config.language'));
   } 
   
   function edit($id)
   {
+    $this->pageTitle = __('PROFESSIONS_EDIT_TITLE', true);
   	$this->check_permission();
-
     $this->Professions->id = $id;
     if (empty($this->data))
     {
@@ -49,8 +49,8 @@ class ProfessionsController extends AppController
   
   function add()
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('PROFESSIONS_ADD_TITLE', true);
+	  $this->check_permission();
     if ($this->data) {
       if ($this->Professions->save($this->data)) {
         $this->My->setInfo(__('PROFESSIONS_ITEM_ADDED', true));
@@ -64,9 +64,9 @@ class ProfessionsController extends AppController
 
   function delete($id)
   {
+    $this->pageTitle = __('PROFESSIONS_DELETE_TITLE', true);
   	$this->check_permission();
-
-	$this->Professions->del($id);
+	  $this->Professions->del($id);
     $this->redirect('/professions', null, true);
   }  
   

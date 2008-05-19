@@ -10,7 +10,7 @@ class AboutController extends AppController
 	
 	function index()
 	{
-		//
+		$this->pageTitle = __('ABOUT_INDEX_TITLE', true);
 		// nastenka, poslednych 5 oznamov
 		$this->set('odkazy', $this->WallPoster->findAll(array('is_changed'=>'f', 'is_refused'=>'f', 'valid_from'=>'< NOW()', 'valid_until' => '> NOW()'), null, array('WallPoster.created'=>'DESC'), 5));
 		

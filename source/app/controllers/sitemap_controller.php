@@ -9,7 +9,7 @@ class SitemapController extends AppController
 	
 	function index()
 	{
-		
+    $this->pageTitle = __('SITEMAP_INDEX_TITLE', true);		
 	}
 }
 ?>

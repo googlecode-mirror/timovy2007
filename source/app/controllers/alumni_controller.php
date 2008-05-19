@@ -14,6 +14,7 @@ class AlumniController extends AppController
 	
 	public function index()
 	{
+	  $this->pageTitle = __('ALUMNI_INDEX_TITLE', true); 
 		$conditions = array();
 		
 		//
@@ -100,7 +101,7 @@ class AlumniController extends AppController
 	 */
 	public function profile($username)
 	{
-		// 
+		$this->pageTitle = __('ALUMNI_PROFILE_TITLE', true); 
 		// existuje niekto taky ?
 		if (!$user = $this->User->findByUsername($username)) {
 			$this->My->setError(__('ALUMNI_NONEXISTING_USER', true));
@@ -138,7 +139,7 @@ class AlumniController extends AppController
 	 */
 	public function myprofile()
 	{
-		//
+		$this->pageTitle = __('ALUMNI_MYPROFILE_TITLE', true);
 		// musi byt prihlaseny
 		if (!$this->Login->isLogged()) {
 			$this->My->setError('You need to be logged');
@@ -272,7 +273,7 @@ class AlumniController extends AppController
 	 */
 	public function myimage()
 	{
-		//
+		$this->pageTitle = __('ALUMNI_MYIMAGE_TITLE', true);
 		// musi byt prihlaseny
 		if (!$this->Login->isLogged()) {
 			$this->My->setError('You need to be logged');
@@ -384,7 +385,7 @@ class AlumniController extends AppController
 	 */
 	public function password()
 	{
-		//
+		$this->pageTitle = __('ALUMNI_PASSWORD_TITLE', true);
 		// musi byt prihlaseny
 		if (!$this->Login->isLogged()) {
 			$this->My->setError('You need to be logged');
@@ -443,6 +444,7 @@ class AlumniController extends AppController
 	
 	function curriculum() {
 		
+		$this->pageTitle = __('ALUMNI_CURRICULUM_TITLE', true);  
 		// musi byt prihlaseny
 		if (!$this->Login->isLogged()) {
 			$this->My->setError('You need to be logged');

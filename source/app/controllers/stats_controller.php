@@ -19,16 +19,16 @@ class StatsController extends AppController
   
   function index()
   {
+    $this->pageTitle = __('STATS_INDEX_TITLE', true);
 		$this->check_permission();
-
 		$this->set('data', $this->paginate('Stat'));
 		$this->set('lang', $this->Session->read('Config.language'));
   } 
   
   function edit($id)
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('STATS_EDIT_TITLE', true);
+	  $this->check_permission();
     $this->Stat->id = $id;
     if (empty($this->data))
     {
@@ -49,8 +49,8 @@ class StatsController extends AppController
   
   function add()
   {
-		$this->check_permission();
-
+     $this->pageTitle = __('STATS_ADD_TITLE', true);
+		 $this->check_permission();
 	   if ($this->data) {
 	      if ($this->Stat->save($this->data)) {
 	        $this->My->setInfo(__('STATS_ITEM_NEW', true));
@@ -64,25 +64,25 @@ class StatsController extends AppController
 
   function delete($id)
   {
-	$this->check_permission();
-
+    $this->pageTitle = __('STATS_DELETE_TITLE', true);
+	  $this->check_permission();
     $this->Stat->del($id);
     $this->redirect('/stats', null, true);
   }  
   
   function select()
   {
- 	$this->check_permission();
-
-   $this->Stat->displayField = 'name_'. $this->Session->read('Config.language');
+    $this->pageTitle = __('STATS_SELECT_TITLE', true);
+ 	  $this->check_permission();
+    $this->Stat->displayField = 'name_'. $this->Session->read('Config.language');
 		$this->set('statistics', $this->Stat->find("list"));
 		$this->set('lang', $this->Session->read('Config.language'));
   }
   
   function export() 
   {
+    $this->pageTitle = __('STATS_EXPORT_TITLE', true);
    	$this->check_permission();
-
     if ($this->data) {
       $sql = $this->Stat->find(array('id' => $this->data['Stat']['id']) );      
       if(preg_match("/DROP|TRUNCATE/", $sql['Stat']['sql'])) {
