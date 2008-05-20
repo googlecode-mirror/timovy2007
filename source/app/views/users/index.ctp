@@ -27,7 +27,7 @@
 	<td>
 		<a href="<?=$html->url('/users/edit/'.$user['User']['id'])?>"><?php __("USERS_EDIT");?></a>,
 		<a href="<?=$html->url('/users/password/'.$user['User']['id'])?>"><?php __("USERS_CHANGE_PASSWORD");?></a>
-		<?php echo $html->link(	__("USERS_DELETE",true), "/users/delete/{$user['User']['id']}", null, __("USERS_ARE_YOU_SURE_DELETE",true))?>
+		<! --<?php echo $html->link(	__("USERS_DELETE",true), "/users/delete/{$user['User']['id']}", null, __("USERS_ARE_YOU_SURE_DELETE",true))?>-->
 	</td>
 </tr>
 <?php } ?>
