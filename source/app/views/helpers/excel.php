@@ -218,7 +218,7 @@ class excelHelper extends ExcelWriter {
     $this->counter_row++;
     foreach($data as $key=>$value){
       foreach($value as $key2=>$value2) {
-        $worksheet->write($this->counter_row, $this->counter_col++,  iconv("UTF-8", "windows-1250", $value2), null);
+        $worksheet->write($this->counter_row, $this->counter_col++,  iconv("UTF-8", "windows-1250", html_entity_decode($value2)), null);
       }
       $this->counter_row++;
       $this->counter_col = 0;  

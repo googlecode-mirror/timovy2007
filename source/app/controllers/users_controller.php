@@ -62,13 +62,13 @@ class UsersController extends AppController
     		$this->check_permission();
             if (!empty($this->data))
             {
-                $this->data['User']['title']= htmlentities($this->data['User']['title']);
-                $this->data['User']['first_name']= htmlentities($this->data['User']['first_name']);
-                $this->data['User']['middle_name']= htmlentities($this->data['User']['middle_name']);
-                $this->data['User']['last_name']= htmlentities($this->data['User']['last_name']);
-                $this->data['User']['username']= htmlentities($this->data['User']['username']);
-                $this->data['User']['email']= htmlentities($this->data['User']['email']);
-                $this->data['User']['password']= md5(htmlentities($this->data['User']['password']));
+                $this->data['User']['title']= htmlspecialchars($this->data['User']['title']);
+                $this->data['User']['first_name']= htmlspecialchars($this->data['User']['first_name']);
+                $this->data['User']['middle_name']= htmlspecialchars($this->data['User']['middle_name']);
+                $this->data['User']['last_name']= htmlspecialchars($this->data['User']['last_name']);
+                $this->data['User']['username']= htmlspecialchars($this->data['User']['username']);
+                $this->data['User']['email']= htmlspecialchars($this->data['User']['email']);
+                $this->data['User']['password']= md5(htmlspecialchars($this->data['User']['password']));
                 if ($this->User->save($this->data))
                 {
     				        $this->My->setInfo(__("USER_ADDED_SUCCESSFULLY", true), true);
@@ -101,7 +101,7 @@ class UsersController extends AppController
 		// 
 		// nacitaj udaje, ak je zly uzivatel presmeruj na zoznam
 		if (!($data = $this->User->read())) {
-			$this->My->setError('Neexistujuci pouzivatel s id: '.$user_id.' wtf');
+			$this->My->setError('Neexistujuci pouzivatel s id: '.$user_id);
 			$this->redirect('/users');
 			exit();
 		}
