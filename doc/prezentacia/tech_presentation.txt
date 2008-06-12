@@ -1,0 +1,44 @@
+Alumni
+
+Ciele systému - peto
+  Udržiavanie kontaktu školy s absolventmi
+  Získavanie štatistických dát od absolventov
+  Prezentovať základné informácie o absolventoch verejnosti
+  Sprostredkovať fakulte získavanie aktuálnych informácií o absolventoch v praxi
+  Umožniť absolventom vzájomnú komunikáciu
+
+Použité technológie - zefo
+  PHP
+  CakePHP
+  PostgreSQL
+  AJAX
+	
+Architektura - zefo
+	Framework CakePHP
+	MVC
+		
+Moduly systému
+	Aktuality - zefo
+	Profil absolventa - jazyky, história zamestnaní - joe, peto 
+	CV - vlk
+	Štatistiky - palo
+	LDAP - vlk
+	//Import?
+	Správa používateľov - joe
+	Používateľské rozhranie - prisposobenie, jednotny vyzor, zvačšovanie textu - palo
+
+Technická dokumentácia - peto
+Systémová príručka
+Používateľská príručka
+
+Testovanie - vlk
+  Aplikačné
+  Systémové
+  Penetračné
+
+Možnosti rozšírenia
+  Jednoducho sa dá rozšíriť bez zásahu rozšírenia
+    štatistiky
+    číselníky
+    
+Záver	
