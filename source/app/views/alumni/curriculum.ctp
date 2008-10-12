@@ -1,4 +1,5 @@
 <?php
+    $fpdf->setup();
     $fpdf->SetInfo();
     $fpdf->AddPage();
 
