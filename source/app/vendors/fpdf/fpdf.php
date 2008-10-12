@@ -69,8 +69,6 @@ var $keywords;           //keywords
 var $creator;            //creator
 var $AliasNbPages;       //alias for total number of pages
 var $PDFVersion;         //PDF version number
-// cakephp hack
-var $helpers;
 
 /*******************************************************************************
 *                                                                              *
@@ -79,11 +77,6 @@ var $helpers;
 *******************************************************************************/
 function FPDF($orientation='P',$unit='mm',$format='A4')
 {
-  
-  // cakephp hack
-  if($orientation===array()) $orientation='P';
-  $this->helpers = null;
-  
 	//Some checks
 	$this->_dochecks();
 	//Initialization of properties
@@ -110,10 +103,10 @@ function FPDF($orientation='P',$unit='mm',$format='A4')
 	$this->ColorFlag=false;
 	$this->ws=0;
 	//Standard fonts
-	$this->CoreFonts=array('courier'=>'Courier','courierB'=>'Courier-Bold','courierI'=>'Courier-Oblique','courierBI'=>'Courier-BoldOblique',
-		'helvetica'=>'Helvetica','helveticaB'=>'Helvetica-Bold','helveticaI'=>'Helvetica-Oblique','helveticaBI'=>'Helvetica-BoldOblique',
-		'times'=>'Times-Roman','timesB'=>'Times-Bold','timesI'=>'Times-Italic','timesBI'=>'Times-BoldItalic',
-		'symbol'=>'Symbol','zapfdingbats'=>'ZapfDingbats');
+	$this->corefonts=array('arial'=>'arial','courier'=>'courier','courierb'=>'courier-bold','courieri'=>'courier-oblique','courierbi'=>'courier-boldoblique',
+		'helvetica'=>'helvetica','helveticab'=>'helvetica-bold','helveticai'=>'helvetica-oblique','helveticabi'=>'helvetica-boldoblique',
+		'times'=>'times-roman','timesb'=>'times-bold','timesi'=>'times-italic','timesbi'=>'times-bolditalic',
+		'symbol'=>'symbol','zapfdingbats'=>'zapfdingbats');
 	//Scale factor
 	if($unit=='pt')
 		$this->k=1;
@@ -472,15 +465,15 @@ function AddFont($family,$style='',$file='')
 	$family=strtolower($family);
 	if($file=='')
 		$file=str_replace(' ','',$family).strtolower($style).'.php';
-	if($family=='arial')
-		$family='helvetica';
+	//if($family=='arial')
+		//$family='helvetica';
 	$style=strtoupper($style);
 	if($style=='IB')
 		$style='BI';
 	$fontkey=$family.$style;
 	if(isset($this->fonts[$fontkey]))
 		$this->Error('Font already added: '.$family.' '.$style);
-	include($this->_getfontpath().$file);
+	include($this->_getfontpath().$file);	
 	if(!isset($name))
 		$this->Error('Could not include font definition file');
 	$i=count($this->fonts)+1;
@@ -523,7 +516,7 @@ function SetFont($family,$style='',$size=0)
 	if($family=='')
 		$family=$this->FontFamily;
 	if($family=='arial')
-		$family='helvetica';
+		$xxx = 1;//$family='helvetica';
 	elseif($family=='symbol' || $family=='zapfdingbats')
 		$style='';
 	$style=strtoupper($style);
@@ -545,8 +538,10 @@ function SetFont($family,$style='',$size=0)
 	$fontkey=$family.$style;
 	if(!isset($this->fonts[$fontkey]))
 	{
+//pr($this->corefonts);
 		//Check if one of the standard fonts
-		if(isset($this->CoreFonts[$fontkey]))
+		//pr($this);
+		if(isset($this->corefonts[$fontkey]))
 		{
 			if(!isset($fpdf_charwidths[$fontkey]))
 			{
@@ -555,6 +550,7 @@ function SetFont($family,$style='',$size=0)
 				if($family=='times' || $family=='helvetica')
 					$file.=strtolower($style);
 				include($this->_getfontpath().$file.'.php');
+//echo $this->_getfontpath().$file.'.php';				
 				if(!isset($fpdf_charwidths[$fontkey]))
 					$this->Error('Could not include font metric file');
 			}
@@ -567,7 +563,7 @@ function SetFont($family,$style='',$size=0)
 	//Select it
 	$this->FontFamily=$family;
 	$this->FontStyle=$style;
-	$this->FontSizePt=$size;
+	$this->FontSizePt=$size;	
 	$this->FontSize=$size/$this->k;
 	$this->CurrentFont=&$this->fonts[$fontkey];
 	if($this->page>0)
@@ -1057,7 +1053,7 @@ function Output($name='',$dest='')
 			fclose($f);
 			break;
 		case 'S':
-			//Return as a string
+			//Return as a string			
 			return $this->buffer;
 		default:
 			$this->Error('Incorrect output destination: '.$dest);
