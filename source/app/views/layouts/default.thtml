@@ -33,10 +33,10 @@
 					<form action="<?=$html->url('/login/login')?>" method="post">
 						<input type="hidden" name="post_redirect" value="<?php echo $post_redirect;?>" />
 						<div class="formelement">
-							<?php echo __("LOGIN");?> <?=$form->text('User/username')?>
+							<?php echo __("LOGIN");?> <?=$form->text('User.username')?>
 						</div>
 						<div class="formelement">
-							<?php echo __('PASSWORD');?> <?=$form->password('User/password')?>
+							<?php echo __('PASSWORD');?> <?=$form->password('User.password')?>
 						</div>
 						<div class="formelement">
 							<input type="image" value="<?php echo __("LOG_IN");?>" class="logimg" src="<?=$html->url('/css/images/login.gif')?>" />
