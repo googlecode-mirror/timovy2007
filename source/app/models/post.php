@@ -5,7 +5,10 @@ class Post extends AppModel
 
     var $validate = array(
 
-        'title'  => VALID_NOT_EMPTY,
+        'title'  => array(
+                VALID_NOT_EMPTY,
+                'rule' => array('maxLength', 50)
+        ),         
         'body'   => VALID_NOT_EMPTY
 
     );
