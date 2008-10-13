@@ -1,6 +1,5 @@
 <script type="text/javascript">
 
-
   function changecss(theClass,element,value) {  
     var cssRules;
     if (document.all) {
