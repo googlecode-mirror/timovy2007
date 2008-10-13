@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-20 01:40+0100\n"
-"PO-Revision-Date: 2008-05-20 01:54+0100\n"
-"Last-Translator: Bc. Peter Cich <peter.cich@gmail.com>\n"
+"POT-Creation-Date: 2008-10-13 02:50+0100\n"
+"PO-Revision-Date: 2008-10-13 02:55+0100\n"
+"Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,1986 +13,1990 @@ msgstr ""
 "X-Poedit-Country: SLOVAKIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __\n"
-"X-Poedit-Basepath: D:\\webroot\\source\\app\n"
-"X-Poedit-SearchPath-0: D:\\webroot\\source\\app\n"
+"X-Poedit-Basepath: C:\\Users\\Jojo\\webroot\\alumni\\app\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Jojo\\webroot\\alumni\\app\n"
 
 # C:\Inetpub\htdocs\tp\src\app/app_controller.php:67
-#: D:\webroot\source\app/app_controller.php:111
+#: C:\Users\Jojo\webroot\alumni\app/app_controller.php:111
 msgid "ERROR_ACCESS_DENIED"
-msgstr "Telo"
+msgstr "Neoprávnený vstup"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/about_controller.php:13
+#: C:\Users\Jojo\webroot\alumni\app/controllers/about_controller.php:13
 msgid "ABOUT_INDEX_TITLE"
 msgstr "O systéme"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:17
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:17
 msgid "ALUMNI_INDEX_TITLE"
 msgstr "Informačný systém pre komunikáciu s absolventmi"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:105
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:105
 msgid "ALUMNI_PROFILE_TITLE"
 msgstr "Profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/alumni_controller.php:108
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:108
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Neexistujúci používatel"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:143
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:143
 msgid "ALUMNI_MYPROFILE_TITLE"
 msgstr "Môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: D:\webroot\source\app/controllers/alumni_controller.php:280
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:280
 msgid "Your profile has been changed."
 msgstr "Váš profil bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: D:\webroot\source\app/controllers/alumni_controller.php:283
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:283
 msgid "There was a error saving profile data."
 msgstr "Nastala chyba pri ukladaní dát."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:305
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:305
 msgid "ALUMNI_MYIMAGE_TITLE"
 msgstr "Môj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/alumni_controller.php:324
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:324
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:326
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:326
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Nastala chyba pri mazaní obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:386
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:386
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Obrázok bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:388
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:388
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť PNG obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:392
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:392
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Nastala chyba pri uploadovani suboru. Nepodporovaný typ."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:394
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:394
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť nový obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:397
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:397
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno zistiť veľkosť obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/controllers/alumni_controller.php:402
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:402
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Nastala chyba pri uploadovani suboru. Prosím skontrolujte, či váš obrázok spĺňa stanovené parametre."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/alumni_controller.php:417
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:417
 msgid "ALUMNI_PASSWORD_TITLE"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/controllers/alumni_controller.php:450
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:450
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Heslo bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/controllers/alumni_controller.php:452
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:452
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Nastala chyba pri ukladaní nového hesla."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: D:\webroot\source\app/controllers/alumni_controller.php:455
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:455
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Zadali ste zlé nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:192
-#: D:\webroot\source\app/controllers/alumni_controller.php:458
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:458
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Heslá sa nezhodujú"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:195
-#: D:\webroot\source\app/controllers/alumni_controller.php:461
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:461
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/controllers/alumni_controller.php:476
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:476
 msgid "ALUMNI_CURRICULUM_TITLE"
 msgstr "Životopis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/contact_controller.php:11
+#: C:\Users\Jojo\webroot\alumni\app/controllers/contact_controller.php:11
 msgid "CONTACT_INDEX_TITLE"
 msgstr "Kontaktné informácie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/help_controller.php:12
+#: C:\Users\Jojo\webroot\alumni\app/controllers/help_controller.php:12
 msgid "HELP_INDEX_TITLE"
 msgstr "Pomoc"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/import_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/import_controller.php:15
 msgid "IMPORT_INDEX_TITLE"
 msgstr "Import"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/import_controller.php:30
-#: D:\webroot\source\app/views/import/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/controllers/import_controller.php:30
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:18
 msgid "IMPORT_DB_TITLE"
 msgstr "Import údajov priamo z databázy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/import_controller.php:264
-#: D:\webroot\source\app/views/import/index.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/controllers/import_controller.php:264
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:9
 msgid "IMPORT_SOAP_TITLE"
 msgstr "Import údajov cez Web service"
 
-#: D:\webroot\source\app/controllers/languages_controller.php:15
-#: D:\webroot\source\app/controllers/levels_controller.php:15
-#: D:\webroot\source\app/controllers/mails_controller.php:143
-#: D:\webroot\source\app/controllers/posts_controller.php:13
-#: D:\webroot\source\app/controllers/professions_controller.php:15
-#: D:\webroot\source\app/controllers/stats_controller.php:15
-#: D:\webroot\source\app/controllers/users_controller.php:28
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:143
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:13
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:15
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:28
 msgid "PERMISSION_DENIED"
 msgstr "Neoprávnený prístup!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/languages_controller.php:22
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:22
 msgid "LANGUAGES_INDEX_TITLE"
 msgstr "Jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/languages_controller.php:30
-#: D:\webroot\source\app/views/languages/edit.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:30
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:1
 msgid "LANGUAGES_EDIT_TITLE"
 msgstr "Úprava jazyka"
 
-#: D:\webroot\source\app/controllers/languages_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:41
 msgid "LANGUAGES_ITEM_UPADATED"
 msgstr "Jazyk úspešne upravený."
 
-#: D:\webroot\source\app/controllers/languages_controller.php:45
-#: D:\webroot\source\app/controllers/languages_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:60
 msgid "LANGUAGES_ERROR_ON_INSERT"
 msgstr "Problém pri ukladaní jazyka do databázy!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/languages_controller.php:52
-#: D:\webroot\source\app/views/languages/add.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:52
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:1
 msgid "LANGUAGES_ADD_TITLE"
 msgstr "Pridanie nového jazyka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/languages_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:56
 msgid "LANGUAGES_ITEM_ADDED"
 msgstr "Nový jazyk úspešne vložený do databázy."
 
-#: D:\webroot\source\app/controllers/languages_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/languages_controller.php:67
 msgid "LANGUAGES_DELETE_TITLE"
 msgstr "Odstránenie jazyka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/levels_controller.php:22
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:22
 msgid "LEVELS_INDEX_TITLE"
 msgstr "Úrovne"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/levels_controller.php:30
-#: D:\webroot\source\app/views/levels/edit.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:30
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:1
 msgid "LEVELS_EDIT_TITLE"
 msgstr "Úprava úrovne"
 
-#: D:\webroot\source\app/controllers/levels_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:41
 msgid "LEVELS_ITEM_UPDATED"
 msgstr "Úroveň úspešne upravená."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/levels_controller.php:45
-#: D:\webroot\source\app/controllers/levels_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:60
 msgid "LEVELS_ERROR_ON_INSERT"
 msgstr "Problém pri ukladaní úrovne jazyka do databázy!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/levels_controller.php:52
-#: D:\webroot\source\app/views/levels/add.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:52
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:1
 msgid "LEVELS_ADD_TITLE"
 msgstr "Pridanie novej úrovne"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/levels_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:56
 msgid "LEVELS_ITEM_ADDED"
 msgstr "Nová úroveň úspešne vložená do databázy."
 
-#: D:\webroot\source\app/controllers/levels_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/levels_controller.php:67
 msgid "LEVELS_DELETE_TITLE"
 msgstr "Odstránenie úrovne"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/login_controller.php:18
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:18
 msgid "LOGIN_LOGIN_TITLE"
 msgstr "Prihlásenie"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:21
-#: D:\webroot\source\app/controllers/login_controller.php:31
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:31
 msgid "LOGIN_FAILED"
 msgstr "Zadali ste zlé prihlasovacie meno alebo heslo. Prosím skúste znovu."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/login_controller.php:40
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:40
 msgid "LOGIN_SUCCESSFULL"
 msgstr "Boli ste úspešne prihlásený do systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/login_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:67
 msgid "LOGIN_INDEX_TITLE"
 msgstr "Prihlasovanie"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:21
-#: D:\webroot\source\app/controllers/login_controller.php:88
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:88
 msgid "LOGIN_LOGOUT_TITLE"
 msgstr "Odhlásenie"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: D:\webroot\source\app/controllers/login_controller.php:90
+#: C:\Users\Jojo\webroot\alumni\app/controllers/login_controller.php:90
 msgid "LOGOUT_SUCCESSFULL"
 msgstr "Boli ste úspešne odhlásený zo systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:14
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:14
 msgid "MAILS_INDEX_TITLE"
 msgstr "Správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:95
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:95
 msgid "MAIL_PERFORM_SAVE_ERROR"
 msgstr "Nastala chyba pri ukladaní správy"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/mails_controller.php:102
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:102
 msgid "MAIL_PERFORM_NONEXISTING_MAIL"
 msgstr "Akcia nad už neexistujúcou správou."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:140
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:140
 msgid "MAILS_COMPOSE_TITLE"
 msgstr "Vytvorenie novej správy"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/controllers/mails_controller.php:165
-#: D:\webroot\source\app/controllers/mails_controller.php:187
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:165
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:187
 msgid "MAIL_COMPOSE_NON_EXISTING_USER"
 msgstr "Používateľ neexistuje!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:211
-#: D:\webroot\source\app/controllers/mails_controller.php:230
-#: D:\webroot\source\app/controllers/mails_controller.php:242
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:211
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:230
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:242
 msgid "MAIL_COMPOSE_BAD_ADDRESS"
 msgstr "Zadali ste nesprávnu adresu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:252
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:252
 msgid "MAIL_COMPOSE_EMPTY_SUBJECT"
 msgstr "Prosím zadajte názov správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:256
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:256
 msgid "MAIL_COMPOSE_EMPTY_BODY"
 msgstr "Prosím vyplnte telo správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:272
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:272
 msgid "MAIL_COMPOSE_SAVE_ERROR"
 msgstr "Nastala chyba pri ukladaní správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:286
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:286
 msgid "MAIL_COMPOSE_SAVE_USRADDR_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na adresy používateľov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:301
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:301
 msgid "MAIL_COMPOSE_SAVE_GRPADDR_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na adresy skupín."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:331
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:331
 msgid "MAIL_COMPOSE_SAVE_USRASSOC_ERROR"
 msgstr "Nastala chyba pri ukladaní správy - naviazanie na používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:354
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:354
 msgid "MAIL_COMPOSE_SAVE_SUCCESSFULL"
 msgstr "Správa bola úspešne odoslaná."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:367
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:367
 msgid "MAILS_SETTINGS_TITLE"
 msgstr "Nastavenie správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:398
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:398
 msgid "MAIL_SETTINGS_EDIT_SUCCESS"
 msgstr "Nastavenie preposielania správ bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/controllers/mails_controller.php:406
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:406
 msgid "MAIL_SETTINGS_EDIT_ERROR"
 msgstr "Nepodarilo sa uložiť nastavenia, prosím skontrolujte správnosť email adresy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:19
-#: D:\webroot\source\app/controllers/mails_controller.php:474
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:474
 msgid "MAILS_READ_TITLE"
 msgstr "Čítanie správy"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:384
-#: D:\webroot\source\app/controllers/mails_controller.php:485
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:485
 msgid "MAIL_READ_NOT_FOUND"
 msgstr "Správa nebola najdená"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/mails_controller.php:516
+#: C:\Users\Jojo\webroot\alumni\app/controllers/mails_controller.php:516
 msgid "MAIL_READ_GROUP"
 msgstr "Skupina"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:20
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:20
 msgid "POSTS_INDEX_TITLE"
 msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:27
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:27
 msgid "POSTS_VIEW_TITLE"
 msgstr "Zobrazenie aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:34
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:34
 msgid "POSTS_ADMIN_TITLE"
 msgstr "Správa aktualít"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:42
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:42
 msgid "POSTS_ADD_TITLE"
 msgstr "Pridanie novej aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:53
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:53
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:63
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:63
 msgid "POSTS_DELETE_TITLE"
 msgstr "Odstránenie aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:67
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/posts_controller.php:73
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:73
 msgid "POSTS_EDIT_TITLE"
 msgstr "Úprava aktuality"
 
-#: D:\webroot\source\app/controllers/posts_controller.php:89
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:89
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
-#: D:\webroot\source\app/controllers/professions_controller.php:22
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:22
 msgid "PROFESSIONS_INDEX_TITLE"
 msgstr "Profesie"
 
-#: D:\webroot\source\app/controllers/professions_controller.php:30
-#: D:\webroot\source\app/views/professions/edit.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:30
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:1
 msgid "PROFESSIONS_EDIT_TITLE"
 msgstr "Úprava profesie"
 
-#: D:\webroot\source\app/controllers/professions_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:41
 msgid "PROFESSIONS_ITEM_UPDATED"
 msgstr "Profesia úspešne upravená."
 
-#: D:\webroot\source\app/controllers/professions_controller.php:45
-#: D:\webroot\source\app/controllers/professions_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:60
 msgid "PROFESSIONS_ERROR_ON_INSERT"
 msgstr "Problém pri ukladaní profesie do databázy!"
 
-#: D:\webroot\source\app/controllers/professions_controller.php:52
-#: D:\webroot\source\app/views/professions/add.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:52
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:1
 msgid "PROFESSIONS_ADD_TITLE"
 msgstr "Pridanie novej profesie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/professions_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:56
 msgid "PROFESSIONS_ITEM_ADDED"
 msgstr "Nová profesia úspešne vložená do databázy."
 
-#: D:\webroot\source\app/controllers/professions_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/professions_controller.php:67
 msgid "PROFESSIONS_DELETE_TITLE"
 msgstr "Odstránenie profesie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/roles_controller.php:14
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:14
 msgid "ROLES_INDEX_TITLE"
 msgstr "Správa práv"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/roles_controller.php:21
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:21
 msgid "ROLES_CREATE_TITLE"
 msgstr "Vytvorenie novej role"
 
-#: D:\webroot\source\app/controllers/roles_controller.php:87
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:87
 msgid "ROLES_DELETE_TITLE"
 msgstr "Odstránenie role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/roles_controller.php:104
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:104
 msgid "ROLES_EDIT_TITLE"
 msgstr "Úprava rolí"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:112
-#: D:\webroot\source\app/controllers/roles_controller.php:112
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:112
 msgid "Nonexisting role"
 msgstr "Neexistujúca rola"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:123
-#: D:\webroot\source\app/controllers/roles_controller.php:123
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:123
 msgid "Permission role has been successfully updated!"
 msgstr "Právo bolo úspešne zmenené"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/roles_controller.php:126
-#: D:\webroot\source\app/controllers/roles_controller.php:126
+#: C:\Users\Jojo\webroot\alumni\app/controllers/roles_controller.php:126
 msgid "There was a error by updating permission role"
 msgstr "Nastala chyba pri upravovaní práva."
 
-#: D:\webroot\source\app/controllers/stats_controller.php:22
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:22
 msgid "STATS_INDEX_TITLE"
 msgstr "Štatistiky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/stats_controller.php:30
-#: D:\webroot\source\app/views/stats/edit.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:30
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:1
 msgid "STATS_EDIT_TITLE"
 msgstr "Úprava štatistiky"
 
-#: D:\webroot\source\app/controllers/stats_controller.php:41
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:41
 msgid "STATS_ITEM_UPDATED"
 msgstr "Štatistika úspešne upravená."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/wall_posters_controller.php:273
-#: D:\webroot\source\app/controllers/stats_controller.php:45
-#: D:\webroot\source\app/controllers/stats_controller.php:60
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:45
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:60
 msgid "STATS_ERROR_ON_INSERT"
 msgstr "Problém pri ukladaní SQL dopytu do databázy!"
 
-#: D:\webroot\source\app/controllers/stats_controller.php:52
-#: D:\webroot\source\app/views/stats/add.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:52
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:1
 msgid "STATS_ADD_TITLE"
 msgstr "Pridanie novej štatistiky"
 
-#: D:\webroot\source\app/controllers/stats_controller.php:56
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:56
 msgid "STATS_ITEM_NEW"
 msgstr "Nová štatistika úspešne vložená do databázy."
 
-#: D:\webroot\source\app/controllers/stats_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:67
 msgid "STATS_DELETE_TITLE"
 msgstr "Odstránenie štatistiky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/stats_controller.php:75
-#: D:\webroot\source\app/views/stats/select.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:75
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:1
 msgid "STATS_SELECT_TITLE"
 msgstr "Výber štatistiky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/stats_controller.php:84
+#: C:\Users\Jojo\webroot\alumni\app/controllers/stats_controller.php:84
 msgid "STATS_EXPORT_TITLE"
 msgstr "Exportovanie štatistík"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:18
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:18
 msgid "USERS_INDEX_TITLE"
 msgstr "Správa používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/controllers/users_controller.php:35
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:35
 msgid "USERS_SEARCH_TITLE"
 msgstr "Vyhľadávanie"
 
-#: D:\webroot\source\app/controllers/users_controller.php:61
-#: D:\webroot\source\app/views/users/add.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:61
+#: C:\Users\Jojo\webroot\alumni\app/views/users/add.ctp:1
 msgid "USERS_ADD_TITLE"
 msgstr "Pridanie nového používateľa"
 
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:66
+msgid "USER_ADD_FAILED_USER_EXISTS"
+msgstr "Pridávanie zlyhalo - používateľ s daným loginom už existuje."
+
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/users_controller.php:74
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:80
 msgid "USER_ADDED_SUCCESSFULLY"
 msgstr "Používateľ bol úspešne pridaný."
 
-#: D:\webroot\source\app/controllers/users_controller.php:78
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:85
 msgid "USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT"
-msgstr "Neúspešné pridanie - nesprávne vyplnené polia"
+msgstr "Pridávanie zlyhalo - nesprávne vyplnené polia."
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:85
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:92
 msgid "USER_DELETE_TITLE"
 msgstr "Telo"
 
-#: D:\webroot\source\app/controllers/users_controller.php:88
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:95
 msgid "USER_ITEM_REMOVED"
 msgstr "Používateľ bol odstránený!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:98
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:105
 msgid "USERS_EDIT_TITLE"
 msgstr "Úprava používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/controllers/users_controller.php:160
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:167
 msgid "USERS_EDITSPECIAL_TITLE"
 msgstr "Špeciálne upraviť používateľa"
 
-#: D:\webroot\source\app/controllers/users_controller.php:206
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:213
 msgid "USERS_ADDROLE_TITLE"
 msgstr "Pridanie novej role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:36
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:35
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewold.thtml:35
-#: D:\webroot\source\app/controllers/users_controller.php:246
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:253
 msgid "USERS_REMOVEROLE_TITLE"
 msgstr "Odstránenie role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/controllers/users_controller.php:283
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:290
 msgid "USERS_PASSWORD_TITLE"
 msgstr "Heslo používateľa"
 
-#: D:\webroot\source\app/webroot/test.php:75
+#: C:\Users\Jojo\webroot\alumni\app/webroot/test.php:75
 msgid "Debug setting does not allow access to this url."
 msgstr "Nastavenia neumožňujú prístup na zadanú adresu URL."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:7
 msgid "ALUMNI_MYPROFILE_CV_CURRICULUM"
 msgstr "Životopis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:9
 msgid "ALUMNI_MYPROFILE_CV_PERSONAL_DATA"
 msgstr "Osobné údaje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:18
 msgid "ALUMNI_MYPROFILE_CV_NAME_AND_SURNAME"
 msgstr "Meno a priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:20
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:21
 msgid "ALUMNI_MYPROFILE_CV_ADDRESS"
 msgstr "Adresa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:24
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:25
 msgid "ALUMNI_MYPROFILE_CV_TELEPHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:29
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:30
 msgid "ALUMNI_MYPROFILE_CV_EMAIL"
 msgstr "E-mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:36
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:37
 msgid "ALUMNI_MYPROFILE_CV_POSITION"
 msgstr "Pozícia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:37
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:38
 msgid "ALUMNI_MYPROFILE_CV_FROM"
 msgstr "Od"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:38
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:39
 msgid "ALUMNI_MYPROFILE_CV_TO"
 msgstr "Do"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:39
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:40
 msgid "ALUMNI_MYPROFILE_CV_NOTE"
 msgstr "Poznámka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:42
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:43
 msgid "ALUMNI_MYPROFILE_CV_EMPLOYMENT"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/curriculum.ctp:52
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/curriculum.ctp:53
 msgid "ALUMNI_MYPROFILE_CV_LANGUAGES"
 msgstr "Jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:1
-#: D:\webroot\source\app/views/alumni/myimage.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:126
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:126
 msgid "MENU_ALUMNI_MYIMAGE"
 msgstr "Upraviť moj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:9
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_TEXT"
 msgstr "Zmeniť obrázok svojho profilu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:16
 msgid "ALUMNI_MYPROFILE_CHANGEIMAGE_SUBMIT"
 msgstr "Zmeniť obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myimage.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myimage.ctp:17
 msgid "ALUMNI_MYPROFILE_DELETEIMAGE_SUBMIT"
 msgstr "Odstrániť obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:57
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:58
-#: D:\webroot\source\app/views/layouts/default.thtml:125
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:57
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:58
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:125
 msgid "MENU_ALUMNI_MYPROFILE"
 msgstr "Upraviť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/myprofile.ctp:6
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:61
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:61
 msgid "View my profile"
 msgstr "Zobraziť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:62
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:62
 msgid "ALUMNI_PROFILE_CHANGEINFO_TITLE"
 msgstr "Zmeniť ostatné detaily profilu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:68
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:68
 msgid "ALUMNI_MYPROFILE_EMAIL"
 msgstr "E-mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:69
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:69
 msgid "ALUMNI_MYPROFILE_PUBLISH_EMAIL"
 msgstr "Zverejniť e-mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:72
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:72
 msgid "ALUMNI_MYPROFILE_ADDRESS"
 msgstr "Adresa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:74
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:74
 msgid "ALUMNI_MYPROFILE_PHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:76
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:76
 msgid "ALUMNI_MYPROFILE_ICQ"
 msgstr "ICQ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:80
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:80
 msgid "ALUMNI_MYPROFILE_OCCUPATION"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:86
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:86
 msgid "ALUMNI_MYPROFILE_PROFESSION"
 msgstr "Profesijný rast"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:90
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:90
 msgid "ALUMNI_MYPROFILE_LANGUAGE_SLOVAK"
 msgstr "Slovensky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:91
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:91
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ENGLISH"
 msgstr "Anglicky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:93
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:93
 msgid "ALUMNI_MYPROFILE_PROFESSION_LANGUAGE_SELECTION"
 msgstr "Výber jazyka popisu profesií"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:100
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:172
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:100
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:172
 msgid "ALUMNI_MYPROFILE_PROFESSION_POSITION"
 msgstr "Pracovná pozícia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:109
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:181
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:109
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:181
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM"
 msgstr "Od roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:110
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:182
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:110
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:182
 msgid "ALUMNI_MYPROFILE_PROFESSION_YEAR_TO"
 msgstr "Do roku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:114
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:186
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:114
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:186
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_EN"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:117
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:189
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:117
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:189
 msgid "ALUMNI_MYPROFILE_PROFESSION_DESCRIPTION_SK"
 msgstr "Popis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:120
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:191
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:120
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:191
 msgid "ALUMNI_MYPROFILE_PROFESSION_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:127
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:127
 msgid "ALUMNI_MYPROFILE_PROFESSION_ADD"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:134
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:134
 msgid "ALUMNI_MYPROFILE_LANGUAGES"
 msgstr "Cudzie jazyky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:139
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:196
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:139
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:196
 msgid "ALUMNI_MYPROFILE_LANGUAGE"
 msgstr "Jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:151
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:207
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:151
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:207
 msgid "ALUMNI_MYPROFILE_LANGUAGE_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:159
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:159
 msgid "ALUMNI_MYPROFILE_LANGUAGE_ADD"
 msgstr "Pridať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/myprofile.ctp:164
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/myprofile.ctp:164
 msgid "ALUMNI_MYPROFILE_CHANGEINFO_SUBMIT"
 msgstr "Zmeniť údaje"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/password.ctp:1
-#: D:\webroot\source\app/views/alumni/password.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:127
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:127
 msgid "MENU_ALUMNI_PASSWORD"
 msgstr "Zmeniť heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:5
 msgid "ALUMNI_PASSWORD_INFO"
 msgstr "Tu môžete zmeniť svoje heslo. Heslo musí byť minimálne 4 znaky dlhé a nemôže obsahovať diakritiku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/password.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:11
 msgid "ALUMNI_PASS_OLD"
 msgstr "Staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:14
 msgid "ALUMNI_PASS_NEW_1"
 msgstr "Nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/password.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:17
 msgid "ALUMNI_PASS_NEW_2"
 msgstr "Nové heslo (kontrola)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/password.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/password.ctp:22
 msgid "ALUMNI_PASSWORD_SUBMIT"
 msgstr "Zmeniť heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:1
 msgid "MENU_ALUMNI_PROFILE"
 msgstr "Profil absolventa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:21
-#: D:\webroot\source\app/views/alumni/profile.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:4
 msgid "ALUMNI_PROFILE_ZAKL_INFORMACIE"
 msgstr "Základné informácie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:26
-#: D:\webroot\source\app/views/alumni/profile.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:10
 msgid "ALUMNI_PROFILE_MISSING_PICTURE"
 msgstr "Chýba obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:15
 msgid "ALUMNI_PROFILE_MENO"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:32
-#: D:\webroot\source\app/views/alumni/profile.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:16
 msgid "ALUMNI_PROFILE_PRIEZVISKO"
 msgstr "Priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:18
 msgid "ALUMNI_PROFILE_TITUL"
 msgstr "Titul"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/profile.ctp:21
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:21
 msgid "ALUMNI_PROFILE_ADDRESS"
 msgstr "Adresa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:28
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:28
 msgid "ALUMNI_PROFILE_SPECIALIZATION"
 msgstr "Špecializácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/profile.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:35
 msgid "ALUMNI_PROFILE_SEND_MESSAGE"
 msgstr "Poslať správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:40
-#: D:\webroot\source\app/views/alumni/profile.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:40
 msgid "Edit my profile"
 msgstr "Upraviť môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:46
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:46
 msgid "ALUMNI_PROFILE_ODBORNE_PRACE"
 msgstr "Odborné práce"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
-#: D:\webroot\source\app/views/alumni/profile.ctp:50
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:50
 msgid "DB_PROJECT_TYPE_NAME"
 msgstr "name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:51
 msgid "ALUMNI_PROFILE_TEMA"
 msgstr "Téma"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.ctp:35
-#: D:\webroot\source\app/views/alumni/profile.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:51
 msgid "DB_PROJECT_NAME"
 msgstr "name"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:53
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:53
 msgid "ALUMNI_PROFILE_ACADEMIC"
 msgstr "Vedúci"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:54
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:54
 msgid "ALUMNI_PROFILE_DESCRIPTION"
 msgstr "Anotácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:56
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:56
 msgid "DB_PROJECT_DESCRIPTION"
 msgstr "description"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:21
-#: D:\webroot\source\app/views/alumni/profile.ctp:69
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:69
 msgid "ALUMNI_PROFILE_KONTAKT_OSTATNE"
 msgstr "Kontakt - Ďalšie informácie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:71
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:71
 msgid "ALUMNI_PROFILE_PHONE"
 msgstr "Telefón"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:72
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:72
 msgid "ALUMNI_PROFILE_EMAIL"
 msgstr "E-Mail"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:74
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:74
 msgid "ALUMNI_PROFILE_ICQ"
 msgstr "ICQ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/profile.ctp:77
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:77
 msgid "ALUMNI_PROFILE_OCCUPATION"
 msgstr "Zamestnanie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/alumni/profile.ctp:82
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/profile.ctp:82
 msgid "ALUMNI_PROFILE_BACK"
 msgstr "Späť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:29
-#: D:\webroot\source\app/views/import/index.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:92
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:92
 msgid "MENU_IMPORT"
 msgstr "Import"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/import/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:2
 msgid "IMPORT_MAIN_TITLE"
 msgstr "Import"
 
-#: D:\webroot\source\app/views/import/index.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:4
 msgid "IMPORT_MAIN_TEXT"
 msgstr "Import údajov zo systému YonBan."
 
-#: D:\webroot\source\app/views/import/index.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:11
 msgid "IMPORT_SOAP_TEXT"
 msgstr "Systém na spojenie využije externé rozhranie SOAP systému YonBan. Toto je preferovaný spôsob importu."
 
-#: D:\webroot\source\app/views/import/index.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:12
 msgid "IMPORT_SOAP"
 msgstr "Importovať cez SOAP"
 
-#: D:\webroot\source\app/views/import/index.ctp:20
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:20
 msgid "IMPORT_DB_TEXT"
 msgstr "Systém sa napojí priamo na databázu systému YonBan."
 
-#: D:\webroot\source\app/views/import/index.ctp:21
+#: C:\Users\Jojo\webroot\alumni\app/views/import/index.ctp:21
 msgid "IMPORT_DB"
 msgstr "Importovať z databázy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/login/allready_logged.ctp:1
-#: D:\webroot\source\app/views/login/allready_logged.ctp:2
-#: D:\webroot\source\app/views/login/index.ctp:1
-#: D:\webroot\source\app/views/login/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:2
 msgid "MENU_LOGIN"
 msgstr "Prihlásenie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/allready_logged.ctp:4
-#: D:\webroot\source\app/views/login/allready_logged.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/login/allready_logged.ctp:4
 msgid "LOGIN_YOU_ARE_ALLREADY_LOGGED_IN"
 msgstr "Už ste prihlásený do systému."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:39
-#: D:\webroot\source\app/views/login/index.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:6
 msgid "Login"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/login/index.ctp:4
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:37
-#: D:\webroot\source\app/views/login/index.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/login/index.ctp:7
 msgid "Heslo"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/ajax_search_groups.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/ajax_search_groups.ctp:13
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_NO_RESULTS"
 msgstr "Nie ste prihlásený v žiadnej diskusnej skupine."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/ajax_search_users.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/ajax_search_users.ctp:16
 msgid "MAIL_COMPOSE_SEARCH_NO_RESULTS"
 msgstr "Nebol najdený žiaden používateľ vyhovujúci zadanému reťazcu."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:1
-#: D:\webroot\source\app/views/mails/compose.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:6
-#: D:\webroot\source\app/views/layouts/default.thtml:152
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:152
 msgid "MENU_MAIL_COMPOSE"
 msgstr "Vytvoriť novú správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:7
 msgid "MAIL_COMPOSE_ADDRESS"
 msgstr "Adresát"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:11
 msgid "MAIL_COMPOSE_SEARCH_USERS"
 msgstr "Hľadaj používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:12
 msgid "MAIL_COMPOSE_SEARCH_GROUPS"
 msgstr "Vyber skupinu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:16
 msgid "MAIL_COMPOSE_ADDRESS_INFO"
 msgstr "Mená oddelené čiarkou"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:20
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:20
 msgid "MAIL_COMPOSE_NAME"
 msgstr "Názov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:32
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:32
 msgid "MAIL_COMPOSE_SUBMIT"
 msgstr "Odoslať správu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:50
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:50
 msgid "MAIL_COMPOSE_SEARCH_USERS_TITLE"
 msgstr "Hľadaj používateľov ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:71
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:71
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_TITLE"
 msgstr "Výber cieľovej skupiny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:138
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:138
 msgid "MAIL_COMPOSE_SEARCH_USERS_LABEL"
 msgstr "Zadajte meno používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:139
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:139
 msgid "MAIL_COMPOSE_SEARCH_LOADING"
 msgstr "Prebieha hladanie ..."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:142
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:142
 msgid "MAIL_COMPOSE_SEARCH_USER_SUBMIT"
 msgstr "Hľadaj"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:149
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:149
 msgid "MAIL_COMPOSE_SEARCH_USER_ADD"
 msgstr "Pridať označených používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:157
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:157
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_LABEL"
 msgstr "Prosím vyberte skupinu / skupiny."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:160
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:160
 msgid "MAIL_COMPOSE_SEARCH_GROUP_ADD"
 msgstr "Pridať vybrané skupiny"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/compose.ctp:163
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/compose.ctp:163
 msgid "MAIL_COMPOSE_SEARCH_GROUPS_INFO"
 msgstr "* Tlstým písmom sú vyznačené systémové skupiny."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:1
-#: D:\webroot\source\app/views/mails/read.ctp:2
-#: D:\webroot\source\app/views/layouts/default.thtml:147
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:147
 msgid "MENU_MAIL"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/index.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:8
 msgid "MAIL_BOX_TITLE"
 msgstr "Zoznam správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:16
 msgid "MAIL_BOX_FROM"
 msgstr "Od"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:17
 msgid "MAIL_BOX_SUBJECT"
 msgstr "Predmet správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:18
 msgid "MAIL_BOX_TIME"
 msgstr "Dátum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/index.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:23
 msgid "MAIL_BOX_NO_MESSAGES"
 msgstr "Nemáte žiadne správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:40
 msgid "MAIL_BOX_LISTING_PREV"
 msgstr "<< Novšie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:41
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:41
 msgid "MAIL_BOX_LISTING_OF"
 msgstr "z"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/mails/index.ctp:42
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:42
 msgid "MAIL_BOX_LISTING_NEXT"
 msgstr "Staršie >>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:28
-#: D:\webroot\source\app/views/mails/index.ctp:45
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:45
 msgid "MAIL_BOX_BOTTOM_SELECTED"
 msgstr "Označené maily"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:30
-#: D:\webroot\source\app/views/mails/index.ctp:48
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:48
 msgid "MAIL_BOX_ACTION_SET_READED"
 msgstr "Označ ako prečítané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:31
-#: D:\webroot\source\app/views/mails/index.ctp:49
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:49
 msgid "MAIL_BOX_ACTION_SET_DELETED"
 msgstr "Vymaž"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/mails/index.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:51
 msgid "MAIL_BOX_BOTTOM_SUBMIT"
 msgstr "Vykonať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:5
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:25
-#: D:\webroot\source\app/views/mails/read.ctp:5
-#: D:\webroot\source\app/views/mails/read.ctp:25
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:25
 msgid "MAIL_READ_BACK_TO_INDEX"
 msgstr "Späť na zoznam"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:13
-#: D:\webroot\source\app/views/mails/read.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:13
 msgid "MAIL_READ_REPLY"
 msgstr "Odpovedať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: D:\webroot\source\app/views/mails/read.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:18
 msgid "MAIL_READ_FROM"
 msgstr "Od "
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/read.ctp:19
-#: D:\webroot\source\app/views/mails/read.ctp:19
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/read.ctp:19
 msgid "MAIL_READ_TO"
 msgstr "Pre"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/mails/settings.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:154
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:154
 msgid "MENU_MAIL_SETTINGS"
 msgstr "Nastavenie správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:2
 msgid "MAIL_SETTINGS_TITLE"
 msgstr "Nastavenie správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:8
-#: D:\webroot\source\app/views/mails/settings.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:4
 msgid "MAIL_SETTINGS_FORWARD_MAIL"
 msgstr "Preposielanie interných správ na e-mailovú adresu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:8
-#: D:\webroot\source\app/views/mails/settings.ctp:6
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:6
 msgid "MAIL_SETTINGS_FORWARD_MAIL_DESCR"
 msgstr "Ak si želáte, aby Vám bola zasielaná kópia prijatých správ na e-mailovú adresu, uveďte ju do nasledujúceho políčka prosím. Ak si neželáte preposielať správy, nechajte políčko prázdne."
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: D:\webroot\source\app/views/mails/settings.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:12
 msgid "MAIL_SETTINGS_LISTING"
 msgstr "Počet zobrazených mailov na jednu stránku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/mails/settings.ctp:28
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/settings.ctp:28
 msgid "MAIL_SETTINGS_SUBMIT"
 msgstr "Uložiť nastavenia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:3
 msgid "NEWS_ADD_POST"
 msgstr "Pridať novú aktualitu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:4
-#: D:\webroot\source\app/views/posts/admin.ctp:7
-#: D:\webroot\source\app/views/posts/edit.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:5
 msgid "NEWS_TITLE"
 msgstr "Titulok"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:7
-#: D:\webroot\source\app/views/posts/edit.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:8
 msgid "NEWS_TITLE_EN"
 msgstr "Titulok (v angličtine)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:13
-#: D:\webroot\source\app/views/posts/edit.ctp:14
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:13
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:14
 msgid "NEWS_BODY"
 msgstr "Aktualita"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:16
-#: D:\webroot\source\app/views/posts/edit.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:17
 msgid "NEWS_BODY_EN"
 msgstr "Aktualita (v angličtine)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/add.ctp:22
-#: D:\webroot\source\app/views/posts/edit.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:23
 msgid "NEWS_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
-#: D:\webroot\source\app/views/posts/admin.ctp:1
-#: D:\webroot\source\app/views/layouts/default.thtml:70
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:70
 msgid "MENU_AKTUALITY"
 msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:2
 msgid "NEWS_MANAGEMENT"
 msgstr "Správa aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:8
 msgid "NEWS_ACTION"
 msgstr "Akcia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:9
 msgid "NEWS_CREATED"
 msgstr "Vytvorené"
 
-#: D:\webroot\source\app/views/posts/admin.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:22
 msgid "NEWS_DELETE_POST"
 msgstr "Zmazať"
 
-#: D:\webroot\source\app/views/posts/admin.ctp:25
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:25
 msgid "NEWS_ARE_YOU_SURE_DELETE"
 msgstr "Zmazať vybranú aktualitu?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/admin.ctp:27
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:27
 msgid "NEWS_EDIT"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:1
 msgid "NEWS_EDIT_POST"
 msgstr "Upraviť aktualitu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:1
 msgid "NEWS_MAIN_TITLE"
 msgstr "Aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/posts/index.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/index.ctp:5
 msgid "NEWS_ADDED"
 msgstr "Pridané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/create.ctp:1
-#: D:\webroot\source\app/views/roles/create.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:2
 msgid "ROLES_ADD_ITEM"
 msgstr "Pridanie novej role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/create.ctp:5
-#: D:\webroot\source\app/views/roles/create.ctp:22
-#: D:\webroot\source\app/views/roles/edit.ctp:5
-#: D:\webroot\source\app/views/roles/edit.ctp:22
-#: D:\webroot\source\app/views/roles/index.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:5
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:22
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:7
 msgid "ROLES_NAME"
 msgstr "Názov role"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/roles/create.ctp:11
-#: D:\webroot\source\app/views/roles/create.ctp:23
-#: D:\webroot\source\app/views/roles/edit.ctp:11
-#: D:\webroot\source\app/views/roles/edit.ctp:23
-#: D:\webroot\source\app/views/roles/index.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:11
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:8
 msgid "ROLES_DESCRIPTION"
 msgstr "Popis role"
 
-#: D:\webroot\source\app/views/roles/create.ctp:17
-#: D:\webroot\source\app/views/roles/edit.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:17
 msgid "ROLES_CLEARANCES"
 msgstr "Oprávnenia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/create.ctp:35
-#: D:\webroot\source\app/views/roles/index.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/create.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:23
 msgid "ROLES_CREATE"
 msgstr "Vytvoriť novú rolu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:2
 msgid "ROLES_EDIT_ITEM"
 msgstr "Upraviť rolu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:35
 msgid "ROLES_SAVE"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/edit.ctp:35
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/edit.ctp:35
 msgid "ROLES_BACK_TO_LIST"
 msgstr "Späť na zoznam"
 
-#: D:\webroot\source\app/views/roles/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:2
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:2
 msgid "ROLES_MANAGEMENT"
 msgstr "Správa používateľských práv"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:4
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:4
 msgid "ROLES_LIST"
 msgstr "Zoznam všetkých vytvorených prístupových rolí"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:9
 msgid "ROLES_ACTIONS"
 msgstr "Akcie"
 
-#: D:\webroot\source\app/views/roles/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:16
 msgid "ROLES_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/roles/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/roles/index.ctp:17
 msgid "ROLES_EDIT"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/add.ctp:21
+#: C:\Users\Jojo\webroot\alumni\app/views/users/add.ctp:22
 msgid "USER_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/edit.ctp:1
-#: D:\webroot\source\app/views/users/password.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/edit.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/password.ctp:1
 msgid "MENU_UPRAVA_POUZIVATELOV"
 msgstr "Správa používateľov "
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/users/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:3
-#: D:\webroot\source\app/views/layouts/default.thtml:88
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:3
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:88
 msgid "MENU_SPRAVA_POUZIVATELOV"
 msgstr "Správa používateľov "
 
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/index.thtml:11
 # C:\Inetpub\htdocs\tp\src\app/views/wall_posters/viewlist_admin.thtml:10
-#: D:\webroot\source\app/views/users/index.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:7
 msgid "USERS_SEARCH"
 msgstr "Hľadaj"
 
-#: D:\webroot\source\app/views/users/index.ctp:10
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:10
 msgid "USER_ADD_NEW"
 msgstr "Pridať nového používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:12
 msgid "USERS_LIST"
 msgstr "Zoznam používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/users/index.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:15
 msgid "USERS_LOGIN"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:16
 msgid "USERS_NAME"
 msgstr "Meno a priezvisko"
 
-#: D:\webroot\source\app/views/users/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:17
 msgid "USERS_RIGHTS"
 msgstr "Prístupové práva"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:18
 msgid "USERS_ACTIONS"
 msgstr "Akcie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:28
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:28
 msgid "USERS_EDIT"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: D:\webroot\source\app/views/users/index.ctp:29
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:29
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Zmeniť heslo"
 
-#: D:\webroot\source\app/views/users/index.ctp:30
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:30
 msgid "USERS_DELETE"
 msgstr "Zmazať"
 
-#: D:\webroot\source\app/views/users/index.ctp:30
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:30
 msgid "USERS_ARE_YOU_SURE_DELETE"
 msgstr "Naozaj chcete zmazať?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/users/index.ctp:37
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:37
 msgid "USERS_NEXT"
 msgstr "Ďalej"
 
-#: D:\webroot\source\app/views/users/index.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:40
 msgid "USERS_PREVIOUS"
 msgstr "Späť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:72
-#: D:\webroot\source\app/views/about/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:68
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:68
 msgid "MENU_ABOUT"
 msgstr "O Systéme"
 
-#: D:\webroot\source\app/views/about/index.thtml:2
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:2
 msgid "ABOUT_INTRODUCTION"
 msgstr "Úvod"
 
-#: D:\webroot\source\app/views/about/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:5
 msgid "ABOUT_INTRODUCTION_INFO"
 msgstr "Vitajte na stránkach internetového portálu venovaného prezentácií absolventov našej fakulty. V našej databáze sa momentálne nachádza %s absolventov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:11
-#: D:\webroot\source\app/views/about/index.thtml:9
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:9
 msgid "ABOUT_LAST_NASTENKA_TITLE"
 msgstr "Posledných 5 oznamov nástenky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/about/index.thtml:14
-#: D:\webroot\source\app/views/about/index.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:12
 msgid "ABOUT_NASTE_MORE_DETAIL"
 msgstr "bližšie informácie >>>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/about/index.thtml:20
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:20
 msgid "ABOUT_MAIN_TITLE"
 msgstr "ALUMNI - Testovacia prevádzka"
 
-#: D:\webroot\source\app/views/about/index.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/about/index.thtml:22
 msgid "ABOUT_MAIN_TEXT"
 msgstr "Tento portál prezentuje informácie o absolventoch Fakulty informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave. Portál je výsledkom tímových projektov v školských rokoch 2006/2007 a 2007/2008, a je dielom tímov Absolute ALUMiNIic a ALUMINIUM.<br /><br />Cieľom portálu je prezentovať informácie o absolventoch našej fakulty širokej verejnosti, ktorá má možnosť prezerať si základné informácie a údaje o absolventoch. Portál taktiež umožňuje komunikáciu medzi fakultou a absolventmi, resp. absolventmi navzájom. Absolventi majú možnosť upravovať svoje osobné údaje a rozhodnúť sa, ktoré údaje budú viditeľné širokej verejnosti. Portál poskytuje pracovníkom fakulty nástroje na správu, ako aj možnosť získavania štatistických údajov z evidovaných informácií."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:73
-#: D:\webroot\source\app/views/alumni/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:69
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:69
 msgid "MENU_ABSOLVENTI"
 msgstr "Absolventi"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: D:\webroot\source\app/views/alumni/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:4
 msgid "ALUMNI_ZOZNAM_SEARCH_TITLE"
 msgstr "Hľadanie na základe mena alebo zamerania"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:7
 msgid "ALUMNI_SEARCH_NAME"
 msgstr "Meno alebo priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: D:\webroot\source\app/views/alumni/index.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:12
 msgid "ALUMNI_SEARCH_ZAMERANIE"
 msgstr "Zameranie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/alumni/index.thtml:23
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:23
 msgid "ALUMNI_SEARCH_SUBMIT"
 msgstr "Hľadaj v absolventoch"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:25
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:25
 msgid "ALUMNI_SEARCH_INFO_TOTAL"
 msgstr "V systéme sa momentálne nachádza celkovo %s absolventov."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:30
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:30
 msgid "ALUMNI_SEARCH_VYSLEDOK_TITLE"
 msgstr "Výsledok hľadania"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/index.thtml:36
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:36
 msgid "ALUMNI_LIST_MENO"
 msgstr "Meno a priezvisko"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:38
-#: D:\webroot\source\app/views/alumni/index.thtml:37
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:37
 msgid "ALUMNI_LIST_STUDYTYPE"
 msgstr "Typ štúdia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/alumni/index.thtml:38
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:38
 msgid "ALUMNI_LIST_SPECIALIZATION"
 msgstr "Špecializácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: D:\webroot\source\app/views/alumni/index.thtml:52
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:52
 msgid "ALUMNI_SEARCH_NO_ROWS"
 msgstr "Nenašli sa žiadni používatelia."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:77
-#: D:\webroot\source\app/views/contact/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:74
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:74
 msgid "MENU_KONTAKT"
 msgstr "Kontakt"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/contact/index.thtml:2
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:2
 msgid "CONTACT_MAIN_TITLE"
 msgstr "Kontaktné informácie"
 
-#: D:\webroot\source\app/views/contact/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:4
 msgid "CONTACT_MAIN_CONTACT"
 msgstr "Hlavný kontakt"
 
-#: D:\webroot\source\app/views/contact/index.thtml:6
-#: D:\webroot\source\app/views/contact/index.thtml:16
-#: D:\webroot\source\app/views/contact/index.thtml:55
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:16
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:55
 msgid "CONTACT_EMAIL"
 msgstr "E-mail"
 
-#: D:\webroot\source\app/views/contact/index.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:7
 msgid "CONTACT_PROJECT_SUPERVISOR"
 msgstr "Projektový vedúci"
 
-#: D:\webroot\source\app/views/contact/index.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:10
 msgid "CONTACT_ALUMINIUM_CONTACTS"
 msgstr "Kontakty na členov tímu ALUMINIUM (šk. rok 2007/2008)"
 
-#: D:\webroot\source\app/views/contact/index.thtml:14
-#: D:\webroot\source\app/views/contact/index.thtml:53
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:53
 msgid "CONTACT_NAME"
 msgstr "Meno"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/contact/index.thtml:15
-#: D:\webroot\source\app/views/contact/index.thtml:54
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:54
 msgid "CONTACT_FUNCTION"
 msgstr "Funkcia"
 
-#: D:\webroot\source\app/views/contact/index.thtml:22
-#: D:\webroot\source\app/views/contact/index.thtml:38
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:22
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:38
 msgid "CONTACT_DOCUMENTALIST"
 msgstr "dokumentarista"
 
-#: D:\webroot\source\app/views/contact/index.thtml:28
-#: D:\webroot\source\app/views/contact/index.thtml:72
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:28
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:72
 msgid "CONTACT_DESIGNER"
 msgstr "designer"
 
-#: D:\webroot\source\app/views/contact/index.thtml:33
-#: D:\webroot\source\app/views/contact/index.thtml:61
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:33
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:61
 msgid "CONTACT_TEAM_LEADER"
 msgstr "vedúci tímu"
 
-#: D:\webroot\source\app/views/contact/index.thtml:43
-#: D:\webroot\source\app/views/contact/index.thtml:66
-#: D:\webroot\source\app/views/contact/index.thtml:77
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:43
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:66
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:77
 msgid "CONTACT_DEVELOPER"
 msgstr "developer"
 
-#: D:\webroot\source\app/views/contact/index.thtml:49
+#: C:\Users\Jojo\webroot\alumni\app/views/contact/index.thtml:49
 msgid "CONTACT_ABSOLUTE_ALUMINIC_CONTACTS"
 msgstr "Kontakty na členov tímu Absolute ALUMiNIc (šk. rok 2006/2007)"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/help/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:1
 msgid "HELP_MAIN_TITLE"
 msgstr "Používateľská príručka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/help/index.thtml:3
+#: C:\Users\Jojo\webroot\alumni\app/views/help/index.thtml:3
 msgid "HELP_MAIN_TEXT"
 msgstr "Používateľskú dokumentáciu k systému si môžete stiahnuť <a href='%s'>tu</a>."
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/add.thtml:4
-#: D:\webroot\source\app/views/languages/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:5
 msgid "LANGUAGES_ADD_ITEM"
 msgstr "Pridať nový jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/add.thtml:7
-#: D:\webroot\source\app/views/languages/edit.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:7
 msgid "LANGUAGES_SLOVAK_NAME"
 msgstr "Názov v slovenčine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/add.thtml:10
-#: D:\webroot\source\app/views/languages/edit.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:10
 msgid "LANGUAGES_ENGLISH_NAME"
 msgstr "Názov v angličtine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/add.thtml:13
-#: D:\webroot\source\app/views/languages/edit.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/add.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:13
 msgid "LANGUAGES_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/edit.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/edit.thtml:4
 msgid "LANGUAGES_EDIT_ITEM"
 msgstr "Upraviť jazyk"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/languages/index.thtml:1
-#: D:\webroot\source\app/views/layouts/default.thtml:111
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:111
 msgid "MENU_SPRAVA_JAZYKOV"
 msgstr "Správa jazykov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:4
 msgid "LANGUAGES_MANAGMENT"
 msgstr "Správa jazykov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:6
 msgid "LANGUAGES_LIST"
 msgstr "Zoznam jazykov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/index.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:10
 msgid "LANGUAGES_NAME"
 msgstr "Názov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/index.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:11
 msgid "LANGUAGES_ACTIONS"
 msgstr "Akcia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/languages/index.thtml:17
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:17
 msgid "LANGUAGES_EDIT"
 msgstr "Upraviť"
 
-#: D:\webroot\source\app/views/languages/index.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/languages/index.thtml:18
 msgid "LANGUAGES_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:25
-#: D:\webroot\source\app/views/layouts/default.thtml:23
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:23
 msgid "MENU_HOME"
 msgstr "Domov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:27
-#: D:\webroot\source\app/views/layouts/default.thtml:25
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:25
 msgid "MENU_HELP"
 msgstr "Pomoc"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:28
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:28
 msgid "SLOVAK_VERSION"
 msgstr "Slovenská verzia"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:29
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:29
 msgid "ENGLISH_VERSION"
 msgstr "Anglická verzia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:36
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:36
 msgid "LOGIN"
 msgstr "Meno"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:39
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:39
 msgid "PASSWORD"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:42
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:42
 msgid "LOG_IN"
 msgstr "Prihlásiť sa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:46
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:46
 msgid "LOGGED_AS"
 msgstr "Prihlásený ako"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:50
-#: D:\webroot\source\app/views/layouts/default.thtml:46
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:46
 msgid "LOG_OUT"
 msgstr "Odhlásiť sa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:74
-#: D:\webroot\source\app/views/layouts/default.thtml:71
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:71
 msgid "MENU_FORUM"
 msgstr "Fórum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/layouts/default.thtml:72
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:72
 msgid "MENU_AKCIE"
 msgstr "Akcie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:76
-#: D:\webroot\source\app/views/layouts/default.thtml:73
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:73
 msgid "MENU_NASTENKA"
 msgstr "Nástenka"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:84
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:84
 msgid "ADMIN_MENU"
 msgstr "Správa systému"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:86
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:86
 msgid "MENU_SPRAVA_AKTUALIT"
 msgstr "Správa aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:89
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:89
 msgid "MENU_SPRAVA_PRAV"
 msgstr "Správa práv"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: D:\webroot\source\app/views/layouts/default.thtml:94
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:94
 msgid "MENU_STATISTIC_INDEX"
 msgstr "Štatistiky"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:107
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:107
 msgid "CODELISTS_MENU"
 msgstr "Správa číselníkov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:109
-#: D:\webroot\source\app/views/stats/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:109
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:1
 msgid "MENU_SPRAVA_STATISTIK"
 msgstr "Správa štatistík"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:89
-#: D:\webroot\source\app/views/layouts/default.thtml:110
-#: D:\webroot\source\app/views/professions/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:110
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:1
 msgid "MENU_SPRAVA_PROFESII"
 msgstr "Správa profesii"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:88
-#: D:\webroot\source\app/views/layouts/default.thtml:112
-#: D:\webroot\source\app/views/levels/index.thtml:1
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:112
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:1
 msgid "MENU_SPRAVA_LEVELOV"
 msgstr "Správa úrovní"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:123
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:123
 msgid "USER_PROFILE_MENU"
 msgstr "Môj Profil"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: D:\webroot\source\app/views/layouts/default.thtml:128
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:128
 msgid "MENU_ALUMNI_CURRICULUM"
 msgstr "Životopis"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: D:\webroot\source\app/views/layouts/default.thtml:141
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:141
 msgid "MAIL_MENU"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: D:\webroot\source\app/views/layouts/default.thtml:165
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:165
 msgid "MENU_NOVINKY"
 msgstr "Novinky"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:5
-#: D:\webroot\source\app/views/layouts/default.thtml:181
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:181
 msgid "CRUMB_MENU"
 msgstr "Domov"
 
-#: D:\webroot\source\app/views/layouts/default.thtml:185
+#: C:\Users\Jojo\webroot\alumni\app/views/layouts/default.thtml:185
 msgid "FONT_SIZE"
 msgstr "Veľkosť písma"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/add.thtml:4
-#: D:\webroot\source\app/views/levels/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:5
 msgid "LEVELS_ADD_ITEM"
 msgstr "Pridať úroveň"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/add.thtml:7
-#: D:\webroot\source\app/views/levels/edit.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:7
 msgid "LEVELS_SLOVAK_NAME"
 msgstr "Názov v slovenčine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/add.thtml:10
-#: D:\webroot\source\app/views/levels/edit.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:10
 msgid "LEVELS_ENGLISH_NAME"
 msgstr "Názov v angličtine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/add.thtml:13
-#: D:\webroot\source\app/views/levels/edit.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/add.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:13
 msgid "LEVELS_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/edit.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/edit.thtml:4
 msgid "LEVELS_EDIT_ITEM"
 msgstr "Upraviť úroveň"
 
-#: D:\webroot\source\app/views/levels/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:4
 msgid "LEVELS_MANAGEMENT"
 msgstr "Správa úrovní jazykov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:6
 msgid "LEVELS_LIST"
 msgstr "Zoznam úrovní"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/index.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:10
 msgid "LELVELS_NAME"
 msgstr "Názov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/index.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:11
 msgid "LELVELS_ACTION"
 msgstr "Akcia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/levels/index.thtml:17
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:17
 msgid "LEVELS_EDIT"
 msgstr "Upraviť"
 
-#: D:\webroot\source\app/views/levels/index.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:18
 msgid "LEVELS_DELETE"
 msgstr "Zmazať"
 
-#: D:\webroot\source\app/views/professions/add.thtml:4
-#: D:\webroot\source\app/views/professions/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:5
 msgid "PROFESSIONS_ADD_ITEM"
 msgstr "Pridať novú profesiu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/professions/add.thtml:7
-#: D:\webroot\source\app/views/professions/edit.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:8
 msgid "PROFESSIONS_SLOVAK_NAME"
 msgstr "Názov v slovenčine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/professions/add.thtml:10
-#: D:\webroot\source\app/views/professions/edit.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:11
 msgid "PROFESSIONS_ENGLISH_NAME"
 msgstr "Názov v angličtine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/professions/add.thtml:13
-#: D:\webroot\source\app/views/professions/edit.thtml:14
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/add.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:14
 msgid "PROFESSIONS_SAVE"
 msgstr "Uložiť"
 
-#: D:\webroot\source\app/views/professions/edit.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/edit.thtml:5
 msgid "PROFESSIONS_EDIT_ITEM"
 msgstr "Upraviť profesiu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/professions/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:4
 msgid "PROFESSIONS_MANAGEMENT"
 msgstr "Správa profesií"
 
-#: D:\webroot\source\app/views/professions/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:6
 msgid "PROFESSIONS_LIST"
 msgstr "Zoznam profesií"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/professions/index.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:10
 msgid "PROFESSIONS_NAME"
 msgstr "Názov"
 
-#: D:\webroot\source\app/views/professions/index.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:11
 msgid "PROFESSIONS_ACTION"
 msgstr "Akcia"
 
-#: D:\webroot\source\app/views/professions/index.thtml:17
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:17
 msgid "PROFESSIONS_EDIT"
 msgstr "Upraviť"
 
-#: D:\webroot\source\app/views/professions/index.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/professions/index.thtml:18
 msgid "PROFESSIONS_DELETE"
 msgstr "Zmazať"
 
-#: D:\webroot\source\app/views/stats/add.thtml:4
-#: D:\webroot\source\app/views/stats/index.thtml:5
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:5
 msgid "STATS_ADD_ITEM"
 msgstr "Pridať štatistiku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/add.thtml:7
-#: D:\webroot\source\app/views/stats/edit.thtml:8
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:7
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:8
 msgid "STATS_SLOVAK_NAME"
 msgstr "Názov v slovenčine"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/add.thtml:10
-#: D:\webroot\source\app/views/stats/edit.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:12
 msgid "STATS_ENGLISH_NAME"
 msgstr "Názov v angličtine"
 
-#: D:\webroot\source\app/views/stats/add.thtml:13
-#: D:\webroot\source\app/views/stats/edit.thtml:15
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:13
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:15
 msgid "STATS_SQL_QUERY"
 msgstr "SQL dopyt"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/add.thtml:16
-#: D:\webroot\source\app/views/stats/edit.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/add.thtml:16
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:18
 msgid "STATS_SAVE"
 msgstr "Uložiť"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/edit.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/edit.thtml:4
 msgid "STATS_EDIT_ITEM"
 msgstr "Upraviť štatistiku"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/index.thtml:4
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:4
 msgid "STATS_MANAGEMENT"
 msgstr "Správa štatistík"
 
-#: D:\webroot\source\app/views/stats/index.thtml:6
-#: D:\webroot\source\app/views/stats/select.thtml:3
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:3
 msgid "STATS_LIST"
 msgstr "Zoznam štatistík"
 
-#: D:\webroot\source\app/views/stats/index.thtml:10
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:10
 msgid "STATS_NAME"
 msgstr "Názov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/index.thtml:11
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:11
 msgid "STATS_ACTION"
 msgstr "Akcia"
 
-#: D:\webroot\source\app/views/stats/index.thtml:17
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:17
 msgid "STATS_EDIT"
 msgstr "Upraviť"
 
-#: D:\webroot\source\app/views/stats/index.thtml:18
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/index.thtml:18
 msgid "STATS_DELETE"
 msgstr "Zmazať"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: D:\webroot\source\app/views/stats/select.thtml:6
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:6
 msgid "STATS_SELECT_ITEM"
 msgstr "Zvoľte si želanú štatistiku"
 
-#: D:\webroot\source\app/views/stats/select.thtml:12
+#: C:\Users\Jojo\webroot\alumni\app/views/stats/select.thtml:12
 msgid "STATS_GENERATE_XLS"
 msgstr "Vygenerovať vo formáte .xls"
 

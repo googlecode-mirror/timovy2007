@@ -107,7 +107,7 @@
       </div>
 			<div>
         <label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="<?php echo $p['UserProfession']['year_from']; ?>" />
-			  <label class="left_space" style="width: 98px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_to']; ?>" />
+			  <label class="left_space" style="width: 94px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="<?php echo $p['UserProfession']['year_to']; ?>" />
 			  <p class="clear" />
       </div>
 			<div class="lang_en">
@@ -179,7 +179,7 @@
   </div>
 	<div>
     <label><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_FROM")?>:</label><input name="year_from[]" type="text" value="" />
-  	<label class="left_space" style="width: 98px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="" />
+  	<label class="left_space" style="width: 94px"><?php __("ALUMNI_MYPROFILE_PROFESSION_YEAR_TO")?>:</label><input name="year_to[]" type="text" value="" />
   	<p class="clear" />
   </div>
 	<div class="lang_en">

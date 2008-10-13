@@ -17,6 +17,7 @@ a, ul, li, form, div, h1, h2, h3, p {
 
 input, textarea {
 	border: 1px #6E6E6E solid;
+	margin: 2px;
 }
 
 select, option {
@@ -612,8 +613,6 @@ p.myprofile {
 	background-color: #DEF1F8;
 	border-top: 1px solid #86BECD;
 	border-bottom: 1px solid #86BECD;
-	overflow/**/: auto;
-    \height: 1%;
 }
 div.myprofile {
 	padding-left: 17px;
@@ -621,8 +620,6 @@ div.myprofile {
 	background-color: #DEF1F8;
 	border-top: 1px solid #86BECD;
 	border-bottom: 1px solid #86BECD;
-	overflow/**/: auto;
-    \height: 1%;
 }
 div.myprofile h3 {
   margin-bottom: 10px

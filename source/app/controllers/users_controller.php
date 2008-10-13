@@ -56,29 +56,36 @@ class UsersController extends AppController
 		$this->render('index');
 	}
 	
-	    function add()
-	    {
-    	    $this->pageTitle = __('USERS_ADD_TITLE', true);
-    		$this->check_permission();
-            if (!empty($this->data))
-            {
-                $this->data['User']['title']= htmlspecialchars($this->data['User']['title']);
-                $this->data['User']['first_name']= htmlspecialchars($this->data['User']['first_name']);
-                $this->data['User']['middle_name']= htmlspecialchars($this->data['User']['middle_name']);
-                $this->data['User']['last_name']= htmlspecialchars($this->data['User']['last_name']);
-                $this->data['User']['username']= htmlspecialchars($this->data['User']['username']);
-                $this->data['User']['email']= htmlspecialchars($this->data['User']['email']);
-                $this->data['User']['password']= md5(htmlspecialchars($this->data['User']['password']));
-                if ($this->User->save($this->data))
-                {
-    				        $this->My->setInfo(__("USER_ADDED_SUCCESSFULLY", true), true);
-    				        $this->redirect('/users/index', null, true);    				
-                }else
-                {
-    				        $this->My->setInfo(__("USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT", true));
-				}
-            }
-    	}
+  function add()
+  {
+	  $this->pageTitle = __('USERS_ADD_TITLE', true);
+		$this->check_permission();
+    if (!empty($this->data))
+    {
+      if ($this->User->find(array('username' => $this->data['User']['username']))) {
+        $this->My->setError(__("USER_ADD_FAILED_USER_EXISTS", true));
+        return;
+      }
+      
+      $this->data['User']['title']= htmlspecialchars($this->data['User']['title']);
+      $this->data['User']['first_name']= htmlspecialchars($this->data['User']['first_name']);
+      $this->data['User']['middle_name']= htmlspecialchars($this->data['User']['middle_name']);
+      $this->data['User']['last_name']= htmlspecialchars($this->data['User']['last_name']);
+      $this->data['User']['username']= htmlspecialchars($this->data['User']['username']);
+      $this->data['User']['email']= htmlspecialchars($this->data['User']['email']);
+      $this->data['User']['password']= md5(htmlspecialchars($this->data['User']['password']));
+      
+      if ($this->User->save($this->data))
+      {
+	        $this->My->setInfo(__("USER_ADDED_SUCCESSFULLY", true), true);
+	        $this->redirect('/users/index', null, true);    				
+      }
+      else
+      {
+	        $this->My->setError(__("USER_ADD_FAILED_FIELDS_ARE_NOT_CORRECT", true));
+      }
+    }
+	}
 	
 	function delete($id)
 	{
