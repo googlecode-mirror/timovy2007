@@ -2,4 +2,4 @@
 
 <p><small>Created: <?php echo $post['Post']['created']?></small></p>
 
-<p><?php echo $post['Post']['body']?></p>
+<p><?php echo str_replace("\n", "<br />", $post['Post']['body']); ?></p>

@@ -17,7 +17,7 @@ a, ul, li, form, div, h1, h2, h3, p {
 
 input, textarea {
 	border: 1px #6E6E6E solid;
-	margin: 2px;
+	margin: 2px 0;
 }
 
 select, option {
