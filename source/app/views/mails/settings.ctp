@@ -5,7 +5,7 @@
 <div class="settings_box">
 	<?php __("MAIL_SETTINGS_FORWARD_MAIL_DESCR")?><br />
 	<p style="padding-bottom: 0px">
-    <?php echo $form->text('User/forward_mail')?>
+    <?php echo $form->text('User.forward_mail')?>
   </p>
 </div>
 <div class="settings_box">
