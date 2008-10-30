@@ -5974,3 +5974,103 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
+
+CREATE TABLE wall_posters (
+    id integer NOT NULL,
+    title character varying(255),
+    text text,
+    valid_from date,
+    valid_until date,
+    new_title character varying(255),
+    new_text text,
+    new_valid_from date,
+    new_valid_until date,
+    refusal_text text,
+    created timestamp without time zone NOT NULL,
+    changed timestamp without time zone,
+    refused timestamp without time zone,
+    is_changed boolean DEFAULT false,
+    is_refused boolean DEFAULT false,
+    is_deleted boolean DEFAULT false,
+    operation character(1),
+    user_id integer NOT NULL
+);
+
+
+ALTER TABLE public.wall_posters OWNER TO team14;
+
+--
+-- TOC entry 1658 (class 1259 OID 54265)
+-- Dependencies: 1633 6
+-- Name: wall_posters_id_seq; Type: SEQUENCE; Schema: public; Owner: team14
+--
+
+CREATE SEQUENCE wall_posters_id_seq
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.wall_posters_id_seq OWNER TO team14;
+
+--
+-- TOC entry 1934 (class 0 OID 0)
+-- Dependencies: 1658
+-- Name: wall_posters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: team14
+--
+
+ALTER SEQUENCE wall_posters_id_seq OWNED BY wall_posters.id;
+
+
+--
+-- TOC entry 1935 (class 0 OID 0)
+-- Dependencies: 1658
+-- Name: wall_posters_id_seq; Type: SEQUENCE SET; Schema: public; Owner: team14
+--
+
+SELECT pg_catalog.setval('wall_posters_id_seq', 9, true);
+
+
+--
+-- TOC entry 1928 (class 2604 OID 54291)
+-- Dependencies: 1658 1633
+-- Name: id; Type: DEFAULT; Schema: public; Owner: team14
+--
+
+ALTER TABLE wall_posters ALTER COLUMN id SET DEFAULT nextval('wall_posters_id_seq'::regclass);
+
+
+--
+-- TOC entry 1931 (class 0 OID 54175)
+-- Dependencies: 1633
+-- Data for Name: wall_posters; Type: TABLE DATA; Schema: public; Owner: team14
+--
+
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (1, '01 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-04-25', NULL, NULL, NULL, NULL, NULL, '2007-04-21 00:19:04', NULL, NULL, false, false, false, NULL, 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (2, NULL, NULL, NULL, NULL, '02 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-03-25', 'Oznam nepodlieha kriteriam nastenky', '2007-04-21 00:21:03', NULL, '2007-04-23 17:50:24', true, true, false, 'a', 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (3, NULL, NULL, NULL, NULL, '03 Test3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-03-25', NULL, '2007-04-21 00:24:15', NULL, NULL, true, false, false, 'a', 3);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (4, NULL, NULL, NULL, NULL, '04 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-05-25', NULL, '2007-04-21 00:21:03', NULL, '2007-04-21 09:21:03', true, true, false, 'a', 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (5, '05 Test3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-04-25', NULL, NULL, NULL, NULL, NULL, '2007-04-21 00:21:03', NULL, NULL, false, false, false, NULL, 3);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (6, NULL, NULL, NULL, NULL, '06 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-04-25', NULL, '2007-04-21 00:24:15', NULL, NULL, true, false, false, 'a', 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (7, '07 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-03-20', '2007-04-25', NULL, NULL, NULL, NULL, NULL, '2007-04-21 00:24:15', NULL, NULL, false, false, false, NULL, 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (8, '08 Test2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-02-20', '2007-05-25', NULL, NULL, NULL, NULL, NULL, '2007-04-22 22:04:35', NULL, NULL, false, false, false, NULL, 2);
+INSERT INTO wall_posters (id, title, text, valid_from, valid_until, new_title, new_text, new_valid_from, new_valid_until, refusal_text, created, changed, refused, is_changed, is_refused, is_deleted, operation, user_id) VALUES (9, '09 Test3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2007-02-20', '2007-05-25', NULL, NULL, NULL, NULL, NULL, '2007-04-22 22:05:40', NULL, NULL, false, false, false, NULL, 3);
+
+
+--
+-- TOC entry 1930 (class 2606 OID 54389)
+-- Dependencies: 1633 1633
+-- Name: wall_posters_pkey; Type: CONSTRAINT; Schema: public; Owner: team14; Tablespace: 
+--
+
+ALTER TABLE ONLY wall_posters
+    ADD CONSTRAINT wall_posters_pkey PRIMARY KEY (id);
+
+
+-- Completed on 2008-10-30 20:03:06
+
+--
+-- PostgreSQL database dump complete
+--
+
