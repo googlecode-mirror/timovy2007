@@ -559,9 +559,9 @@ SELECT pg_catalog.setval('news_id_seq', 1, false);
 
 CREATE TABLE posts (
     id integer NOT NULL,
-    title_sk character varying(50),
+    title_sk text,
     body_sk text,
-    title_en character varying(50),
+    title_en text,
     body_en text,
     created timestamp without time zone NOT NULL,
     modified timestamp without time zone

@@ -36,7 +36,11 @@ class StatsController extends AppController
         $this->set('id', $id);
     }
     else
-    {    
+    {
+      if(preg_match("/DROP|TRUNCATE|DELETE/", $this->data['Stat']['sql'])) {
+          $this->My->setError(__('STATS_ERROR_ON_INSERT', true));
+          $this->redirect('/stats', null, true);
+      }    
       if ($this->Stat->save($this->data)) {
         $this->My->setInfo(__('STATS_ITEM_UPDATED', true));
 			  $this->redirect('/stats', null, true);
@@ -51,7 +55,11 @@ class StatsController extends AppController
   {
      $this->pageTitle = __('STATS_ADD_TITLE', true);
 		 $this->check_permission();
-	   if ($this->data) {
+	   if ($this->data) {	         
+        if(preg_match("/DROP|TRUNCATE|DELETE/", $this->data['Stat']['sql'])) {
+          $this->My->setError(__('STATS_ERROR_ON_INSERT', true));
+          $this->redirect('/stats', null, true);
+        }
 	      if ($this->Stat->save($this->data)) {
 	        $this->My->setInfo(__('STATS_ITEM_NEW', true));
 				  $this->redirect('/stats', null, true);
@@ -85,7 +93,7 @@ class StatsController extends AppController
    	$this->check_permission();
     if ($this->data) {
       $sql = $this->Stat->find(array('id' => $this->data['Stat']['id']) );      
-      if(preg_match("/DROP|TRUNCATE/", $sql['Stat']['sql'])) {
+      if(preg_match("/DROP|TRUNCATE|DELETE/", $sql['Stat']['sql'])) {
         $data = array(0 => array('action'=>'DROP and TRUNCATE not allowed!!!'));       
       } 
       else {        
