@@ -43,10 +43,10 @@ class PostsController extends AppController
     		$this->check_permission();
             if (!empty($this->data))
             {
-                $this->data['Post']['title_sk']= htmlspecialchars($this->data['Post']['title_sk']);
-                $this->data['Post']['title_en']= htmlspecialchars($this->data['Post']['title_en']);
-                $this->data['Post']['body_sk']= htmlspecialchars($this->data['Post']['body_sk']);
-                $this->data['Post']['body_en']= htmlspecialchars($this->data['Post']['body_en']);
+                $this->data['Post']['title_sk']= $this->data['Post']['title_sk'];
+                $this->data['Post']['title_en']= $this->data['Post']['title_en'];
+                $this->data['Post']['body_sk']= $this->data['Post']['body_sk'];
+                $this->data['Post']['body_en']= $this->data['Post']['body_en'];
                 if ($this->Post->save($this->data))
                 {
                     //$this->flash('Your post has been saved.','/posts');
@@ -79,10 +79,10 @@ class PostsController extends AppController
     		}
     		else
     		{
-            $this->data['Post']['title_sk']= htmlspecialchars($this->data['Post']['title_sk']);
-            $this->data['Post']['title_en']= htmlspecialchars($this->data['Post']['title_en']);
-            $this->data['Post']['body_sk']= htmlspecialchars($this->data['Post']['body_sk']);
-            $this->data['Post']['body_en']= htmlspecialchars($this->data['Post']['body_en']);
+            $this->data['Post']['title_sk']= $this->data['Post']['title_sk'];
+            $this->data['Post']['title_en']= $this->data['Post']['title_en'];
+            $this->data['Post']['body_sk']= $this->data['Post']['body_sk'];
+            $this->data['Post']['body_en']= $this->data['Post']['body_en'];
     		    if ($this->Post->save($this->data['Post']))
     		    {
     		  		//$this->flash('Your post has been updated.','/posts');

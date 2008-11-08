@@ -67,13 +67,13 @@ class UsersController extends AppController
         return;
       }
       
-      $this->data['User']['title']= htmlspecialchars($this->data['User']['title']);
-      $this->data['User']['first_name']= htmlspecialchars($this->data['User']['first_name']);
-      $this->data['User']['middle_name']= htmlspecialchars($this->data['User']['middle_name']);
-      $this->data['User']['last_name']= htmlspecialchars($this->data['User']['last_name']);
-      $this->data['User']['username']= htmlspecialchars($this->data['User']['username']);
-      $this->data['User']['email']= htmlspecialchars($this->data['User']['email']);
-      $this->data['User']['password']= md5(htmlspecialchars($this->data['User']['password']));
+      $this->data['User']['title']= $this->data['User']['title'];
+      $this->data['User']['first_name']= $this->data['User']['first_name'];
+      $this->data['User']['middle_name']= $this->data['User']['middle_name'];
+      $this->data['User']['last_name']= $this->data['User']['last_name'];
+      $this->data['User']['username']= $this->data['User']['username'];
+      $this->data['User']['email']= $this->data['User']['email'];
+      $this->data['User']['password']= md5($this->data['User']['password']);
       
       if ($this->User->save($this->data))
       {

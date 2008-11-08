@@ -64,19 +64,19 @@
 </h2>
 <form class="alumni_myprofile" action="<?php echo $html->url('/alumni/myprofile')?>" method="post">
 <p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_EMAIL')?>:</label><?php echo $form->text('User/email')?><input class="left_space" type="checkbox" name="publish_email" value="1" <?php echo ($user['User']['publish_email']==1) ? 'checked' : '';?> />
+	<label><?php __('ALUMNI_MYPROFILE_EMAIL')?>:</label><?php echo $form->text('User.email')?><input class="left_space" type="checkbox" name="publish_email" value="1" <?php echo ($user['User']['publish_email']==1) ? 'checked' : '';?> />
     <?php __("ALUMNI_MYPROFILE_PUBLISH_EMAIL")?>
 		<br />
 </p><br /><p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_ADDRESS')?>:</label> <?php echo $form->textarea('User/address', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
+	<label><?php __('ALUMNI_MYPROFILE_ADDRESS')?>:</label> <?php echo $form->textarea('User.address', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
 </p><br /><p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_PHONE')?>:</label> <?php echo $form->text('User/phone')?><br />
+	<label><?php __('ALUMNI_MYPROFILE_PHONE')?>:</label> <?php echo $form->text('User.phone')?><br />
 </p><br /><p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_ICQ')?>:</label> <?php echo $form->text('User/icq')?><br />
+	<label><?php __('ALUMNI_MYPROFILE_ICQ')?>:</label> <?php echo $form->text('User.icq')?><br />
 </p><br />
 <!--
 <p class="myprofile">
-	<label><?php __('ALUMNI_MYPROFILE_OCCUPATION')?>:</label> <?php echo $form->textarea('User/occupation', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
+	<label><?php __('ALUMNI_MYPROFILE_OCCUPATION')?>:</label> <?php echo $form->textarea('User.occupation', array('style'=>'width: 350px;', 'cols'=>100, 'rows'=>3))?><br />
 </p><br />
 -->
 
