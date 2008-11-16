@@ -226,7 +226,7 @@ class MailsController extends AppController
 				if (strpos($addr, '<group>') or strpos($addr, '<skupina>')) {
 					// trim
 					$addr = trim(strip_tags($addr));
-					if (false === ($group_id = $this->MailGroup->field('id', array('MailGroup.name'=>$addr)))) {
+					if (false === ($group_id = $this->MailGroup->field('id', array('MailGroup.name'=>$addr, 'user_id'=>$this->Login->user_id() )))) {
 						$this->My->setError(__('MAIL_COMPOSE_BAD_ADDRESS', true));
 						return;
 					}
@@ -452,14 +452,7 @@ class MailsController extends AppController
 	 */
 	public function ajax_search_groups()
 	{
-		$groups = $this->MailGroup->query("
-			SELECT MailGroup.id, MailGroup.name, MailGroup.user_id, count(MailGroup.user_id) as Pocet
-			FROM mail_groups MailGroup
-			JOIN mail_group_users MailGroupUser ON MailGroup.id=MailGroupUser.mail_group_id
-			WHERE MailGroup.user_id IS NULL OR MailGroupUser.user_id=".$this->Login->user_id()."
-			GROUP BY MailGroup.id, MailGroup.name, MailGroup.user_id
-			ORDER BY MailGroup.user_id, MailGroup.name
-		");
+	  $groups = $this->MailGroup->findAllByUser_id($this->Login->user_id());
 		$this->set('groups', $groups);
 		$this->layout = 'ajax';
 	}

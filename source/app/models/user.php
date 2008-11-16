@@ -40,7 +40,12 @@ class User extends AppModel
 		(
 			'className'		=> 'UserLanguage',
 			'foreignKey'	=> 'user_id'
-		)		
+		),
+		'MailGroupUser' => array
+		(
+			'className'		=> 'MailGroupUser',
+			'foreignKey'	=> 'user_id'
+		)    		
 	); 
 	
 	var $hasAndBelongsToMany = array

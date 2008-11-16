@@ -152,6 +152,7 @@
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/compose')?>"><?php echo __("MENU_MAIL_COMPOSE")?></a></li>
 									<?php } ?>
 									<li class="adminmenuitem"><a href="<?php echo $html->url('/mails/settings')?>"><?php echo __("MENU_MAIL_SETTINGS")?></a></li>
+									<li class="adminmenuitem"><a href="<?php echo $html->url('/mailgroups/')?>"><?php echo __("MENU_MAIL_MAILGROUPS")?></a></li>
 								</ul>
 							</div>	
 						</div>	

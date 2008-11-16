@@ -3,9 +3,9 @@
 <?php foreach ($groups as $group) { ?>
 <tr>
 	<td>
-		<input type="checkbox" value="<?php echo $group['MailGroup']['name']?><group>" class="groupfound noborder" />
+		<input type="checkbox" value="<?php echo $group['MailGroup']['name']?><group>" id="mail_group<?php echo $group['MailGroup']['id']?>" class="groupfound noborder" />
 	</td>
-	<td><?php echo $group['MailGroup']['name']?></td>
+	<td><label for="mail_group<?php echo $group['MailGroup']['id']?>"><?php echo $group['MailGroup']['name']?> (<?php echo $group['MailGroup']['description']?>)</label></td>
 </tr>
 <?php } ?>
 </table>

@@ -1,0 +1,96 @@
+<?php $my->addCrumb(__("MAILGRUOPS_ADD_TITLE", true)); ?>
+
+<?php $url = "mailgroups"; $modul="MailGroup"; ?>
+<h2><?php __("MAILGROUPS_ADD_ITEM"); ?></h2>
+<form id="mailgroupsAddForm" method="post" action="/timovy/source/mailgroups/add">
+<br />
+<?php echo $form->label('name', __("MAILGROUPS_NAME", true), null); ?>:<br />
+<?php echo $form->text('name'); ?><br />
+<?php echo $form->label('description', __("MAILGROUPS_DESCRIPTION", true), null); ?>:<br />
+<?php echo $form->text('description'); ?><br />
+<br />
+<?php echo $form->label('address', __("MAILGROUPS_USERS", true), null); ?>:<br />
+<textarea name="address" id="address" rows="3" style="width: 60%"></textarea>
+<br />
+<a href="#" onclick="show_search_users(); return false;"><?php __('MAIL_COMPOSE_SEARCH_USERS')?></a>   
+-
+<?php __('MAIL_COMPOSE_ADDRESS_INFO'); ?>
+
+<?php echo $form->submit(__("MAILGROUPS_SAVE", true)); ?>
+<?php echo $form->end();?>
+<br />
+
+<script language='JavaScript' type='text/javascript'>
+  //<![CDATA[
+	var win = null;
+	var wing = null;
+	/**
+	 * Zobrazi dialog pre hladanie pouzivatelov
+	 */
+	function show_search_users()
+	{
+		// vytvori nove okno
+		if (win == null) {
+			win = new Window({className: "alphacube", resizable: false, width: 300, height:410}); 	
+			win.setTitle("<?php __('MAIL_COMPOSE_SEARCH_USERS_TITLE')?>");
+			$('sarch_users_results').innerHTML = "";
+			win.setContent('mail_search_users', false, false) 
+		}
+		
+		
+		// vynuluj checkboxy
+		var frminp = $$('.userfound');
+		for (var i=0; i<frminp.length; i++) {
+			var addr = frminp[i];
+			addr.checked = false;
+		}
+		
+		win.showCenter(); 
+	}	
+	
+	function search_users_add()
+	{
+		var frminp = $$('.userfound');
+		var najdene = new Array();
+		
+		// najdem len tie co su checked
+		for (var i=0; i<frminp.length; i++) {
+			
+			var addr = frminp[i];
+			if (addr.checked) {
+				najdene.push(addr.value);
+			}
+		}
+
+		// pridam ich do vysledneho pola
+		for (var i=0; i<najdene.length; i++) {
+			if ($F('address') == '') {
+				$('address').value = najdene[i];
+			} else {
+				$('address').value += ', '+"\n"+najdene[i];
+			}
+		}
+			
+		// zavrie vsetky okna
+		Windows.closeAll();
+	}	
+//]]>
+</script>
+
+<div id="mail_search_users" style="display: none; text-align: left;">
+	<div  style="padding: 0 10px 5px 10px; text-align: left;">
+	<h2><?php __('MAIL_COMPOSE_SEARCH_USERS_LABEL')?></h2>
+	<?php echo $ajax->form('../mails/ajax_search_users', 'post', array('update'=>'sarch_users_results', 'before'=>"$('sarch_users_results').innerHTML = \"".__('MAIL_COMPOSE_SEARCH_LOADING', true)."\""))?>
+	<p>
+		<input type="text" name="username" value="" style="width: 98%; padding: 2px;" /><br />
+		<input type="submit" value="<?php __('MAIL_COMPOSE_SEARCH_USER_SUBMIT')?>" />
+	</p>
+	</form>
+	
+	
+	<div>
+		<div id="sarch_users_results" style="height: 290px; border: 1px solid silver; overflow: auto"></div>
+		<input type="reset" onclick="search_users_add(); return false;" value="<?php __('MAIL_COMPOSE_SEARCH_USER_ADD')?>" />
+	</div>
+	</div>
+</div>
