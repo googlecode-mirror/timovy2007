@@ -33,15 +33,14 @@
 	<?php if (count($graduates) > 0) { ?>
 	<table style="clear: both;" id="alumni_result">
 	<tr>
-		<th><?php __('ALUMNI_LIST_MENO')?></th>
-		<th><?php __('ALUMNI_LIST_STUDYTYPE')?></th>
-		<th><?php __('ALUMNI_LIST_SPECIALIZATION')?></th>
-		
+		<th><?php echo $paginator->sort(__('ALUMNI_LIST_MENO', true), 'User.first_name');?></th>
+		<th><?php echo $paginator->sort(__('ALUMNI_LIST_STUDYTYPE', true), 'Specialization.study_type_id');?></th>
+		<th><?php echo $paginator->sort(__('ALUMNI_LIST_SPECIALIZATION', true), 'Specialization.name_'.$lang);?></th>
 	</tr>
 	<?php foreach ($graduates as $g) { ?>
 	<tr>
 		<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
-		<td><?php echo @$g['StudyType']['name_'.$lang]?></td>
+		<td><?php echo $study_types[$g['Specialization']['study_type_id']]['name_'.$lang]?></td>
 		<td><?php echo @$g['Specialization']['name_'.$lang]?></td>
 	</tr>
 	<?php } ?>

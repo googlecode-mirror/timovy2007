@@ -11,6 +11,7 @@ class AlumniController extends AppController
 	var $auth = 'toto je nove';
 	var $helpers = array('form','fpdf');
 	// var $required_clearances = array('SUPER_ADMIN');
+	var $paginate = array('limit' => 10, 'page' => 1);
 	
 	public function index()
 	{
@@ -61,29 +62,11 @@ class AlumniController extends AppController
 			// ak listujem medzi strankami
 			$conditions = $_SESSION['search_cond'];			
 		}
-		
-		
-		$this->paginate['Graduate']['limit'] = 30;
-		$this->paginate['Graduate']['order'] = 'User.username';
+
+		$this->Graduate->recursion = 2;
 		$graduates = $this->paginate('Graduate', $conditions);
-		
-		//
-		// dopln do vystupu pri studentovy typ studia (zo specialization_id)
-		foreach ($graduates as $k=>$v) {
-			
-			//
-			// nemusi to byt vyplnene ! 
-			if ($v['Specialization']['study_type_id'] != '') {
-				
-				//
-				// nacitaj
-				$this->StudyType->recursion = -1;
-				$this->StudyType->id = $v['Specialization']['study_type_id'];
-				$s_temp = $this->StudyType->read();
-				$graduates[$k]['StudyType'] = $s_temp['StudyType'];
-				
-			}
-		}
+		//print_r($graduates);
+
 		$this->set('graduates', $graduates);
 		
 		
