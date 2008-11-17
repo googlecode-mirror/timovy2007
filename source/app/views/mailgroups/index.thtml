@@ -10,6 +10,13 @@
 	<th><?php __("MAILGROUPS_NAME");?></th>
 	<th><?php __("MAILGROUPS_ACTIONS");?></th>
 </tr>
+<?php if (count($data)==0) { ?>
+<tr>
+	<td colspan="2" style="padding: 0.5em;">
+		<?php __('MAILGROUPS_NO_GROUPS')?>
+	</td>
+</tr>
+<?php } ?>
 <?php foreach ($data as $key=>$value) { ?>
 <tr>
 	<td><?php echo $value[$modul]['name']?></td>

@@ -2,7 +2,7 @@
 
 <?php $url = "mailgroups"; $modul="MailGroup"; ?>
 <h2><?php __("MAILGROUPS_ADD_ITEM"); ?></h2>
-<form id="mailgroupsAddForm" method="post" action="/timovy/source/mailgroups/edit/<?php echo $id; ?>">
+<form id="mailgroupsAddForm" method="post" action="<?php $html->url('/mailgroups/edit/'.$id)?>">
 <br />
 <?php echo $form->label('name', __("MAILGROUPS_NAME", true), null); ?>:<br />
 <?php echo $form->text('name', array('value'=>$data[$modul]['name'])); ?><br />
@@ -39,7 +39,7 @@ echo substr($adress, 0, -2);
 	{
 		// vytvori nove okno
 		if (win == null) {
-			win = new Window({className: "alphacube", resizable: false, width: 300, height:410}); 	
+			win = new Window({className: "alphacube", resizable: false, width: 300, height:420}); 	
 			win.setTitle("<?php __('MAIL_COMPOSE_SEARCH_USERS_TITLE')?>");
 			$('sarch_users_results').innerHTML = "";
 			win.setContent('mail_search_users', false, false) 

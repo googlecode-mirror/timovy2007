@@ -46,7 +46,7 @@
 	{
 		// vytvori nove okno
 		if (win == null) {
-			win = new Window({className: "alphacube", resizable: false, width: 300, height:410}); 	
+			win = new Window({className: "alphacube", resizable: false, width: 300, height:420}); 	
 			win.setTitle("<?php __('MAIL_COMPOSE_SEARCH_USERS_TITLE')?>");
 			$('sarch_users_results').innerHTML = "";
 			win.setContent('mail_search_users', false, false) 
@@ -67,7 +67,7 @@
 	{
 		// vytvori nove okno
 		if (wing == null) {
-			wing = new Window({className: "alphacube", resizable: false, width: 300, height:410}); 	
+			wing = new Window({className: "alphacube", resizable: false, width: 300, height:420}); 	
 			wing.setTitle("<?php __('MAIL_COMPOSE_SEARCH_GROUPS_TITLE')?>");
 			new Ajax.Updater('seach_groups_results', '<?php echo $html->url('/mails/ajax_search_groups')?>');
 			$('seach_groups_results').innerHTML = "";
