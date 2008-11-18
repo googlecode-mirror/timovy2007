@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-11-18 14:58+0100\n"
-"PO-Revision-Date: 2008-11-18 15:35+0100\n"
+"PO-Revision-Date: 2008-11-18 16:11+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AAteam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -1950,7 +1950,7 @@ msgstr "Edit"
 
 #: C:\Users\Jojo\webroot\alumni\app/views/levels/index.thtml:18
 msgid "LEVELS_DELETE"
-msgstr "Edit profession"
+msgstr "Delete"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/mailgroups/add.thtml:4

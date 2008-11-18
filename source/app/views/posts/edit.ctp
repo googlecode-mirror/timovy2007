@@ -12,10 +12,10 @@
     </p>
     <p>
         <label><?php __("NEWS_BODY") ?>:</label><br />
-        <?php echo $form->textarea('Post.body_sk', array('style'=>'width: 100%; border: 1px solid grey; height: 300px;')); ?>
+        <?php echo $form->textarea('Post.body_sk', array('style'=>'width: 510px; border: 1px solid grey; height: 300px;')); ?>
         <br />
         <label><?php __("NEWS_BODY_EN") ?>:</label><br />
-        <?php echo $form->textarea('Post.body_en', array('style'=>'width: 100%; border: 1px solid grey; height: 300px;')); ?>
+        <?php echo $form->textarea('Post.body_en', array('style'=>'width: 510px; border: 1px solid grey; height: 300px;')); ?>
         <?php echo $form->error('Post.body_sk', 'Body is required.') ?>
         <?php echo $form->error('Post.body_en', 'Body is required.') ?>
     </p>

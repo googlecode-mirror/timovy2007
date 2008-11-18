@@ -9,7 +9,7 @@
 </p>
 <p>
 	<label><?php __("ROLES_DESCRIPTION"); ?>:</label><br />
-	<?php echo $form->textarea('Role.description', array('style'=>'width: 100%; border: 1px solid grey; height: 50px;'))?>
+	<?php echo $form->textarea('Role.description', array('style'=>'width: 510px; border: 1px solid grey; height: 50px;'))?>
 	<?php echo $form->error('Role.description', 'Prosím zadajte popis pre rolu!')?>
 </p>
 

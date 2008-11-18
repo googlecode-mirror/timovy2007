@@ -19,12 +19,12 @@
 		<tr>
 			<td class="mailsendlabel"><?php __("MAIL_COMPOSE_NAME")?>:</td>
 			<td>
-				<input type="text" name="subject" value="<?php echo $subject;?>" style="width: 100%;"/>
+				<input type="text" name="subject" value="<?php echo $subject;?>" style="width: 60%;"/>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-				<textarea name="body" style="width: 100%; height: 20em;"><?php echo $body;?></textarea>
+				<textarea name="body" style="width: 500px; height: 20em;"><?php echo $body;?></textarea>
 			</td>
 		</tr>
 		<tr>
