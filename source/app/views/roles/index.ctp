@@ -1,7 +1,7 @@
 <?php $my->addCrumb(__("ROLES_MANAGEMENT", true)); ?>
 <h1><?php __("ROLES_MANAGEMENT"); ?></h1>
 
-<h2><?php __("ROLES_LIST"); ?>:</h2>
+<h2><?php __("ROLES_LIST"); ?></h2>
 <table class="std_table">
 <tr>
 	<th><?php __("ROLES_NAME"); ?></th>

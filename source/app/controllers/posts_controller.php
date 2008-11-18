@@ -31,9 +31,10 @@ class PostsController extends AppController
 
     function admin()
     {
+        $this->paginate = array('limit' => 20, 'page' => 1, 'order'=>array('created' => 'desc'));
         $this->pageTitle = __('POSTS_ADMIN_TITLE', true);
 		    $this->check_permission();
-		    $this->set('posts', $this->Post->findAll(null,null,array('Post.created'=>'DESC')));
+		    $this->set('posts', $this->paginate('Post'));
         $this->set('lang', $this->Session->read('Config.language'));		 
     }
 

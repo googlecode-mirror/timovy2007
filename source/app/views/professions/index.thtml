@@ -7,8 +7,8 @@
 
 <table class="std_table">
 <tr>
-	<th><?php __("PROFESSIONS_NAME");?>:</th>
-	<th><?php __("PROFESSIONS_ACTION");?>:</th>
+	<th><?php echo $paginator->sort(__('PROFESSIONS_NAME', true), 'name_'.$lang); ?></th>
+	<th><?php __("PROFESSIONS_ACTION"); ?></th>
 </tr>
 <?php foreach ($data as $key=>$value) { ?>
 <tr>

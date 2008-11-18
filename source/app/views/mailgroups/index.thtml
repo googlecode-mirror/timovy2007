@@ -7,7 +7,7 @@
 
 <table class="std_table">
 <tr>
-	<th><?php __("MAILGROUPS_NAME");?></th>
+	<th><?php echo $paginator->sort(__('MAILGROUPS_NAME', true), 'MailGroup.name');?></th>
 	<th><?php __("MAILGROUPS_ACTIONS");?></th>
 </tr>
 <?php if (count($data)==0) { ?>

@@ -1,21 +1,20 @@
 <?php $my->addCrumb(__("MENU_MAIL", true)); ?>
 
-<form action="<?php echo $html->url('/mails/compose');?>" method="get">
-<h1>
-	<?php if ($Login->check('MAIL_WRITE')) { ?>
-	<input type="submit" value="<?php __('MENU_MAIL_COMPOSE');?>" style="float: right;" />
-	<?php } ?>
-	<?php __('MAIL_BOX_TITLE');?>
-</h1>
-</form>
+<h1><?php __('MAIL_BOX_TITLE');?></h1>
+<?php if ($Login->check('MAIL_WRITE')) { ?>
+<p>
+  <a href="<?php echo $html->url('/mails/compose');?>"><?php __('MENU_MAIL_COMPOSE');?></a>
+</p>
+<?php } ?>
 
+<h2 style="margin-top: 0"><?php __('MAIL_BOX_MESSAGE_LIST');?></h2>
 <form action="" method="post">
 <table id="mail_inbox">
 <tr>
-	<th>#</th>
-	<th><?php __('MAIL_BOX_FROM')?></th>
-	<th><?php __('MAIL_BOX_SUBJECT')?></th>
-	<th><?php __('MAIL_BOX_TIME')?></th>
+  <th>#</th>
+	<th><?php echo $paginator->sort(__('MAIL_BOX_FROM', true), 'Mail.user_id');?></th>
+	<th><?php echo $paginator->sort(__('MAIL_BOX_SUBJECT', true), 'Mail.subject');?></th>
+	<th><?php echo $paginator->sort(__('MAIL_BOX_TIME', true), 'Mail.date_send');?></th>
 </tr>
 <?php if (count($mails)==0) { ?>
 <tr>

@@ -7,7 +7,7 @@
 
 <table class="std_table">
 <tr>
-	<th><?php __("LELVELS_NAME");?></th>
+  <th><?php echo $paginator->sort(__('LELVELS_NAME', true), 'name_'.$lang); ?></th>
 	<th><?php __("LELVELS_ACTION");?></th>
 </tr>
 <?php foreach ($data as $key=>$value) { ?>

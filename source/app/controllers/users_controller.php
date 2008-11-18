@@ -9,6 +9,7 @@ class UsersController extends AppController
 	var $helpers = array('ajax', 'Html', 'Form');
 	var $components = array('Login');
 	var $required_clearances = array('MANAGE_USERS');
+	var $paginate = array('limit' => 20, 'page' => 1, 'order'=>array('last_name' => 'asc'));
 
 	/**
 	 * Zobrazi zoznam uzivatelov
@@ -17,7 +18,6 @@ class UsersController extends AppController
 	{
 	  $this->pageTitle = __('USERS_INDEX_TITLE', true);
 		$this->set('name', '');
-		$this->paginate['User']['limit'] = 20;
 		$this->set('users', $this->paginate('User', array()));
 	}
 	

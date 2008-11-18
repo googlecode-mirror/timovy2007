@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Team Project 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-17 23:20+0100\n"
-"PO-Revision-Date: 2008-11-18 00:47+0100\n"
+"POT-Creation-Date: 2008-11-18 14:58+0100\n"
+"PO-Revision-Date: 2008-11-18 14:59+0100\n"
 "Last-Translator: Bc. Jozef Hergott <joeh@inmail.sk>\n"
 "Language-Team: AATeam <aateam@websity.sk>\n"
 "MIME-Version: 1.0\n"
@@ -32,107 +32,107 @@ msgid "ALUMNI_INDEX_TITLE"
 msgstr "Informačný systém pre komunikáciu s absolventmi"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:88
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:92
 msgid "ALUMNI_PROFILE_TITLE"
 msgstr "Profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/mails_controller.php:70
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:91
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:95
 msgid "ALUMNI_NONEXISTING_USER"
 msgstr "Neexistujúci používatel"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:126
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:130
 msgid "ALUMNI_MYPROFILE_TITLE"
 msgstr "Môj profil"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:164
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:235
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:239
 msgid "Your profile has been changed."
 msgstr "Váš profil bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:167
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:238
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:242
 msgid "There was a error saving profile data."
 msgstr "Nastala chyba pri ukladaní dát."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:260
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:264
 msgid "ALUMNI_MYIMAGE_TITLE"
 msgstr "Môj obrázok"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/login_controller.php:36
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:279
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:283
 msgid "ALUMNI_MYIMAGE_UNLINK_SUCCESSFULL"
 msgstr "Obrázok bol úspešne odstránený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:281
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:285
 msgid "ALUMNI_MYIMAGE_UNLINK_FAILED"
 msgstr "Nastala chyba pri mazaní obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:341
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:345
 msgid "ALUMNI_MYPROFIL_SUCCESS_UPLOADING"
 msgstr "Obrázok bol úspešne zmenený."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:343
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:347
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGEPNG"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť PNG obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:347
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:351
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_UNSUPPORTEDTYPE"
 msgstr "Nastala chyba pri uploadovani suboru. Nepodporovaný typ."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:349
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:353
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_IMAGECREATE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno vytvoriť nový obrázok."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:352
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:356
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING_GETIMAGESIZE"
 msgstr "Nastala chyba pri uploadovani suboru. Nemožno zistiť veľkosť obrázku."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:357
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:361
 msgid "ALUMNI_MYPROFIL_ERROR_UPLOADING"
 msgstr "Nastala chyba pri uploadovani suboru. Prosím skontrolujte, či váš obrázok spĺňa stanovené parametre."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:372
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:376
 msgid "ALUMNI_PASSWORD_TITLE"
 msgstr "Heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:405
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:409
 msgid "ALUMNI_SUCCESS_PASSORD_CHANGED"
 msgstr "Heslo bolo úspešne zmenené."
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:13
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:407
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:411
 msgid "ALUMNI_ERROR_SAVE_FAILED"
 msgstr "Nastala chyba pri ukladaní nového hesla."
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:410
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:414
 msgid "ALUMNI_ERROR_BAD_NEW_PASSWORD"
 msgstr "Zadali ste zlé nové heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:192
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:413
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:417
 msgid "ALUMNI_ERROR_DIFF_PASSWORDS"
 msgstr "Heslá sa nezhodujú"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:195
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:416
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:420
 msgid "ALUMNI_ERROR_BAD_OLD_PASSWORD"
 msgstr "Zadali ste zlé staré heslo"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/profile.thtml:34
-#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:431
+#: C:\Users\Jojo\webroot\alumni\app/controllers/alumni_controller.php:435
 msgid "ALUMNI_CURRICULUM_TITLE"
 msgstr "Životopis"
 
@@ -430,34 +430,34 @@ msgid "POSTS_VIEW_TITLE"
 msgstr "Zobrazenie aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:34
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:35
 msgid "POSTS_ADMIN_TITLE"
 msgstr "Správa aktualít"
 
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:42
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:44
 msgid "POSTS_ADD_TITLE"
 msgstr "Pridanie novej aktuality"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:53
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:55
 msgid "NEWS_ITEM_ADDED"
 msgstr "Aktualita bola úspešne uložená!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:63
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:65
 msgid "POSTS_DELETE_TITLE"
 msgstr "Odstránenie aktuality"
 
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:67
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:69
 msgid "NEWS_ITEM_REMOVED"
 msgstr "Aktualita bola vymazaná!"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:73
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:75
 msgid "POSTS_EDIT_TITLE"
 msgstr "Úprava aktuality"
 
-#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:89
+#: C:\Users\Jojo\webroot\alumni\app/controllers/posts_controller.php:91
 msgid "NEWS_ITEM_UPDATED"
 msgstr "Aktualita bola úspešne uložená!"
 
@@ -574,7 +574,7 @@ msgid "STATS_EXPORT_TITLE"
 msgstr "Exportovanie štatistík"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:18
+#: C:\Users\Jojo\webroot\alumni\app/controllers/users_controller.php:19
 msgid "USERS_INDEX_TITLE"
 msgstr "Správa používateľov"
 
@@ -1176,62 +1176,67 @@ msgid "MENU_MAIL"
 msgstr "Lokálne správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/settings.ctp:2
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:8
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:3
 msgid "MAIL_BOX_TITLE"
+msgstr "Lokálne správy"
+
+# C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:10
+msgid "MAIL_BOX_MESSAGE_LIST"
 msgstr "Zoznam správ"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:15
 msgid "MAIL_BOX_FROM"
 msgstr "Od"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:16
 msgid "MAIL_BOX_SUBJECT"
 msgstr "Predmet správy"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:17
 msgid "MAIL_BOX_TIME"
 msgstr "Dátum"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:12
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:23
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:22
 msgid "MAIL_BOX_NO_MESSAGES"
 msgstr "Nemáte žiadne správy."
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:39
 msgid "MAIL_BOX_LISTING_PREV"
 msgstr "<< Novšie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:41
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:40
 msgid "MAIL_BOX_LISTING_OF"
 msgstr "z"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:86
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:42
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:41
 msgid "MAIL_BOX_LISTING_NEXT"
 msgstr "Staršie >>"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:28
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:45
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:44
 msgid "MAIL_BOX_BOTTOM_SELECTED"
 msgstr "Označené maily"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:30
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:48
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:47
 msgid "MAIL_BOX_ACTION_SET_READED"
 msgstr "Označ ako prečítané"
 
 # C:\Inetpub\htdocs\tp\src\app/views/mails/index.ctp:31
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:49
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:48
 msgid "MAIL_BOX_ACTION_SET_DELETED"
 msgstr "Vymaž"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:75
-#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:51
+#: C:\Users\Jojo\webroot\alumni\app/views/mails/index.ctp:50
 msgid "MAIL_BOX_BOTTOM_SUBMIT"
 msgstr "Vykonať"
 
@@ -1296,7 +1301,7 @@ msgstr "Pridať novú aktualitu"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/add.ctp:4
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:7
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:9
 #: C:\Users\Jojo\webroot\alumni\app/views/posts/edit.ctp:5
 msgid "NEWS_TITLE"
 msgstr "Titulok"
@@ -1337,25 +1342,30 @@ msgid "NEWS_MANAGEMENT"
 msgstr "Správa aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:8
-msgid "NEWS_ACTION"
-msgstr "Akcia"
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:4
+msgid "NEWS_LIST"
+msgstr "Zoznam aktualít"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:9
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:8
 msgid "NEWS_CREATED"
 msgstr "Vytvorené"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:22
+# C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:10
+msgid "NEWS_ACTION"
+msgstr "Akcia"
+
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:25
 msgid "NEWS_DELETE_POST"
 msgstr "Zmazať"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:25
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:28
 msgid "NEWS_ARE_YOU_SURE_DELETE"
 msgstr "Zmazať vybranú aktualitu?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:27
+#: C:\Users\Jojo\webroot\alumni\app/views/posts/admin.ctp:30
 msgid "NEWS_EDIT"
 msgstr "Upraviť"
 
@@ -1478,53 +1488,53 @@ msgid "USER_ADD_NEW"
 msgstr "Pridať nového používateľa"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:12
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:11
 msgid "USERS_LIST"
 msgstr "Zoznam používateľov"
 
 # C:\Inetpub\htdocs\tp\src\app/views/layouts/default.thtml:97
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:15
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:14
 msgid "USERS_LOGIN"
 msgstr "Login"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:16
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:15
 msgid "USERS_NAME"
 msgstr "Meno a priezvisko"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:17
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:16
 msgid "USERS_RIGHTS"
 msgstr "Prístupové práva"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:18
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:17
 msgid "USERS_ACTIONS"
 msgstr "Akcie"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:28
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:27
 msgid "USERS_EDIT"
 msgstr "Upraviť"
 
 # C:\Inetpub\htdocs\tp\src\app/controllers/alumni_controller.php:189
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:29
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:28
 msgid "USERS_CHANGE_PASSWORD"
 msgstr "Zmeniť heslo"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:30
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:29
 msgid "USERS_DELETE"
 msgstr "Zmazať"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:30
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:29
 msgid "USERS_ARE_YOU_SURE_DELETE"
 msgstr "Naozaj chcete zmazať?"
 
 # C:\Inetpub\htdocs\tp\src\app/views/news/index.ctp:1
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:37
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:36
 msgid "USERS_NEXT"
 msgstr "Ďalej"
 
-#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:40
+#: C:\Users\Jojo\webroot\alumni\app/views/users/index.ctp:39
 msgid "USERS_PREVIOUS"
 msgstr "Späť"
 
@@ -1613,7 +1623,7 @@ msgid "ALUMNI_LIST_SPECIALIZATION"
 msgstr "Špecializácia"
 
 # C:\Inetpub\htdocs\tp\src\app/views/alumni/index.thtml:8
-#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:51
+#: C:\Users\Jojo\webroot\alumni\app/views/alumni/index.thtml:52
 msgid "ALUMNI_SEARCH_NO_ROWS"
 msgstr "Nenašli sa žiadni používatelia."
 

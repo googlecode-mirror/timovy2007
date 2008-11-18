@@ -90,6 +90,14 @@ table td {
 	padding: 0 0.2em 0 0.2em;
 }
 
+th a {
+  color: white !important;
+}
+
+th a:hover, th a:active {
+  color: black !important;
+}
+
 .clear {
 	clear: both;
 	font-size: 0px;

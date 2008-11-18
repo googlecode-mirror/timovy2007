@@ -2,18 +2,17 @@
 
 <h1><?php echo __("MENU_SPRAVA_POUZIVATELOV")?></h1>
 
-<form action="<?php echo $html->url('/users/search/')?>" method="post" style="text-align: right;">
+<form action="<?php echo $html->url('/users/search/')?>" method="post" style="display: inline; float: right;">
 	<input type="text" name="name" value="<?=$name?>"/>
 	<input type="submit" name="xxx" value="<?php __("USERS_SEARCH");?>" />
 </form>
 
-<?php echo $html->link(__("USER_ADD_NEW", true), "/users/add"); ?>
-
+<p><?php echo $html->link(__("USER_ADD_NEW", true), "/users/add"); ?></p>
 <h2 style="margin-top: 0"><?php __("USERS_LIST");?></h2>
 <table class="std_table">
 <tr>
-	<th><?php __("USERS_LOGIN");?></th>
-	<th><?php __("USERS_NAME");?></th>
+	<th><?php echo $paginator->sort(__('USERS_LOGIN', true), 'username');?></th>
+	<th><?php echo $paginator->sort(__('USERS_NAME', true), 'last_name');?></th>
 	<th><?php __("USERS_RIGHTS");?></th>
 	<th><?php __("USERS_ACTIONS");?></th>
 </tr>

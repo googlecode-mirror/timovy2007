@@ -11,7 +11,7 @@ class AlumniController extends AppController
 	var $auth = 'toto je nove';
 	var $helpers = array('form','fpdf');
 	// var $required_clearances = array('SUPER_ADMIN');
-	var $paginate = array('limit' => 10, 'page' => 1);
+	var $paginate = array('limit' => 20, 'page' => 1, 'order'=>array('last_name' => 'asc'));
 	
 	public function index()
 	{
@@ -33,10 +33,10 @@ class AlumniController extends AppController
 			(
 				'or' => array
 				(
-					'User.username'		=> 'ILIKE %'.$sanit->escape($_POST['name']).'%', 
-					'User.first_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%',
-					'User.middle_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%',
-					'User.last_name'	=> 'ILIKE %'.$sanit->escape($_POST['name']).'%'
+					'User.username ILIKE'    => '%'.$sanit->escape($_POST['name']).'%', 
+					'User.first_name ILIKE'  => '%'.$sanit->escape($_POST['name']).'%',
+					'User.middle_name ILIKE' => '%'.$sanit->escape($_POST['name']).'%',
+					'User.last_name ILIKE'   => '%'.$sanit->escape($_POST['name']).'%'
 				)
 			);
 			
@@ -69,10 +69,15 @@ class AlumniController extends AppController
 
 		$this->set('graduates', $graduates);
 		
+		// kym nefunguje rekurzivne tahanie typu studia
+		$study_type_names = array();
+		$study_type_names['sk'] = $this->StudyType->find("list", array('fields' => array('StudyType.id', 'StudyType.name_sk')));
+		$study_type_names['en'] = $this->StudyType->find("list", array('fields' => array('StudyType.id', 'StudyType.name_en')));
 		
 		//
 		// najdi vsetky typy podla priority
 		$this->set('study_types', $this->StudyType->findAll(null, null, array('StudyType.priority')));
+		$this->set('study_type_names', $study_type_names);
 		$this->set('lang', $this->Session->read('Config.language'));
 		$this->set('total_graduate_count', $this->Graduate->findCount());
 	}

@@ -7,7 +7,7 @@
 
 <table class="std_table">
 <tr>
-	<th><?php __("LANGUAGES_NAME");?></th>
+  <th><?php echo $paginator->sort(__('LANGUAGES_NAME', true), 'name_'.$lang); ?></th>
 	<th><?php __("LANGUAGES_ACTIONS");?></th>
 </tr>
 <?php foreach ($data as $key=>$value) { ?>

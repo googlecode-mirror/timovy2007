@@ -4580,7 +4580,7 @@ INSERT INTO users VALUES (614, '21155', 'fd21155', NULL, '098f6bcd4621d373cade4e
 INSERT INTO users VALUES (615, '21156', 'md21156', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Michal', NULL, 'Ďurfina', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (616, '21270', 'jh21270', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Ján', NULL, 'Hlaváč', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (617, '20425', 'mk20425', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Michal', NULL, 'Krchňavý', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
-INSERT INTO users VALUES (618, '21644', 'to21644', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Tomáš', NULL, 'Ă–lvecký', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
+INSERT INTO users VALUES (618, '21644', 'to21644', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Tomáš', NULL, 'Ölvecký', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (619, '21909', 'mu21909', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Matúš', NULL, 'Uherčík', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (620, '98815', 'vv98815', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Viliam', NULL, 'Vesek', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
 INSERT INTO users VALUES (621, '99396', 'jk99396', NULL, '098f6bcd4621d373cade4e832627b4f6', 'Ján', NULL, 'Kudják', NULL, 'hidden@franto.sk', NULL, NULL, NULL, NULL, NULL, 20, 0);
