@@ -1,0 +1,34 @@
+Naspat na zoznam - nekonzistentne zobrazenie v stranke niekde je to link hore pod nazvom a niekde button dole na stranke
+
+absolventi - asi by bolo lepsie dat pocet celkovo dokopy s poctom vyhladanych napr 3/533
+           - Nenašli sa žiadni používatelia. ( skor absolventi ako pouzivatelia )
+
+anglicke preklady:
+Actualities - skor News
+About system - staci len About tak ako na iny strankach alebo v programoch
+Account Management - Accounts management
+Permission Management - Permissions management
+Profession Management - Professions management
+ostatne Management -> management ( nech su tie nazvy konzistentne )
+Statistics Index - Statistics( tak ako to je v slovencine )
+My profile - Change my profile ( my profile submenu v my profile menu sa nejak nehodi )
+My profile image - Change my image
+
+sprava aktualit - problem so zobrazenim a textboxov v IE7 pri editovani
+                - v anlickom preklade su oba nazvy nazvane Title
+
+sprava pouzivatelov - chyba anglicky preklad pri pridavani pouzivatelov
+                    - kontrola poli pri pridavani pouzivatela? ( neviem ako to funguje:) )
+                    - chyba anglicky preklad pri uprave prav
+                    - nejde priradit rolu
+
+sprava prav - niesu osetrene textboxy proti <script> a tak ( v kazdom ciselniku je tento problem )
+            - pri editovani sa nenacita nazov role
+            - zvlasne zobrazenie spat na zoznam a save v IE7 ( nejak su krivo )
+              
+sprava statistik - mozno by bolo dobre vykonat sql pred pridanim a tak zistit ci je ten sql platny?
+
+moj profil - naspat na zoznam v nahlade ( najlepsie je premenovat to na Naspat iba tak ako v EN preklade )
+           - profesijny rast sa chova nejak divne ale mozno to ma tak byt neviem co je za tym:)
+
+zmena obrazku - fatal error?
