@@ -69,7 +69,7 @@
 <h2 class="alumni_profile"><?php __('ALUMNI_PROFILE_KONTAKT_OSTATNE')?></h2>
 <p class="alumni_profile">
 	<label><?php __('ALUMNI_PROFILE_PHONE')?>:</label> <?php echo htmlspecialchars($user['User']['phone'])?><br />
-	<label><?php __('ALUMNI_PROFILE_EMAIL')?>:</label> <?php echo htmlspecialchars($user['User']['email'])?><br />
+	<label><?php __('ALUMNI_PROFILE_EMAIL')?>:</label> <?php echo htmlspecialchars( str_replace('@', [at]', $user['User']['email']) )?><br />
 	<?php if ($user['User']['icq'] != '') { ?>
 		<label><?php __('ALUMNI_PROFILE_ICQ')?>:</label> <?php echo htmlspecialchars($user['User']['icq'])?><br />
 	<?php } ?>
