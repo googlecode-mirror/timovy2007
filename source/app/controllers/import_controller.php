@@ -8,7 +8,7 @@ class ImportController extends AppController
 	var $required_clearances = array('IMPORT');
 	var $components = array('Importdb');
 	var $helpers = array("Form");
-	var $uses = array('User', 'Specialization', 'Project', 'Academic', 'ProjectType', 'Graduate', 'Role', 'UsersRole');
+	var $uses = array('User', 'Specialization', 'Project', 'Academic', 'ProjectType', 'Graduate', 'Role', 'UsersRole', 'StudyType');
 		
 	function index()
 	{
@@ -18,17 +18,20 @@ class ImportController extends AppController
 	
 	function db()
 	{
+	  $start = time();
 		// Skontrolujeme ci sa da pripojit k databaze Yonban
 		// NOTE: Spravne to funguje iba ak je vypnuty debug mod.
-		$db = ConnectionManager::getDataSource('yonban');
-
-        if(!$db->isConnected()) {
-			$this->My->setError('Pripojenie k databáze Yonban neúspešné.');
-			$this->redirect('/import');
-        }
+		$db = ConnectionManager::getDataSource('aisview');
+    
+    if(!$db->isConnected()) {
+      $this->My->setError('Pripojenie k databáze aisview neúspešné.');
+      $this->redirect('/import');
+    }
 
 	  $this->pageTitle = __('IMPORT_DB_TITLE', true);
 	  set_time_limit(60*60*6);
+	  
+	  
 	  /*
 		$this->My->setError('Chýba presná štruktúra dát zo systému YonBan.');
 		$this->redirect('/import');
@@ -61,220 +64,117 @@ class ImportController extends AppController
 		//
 		// import - begin transaction
 		// ----------------------------------
-		$this->User->begin();
-		
-		//
-		// update typ studia
-		$studies = $this->Importdb->studies();
-		if ($studies === false) {
-			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam studijnych odborov zo systemu yonban!');
+		$this->User->begin();		
+		// update specializacii
+		$specializations = $this->Importdb->specializations();
+		if ($specializations === false) {
+			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam studijnych odborov z AIS!');
 			$this->redirect('/import');
 			exit();
 		}
-		foreach ($studies as $s) {
-			
-			$this->Specialization->create();
-			$this->Specialization->id = $s['id'];
-			if (!$this->Specialization->hasAny(array('id'=>$s['id']))) {
-				$this->Specialization->save($s);
-			}
-		}	
+		
+		foreach($specializations as $s) {
+			$_s = explode('-', $s);			
+  		// test if exist study_type
+  		$test = $this->StudyType->findByAcronym($_s[0]);		
+  		if($test==false) {
+  			$this->My->setError('Chyba: Nenasiel sa typ studia '.$_s[0].'. Upravte tabulku study_types!');
+  			$this->redirect('/import');
+  			$this->User->commit();
+  			exit();      
+      }
+      $test2 = $this->Specialization->find('first', array('conditions'=>array('Specialization.acronym'=>$s)));
+      if(!$test2) {      
+        $this->Specialization->create();
+        // todo  dlhe anglicke a slovenske nazvy lef join nad aisom     
+        $this->Specialization->save(array('name_en'=>$s, 'name_sk'=>$s, 'acronym'=>$s, 'study_type_id'=>$test['StudyType']['id']));
+      }      			
+		}
+		$this->User->commit();
 
-		//
-		// zoznam pouzivatelov
-		$users = $this->Importdb->users();
-		if ($users == false) {
-			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam pouzivatelov zo systemu yonban!');
-			$this->User->rollback();
+		// update studii 
+    $this->Graduate->unbindModel(array('belongsTo' => array('User','Specialization')));
+    $max_id = $this->Graduate->find('all', array('fields' => array('MAX(ais_studia_id) as max_id')));
+    $max_id = current($max_id); $max_id = current($max_id); $max_id = $max_id['max_id'];
+    if(empty($max_id)) $max_id = 0;    
+                                                
+		$studies = $this->Importdb->studies($max_id);
+		if ($studies == false) {
+			$this->My->setError('Chyba: Nepodarilo sa zistit zoznam pouzivatelov z AIS!');
 			$this->redirect('/import');
 			exit();
 		}
-		
-		//
-		// pre kazdeho pouzivatela
-		foreach ($users as $user)
+
+		foreach ($studies as $s)
 		{
-			//
-			// over ci uz existuje -> ak hej, tak ho updatni
-			$pocet = $this->User->hasAny(array('User.personal_number'=>$user['personal_number']));
-			if ($pocet ==  0) {
-				
-				//
-				// INSERT 
-				$this->User->create();
-				if (!$this->User->save($user)) {
-					$IMPORT_ERRORS[] = array('USER_CREATION', $user);
+		  $this->User->begin();
+			// test if exist user with personan number
+			$user = $this->User->find('first', array('conditions'=>array('User.personal_number'=>$s['personal_number'])));			
+			if ($user==false) {
+				// INSERT
+/* // create usernme/password				
+				setlocale(LC_ALL, 'sk_SK.utf-8');				
+				$username = iconv('utf-8', 'us-ascii//TRANSLIT', strtolower($s['meno']));
+        $username .= ".".iconv('utf-8', 'us-ascii//TRANSLIT', strtolower($s['priezvisko']));
+        $i = '';
+        $iter = 0;         
+        while($this->User->find('all', array('conditions'=>array('User.username'=>$username.$i)))) {
+          $iter++;
+          $i = $iter;
+        }
+*/                
+				$this->User->create();				
+				if(!$this->User->save(array('personal_number'=>$s['personal_number'], 'username'=>$s['personal_number'], 'password'=>$s['personal_number'], 'title_before'=>$s['tituly_pred'], 'title_after'=>$s['tituly_za'], 'first_name'=>$s['meno'], 'last_name'=>$s['priezvisko']))) {
+					$IMPORT_ERRORS[] = array('USER_CREATION', $s);
 					continue;
-				}				
+				}
+				// todo users_roles insert
+				$this->UsersRole->create();
+				if(!$this->UsersRole->save(array('user_id'=>$this->User->id, 'role_id'=>3))) {
+					$IMPORT_ERRORS[] = array('USER_CREATION', $s);
+					continue;
+				}
+				
 				$IMPORT_SUCCESS[] = $user;
-			}
-		}
-			
-		
-		//
-		// updatni projekty pouzivatela
-		foreach ($users as $user)
-		{
-			//
-			// zisti si projekty pouzivatela
-			$projects = $this->Importdb->projects($user['personal_number']);
-			
-			//
-			// ak vlastni co i len 1 projekt, tak mu prirat prava pre graduate
-			// todo 
-					
-			//
-			// pre kazdy projekt
-			foreach ($projects as $project) {
-			
-				//
-				// zisti ci academic a master academic
-				$user_id = null;
-				$academic_id = null;
-				$master_academic_id = null;
-				
-				//
-				// user_id
-				if (false === ($usr = $this->User->find(array('User.personal_number'=>$user['personal_number']), array('User.id')))) {
-					$IMPORT_ERRORS[] = 'Nepodarilo sa najst pouzivatela s osobnym cislom: '.$user['personal_number'];
+			} else {
+        // UPDATE
+				if(!$this->User->save(array('user_id'=>$user['User']['id'], 'title_before'=>$s['tituly_pred'], 'title_after'=>$s['tituly_za'], 'first_name'=>$s['meno'], 'last_name'=>$s['priezvisko']))) {
+					$IMPORT_ERRORS[] = array('USER_UPDATE', $s);
 					continue;
 				}
-				$user_id = $usr['User']['id'];
-								
-				//
-				// academic_id
-				if ($project['academic'] != '') {
-					
-					if (false === ($usr = $this->User->find(array('User.personal_number'=>$project['academic']), array('User.id')))) {
-						$IMPORT_ERRORS[] = 'Nepodarilo sa najst veduceho projektu s osobnym cislom: '.$project['academic'];
-						exit('wtf2');
-						continue;
-					}
-					$academic_id = $usr['User']['id'];
-				}
-				
-				//
-				// academic_id
-				if ($project['master_academic'] != '') {
-					
-					if (false === ($usr = $this->User->find(array('User.personal_number'=>$project['master_academic']), array('User.id')))) {
-						$IMPORT_ERRORS[] = 'Nepodarilo sa najst pedagogickeho veduceho projektu s osobnym cislom: '.$project['master_academic'];
-						continue;
-					}
-					$master_academic_id = $usr['User']['id'];
-				}
-				
-				//
-				// skontroluj ci existuje takyto typ projektu
-				if (!$this->ProjectType->hasAny(array('id'=>$project['type']))) {
-					exit('wtf3');
-					$IMPORT_ERRORS[] = 'Neexistuje importovany typ projektu: "'.$project['type'].'"';
+      }
+      
+      $this->User->commit();
+          
+      // graduates
+      $specializations = array();
+      $_specializations = $this->Specialization->find('all');
+      foreach($_specializations as $z) {
+        $specializations[$z['Specialization']['acronym']] = $z['Specialization']['id'];
+      }
+      
+      $this->Graduate->create();
+      if(!$this->Graduate->save(array('user_id'=>$this->User->id, 'specialization_id'=>$specializations[$s['program']], 'finish_date'=>$s['koniec_studia'], 'ais_studia_id'=>$s['ais_studia_id']))) {
+					$IMPORT_ERRORS[] = array('GRADUATE_CREATE', $s);
 					continue;
-				}
-
-				
-				if (!$this->Project->hasAny(array('Project.project_type_id'=>$project['type'], 'Project.graduate_id'=>$user_id))) {
-					
-					// 
-					// prirad pouzivatelov medzi graduate & academic
-					$this->Graduate->id = $user_id;
-					if (!$this->Graduate->exists()) {
-						$this->Graduate->save(array('id'=>$user_id, 'specialization_id'=>$project['specialization']));
-						
-						// prirad rolu 'graduate' pre pouzivate ak ju nevlastni
-						$this->UsersRole->create();
-						$data = array('user_id'=>$user_id, 'role_id'=>$graduate_role_id);
-						if (!$this->UsersRole->hasAny($data)) {
-							$this->UsersRole->save($data);
-						}
-					}
-
-					//
-					// prirad ak je veduci projektu a prirad mu rolu academic
-					$this->Academic->id = $academic_id;			
-					if ($academic_id and !$this->Academic->exists()) {
-						$this->Academic->save(array('id'=>$academic_id));
-						
-						// prirad rolu 'academic' pre pouzivate ak ju nevlastni
-						$data = array('user_id'=>$academic_id, 'role_id'=>$academic_role_id);
-						$this->UsersRole->create();
-						if (!$this->UsersRole->hasAny($data)) {
-							$this->UsersRole->save($data);
-						}
-					}
-					
-					//
-					// prirad ak je dipl. veduci projektu a prirad mu rolu academic
-					$this->Academic->id = $master_academic_id;			
-					if ($master_academic_id and !$this->Academic->exists()) {
-						$this->Academic->save(array('id'=>$master_academic_id));
-						
-						// prirad rolu 'academic' pre pouzivate ak ju nevlastni
-						$this->UsersRole->create();
-						$data = array('user_id'=>$master_academic_id, 'role_id'=>$academic_role_id);
-						if (!$this->UsersRole->hasAny($data)) {
-							$this->UsersRole->save($data);
-						}
-					}
-					
-					//
-					// vytvor data
-					$data = array(
-						'project_type_id'		=> $project['type'],
-						'academic_id'			=> $academic_id,
-						'master_academic_id'	=> $master_academic_id,
-						'graduate_id'			=> $user_id,
-						'study_year'			=> $project['study_year'],
-						'name'					=> $project['name'],
-						'name_en'				=> $project['name_en'],
-						'description'			=> $project['description'],
-						'description_en'		=> $project['description_en'],
-						'specialization_id'		=> $project['specialization']
-					);
-					
-					// anglicky chybajuci
-					if ($data['name_en'] == '') {
-						$data['name_en'] = $data['name'];
-					}
-					
-					$this->Project->create();
-					if (!$this->Project->save($data)) {
-						$IMPORT_ERRORS[] = array('PROJECT_SAVE', $data);
-					}
-				}
-			}
+      }
+            
 		}
 		
+		// todo projects
+		//$projects = $this->Importdb->projects($id_max);
 		
-		
-		
-		echo "Erors:<br />";
-		print_r($IMPORT_ERRORS);
+
+		$this->set('errors', $IMPORT_ERRORS);
+		$this->set('delay', (strval(time() - $start)));
+
+//var_dump(strval(time() - $start));
+/*		
 		echo "Success:<br />";
 		print_r($IMPORT_SUCCESS);
-		
-		//
-		// THE END
-		
+*/	
 		$this->User->commit();
 	}
 		
-	function soap()
-	{
-	  $this->pageTitle = __('IMPORT_SOAP_TITLE', true);
-		$this->My->setError('Importovanie cez SOAP rozhranie nie je ešte možné.');
-		$this->redirect('/import');
-		exit();
-		
-		//
-		// import prebieha cez POST, aby nedoslo k refreshu stranky
-		if (!isset($_POST['value_test_soap'])) {
-			$this->redirect('/import');
-			exit();
-		}
-		
-		// 
-		// samotny import cez soap ... TODO
-	}
 }
 ?>

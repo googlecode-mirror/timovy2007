@@ -4,7 +4,7 @@
 	<a href="<?php echo $html->url('/users')?>">&laquo; naspäť na zoznam</a>
 </p>
 <p>
-	<label>Meno používateľa:</label> <strong><?php echo $user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'];?></strong><br />
+	<label>Meno používateľa:</label> <strong><?php echo $user['User']['title_before'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'];?></strong><br />
 	<label>Prihlasovacie meno:</label> <strong><?php echo $user['User']['username']?></strong><br />
 	<label>E-Mail:</label> <strong><a href="mailto: <?php echo $user['User']['email']?>"><?php echo $user['User']['email']?></a></strong>
 </p>

@@ -318,7 +318,7 @@ class AlumniController extends AppController
 					if ($old_image) {
 						
 						//
-						// prearataj rozmery
+						// prerataj rozmery
 						$pomer = $size[1] / $size[0];
 						if ($pomer > 1.2) {
 							// presahuje vyska

@@ -67,7 +67,7 @@ class UsersController extends AppController
         return;
       }
       
-      $this->data['User']['title']= $this->data['User']['title'];
+      $this->data['User']['title_before']= $this->data['User']['title_before'];
       $this->data['User']['first_name']= $this->data['User']['first_name'];
       $this->data['User']['middle_name']= $this->data['User']['middle_name'];
       $this->data['User']['last_name']= $this->data['User']['last_name'];

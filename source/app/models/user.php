@@ -101,7 +101,7 @@ class User extends AppModel
         if(is_array($v)) {
           $data[$k] = $this->beforeSave($v);
         } else {
-          $data[$k] = htmlentities($results[$k]);
+          $data[$k] = htmlentities($data[$k]);
         }
       }
       return $data;

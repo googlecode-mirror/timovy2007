@@ -10,9 +10,10 @@ require_once MODELS.'user_mail.php';
 class AppController extends Controller
 {
 	var $components = array('Session', 'My', 'Login');
-	var $helpers = array('Html','My', 'Javascript', 'Form');
-	var $required_clearances = array();
-	var $uses = array('UserMail');
+	var $helpers = array('Html','My', 'Javascript', 'Form', 'Time', 'MyTime');
+	var $required_clearances = array();		
+	var $uses = array('UserMail', 'Graduate', 'WallPoster', 'News');
+
 
 	/**
 	 * Login controller
@@ -119,6 +120,21 @@ class AppController extends Controller
 			}
 		}
 	}
+	
+	function webroot()
+	{
+		$this->pageTitle = __('ABOUT_INDEX_TITLE', true);
+		// nastenka, poslednych 5 oznamov
+		$this->set('odkazy', $this->WallPoster->findAll(array('is_changed'=>'f', 'is_refused'=>'f', 'valid_from'=>'< NOW()', 'valid_until' => '> NOW()'), null, array('WallPoster.created'=>'DESC'), 5));
+		
+		//
+		// pocet absolventov v stysteme
+		$this->set('pocet_absolventov', $this->Graduate->findCount());
+		
+		//
+		// spravy
+		$this->set('news', $this->News->findAll(null, null, array('News.created'=>'DESC')));
+	}	
 	
 }
 ?>

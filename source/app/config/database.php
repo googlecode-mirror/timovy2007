@@ -75,6 +75,19 @@ class DATABASE_CONFIG
 		'database' 	=> 'yonban',
 		'prefix' 	=> ''
 	);
+	
+	var $aisview = array
+	(	
+		'driver' => 'oracle',
+		'connect' => 'oci_connect', 
+		'persistent' => false,
+		'host' => '',
+		'login' => 'fiit',
+		'password' => 'fiitpwd',
+		'database' => 'localhost:1521/test.stuba.sk',
+		'charset' => 'AL32UTF8',
+		'prefix' => '',
+	);
 /*		
   var $ldap = array (
       'datasource' => 'ldap',

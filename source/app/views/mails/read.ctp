@@ -15,7 +15,7 @@
 		
 	</h2>
 	<div class="mail_read_hlavicka">
-		<strong><?php __('MAIL_READ_FROM')?></strong>: <?php echo $message['Sender']['username']?> "<em><?php echo $message['Sender']['title'].' '.$message['Sender']['first_name'].' '.$message['Sender']['middle_name'].' '.$message['Sender']['last_name']?></em>"<br />
+		<strong><?php __('MAIL_READ_FROM')?></strong>: <?php echo $message['Sender']['username']?> "<em><?php echo $message['Sender']['title_before'].' '.$message['Sender']['first_name'].' '.$message['Sender']['middle_name'].' '.$message['Sender']['last_name']?></em>"<br />
 		<strong><?php __('MAIL_READ_TO')?></strong>: <?php echo $to_address;?>
 			
 	</div>

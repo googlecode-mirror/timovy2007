@@ -19,7 +19,7 @@
 <?php foreach ($users as $user) { ?>
 <tr>
 	<td><?php echo $user['User']['username']?></td>
-	<td><?php echo $user['User']['title'] .' '. $user['User']['first_name'] .' '. $user['User']['middle_name'] .' '. $user['User']['last_name']?></td>	
+	<td><?php echo $user['User']['title_before'] .' '. $user['User']['first_name'] .' '. $user['User']['middle_name'] .' '. $user['User']['last_name']?></td>	
 	<td>
 		<?php $roles = array(); foreach ($user['Role'] as $r) { $roles[] = $r['name']; } echo count($roles)>0 ? implode(', ',$roles) : '-'?>
 	</td>

@@ -157,12 +157,40 @@ SELECT pg_catalog.setval('clearances_id_seq', 11, true);
 
 CREATE TABLE graduates (
     id integer NOT NULL,
+    user_id integer NOT NULL,
     specialization_id integer NOT NULL,
-    finish_year character varying(64)
+    finish_year character varying(64),
+    ais_studia_id integer DEFAULT 0       
 );
 
 
 ALTER TABLE public.graduates OWNER TO team14;
+
+--- ---------------
+--
+-- Name: languages_id_seq; Type: SEQUENCE; Schema: public; Owner: team14
+--
+
+CREATE SEQUENCE graduates_id_seq
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.graduates_id_seq OWNER TO team14;
+
+--
+-- Name: languages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: team14
+--
+
+ALTER SEQUENCE graduates_id_seq OWNED BY graduates.id;
+ALTER TABLE graduates ALTER COLUMN id SET DEFAULT nextval('graduates_id_seq'::regclass);
+
+
+--
+-- Name: languages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: team14
+--
 
 --
 -- Name: languages; Type: TABLE; Schema: public; Owner: team14; Tablespace: 
@@ -209,6 +237,8 @@ ALTER SEQUENCE languages_id_seq OWNED BY languages.id;
 --
 
 SELECT pg_catalog.setval('languages_id_seq', 4, true);
+
+-- ------------------------
 
 
 --
@@ -786,7 +816,8 @@ CREATE TABLE specializations (
     id integer NOT NULL,
     name_sk character varying(255) NOT NULL,
     name_en character varying(255) NOT NULL,
-    study_type_id integer
+    study_type_id integer,
+    acronym character varying(255)
 );
 
 
@@ -868,7 +899,8 @@ CREATE TABLE study_types (
     id integer NOT NULL,
     name_sk character varying(255) NOT NULL,
     name_en character varying(255) NOT NULL,
-    priority integer NOT NULL
+    priority integer NOT NULL,
+    acronym character varying(3)  
 );
 
 
@@ -1052,7 +1084,8 @@ CREATE TABLE users (
     first_name character varying(255) NOT NULL,
     middle_name character varying(255),
     last_name character varying(255) NOT NULL,
-    title character varying(64),
+    title_before character varying(64),
+    title_after character varying(64),
     email character varying(255),
     address text,
     phone character varying(64),
@@ -3916,9 +3949,10 @@ INSERT INTO stats VALUES (2, 'SELECT users.first_name, users.last_name,session_i
 -- Data for Name: study_types; Type: TABLE DATA; Schema: public; Owner: team14
 --
 
-INSERT INTO study_types VALUES (1, 'Bakalárske štúdium', 'Bachelor study', 1);
-INSERT INTO study_types VALUES (2, 'Inžinierske štúdium', 'Engineer study', 2);
-INSERT INTO study_types VALUES (3, 'Doktorandské štúdium', 'Graduant study', 3);
+INSERT INTO study_types (id, name_sk, name_en, priority, acronym) VALUES (1, 'Bakalárske štúdium', 'Bachelor study', 1, 'B');
+INSERT INTO study_types (id, name_sk, name_en, priority, acronym) VALUES (2, 'Inžinierske štúdium', 'Engineer study', 2, 'I');
+INSERT INTO study_types (id, name_sk, name_en, priority, acronym) VALUES (3, 'Doktorandské štúdium', 'Graduant study', 3, 'D');
+
 
 
 --
@@ -5701,7 +5735,7 @@ ALTER TABLE ONLY clearances
 --
 
 ALTER TABLE ONLY graduates
-    ADD CONSTRAINT graduate_id_fkey FOREIGN KEY (id) REFERENCES users(id);
+    ADD CONSTRAINT graduate_id_fkey FOREIGN KEY (user_id) REFERENCES users(id);
 
 
 --

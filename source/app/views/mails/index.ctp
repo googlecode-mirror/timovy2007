@@ -28,7 +28,7 @@
 	<td>
 		<input class="noborder" type="checkbox" name="mail[<?php echo $mail['UserMail']['id']?>]" value="<?php echo $mail['UserMail']['id']?>" />
 	</td>
-	<td><?php echo htmlspecialchars(trim($mail['Sender']['title'].' '.$mail['Sender']['first_name'].' '.$mail['Sender']['middle_name'].' '.$mail['Sender']['last_name']));?></td>
+	<td><?php echo htmlspecialchars(trim($mail['Sender']['title_before'].' '.$mail['Sender']['first_name'].' '.$mail['Sender']['middle_name'].' '.$mail['Sender']['last_name']));?></td>
 	<td><a href="<?php echo $html->url('/mails/read/'.$mail['UserMail']['id']);?>"><?php echo htmlspecialchars($mail['Mail']['subject'])?></a></td>
 	<td><?php echo $myTime->nice($mail['Mail']['date_send'])?></td>
 </tr>

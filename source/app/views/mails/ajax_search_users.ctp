@@ -1,7 +1,7 @@
 <?php if (count($users) > 0) { ?>
 <table class="mailsearchfound">
 <?php foreach ($users as $user) {
-		$fullname = str_replace('  ', ' ', ltrim($user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name']));
+		$fullname = str_replace('  ', ' ', ltrim($user['User']['title_before'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name']));
 	?>
 	<tr>
 		<td>

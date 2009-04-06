@@ -164,7 +164,7 @@ class MailsController extends AppController
 			if (!($user = $this->User->read())) {
 				$this->My->setError(__('MAIL_COMPOSE_NON_EXISTING_USER', true));
 			} else {
-				$address = $user['User']['username'].'<'.$user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
+				$address = $user['User']['username'].'<'.$user['User']['title_before'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
 			}
 		}
 		
@@ -186,7 +186,7 @@ class MailsController extends AppController
 					if (!($user = $this->User->read())) {
     				$this->My->setError(__('MAIL_COMPOSE_NON_EXISTING_USER', true));
     			} else {
-    				$address = $user['User']['username'].'<'.$user['User']['title'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
+    				$address = $user['User']['username'].'<'.$user['User']['title_before'].' '.$user['User']['first_name'].' '.$user['User']['middle_name'].' '.$user['User']['last_name'].'>';
     			} 
 					// zapis udaje
 					//$address = $user_mail['User']['username'].'<'.$user_mail['User']['title'].' '.$user_mail['User']['first_name'].' '.$user_mail['User']['middle_name'].' '.$user_mail['User']['last_name'].'>';
@@ -500,7 +500,7 @@ class MailsController extends AppController
 		$this->MailAddressUser->unbindModel(array('belongsTo'=>array('Mail')));
 		$address_users = $this->MailAddressUser->findAll(array('MailAddressUser.mail_id'=>$message['Mail']['id']));
 		foreach ($address_users as $u) {
-			$to_address[] = $u['User']['username'].' "<em>'.$u['User']['title'].' '.$u['User']['first_name'].' '.$u['User']['middle_name'].' '.$u['User']['last_name'].'</em>"';
+			$to_address[] = $u['User']['username'].' "<em>'.$u['User']['title_before'].' '.$u['User']['first_name'].' '.$u['User']['middle_name'].' '.$u['User']['last_name'].'</em>"';
 		}
 				
 		$this->MailAddressGroup->unbindModel(array('belongsTo'=>array('Mail')));

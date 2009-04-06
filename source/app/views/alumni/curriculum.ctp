@@ -10,7 +10,7 @@
     $fpdf->Ln(1);
    
     $ws = '';
-    if(!empty($user['User']['title'])) $ws .= $user['User']['title']." ";
+    if(!empty($user['User']['title_before'])) $ws .= $user['User']['title_before']." ";
     $ws .= $user['User']['first_name']." ";    
     if(!empty($user['User']['middle_name'])) 
     $ws .= $user['User']['middle_name']." ";    

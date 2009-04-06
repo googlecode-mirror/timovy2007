@@ -39,7 +39,7 @@
 	</tr>
 	<?php foreach ($graduates as $g) { ?>
 	<tr>
-		<td><?=$html->link($g['User']['title'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
+		<td><?=$html->link($g['User']['title_before'].' '.$g['User']['first_name'].' '.$g['User']['middle_name'].' '.$g['User']['last_name'], '/alumni/profile/'.$g['User']['username'])?></td>
 		<?php /*<td><?php echo $study_types[$g['Specialization']['study_type_id']]['StudyType']['name_'.$lang]?></td>*/ ?>
 		<td><?php echo $study_type_names[$lang][$g['Specialization']['study_type_id']]; ?></td>
 		<td><?php echo @$g['Specialization']['name_'.$lang]?></td>

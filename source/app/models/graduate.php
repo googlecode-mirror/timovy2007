@@ -13,7 +13,7 @@ class Graduate extends AppModel
 		'User' => array
 		(
 			'className' 	=> 'User',
-			'foreignKey'	=> 'id'
+			'foreignKey'	=> 'user_id'
 		),
 		'Specialization' => array
 		(

@@ -1,5 +1,5 @@
 <?php $my->addCrumb(__("MENU_ALUMNI_PROFILE", true)); ?>
-<h1><?=(trim($user['User']['title'].' '.$user['User']['first_name']))?> <?=$user['User']['last_name']?></h1>
+<h1><?=(trim($user['User']['title_before'].' '.$user['User']['first_name']))?> <?=$user['User']['last_name']?></h1>
 
 <h2 class="alumni_profile"><?php __('ALUMNI_PROFILE_ZAKL_INFORMACIE')?></h2>
 <p class="alumni_profile">
@@ -14,8 +14,8 @@
 
 	<label><?php __('ALUMNI_PROFILE_MENO')?>:</label> <strong><?php echo $user['User']['first_name']?></strong> <br />
 	<label><?php __('ALUMNI_PROFILE_PRIEZVISKO')?>:</label> <strong><?php echo $user['User']['middle_name']. ' '. $user['User']['last_name']?></strong> <br />
-	<?php if ($user['User']['title'] != '') { ?>
-	<label><?php __('ALUMNI_PROFILE_TITUL')?>:</label><?php echo $user['User']['title']?><br />
+	<?php if ($user['User']['title_before'] != '') { ?>
+	<label><?php __('ALUMNI_PROFILE_TITUL')?>:</label><?php echo $user['User']['title_before']?><br />
 	<?php } ?>
 	<?php if ($user['User']['address'] != '') { ?>
 	<label><?php __('ALUMNI_PROFILE_ADDRESS')?>:</label>
@@ -50,7 +50,7 @@
 	<span class="alumni_profile_proj"><strong><?php echo htmlspecialchars($project['ProjectType'][__('DB_PROJECT_TYPE_NAME', true)])?></strong></span><br />
 	<label><?php __('ALUMNI_PROFILE_TEMA')?>:</label><strong><?php echo htmlspecialchars($project['Project'][__('DB_PROJECT_NAME', true)])?></strong><br />
 	<?php if (isset($project['Academic']['id'])) { ?>
-	<label><?php __('ALUMNI_PROFILE_ACADEMIC')?>:</label> <?php echo $project['Academic']['title'].' '.$project['Academic']['first_name'].' '.$project['Academic']['middle_name'].' '.$project['Academic']['last_name']?><br />
+	<label><?php __('ALUMNI_PROFILE_ACADEMIC')?>:</label> <?php echo $project['Academic']['title_before'].' '.$project['Academic']['first_name'].' '.$project['Academic']['middle_name'].' '.$project['Academic']['last_name']?><br />
 	<label><?php __('ALUMNI_PROFILE_DESCRIPTION')?>:</label>
 	<span class="alumni_profile_right">
 		<?php echo htmlspecialchars($project['Project'][__('DB_PROJECT_DESCRIPTION', true)])?>		
@@ -69,7 +69,7 @@
 <h2 class="alumni_profile"><?php __('ALUMNI_PROFILE_KONTAKT_OSTATNE')?></h2>
 <p class="alumni_profile">
 	<label><?php __('ALUMNI_PROFILE_PHONE')?>:</label> <?php echo htmlspecialchars($user['User']['phone'])?><br />
-	<label><?php __('ALUMNI_PROFILE_EMAIL')?>:</label> <?php echo htmlspecialchars( str_replace('@', [at]', $user['User']['email']) )?><br />
+	<label><?php __('ALUMNI_PROFILE_EMAIL')?>:</label> <?php echo htmlspecialchars( str_replace('@', '[at]', $user['User']['email']) )?><br />
 	<?php if ($user['User']['icq'] != '') { ?>
 		<label><?php __('ALUMNI_PROFILE_ICQ')?>:</label> <?php echo htmlspecialchars($user['User']['icq'])?><br />
 	<?php } ?>

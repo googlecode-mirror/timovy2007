@@ -55,7 +55,7 @@ class LoginComponent extends Object
 	public function fullname()
 	{
 		$names = array();
-		$names[] = $_SESSION['User']['title'];
+		$names[] = $_SESSION['User']['title_before'];
 		$names[] = $_SESSION['User']['first_name'];
 		$names[] = $_SESSION['User']['middle_name'];
 		$names[] = $_SESSION['User']['last_name'];

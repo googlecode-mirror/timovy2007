@@ -4,7 +4,7 @@
 	<?php __("IMPORT_MAIN_TEXT");?>
 </p>
 
-
+<!--
 <form action="<?php echo $html->url("/import/soap")?>" method="POST">
 <h2><?php __("IMPORT_SOAP_TITLE");?></h2>
 <p>
@@ -12,6 +12,7 @@
 	<?php echo $form->submit(__("IMPORT_SOAP", true), array('name'=>'value_test_soap'));?>
 </p>
 </form>
+-->
 
 
 <form action="<?php echo $html->url("/import/db")?>" method="POST">
