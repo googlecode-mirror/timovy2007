@@ -138,7 +138,7 @@ class ImportController extends AppController
 				$IMPORT_SUCCESS[] = $user;
 			} else {
         // UPDATE
-				if(!$this->User->save(array('user_id'=>$user['User']['id'], 'title_before'=>$s['tituly_pred'], 'title_after'=>$s['tituly_za'], 'first_name'=>$s['meno'], 'last_name'=>$s['priezvisko']))) {
+				if(!$this->User->save(array('id'=>$user['User']['id'], 'title_before'=>$s['tituly_pred'], 'title_after'=>$s['tituly_za'], 'first_name'=>$s['meno'], 'last_name'=>$s['priezvisko']))) {
 					$IMPORT_ERRORS[] = array('USER_UPDATE', $s);
 					continue;
 				}

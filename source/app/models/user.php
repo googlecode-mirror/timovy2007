@@ -20,7 +20,7 @@ class User extends AppModel
 		'Graduate'	=> array
 		(
 			'className' 	=> 'Graduate',
-			'foreignKey' 	=> 'id'
+			'foreignKey' 	=> 'user_id'
 		),
 		'Academic'	=> array
 		(

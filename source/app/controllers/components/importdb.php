@@ -12,6 +12,7 @@ require_once MODELS.'ais_projekt.php';
 class ImportdbComponent  
 {
 	var $controller = true;
+
 	
 	/**
 	 * @see ImportYonban::specializations()
@@ -38,7 +39,7 @@ class ImportdbComponent
 		$studies = $AisProjekt->query("SELECT  
     PRENOS.STUDIA_FIIT.id AS ais_studia_id, PRENOS.UZIVATEL.id AS personal_number, PRENOS.STUDIA_FIIT.program AS program, PRENOS.STUDIA_FIIT.koniec_studia AS koniec_studia, PRENOS.UZIVATEL.tituly_pred AS tituly_pred, PRENOS.UZIVATEL.tituly_za AS tituly_za, PRENOS.UZIVATEL.meno AS meno, PRENOS.UZIVATEL.priezvisko AS priezvisko  
     FROM PRENOS.STUDIA_FIIT LEFT JOIN PRENOS.UZIVATEL ON PRENOS.STUDIA_FIIT.UZIVATEL=PRENOS.UZIVATEL.ID 
-    WHERE PRENOS.STUDIA_FIIT.DOVOD_UKONCENIA=1 AND PRENOS.STUDIA_FIIT.ID>".$max_id." ORDER BY PRENOS.STUDIA_FIIT.ID");
+    WHERE PRENOS.STUDIA_FIIT.DOVOD_UKONCENIA=1 AND PRENOS.STUDIA_FIIT.ID>".$max_id."  ORDER BY PRENOS.STUDIA_FIIT.ID");
 		foreach ($studies as $p) {
 			$output[] = current($p);
     }
