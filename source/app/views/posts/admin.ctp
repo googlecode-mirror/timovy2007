@@ -1,4 +1,4 @@
-<?php $my->addCrumb(__("MENU_AKTUALITY", true)); ?> 
+<?php $my->addCrumb(__("NEWS_MANAGEMENT", true)); ?> 
 <h1><?php __("NEWS_MANAGEMENT");?></h1>
 <p><?php echo $html->link(__("NEWS_ADD_POST", true), "/posts/add"); ?></p>
 <h2 style="margin-top: 0pt;"><?php __("NEWS_LIST");?></h2>
